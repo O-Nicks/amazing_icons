@@ -1,6 +1,6 @@
-import 'package:amazing_icons/amazingiconbroken.dart';
-import 'package:amazing_icons/amazingiconfilled.dart';
-import 'package:amazing_icons/amazingiconoutlined.dart';
+import 'package:amazing_icons/amazing_icon_broken.dart';
+import 'package:amazing_icons/amazing_icon_filled.dart';
+import 'package:amazing_icons/amazing_icon_outlined.dart';
 import 'package:amazing_icons/svg_bulk.dart';
 import 'package:amazing_icons/svg_country.dart';
 import 'package:amazing_icons/svg_payment.dart';
