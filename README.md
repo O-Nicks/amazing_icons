@@ -4,7 +4,7 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 
 [![pub package](https://img.shields.io/pub/v/amazing_icons.svg)](https://pub.dev/packages/amazing_icons)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Null Safty](https://img.shields.io/badge/null_safty-true-true)](Null Safty)
+[![Null Safty](https://img.shields.io/badge/null_safty-true-true)](https://dart.dev/null-safety)
 [![Flutter](https://img.shields.io/badge/flutter-3.0.0%2B-blue.svg)](https://flutter.dev)
 
 
