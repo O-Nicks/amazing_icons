@@ -4,6 +4,9 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 
 [![pub package](https://img.shields.io/pub/v/amazing_icons.svg)](https://pub.dev/packages/amazing_icons)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Null Safty](https://img.shields.io/badge/null_safty-true-true)](Null Safty)
+[![Flutter](https://img.shields.io/badge/flutter-3.0.0%2B-blue.svg)](https://flutter.dev)
+
 
 ## Demo Screenshots
 
@@ -21,21 +24,6 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 - 🎯 **Type Safe**: Full Dart type safety with autocomplete support
 - 🚀 **Optimized**: Lightweight with efficient rendering
 - 🌐 **Icon Gallery**: A searchable website with all icons is coming soon!
-
-## Installation
-
-Add this to your package's `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  amazing_icons: ^1.0.0
-```
-
-Then run:
-
-```bash
-flutter pub get
-```
 
 ## Usage
 
