@@ -1,3 +1,11 @@
+## 1.0.1
+
+* Fixed minor issues in documentation
+* Improved code comments for better clarity
+* Updated example app to showcase all icon styles and categories
+* Update README with complete usage instructions
+
+
 ## 1.0.0
 
 **Initial Release** - October 2025
