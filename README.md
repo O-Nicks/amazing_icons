@@ -7,7 +7,7 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 
 ## Demo Screenshots
 
-![Showcase](https://imgur.com/a/T6yaILd.gif)
+![Showcase](https://imgur.com/T6yaILd.gif)
 
 ## Features
 
