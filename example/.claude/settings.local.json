@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/therock/Dev/flutter_apps/packages/me/amazing_icons/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

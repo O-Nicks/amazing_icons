@@ -1,0 +1,39 @@
+name: amazing_icons
+description: A flutter package that provides a collection of customizable icons for various use cases.
+version: 1.0.0
+
+repository:
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - icons/fixed/payment/
+    - icons/fixed/country/
+    - icons/colorable/bulk/
+    - icons/colorable/twotone/
+
+  fonts:
+    - family: AmazingIconFilled
+      fonts:
+        - asset: fonts/AmazingIconFilled.ttf
+
+    - family: AmazingIconOutlined
+      fonts:
+        - asset: fonts/AmazingIconOutlined.ttf
+
+    - family: AmazingIconBroken
+      fonts:
+        - asset: fonts/AmazingIconBroken.ttf
