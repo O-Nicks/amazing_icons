@@ -2,7 +2,7 @@
 
 A comprehensive Flutter icon package featuring **3,000+ icons** across multiple styles including icon fonts and SVG icons with color and opacity support.
 
-[![pub package](https://img.shields.io/pub/v/amazing_icon.svg)](https://pub.dev/packages/amazing_icon)
+[![pub package](https://img.shields.io/pub/v/amazing_icons.svg)](https://pub.dev/packages/amazing_icons)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Demo Screenshots

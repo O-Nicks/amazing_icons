@@ -1,6 +1,16 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Outlined style icon font with 997 clean outline icons.
+///
+/// This class provides access to a collection of outline-style icons with clean
+/// strokes, perfect for minimalist designs and general UI elements. All icons
+/// are rendered as font glyphs for optimal performance.
+///
+/// Example usage:
+/// ```dart
+/// Icon(AmazingIconOutlined.search, size: 24, color: Colors.black)
+/// ```
 class AmazingIconOutlined {
   AmazingIconOutlined._();
 

@@ -1,6 +1,16 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Broken style icon font with 997 modern icons.
+///
+/// This class provides access to a collection of icons with a broken/interrupted
+/// line style, perfect for modern UI designs. All icons are rendered as font
+/// glyphs for optimal performance.
+///
+/// Example usage:
+/// ```dart
+/// Icon(AmazingIconBroken.home, size: 24, color: Colors.blue)
+/// ```
 class AmazingIconBroken {
   AmazingIconBroken._();
 

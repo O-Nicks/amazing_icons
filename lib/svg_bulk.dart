@@ -2,6 +2,16 @@ import 'dart:ui';
 
 import 'svg_icon.dart';
 
+/// SVG icons with bulk opacity effect (997 icons).
+///
+/// This class provides access to SVG icons with a depth effect created through
+/// opacity layers, perfect for modern UI designs. Icons support full color
+/// customization while maintaining their opacity effects.
+///
+/// Example usage:
+/// ```dart
+/// SvgBulk.home(size: 24, color: Colors.blue)
+/// ```
 class SvgBulk {
   const SvgBulk._();
 

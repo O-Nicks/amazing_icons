@@ -1,6 +1,16 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Filled style icon font with 997 solid icons.
+///
+/// This class provides access to a collection of solid filled icons, perfect
+/// for highlighting active states and creating bold visual elements. All icons
+/// are rendered as font glyphs for optimal performance.
+///
+/// Example usage:
+/// ```dart
+/// Icon(AmazingIconFilled.heart, size: 24, color: Colors.red)
+/// ```
 class AmazingIconFilled {
   AmazingIconFilled._();
 

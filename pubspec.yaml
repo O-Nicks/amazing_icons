@@ -1,9 +1,7 @@
 name: amazing_icons
 description: A flutter package that provides a collection of customizable icons for various use cases.
-version: 1.0.0
-homepage: https://github.com/O-Nicks/amazing_icons
+version: 1.0.1
 repository: https://github.com/O-Nicks/amazing_icons
-
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
