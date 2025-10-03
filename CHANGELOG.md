@@ -1,4 +1,4 @@
-## 1.0.1
+## 1.1.0
 
 * Fixed minor issues in documentation
 * Improved code comments for better clarity
