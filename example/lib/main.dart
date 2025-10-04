@@ -167,24 +167,25 @@ class MyHomePage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               SizedBox(
-                  height: 60,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: SvgCountry.validCodes
-                        .map(
-                          (code) => Center(
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: SvgCountry.fromCountryCode(
-                                code,
-                                size: 25,
-                                shape: IconShape.rounded,
-                              ),
+                height: 60,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: SvgCountry.validCodes
+                      .map(
+                        (code) => Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: SvgCountry.fromCountryCode(
+                              code,
+                              size: 25,
+                              shape: IconShape.rounded,
                             ),
                           ),
-                        )
-                        .toList(),
-                  )),
+                        ),
+                      )
+                      .toList(),
+                ),
+              ),
               const SizedBox(height: 20),
               Row(
                 children: [
