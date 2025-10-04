@@ -303,9 +303,11 @@ class SvgCountry {
     Color borderColor = Colors.transparent,
     double borderWidth = 0,
   }) {
-    final code = countryCode.toLowerCase();
+    String code = countryCode.toLowerCase();
 
-    if (!validCodes.contains(code)) return Container();
+    if (!validCodes.contains(code)) {
+      code = 'xx';
+    }
 
     final borderRadius = switch (shape) {
       IconShape.circle => BorderRadius.circular(size / 2), // cercle parfait
