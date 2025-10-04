@@ -9,6 +9,8 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 [![Icons](https://img.shields.io/badge/Icons-5000%2B-purple.svg)](https://pub.dev/packages/amazing_icons)
 
 
+
+
 ## Demo Screenshots
 
 ![Screen](assets/demo/demo.jpg)
@@ -24,7 +26,12 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 - 📦 **Easy to Use**: Simple API with typed accessors for all icons
 - 🎯 **Type Safe**: Full Dart type safety with autocomplete support
 - 🚀 **Optimized**: Lightweight with efficient rendering
-- 🌐 **Icon Gallery**: A searchable website with all icons is coming soon!
+
+## Browse All Icons
+
+🌐 **[View all icons at amazingicons.dev →](https://www.amazingicons.dev)**
+
+Explore the complete collection with a searchable gallery and preview all icon styles interactively.
 
 ## Usage
 
