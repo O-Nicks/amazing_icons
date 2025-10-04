@@ -6,6 +6,7 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Null Safty](https://img.shields.io/badge/null_safty-true-true)](https://dart.dev/null-safety)
 [![Flutter](https://img.shields.io/badge/flutter-3.0.0%2B-blue.svg)](https://flutter.dev)
+[![Icons](https://img.shields.io/badge/Icons-5000%2B-purple.svg)](https://pub.dev/packages/amazing_icons)
 
 
 ## Demo Screenshots
@@ -17,8 +18,8 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 ## Features
 
 - 🎨 **3 Icon Font Styles**: Outlined, Filled, and Broken styles (997 icons each)
-- 🔄 **2 SVG Styles with Opacity**: Bulk and TwoTone with customizable colors and opacity effects (997 & 991 icons)
-- 🏳️ **201 Country Flags**: Full-color vector flags for all countries
+- 🔄 **2 SVG Styles with Opacity**: Bulk and TwoTone with customizable colors and opacity effects (997 & 985 icons)
+- 🏳️ **266 Country Flags**: Full-color vector flags for all countries
 - 💳 **39 Payment Icons**: Popular payment method logos (Visa, Mastercard, PayPal, etc.)
 - 📦 **Easy to Use**: Simple API with typed accessors for all icons
 - 🎯 **Type Safe**: Full Dart type safety with autocomplete support
@@ -85,20 +86,11 @@ Full-color vector country flags.
 ```dart
 import 'package:amazing_icon/svg_country.dart';
 
-SvgCountry.united_states(size: 48)
-SvgCountry.france(size: 48)
-SvgCountry.japan(size: 48)
+SvgCountry.fromCountryCode("fr", size: 25, shape: IconShape.rounded),
+SvgCountry.fromCountryCode("xx", size: 25, shape: IconShape.sharp),
+SvgCountry.fromCountryCode("xx", shape: IconShape.circle),
+SvgCountry.fromCountryCode("xx"),
 
-// List all flags
-GridView.count(
-  crossAxisCount: 4,
-  children: SvgCountry.all(size: 60)
-    .map((flag) => Padding(
-      padding: EdgeInsets.all(8),
-      child: flag,
-    ))
-    .toList(),
-)
 ```
 
 ### Payment Icons
