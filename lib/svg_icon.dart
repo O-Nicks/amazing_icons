@@ -30,11 +30,9 @@ class SvgIcon extends StatelessWidget {
         assetPath,
         fit: fit,
         alignment: alignment,
-        colorFilter: (recolor && color != null)
-            ? ColorFilter.mode(color!, BlendMode.srcIn)
-            : null,
+        colorFilter: (recolor && color != null) ? ColorFilter.mode(color!, BlendMode.srcIn) : null,
         semanticsLabel: semanticLabel,
-        package: 'amazing_icon',
+        package: 'amazing_icons',
       ),
     );
   }

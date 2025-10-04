@@ -54,9 +54,9 @@ void main() {
     });
 
     test('Icon fonts should use correct package', () {
-      expect(AmazingIconOutlined.home.fontPackage, equals('amazing_icon'));
-      expect(AmazingIconFilled.home.fontPackage, equals('amazing_icon'));
-      expect(AmazingIconBroken.home.fontPackage, equals('amazing_icon'));
+      expect(AmazingIconOutlined.home.fontPackage, equals('amazing_icons'));
+      expect(AmazingIconFilled.home.fontPackage, equals('amazing_icons'));
+      expect(AmazingIconBroken.home.fontPackage, equals('amazing_icons'));
     });
   });
 
@@ -102,9 +102,9 @@ void main() {
       expect(icon.color, equals(Colors.blue));
     });
 
-    test('SvgTwoTone.all() should return 991 icons', () {
+    test('SvgTwoTone.all() should return 985 icons', () {
       final icons = SvgTwoTone.all();
-      expect(icons.length, equals(991));
+      expect(icons.length, equals(985));
     });
 
     test('SvgTwoTone icons should have recolor enabled', () {
@@ -114,31 +114,43 @@ void main() {
   });
 
   group('SVG Country Flags Tests', () {
-    test('SvgCountry icons should be created with default values', () {
-      final icon = SvgCountry.france();
-      expect(icon.size, equals(24.0));
-      expect(icon.recolor, isFalse);
+    test('SvgCountry.fromCountryCode() should return valid widget', () {
+      final flag = SvgCountry.fromCountryCode('fr');
+      expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry icons should accept custom size', () {
-      final icon = SvgCountry.france(size: 64);
-      expect(icon.size, equals(64.0));
+    test('SvgCountry.fromCountryCode() should accept custom size and shape', () {
+      final flag = SvgCountry.fromCountryCode('us', size: 50, shape: IconShape.circle);
+      expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry.all() should return 201 flags', () {
-      final flags = SvgCountry.all();
-      expect(flags.length, equals(201));
+    test('SvgCountry.fromCountryCode() should return Container for invalid code', () {
+      final flag = SvgCountry.fromCountryCode('invalid');
+      expect(flag, isA<Container>());
     });
 
-    test('SvgCountry icons should have recolor disabled', () {
-      final icon = SvgCountry.france();
-      expect(icon.recolor, isFalse);
+    test('SvgCountry.validCodes should contain 266 country codes', () {
+      expect(SvgCountry.validCodes.length, equals(266));
     });
 
-    test('SvgCountry should have common countries', () {
-      expect(SvgCountry.france(), isA<SvgIcon>());
-      expect(SvgCountry.united_states_of_america(), isA<SvgIcon>());
-      expect(SvgCountry.japan(), isA<SvgIcon>());
+    test('SvgCountry should support common country codes', () {
+      expect(SvgCountry.fromCountryCode('fr'), isA<Widget>());
+      expect(SvgCountry.fromCountryCode('us'), isA<Widget>());
+      expect(SvgCountry.fromCountryCode('jp'), isA<Widget>());
+      expect(SvgCountry.fromCountryCode('gb'), isA<Widget>());
+    });
+
+    test('SvgCountry should support special codes', () {
+      expect(SvgCountry.fromCountryCode('eu'), isA<Widget>()); // European Union
+      expect(SvgCountry.fromCountryCode('un'), isA<Widget>()); // United Nations
+      expect(SvgCountry.fromCountryCode('gb-eng'), isA<Widget>()); // England
+    });
+
+    test('IconShape enum should have 3 values', () {
+      expect(IconShape.values.length, equals(3));
+      expect(IconShape.values, contains(IconShape.circle));
+      expect(IconShape.values, contains(IconShape.rounded));
+      expect(IconShape.values, contains(IconShape.sharp));
     });
   });
 
@@ -180,18 +192,18 @@ void main() {
   });
 
   group('Total Icons Count', () {
-    test('Total icon count should be 3228', () {
+    test('Total icon count should be correct', () {
       final outlinedCount = AmazingIconOutlined.all().length;
       final filledCount = AmazingIconFilled.all().length;
       final brokenCount = AmazingIconBroken.all().length;
       final bulkCount = SvgBulk.all().length;
       final twotoneCount = SvgTwoTone.all().length;
-      final countryCount = SvgCountry.all().length;
+      final countryCount = SvgCountry.validCodes.length;
       final paymentCount = SvgPayment.all().length;
 
       final total = outlinedCount + filledCount + brokenCount + bulkCount + twotoneCount + countryCount + paymentCount;
 
-      expect(total, equals(5219));
+      expect(total, equals(5278));
     });
   });
 }

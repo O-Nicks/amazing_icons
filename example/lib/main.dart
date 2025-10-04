@@ -162,7 +162,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   const Text('Country Flags', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(width: 10),
-                  SvgCountry.france(size: 30),
+                  SvgCountry.fromCountryCode("fr", size: 25, shape: IconShape.rounded),
                 ],
               ),
               const SizedBox(height: 10),
@@ -170,13 +170,17 @@ class MyHomePage extends StatelessWidget {
                   height: 60,
                   child: ListView(
                     scrollDirection: Axis.horizontal,
-                    children: SvgCountry.all(
-                      size: 40,
-                    )
+                    children: SvgCountry.validCodes
                         .map(
-                          (icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(child: icon),
+                          (code) => Center(
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: SvgCountry.fromCountryCode(
+                                code,
+                                size: 25,
+                                shape: IconShape.rounded,
+                              ),
+                            ),
                           ),
                         )
                         .toList(),
