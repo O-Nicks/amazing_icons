@@ -1,3 +1,11 @@
+## 1.2.0
+
+* Update Country Flags to include new countries and territories
+* Add Possibility to customize country flags (size, border, shape)
+* Update Tests for new flags
+* Update README with new flags information
+
+
 ## 1.1.2
 
 * Update README
