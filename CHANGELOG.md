@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Add Web site link to README
+
 ## 1.2.0
 
 * Update Country Flags to include new countries and territories
