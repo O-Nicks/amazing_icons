@@ -1,14 +1,16 @@
-# Amazing Icon
-
-A comprehensive Flutter icon package featuring **3,000+ icons** across multiple styles including icon fonts and SVG icons with color and opacity support.
-
 [![pub package](https://img.shields.io/pub/v/amazing_icons.svg)](https://pub.dev/packages/amazing_icons)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Null Safty](https://img.shields.io/badge/null_safty-true-true)](https://dart.dev/null-safety)
 [![Flutter](https://img.shields.io/badge/flutter-3.0.0%2B-blue.svg)](https://flutter.dev)
 [![Icons](https://img.shields.io/badge/Icons-5000%2B-purple.svg)](https://pub.dev/packages/amazing_icons)
 
-
+# Amazing Icon
+<a href="https://www.buymeacoffee.com/o.nicks" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" />
+</a>
+<br>
+<br>
+A comprehensive Flutter icon package featuring **3,000+ icons** across multiple styles including icon fonts and SVG icons with color and opacity support.
 
 
 ## Demo Screenshots
@@ -55,9 +57,9 @@ Icon(AmazingIconBroken.notification, size: 24, color: Colors.orange)
 
 // List all icons in a category
 Wrap(
-  children: AmazingIconOutlined.all()
+children: AmazingIconOutlined.all()
     .map((icon) => Icon(icon, size: 40))
-    .toList(),
+.toList(),
 )
 ```
 
@@ -77,11 +79,11 @@ SvgTwoTone.heart(size: 24, color: Colors.red)
 
 // List all bulk icons
 Wrap(
-  children: SvgBulk.all(size: 40, color: Colors.teal)
+children: SvgBulk.all(size: 40, color: Colors.teal)
     .map((icon) => Padding(
-      padding: EdgeInsets.all(8),
-      child: icon,
-    ))
+padding: EdgeInsets.all(8),
+child: icon,
+))
     .toList(),
 )
 ```
@@ -115,9 +117,9 @@ SvgPayment.bitcoin(size: 50)
 
 // Display all payment methods
 Wrap(
-  spacing: 16,
-  runSpacing: 16,
-  children: SvgPayment.all(size: 60)
+spacing: 16,
+runSpacing: 16,
+children: SvgPayment.all(size: 60)
     .map((icon) => icon)
     .toList(),
 )
