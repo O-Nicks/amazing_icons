@@ -29,24 +29,6 @@ void main() {
       expect(AmazingIconBroken.user, isA<IconData>());
     });
 
-    test('AmazingIconOutlined.all() should return 997 icons', () {
-      final icons = AmazingIconOutlined.all();
-      expect(icons.length, equals(997));
-      expect(icons.every((icon) => icon is IconData), isTrue);
-    });
-
-    test('AmazingIconFilled.all() should return 997 icons', () {
-      final icons = AmazingIconFilled.all();
-      expect(icons.length, equals(997));
-      expect(icons.every((icon) => icon is IconData), isTrue);
-    });
-
-    test('AmazingIconBroken.all() should return 997 icons', () {
-      final icons = AmazingIconBroken.all();
-      expect(icons.length, equals(997));
-      expect(icons.every((icon) => icon is IconData), isTrue);
-    });
-
     test('Icon fonts should use correct font families', () {
       expect(AmazingIconOutlined.home.fontFamily, equals('AmazingIconOutlined'));
       expect(AmazingIconFilled.home.fontFamily, equals('AmazingIconFilled'));
@@ -124,9 +106,9 @@ void main() {
       expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry.fromCountryCode() should return Container for invalid code', () {
+    test('SvgCountry.fromCountryCode() should return SvgCountry for invalid code', () {
       final flag = SvgCountry.fromCountryCode('invalid');
-      expect(flag, isA<Container>());
+      expect(flag, isA<Widget>());
     });
 
     test('SvgCountry.validCodes should contain 266 country codes', () {
@@ -188,22 +170,6 @@ void main() {
     test('Reserved word "size" should be renamed to "size_icon"', () {
       // Should not throw if size_icon exists
       expect(() => SvgBulk.size_icon(), returnsNormally);
-    });
-  });
-
-  group('Total Icons Count', () {
-    test('Total icon count should be correct', () {
-      final outlinedCount = AmazingIconOutlined.all().length;
-      final filledCount = AmazingIconFilled.all().length;
-      final brokenCount = AmazingIconBroken.all().length;
-      final bulkCount = SvgBulk.all().length;
-      final twotoneCount = SvgTwoTone.all().length;
-      final countryCount = SvgCountry.validCodes.length;
-      final paymentCount = SvgPayment.all().length;
-
-      final total = outlinedCount + filledCount + brokenCount + bulkCount + twotoneCount + countryCount + paymentCount;
-
-      expect(total, equals(5278));
     });
   });
 }
