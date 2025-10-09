@@ -3,7 +3,36 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:jovial_svg/jovial_svg.dart';
 
-/// Payment method icons using jovial_svg for color preservation
+/// Payment method icons with original brand colors preserved.
+///
+/// These icons use optimized `.si` format via `jovial_svg` for fast rendering
+/// while maintaining authentic brand colors for payment providers and cryptocurrencies.
+///
+/// ## Example
+/// ```dart
+/// // Popular payment methods
+/// AmazingIconPayment.visa(size: 50)
+/// AmazingIconPayment.mastercard(size: 50)
+/// AmazingIconPayment.paypal(size: 50)
+///
+/// // Cryptocurrency icons
+/// AmazingIconPayment.bitcoin(size: 50)
+/// AmazingIconPayment.ethereum(size: 50)
+///
+/// // Digital wallets
+/// AmazingIconPayment.apple_pay(size: 50)
+/// AmazingIconPayment.google_pay(size: 50)
+/// ```
+///
+/// ## Get Sample Icons
+/// Access sample payment icons using the [someIcons] method:
+/// ```dart
+/// Wrap(
+///   spacing: 16,
+///   runSpacing: 16,
+///   children: AmazingIconPayment.someIcons(),
+/// )
+/// ```
 class AmazingIconPayment {
   AmazingIconPayment._();
 

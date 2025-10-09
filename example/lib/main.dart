@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
                 height: 60,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: AmazingIconOutlined.all()
+                  children: AmazingIconOutlined.someIcons()
                       .map((icon) => Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Icon(icon, size: 40),
@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                 height: 60,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: AmazingIconFilled.all()
+                  children: AmazingIconFilled.someIcons()
                       .map((icon) => Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Icon(icon, size: 40),
@@ -95,7 +95,7 @@ class MyHomePage extends StatelessWidget {
                 height: 60,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: AmazingIconBroken.all()
+                  children: AmazingIconBroken.someIcons()
                       .map((icon) => Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Icon(icon, size: 40),
@@ -127,7 +127,7 @@ class MyHomePage extends StatelessWidget {
               const SizedBox(height: 10),
               SizedBox(
                 height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconBulk.allIcons),
+                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconBulk.someIcons),
               ),
               const SizedBox(height: 20),
               Row(

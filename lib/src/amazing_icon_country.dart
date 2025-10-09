@@ -2,12 +2,45 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:jovial_svg/jovial_svg.dart';
 
+/// Shape options for country flag icons.
 enum IconShape {
+  /// Circular shape with border radius = size / 2
   circle,
+
+  /// Rounded corners with border radius = size * 0.15
   rounded,
+
+  /// Sharp corners with no border radius
   sharp,
 }
 
+/// Country flag icons with full-color vectors and customizable shapes.
+///
+/// These icons use optimized `.si` format via `jovial_svg` for fast rendering
+/// while preserving original flag colors. Supports circle, rounded, and sharp shapes.
+///
+/// ## Example
+/// ```dart
+/// // Basic usage with default rounded shape
+/// AmazingIconCountry.fromCountryCode(countryCode: "fr", size: 25)
+///
+/// // Different shapes
+/// AmazingIconCountry.fromCountryCode(countryCode: "us", size: 30, shape: IconShape.circle)
+/// AmazingIconCountry.fromCountryCode(countryCode: "jp", size: 25, shape: IconShape.sharp)
+///
+/// // Unknown country code shows placeholder
+/// AmazingIconCountry.fromCountryCode(countryCode: "xx", size: 25)
+/// ```
+///
+/// ## Get Sample Flags
+/// Access sample flag widgets using the [someExamples] method:
+/// ```dart
+/// Wrap(
+///   spacing: 8,
+///   runSpacing: 8,
+///   children: AmazingIconCountry.someExamples(),
+/// )
+/// ```
 class AmazingIconCountry {
   AmazingIconCountry._();
 

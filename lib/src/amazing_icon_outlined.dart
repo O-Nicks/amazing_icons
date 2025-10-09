@@ -1,6 +1,23 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Outlined style icon font with 997 clean outline icons.
+///
+/// Use these icons like Flutter's built-in [Icon] widget. Perfect for
+/// single-color icons with a clean, minimalist outline style.
+///
+/// ## Example
+/// ```dart
+/// Icon(AmazingIconOutlined.home, size: 24, color: Colors.blue)
+/// Icon(AmazingIconOutlined.settings, size: 24, color: Colors.grey)
+/// Icon(AmazingIconOutlined.search, size: 24, color: Colors.black)
+/// ```
+///
+/// ## Available Icons
+/// Access some icons using the [someIcons] method:
+/// ```dart
+/// List<IconData> someIcons = AmazingIconOutlined.someIcons();
+/// ```
 class AmazingIconOutlined {
   AmazingIconOutlined._();
 
@@ -1000,7 +1017,7 @@ class AmazingIconOutlined {
   static const IconData zel = IconData(0xf102, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zoom = IconData(0xf101, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  static List<IconData> all() {
+  static List<IconData> someIcons() {
     return [
       aave,
       activity,

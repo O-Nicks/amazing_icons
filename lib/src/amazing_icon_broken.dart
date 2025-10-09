@@ -1,6 +1,23 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Broken style icon font with modern broken/interrupted line icons.
+///
+/// Use these icons like Flutter's built-in [Icon] widget. Perfect for
+/// modern UI designs with a distinctive broken line aesthetic.
+///
+/// ## Example
+/// ```dart
+/// Icon(AmazingIconBroken.home, size: 24, color: Colors.blue)
+/// Icon(AmazingIconBroken.settings, size: 24, color: Colors.grey)
+/// Icon(AmazingIconBroken.notification, size: 24, color: Colors.orange)
+/// ```
+///
+/// ## Available Icons
+/// Access some broken style icons using the [someIcons] method:
+/// ```dart
+/// List<IconData> someIcons = AmazingIconBroken.someIcons();
+/// ```
 class AmazingIconBroken {
   AmazingIconBroken._();
 
@@ -1002,7 +1019,7 @@ class AmazingIconBroken {
   static const IconData zel = IconData(0xf102, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zoom = IconData(0xf101, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  static List<IconData> all() {
+  static List<IconData> someIcons() {
     return [
       aave,
       activity,

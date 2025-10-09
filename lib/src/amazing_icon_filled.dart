@@ -1,6 +1,23 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
+/// Filled style icon font.
+///
+/// Use these icons like Flutter's built-in [Icon] widget. Perfect for
+/// single-color icons with a bold, solid appearance.
+///
+/// ## Example
+/// ```dart
+/// Icon(AmazingIconFilled.heart, size: 24, color: Colors.red)
+/// Icon(AmazingIconFilled.star, size: 24, color: Colors.amber)
+/// Icon(AmazingIconFilled.notification, size: 24, color: Colors.blue)
+/// ```
+///
+/// ## Available Icons
+/// Access some icons using the [someIcons] method:
+/// ```dart
+/// List<IconData> someIcons = AmazingIconFilled.someIcons();
+/// ```
 class AmazingIconFilled {
   AmazingIconFilled._();
 
@@ -999,7 +1016,7 @@ class AmazingIconFilled {
   static const IconData zel = IconData(0xf102, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zoom = IconData(0xf101, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  static List<IconData> all() {
+  static List<IconData> someIcons() {
     return [
       aave,
       activity,

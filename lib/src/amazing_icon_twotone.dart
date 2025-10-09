@@ -3,6 +3,31 @@ import 'package:flutter/material.dart';
 part 'components/amazing_icon_twotone_bg.dart';
 part 'components/amazing_icon_twotone_fg.dart';
 
+/// TwoTone style icon fonts with customizable two-tone opacity styling.
+///
+/// These icons use dual-layer icon fonts to create two-tone effects with
+/// customizable opacity. 10x faster than SVG rendering while providing
+/// elegant depth through layered rendering.
+///
+/// ## Example
+/// ```dart
+/// // Basic usage with default opacity
+/// AmazingIconTwotone.home(size: 24, color: Colors.blue)
+///
+/// // Custom opacity for different effects
+/// AmazingIconTwotone.settings(size: 24, color: Colors.grey, opacity: 0.3)
+/// AmazingIconTwotone.notification(size: 30, color: Colors.orange, opacity: 0.5)
+/// ```
+///
+/// ## Get Sample Icons
+/// Access a list of sample twotone icons using the [someIcons] property:
+/// ```dart
+/// Wrap(
+///   spacing: 8,
+///   runSpacing: 8,
+///   children: AmazingIconTwotone.someIcons,
+/// )
+/// ```
 class AmazingIconTwotone {
   AmazingIconTwotone._();
 

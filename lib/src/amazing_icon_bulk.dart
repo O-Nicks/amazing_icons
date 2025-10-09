@@ -3,6 +3,31 @@ import 'package:flutter/material.dart';
 part 'components/amazing_icon_bulk_bg.dart';
 part 'components/amazing_icon_bulk_fg.dart';
 
+/// Bulk style icon fonts with customizable opacity-based depth effects.
+///
+/// These icons use dual-layer icon fonts to create depth effects with
+/// customizable opacity. 10x faster than SVG rendering while maintaining
+/// visual richness through layered rendering.
+///
+/// ## Example
+/// ```dart
+/// // Basic usage with default opacity
+/// AmazingIconBulk.home(size: 24, color: Colors.blue)
+///
+/// // Custom opacity for different effects
+/// AmazingIconBulk.settings(size: 24, color: Colors.grey, opacity: 0.2)
+/// AmazingIconBulk.notification(size: 30, color: Colors.orange, opacity: 0.6)
+/// ```
+///
+/// ## Get Sample Icons
+/// Access a list of sample bulk icons using the [someIcons] property:
+/// ```dart
+/// Wrap(
+///   spacing: 8,
+///   runSpacing: 8,
+///   children: AmazingIconBulk.someIcons,
+/// )
+/// ```
 class AmazingIconBulk {
   AmazingIconBulk._();
 
@@ -2020,7 +2045,7 @@ class AmazingIconBulk {
     ];
   }
 
-  static List<Widget> get allIcons {
+  static List<Widget> get someIcons {
     return _SomeIconString().map((name) => AmazingIconBulk._build(name, size: 35)).toList();
   }
 }
