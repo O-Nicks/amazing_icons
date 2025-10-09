@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-part 'amazing_icon_bulk_bg.dart';
-part 'amazing_icon_bulk_fg.dart';
+part 'amazing_icon_twotone_bg.dart';
+part 'amazing_icon_twotone_fg.dart';
 
-class AmazingIconBulk {
-  AmazingIconBulk._();
+class AmazingIconTwotone {
+  AmazingIconTwotone._();
 
   static Widget aave({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('aave', size: size, color: color, opacity: opacity);
@@ -20,8 +20,6 @@ class AmazingIconBulk {
       _build('add_square', size: size, color: color, opacity: opacity);
   static Widget airdrop({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('airdrop', size: size, color: color, opacity: opacity);
-  static Widget airplane({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('airplane', size: size, color: color, opacity: opacity);
   static Widget airplane_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('airplane_square', size: size, color: color, opacity: opacity);
   static Widget airpod({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -66,8 +64,6 @@ class AmazingIconBulk {
       _build('archive_tick', size: size, color: color, opacity: opacity);
   static Widget arrow({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow', size: size, color: color, opacity: opacity);
-  static Widget arrow_bottom({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_bottom', size: size, color: color, opacity: opacity);
   static Widget arrow_circle_down({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_circle_down', size: size, color: color, opacity: opacity);
   static Widget arrow_circle_down_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -86,20 +82,10 @@ class AmazingIconBulk {
       _build('arrow_circle_up_2', size: size, color: color, opacity: opacity);
   static Widget arrow_down({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_down', size: size, color: color, opacity: opacity);
-  static Widget arrow_down_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_down_1', size: size, color: color, opacity: opacity);
   static Widget arrow_left({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_left', size: size, color: color, opacity: opacity);
-  static Widget arrow_left_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_left_1', size: size, color: color, opacity: opacity);
-  static Widget arrow_left_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_left_2', size: size, color: color, opacity: opacity);
   static Widget arrow_right({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_right', size: size, color: color, opacity: opacity);
-  static Widget arrow_right_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_right_1', size: size, color: color, opacity: opacity);
-  static Widget arrow_right_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_right_2', size: size, color: color, opacity: opacity);
   static Widget arrow_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_square', size: size, color: color, opacity: opacity);
   static Widget arrow_square_down({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -128,10 +114,6 @@ class AmazingIconBulk {
       _build('arrow_swap_vertical_square', size: size, color: color, opacity: opacity);
   static Widget arrow_up({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('arrow_up', size: size, color: color, opacity: opacity);
-  static Widget arrow_up_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_up_1', size: size, color: color, opacity: opacity);
-  static Widget arrow_up_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('arrow_up_2', size: size, color: color, opacity: opacity);
   static Widget attach_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('attach_circle', size: size, color: color, opacity: opacity);
   static Widget attach_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -215,8 +197,6 @@ class AmazingIconBulk {
       _build('blend_2', size: size, color: color, opacity: opacity);
   static Widget blogger({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('blogger', size: size, color: color, opacity: opacity);
-  static Widget bluetooth({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('bluetooth', size: size, color: color, opacity: opacity);
   static Widget bluetooth_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('bluetooth_2', size: size, color: color, opacity: opacity);
   static Widget bluetooth_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -237,8 +217,8 @@ class AmazingIconBulk {
       _build('bookmark', size: size, color: color, opacity: opacity);
   static Widget bookmark_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('bookmark_2', size: size, color: color, opacity: opacity);
-  static Widget bootstrap({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('bootstrap', size: size, color: color, opacity: opacity);
+  static Widget bootsrap({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
+      _build('bootsrap', size: size, color: color, opacity: opacity);
   static Widget box({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('box', size: size, color: color, opacity: opacity);
   static Widget box_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -271,8 +251,6 @@ class AmazingIconBulk {
       _build('brush_1', size: size, color: color, opacity: opacity);
   static Widget brush_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('brush_2', size: size, color: color, opacity: opacity);
-  static Widget brush_3({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('brush_3', size: size, color: color, opacity: opacity);
   static Widget brush_4({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('brush_4', size: size, color: color, opacity: opacity);
   static Widget bubble({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -321,8 +299,6 @@ class AmazingIconBulk {
       _build('calendar_search', size: size, color: color, opacity: opacity);
   static Widget calendar_tick({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('calendar_tick', size: size, color: color, opacity: opacity);
-  static Widget call({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('call', size: size, color: color, opacity: opacity);
   static Widget call_add({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('call_add', size: size, color: color, opacity: opacity);
   static Widget call_calling({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -426,8 +402,6 @@ class AmazingIconBulk {
       _build('close_circle', size: size, color: color, opacity: opacity);
   static Widget close_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('close_square', size: size, color: color, opacity: opacity);
-  static Widget cloud({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('cloud', size: size, color: color, opacity: opacity);
   static Widget cloud_add({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('cloud_add', size: size, color: color, opacity: opacity);
   static Widget cloud_change({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -506,8 +480,6 @@ class AmazingIconBulk {
       _build('creative_commons', size: size, color: color, opacity: opacity);
   static Widget crop({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('crop', size: size, color: color, opacity: opacity);
-  static Widget crown({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('crown', size: size, color: color, opacity: opacity);
   static Widget crown_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('crown_1', size: size, color: color, opacity: opacity);
   static Widget cube_3d({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -536,30 +508,20 @@ class AmazingIconBulk {
       _build('designtools', size: size, color: color, opacity: opacity);
   static Widget device_message({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('device_message', size: size, color: color, opacity: opacity);
-  static Widget devices_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('devices_1', size: size, color: color, opacity: opacity);
   static Widget diagram({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('diagram', size: size, color: color, opacity: opacity);
   static Widget diamonds({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('diamonds', size: size, color: color, opacity: opacity);
   static Widget direct({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('direct', size: size, color: color, opacity: opacity);
-  static Widget direct_down({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('direct_down', size: size, color: color, opacity: opacity);
   static Widget direct_inbox({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('direct_inbox', size: size, color: color, opacity: opacity);
-  static Widget direct_left({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('direct_left', size: size, color: color, opacity: opacity);
   static Widget direct_normal({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('direct_normal', size: size, color: color, opacity: opacity);
   static Widget direct_notification({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('direct_notification', size: size, color: color, opacity: opacity);
-  static Widget direct_right({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('direct_right', size: size, color: color, opacity: opacity);
   static Widget direct_send({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('direct_send', size: size, color: color, opacity: opacity);
-  static Widget direct_up({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('direct_up', size: size, color: color, opacity: opacity);
   static Widget directbox_default({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('directbox_default', size: size, color: color, opacity: opacity);
   static Widget directbox_notif({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -626,8 +588,6 @@ class AmazingIconBulk {
       _build('driver_refresh', size: size, color: color, opacity: opacity);
   static Widget driving({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('driving', size: size, color: color, opacity: opacity);
-  static Widget drop({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('drop', size: size, color: color, opacity: opacity);
   static Widget dropbox({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('dropbox', size: size, color: color, opacity: opacity);
   static Widget edit({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -730,16 +690,12 @@ class AmazingIconBulk {
       _build('flag', size: size, color: color, opacity: opacity);
   static Widget flag_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('flag_2', size: size, color: color, opacity: opacity);
-  static Widget flash({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('flash', size: size, color: color, opacity: opacity);
   static Widget flash_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('flash_1', size: size, color: color, opacity: opacity);
   static Widget flash_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('flash_circle', size: size, color: color, opacity: opacity);
   static Widget flash_slash({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('flash_slash', size: size, color: color, opacity: opacity);
-  static Widget folder({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('folder', size: size, color: color, opacity: opacity);
   static Widget folder_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('folder_2', size: size, color: color, opacity: opacity);
   static Widget folder_add({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -798,8 +754,6 @@ class AmazingIconBulk {
       _build('gallery_slash', size: size, color: color, opacity: opacity);
   static Widget gallery_tick({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('gallery_tick', size: size, color: color, opacity: opacity);
-  static Widget game({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('game', size: size, color: color, opacity: opacity);
   static Widget gameboy({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('gameboy', size: size, color: color, opacity: opacity);
   static Widget gas_station({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -824,8 +778,6 @@ class AmazingIconBulk {
       _build('global_refresh', size: size, color: color, opacity: opacity);
   static Widget global_search({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('global_search', size: size, color: color, opacity: opacity);
-  static Widget google_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('google_1', size: size, color: color, opacity: opacity);
   static Widget google_drive({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('google_drive', size: size, color: color, opacity: opacity);
   static Widget google_play({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -874,14 +826,10 @@ class AmazingIconBulk {
       _build('hashtag_down', size: size, color: color, opacity: opacity);
   static Widget hashtag_up({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('hashtag_up', size: size, color: color, opacity: opacity);
-  static Widget headphone({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('headphone', size: size, color: color, opacity: opacity);
   static Widget headphones({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('headphones', size: size, color: color, opacity: opacity);
   static Widget health({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('health', size: size, color: color, opacity: opacity);
-  static Widget heart({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('heart', size: size, color: color, opacity: opacity);
   static Widget heart_add({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('heart_add', size: size, color: color, opacity: opacity);
   static Widget heart_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1165,8 +1113,6 @@ class AmazingIconBulk {
       _build('milk', size: size, color: color, opacity: opacity);
   static Widget mini_music_sqaure({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('mini_music_sqaure', size: size, color: color, opacity: opacity);
-  static Widget minus({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('minus', size: size, color: color, opacity: opacity);
   static Widget minus_cirlce({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('minus_cirlce', size: size, color: color, opacity: opacity);
   static Widget minus_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1213,8 +1159,6 @@ class AmazingIconBulk {
       _build('monitor_mobbile', size: size, color: color, opacity: opacity);
   static Widget monitor_recorder({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('monitor_recorder', size: size, color: color, opacity: opacity);
-  static Widget moon({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('moon', size: size, color: color, opacity: opacity);
   static Widget more({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('more', size: size, color: color, opacity: opacity);
   static Widget more_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1306,10 +1250,6 @@ class AmazingIconBulk {
       _build('ontology', size: size, color: color, opacity: opacity);
   static Widget paintbucket({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('paintbucket', size: size, color: color, opacity: opacity);
-  static Widget paperclip({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('paperclip', size: size, color: color, opacity: opacity);
-  static Widget paperclip_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('paperclip_2', size: size, color: color, opacity: opacity);
   static Widget password_check({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('password_check', size: size, color: color, opacity: opacity);
   static Widget path({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1350,8 +1290,6 @@ class AmazingIconBulk {
       _build('photoshop', size: size, color: color, opacity: opacity);
   static Widget picture_frame({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('picture_frame', size: size, color: color, opacity: opacity);
-  static Widget play({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('play', size: size, color: color, opacity: opacity);
   static Widget play_add({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('play_add', size: size, color: color, opacity: opacity);
   static Widget play_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1408,8 +1346,6 @@ class AmazingIconBulk {
       _build('quote_up_circle', size: size, color: color, opacity: opacity);
   static Widget quote_up_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('quote_up_square', size: size, color: color, opacity: opacity);
-  static Widget radar({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('radar', size: size, color: color, opacity: opacity);
   static Widget radar_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('radar_1', size: size, color: color, opacity: opacity);
   static Widget radar_2({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1456,8 +1392,6 @@ class AmazingIconBulk {
       _build('receive_square_2', size: size, color: color, opacity: opacity);
   static Widget received({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('received', size: size, color: color, opacity: opacity);
-  static Widget record({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('record', size: size, color: color, opacity: opacity);
   static Widget record_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('record_circle', size: size, color: color, opacity: opacity);
   static Widget recovery_convert({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1596,8 +1530,6 @@ class AmazingIconBulk {
       _build('shapes_1', size: size, color: color, opacity: opacity);
   static Widget share({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('share', size: size, color: color, opacity: opacity);
-  static Widget shield({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('shield', size: size, color: color, opacity: opacity);
   static Widget shield_cross({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('shield_cross', size: size, color: color, opacity: opacity);
   static Widget shield_search({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1678,14 +1610,10 @@ class AmazingIconBulk {
       _build('speedometer', size: size, color: color, opacity: opacity);
   static Widget spotify({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('spotify', size: size, color: color, opacity: opacity);
-  static Widget square_3d({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('square_3d', size: size, color: color, opacity: opacity);
   static Widget squares({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('squares', size: size, color: color, opacity: opacity);
   static Widget stacks({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('stacks', size: size, color: color, opacity: opacity);
-  static Widget star({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('star', size: size, color: color, opacity: opacity);
   static Widget star_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('star_1', size: size, color: color, opacity: opacity);
   static Widget star_slash({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1700,8 +1628,6 @@ class AmazingIconBulk {
       _build('sticker', size: size, color: color, opacity: opacity);
   static Widget stickynote({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('stickynote', size: size, color: color, opacity: opacity);
-  static Widget stop({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('stop', size: size, color: color, opacity: opacity);
   static Widget stop_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('stop_circle', size: size, color: color, opacity: opacity);
   static Widget story({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1712,12 +1638,8 @@ class AmazingIconBulk {
       _build('strongbox_2', size: size, color: color, opacity: opacity);
   static Widget subtitle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('subtitle', size: size, color: color, opacity: opacity);
-  static Widget sun({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('sun', size: size, color: color, opacity: opacity);
   static Widget sun_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('sun_1', size: size, color: color, opacity: opacity);
-  static Widget sun_fog({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('sun_fog', size: size, color: color, opacity: opacity);
   static Widget support_24({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('support_24', size: size, color: color, opacity: opacity);
   static Widget tag({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1726,8 +1648,6 @@ class AmazingIconBulk {
       _build('tag_2', size: size, color: color, opacity: opacity);
   static Widget tag_cross({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('tag_cross', size: size, color: color, opacity: opacity);
-  static Widget tag_right({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('tag_right', size: size, color: color, opacity: opacity);
   static Widget tag_user({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('tag_user', size: size, color: color, opacity: opacity);
   static Widget task({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1766,8 +1686,6 @@ class AmazingIconBulk {
       _build('the_graph', size: size, color: color, opacity: opacity);
   static Widget theta({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('theta', size: size, color: color, opacity: opacity);
-  static Widget thorchain({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('thorchain', size: size, color: color, opacity: opacity);
   static Widget tick_circle({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('tick_circle', size: size, color: color, opacity: opacity);
   static Widget tick_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1782,8 +1700,6 @@ class AmazingIconBulk {
       _build('ticket_expired', size: size, color: color, opacity: opacity);
   static Widget ticket_star({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('ticket_star', size: size, color: color, opacity: opacity);
-  static Widget timer({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('timer', size: size, color: color, opacity: opacity);
   static Widget timer_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('timer_1', size: size, color: color, opacity: opacity);
   static Widget timer_pause({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1838,8 +1754,6 @@ class AmazingIconBulk {
       _build('ui8', size: size, color: color, opacity: opacity);
   static Widget undo({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('undo', size: size, color: color, opacity: opacity);
-  static Widget unlimited({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('unlimited', size: size, color: color, opacity: opacity);
   static Widget unlock({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('unlock', size: size, color: color, opacity: opacity);
   static Widget usd_coin({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1866,6 +1780,8 @@ class AmazingIconBulk {
       _build('user_tag', size: size, color: color, opacity: opacity);
   static Widget user_tick({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('user_tick', size: size, color: color, opacity: opacity);
+  static Widget velas({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
+      _build('velas', size: size, color: color, opacity: opacity);
   static Widget verify({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('verify', size: size, color: color, opacity: opacity);
   static Widget vibe({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1884,8 +1800,6 @@ class AmazingIconBulk {
       _build('video_play', size: size, color: color, opacity: opacity);
   static Widget video_remove({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('video_remove', size: size, color: color, opacity: opacity);
-  static Widget video_slash({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('video_slash', size: size, color: color, opacity: opacity);
   static Widget video_square({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('video_square', size: size, color: color, opacity: opacity);
   static Widget video_tick({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1900,6 +1814,8 @@ class AmazingIconBulk {
       _build('voice_square', size: size, color: color, opacity: opacity);
   static Widget volume_control({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('volume_control', size: size, color: color, opacity: opacity);
+  static Widget volume_control_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
+      _build('volume_control_1', size: size, color: color, opacity: opacity);
   static Widget volume_cross({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('volume_cross', size: size, color: color, opacity: opacity);
   static Widget volume_high({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1908,8 +1824,6 @@ class AmazingIconBulk {
       _build('volume_low', size: size, color: color, opacity: opacity);
   static Widget volume_low_1({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('volume_low_1', size: size, color: color, opacity: opacity);
-  static Widget volume_mute({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
-      _build('volume_mute', size: size, color: color, opacity: opacity);
   static Widget volume_slash({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
       _build('volume_slash', size: size, color: color, opacity: opacity);
   static Widget volume_up({double size = 25, Color color = Colors.black, double opacity = 0.4}) =>
@@ -1986,8 +1900,8 @@ class AmazingIconBulk {
     Color color = Colors.black,
     double opacity = 0.3,
   }) {
-    final bgIcon = _AmazingIconBulkBg._map['${name}_bg'];
-    final fgIcon = _AmazingIconBulkFg._map['${name}_fg'];
+    final bgIcon = _AmazingIconTwotoneBg._map['${name}_bg'];
+    final fgIcon = _AmazingIconTwotoneFg._map['${name}_fg'];
 
     if (bgIcon == null || fgIcon == null) {
       throw ArgumentError('Icon not found for "$name"');
@@ -2014,7 +1928,6 @@ class AmazingIconBulk {
       'add_item',
       'add_square',
       'airdrop',
-      'airplane',
       'airplane_square',
       'airpod',
       'airpods',
@@ -2037,7 +1950,6 @@ class AmazingIconBulk {
       'archive_slash',
       'archive_tick',
       'arrow',
-      'arrow_bottom',
       'arrow_circle_down',
       'arrow_circle_down_2',
       'arrow_circle_left',
@@ -2047,13 +1959,8 @@ class AmazingIconBulk {
       'arrow_circle_up',
       'arrow_circle_up_2',
       'arrow_down',
-      'arrow_down_1',
       'arrow_left',
-      'arrow_left_1',
-      'arrow_left_2',
       'arrow_right',
-      'arrow_right_1',
-      'arrow_right_2',
       'arrow_square',
       'arrow_square_down',
       'arrow_square_left',
@@ -2068,8 +1975,6 @@ class AmazingIconBulk {
       'arrow_swap_vertical_circle',
       'arrow_swap_vertical_square',
       'arrow_up',
-      'arrow_up_1',
-      'arrow_up_2',
       'attach_circle',
       'attach_square',
       'audio_square',
@@ -2112,7 +2017,6 @@ class AmazingIconBulk {
       'blend',
       'blend_2',
       'blogger',
-      'bluetooth',
       'bluetooth_2',
       'bluetooth_circle',
       'bluetooth_rectangle',
@@ -2123,7 +2027,7 @@ class AmazingIconBulk {
       'book_square',
       'bookmark',
       'bookmark_2',
-      'bootstrap',
+      'bootsrap',
       'box',
       'box_1',
       'box_2',
@@ -2140,7 +2044,6 @@ class AmazingIconBulk {
       'brush',
       'brush_1',
       'brush_2',
-      'brush_3',
       'brush_4',
       'bubble',
       'bucket',
@@ -2165,7 +2068,6 @@ class AmazingIconBulk {
       'calendar_remove',
       'calendar_search',
       'calendar_tick',
-      'call',
       'call_add',
       'call_calling',
       'call_incoming',
@@ -2218,7 +2120,6 @@ class AmazingIconBulk {
       'clock_1',
       'close_circle',
       'close_square',
-      'cloud',
       'cloud_add',
       'cloud_change',
       'cloud_connection',
@@ -2258,7 +2159,6 @@ class AmazingIconBulk {
       'cpu_setting',
       'creative_commons',
       'crop',
-      'crown',
       'crown_1',
       'cube_3d',
       'cube_3d_scan',
@@ -2273,18 +2173,13 @@ class AmazingIconBulk {
       'dent',
       'designtools',
       'device_message',
-      'devices_1',
       'diagram',
       'diamonds',
       'direct',
-      'direct_down',
       'direct_inbox',
-      'direct_left',
       'direct_normal',
       'direct_notification',
-      'direct_right',
       'direct_send',
-      'direct_up',
       'directbox_default',
       'directbox_notif',
       'directbox_receive',
@@ -2318,7 +2213,6 @@ class AmazingIconBulk {
       'driver_2',
       'driver_refresh',
       'driving',
-      'drop',
       'dropbox',
       'edit',
       'edit_2',
@@ -2370,11 +2264,9 @@ class AmazingIconBulk {
       'firstline',
       'flag',
       'flag_2',
-      'flash',
       'flash_1',
       'flash_circle',
       'flash_slash',
-      'folder',
       'folder_2',
       'folder_add',
       'folder_cloud',
@@ -2404,7 +2296,6 @@ class AmazingIconBulk {
       'gallery_remove',
       'gallery_slash',
       'gallery_tick',
-      'game',
       'gameboy',
       'gas_station',
       'gemini',
@@ -2417,7 +2308,6 @@ class AmazingIconBulk {
       'global_edit',
       'global_refresh',
       'global_search',
-      'google_1',
       'google_drive',
       'google_play',
       'gps',
@@ -2442,10 +2332,8 @@ class AmazingIconBulk {
       'hashtag_1',
       'hashtag_down',
       'hashtag_up',
-      'headphone',
       'headphones',
       'health',
-      'heart',
       'heart_add',
       'heart_circle',
       'heart_edit',
@@ -2588,7 +2476,6 @@ class AmazingIconBulk {
       'microscope',
       'milk',
       'mini_music_sqaure',
-      'minus',
       'minus_cirlce',
       'minus_square',
       'mirror',
@@ -2612,7 +2499,6 @@ class AmazingIconBulk {
       'monitor',
       'monitor_mobbile',
       'monitor_recorder',
-      'moon',
       'more',
       'more_2',
       'more_circle',
@@ -2659,8 +2545,6 @@ class AmazingIconBulk {
       'omega_square',
       'ontology',
       'paintbucket',
-      'paperclip',
-      'paperclip_2',
       'password_check',
       'path',
       'path_2',
@@ -2681,7 +2565,6 @@ class AmazingIconBulk {
       'pharagraphspacing',
       'photoshop',
       'picture_frame',
-      'play',
       'play_add',
       'play_circle',
       'play_cricle',
@@ -2710,7 +2593,6 @@ class AmazingIconBulk {
       'quote_up',
       'quote_up_circle',
       'quote_up_square',
-      'radar',
       'radar_1',
       'radar_2',
       'radio',
@@ -2734,7 +2616,6 @@ class AmazingIconBulk {
       'receive_square',
       'receive_square_2',
       'received',
-      'record',
       'record_circle',
       'recovery_convert',
       'redo',
@@ -2804,7 +2685,6 @@ class AmazingIconBulk {
       'shapes',
       'shapes_1',
       'share',
-      'shield',
       'shield_cross',
       'shield_search',
       'shield_security',
@@ -2845,10 +2725,8 @@ class AmazingIconBulk {
       'speaker',
       'speedometer',
       'spotify',
-      'square_3d',
       'squares',
       'stacks',
-      'star',
       'star_1',
       'star_slash',
       'status',
@@ -2856,20 +2734,16 @@ class AmazingIconBulk {
       'stellar',
       'sticker',
       'stickynote',
-      'stop',
       'stop_circle',
       'story',
       'strongbox',
       'strongbox_2',
       'subtitle',
-      'sun',
       'sun_1',
-      'sun_fog',
       'support_24',
       'tag',
       'tag_2',
       'tag_cross',
-      'tag_right',
       'tag_user',
       'task',
       'task_square',
@@ -2889,7 +2763,6 @@ class AmazingIconBulk {
       'textalign_right',
       'the_graph',
       'theta',
-      'thorchain',
       'tick_circle',
       'tick_square',
       'ticket',
@@ -2897,7 +2770,6 @@ class AmazingIconBulk {
       'ticket_discount',
       'ticket_expired',
       'ticket_star',
-      'timer',
       'timer_1',
       'timer_pause',
       'timer_start',
@@ -2925,7 +2797,6 @@ class AmazingIconBulk {
       'twitch',
       'ui8',
       'undo',
-      'unlimited',
       'unlock',
       'usd_coin',
       'user',
@@ -2939,6 +2810,7 @@ class AmazingIconBulk {
       'user_square',
       'user_tag',
       'user_tick',
+      'velas',
       'verify',
       'vibe',
       'video',
@@ -2948,7 +2820,6 @@ class AmazingIconBulk {
       'video_octagon',
       'video_play',
       'video_remove',
-      'video_slash',
       'video_square',
       'video_tick',
       'video_time',
@@ -2956,11 +2827,11 @@ class AmazingIconBulk {
       'voice_cricle',
       'voice_square',
       'volume_control',
+      'volume_control_1',
       'volume_cross',
       'volume_high',
       'volume_low',
       'volume_low_1',
-      'volume_mute',
       'volume_slash',
       'volume_up',
       'vuesax',
@@ -3000,6 +2871,6 @@ class AmazingIconBulk {
   }
 
   static List<Widget> get allIcons {
-    return _allIconString().map((name) => AmazingIconBulk._build(name)).toList();
+    return _allIconString().map((name) => AmazingIconTwotone._build(name)).toList();
   }
 }

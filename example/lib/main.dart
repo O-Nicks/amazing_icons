@@ -1,6 +1,8 @@
 import 'package:amazing_icons/amazing_icon_broken.dart';
+import 'package:amazing_icons/amazing_icon_bulk.dart';
 import 'package:amazing_icons/amazing_icon_filled.dart';
 import 'package:amazing_icons/amazing_icon_outlined.dart';
+import 'package:amazing_icons/amazing_icon_twotone.dart';
 import 'package:amazing_icons/svg_bulk.dart';
 import 'package:amazing_icons/svg_country.dart';
 import 'package:amazing_icons/svg_payment.dart';
@@ -114,48 +116,26 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   const Text('Two Tone Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(width: 10),
-                  SvgTwoTone.arrange_square(size: 25, color: Colors.red),
+                  AmazingIconTwotone.add_item(size: 25, color: Colors.red),
                 ],
               ),
               const SizedBox(height: 10),
               SizedBox(
                 height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: SvgTwoTone.all(size: 40)
-                      .map(
-                        (icon) => Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: icon,
-                        ),
-                      )
-                      .toList(),
-                ),
+                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconTwotone.allIcons),
               ),
               const SizedBox(height: 20),
               Row(
                 children: [
                   const Text('Bulk Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(width: 10),
-                  SvgBulk.arrange_square(size: 25, color: Colors.red),
+                  AmazingIconBulk.add_item(size: 25, color: Colors.red),
                 ],
               ),
               const SizedBox(height: 10),
               SizedBox(
                 height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: SvgBulk.all(
-                    size: 40,
-                  )
-                      .map(
-                        (icon) => Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: icon,
-                        ),
-                      )
-                      .toList(),
-                ),
+                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconBulk.allIcons),
               ),
               const SizedBox(height: 20),
               Row(
@@ -166,26 +146,6 @@ class MyHomePage extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: SvgCountry.validCodes
-                      .map(
-                        (code) => Center(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: SvgCountry.fromCountryCode(
-                              code,
-                              size: 25,
-                              shape: IconShape.rounded,
-                            ),
-                          ),
-                        ),
-                      )
-                      .toList(),
-                ),
-              ),
               const SizedBox(height: 20),
               Row(
                 children: [

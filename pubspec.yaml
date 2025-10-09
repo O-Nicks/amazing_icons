@@ -44,3 +44,11 @@ flutter:
     - family: AmazingIconBulkFg
       fonts:
         - asset: fonts/AmazingIconBulkFg.ttf
+
+    - family: AmazingIconTwotoneBg
+      fonts:
+        - asset: fonts/AmazingIconTwotoneBg.ttf
+
+    - family: AmazingIconTwotoneFg
+      fonts:
+        - asset: fonts/AmazingIconTwotoneFg.ttf
