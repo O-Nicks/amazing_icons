@@ -1,12 +1,4 @@
-import 'package:amazing_icons/amazing_icon_broken.dart';
-import 'package:amazing_icons/amazing_icon_bulk.dart';
-import 'package:amazing_icons/amazing_icon_filled.dart';
-import 'package:amazing_icons/amazing_icon_outlined.dart';
-import 'package:amazing_icons/amazing_icon_twotone.dart';
-import 'package:amazing_icons/svg_bulk.dart';
-import 'package:amazing_icons/svg_country.dart';
-import 'package:amazing_icons/svg_payment.dart';
-import 'package:amazing_icons/svg_twotone.dart';
+import 'package:amazing_icons/amazing_icons.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -122,7 +114,7 @@ class MyHomePage extends StatelessWidget {
               const SizedBox(height: 10),
               SizedBox(
                 height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconTwotone.allIcons),
+                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconTwotone.someIcons),
               ),
               const SizedBox(height: 20),
               Row(
@@ -142,18 +134,23 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   const Text('Country Flags', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(width: 10),
-                  SvgCountry.fromCountryCode("fr", size: 25, shape: IconShape.rounded),
+                  AmazingIconCountry.fromCountryCode(countryCode: "fr")
                 ],
               ),
               const SizedBox(height: 10),
+              SizedBox(
+                height: 50,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: AmazingIconCountry.someExamples(),
+                ),
+              ),
               const SizedBox(height: 20),
               Row(
                 children: [
                   const Text('Payment Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   const SizedBox(width: 10),
-                  SvgPayment.visa(
-                    size: 30,
-                  ),
+                  AmazingIconPayment.pay_pal(size: 35)
                 ],
               ),
               const SizedBox(height: 10),
@@ -161,16 +158,7 @@ class MyHomePage extends StatelessWidget {
                 height: 60,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: SvgPayment.all(
-                    size: 40,
-                  )
-                      .map(
-                        (icon) => Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: icon,
-                        ),
-                      )
-                      .toList(),
+                  children: AmazingIconPayment.someIcons(),
                 ),
               ),
               const SizedBox(height: 20),

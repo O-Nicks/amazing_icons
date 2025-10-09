@@ -1,11 +1,7 @@
-import 'package:amazing_icons/amazing_icon_broken.dart';
-import 'package:amazing_icons/amazing_icon_filled.dart';
-import 'package:amazing_icons/amazing_icon_outlined.dart';
-import 'package:amazing_icons/svg_bulk.dart';
-import 'package:amazing_icons/svg_country.dart';
-import 'package:amazing_icons/svg_icon.dart';
-import 'package:amazing_icons/svg_payment.dart';
-import 'package:amazing_icons/svg_twotone.dart';
+import 'package:amazing_icons/amazing_icons.dart';
+import 'package:amazing_icons/src/amazing_icon_broken.dart';
+import 'package:amazing_icons/src/amazing_icon_filled.dart';
+import 'package:amazing_icons/src/amazing_icon_payment.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -42,90 +38,103 @@ void main() {
     });
   });
 
-  group('SVG Bulk Icons Tests', () {
-    test('SvgBulk icons should be created with default values', () {
-      final icon = SvgBulk.home();
-      expect(icon.size, equals(24.0));
-      expect(icon.recolor, isTrue);
+  group('AmazingIconBulk Tests', () {
+    test('AmazingIconBulk icons should return valid widgets', () {
+      expect(AmazingIconBulk.home(), isA<Widget>());
+      expect(AmazingIconBulk.settings(), isA<Widget>());
+      expect(AmazingIconBulk.user(), isA<Widget>());
     });
 
-    test('SvgBulk icons should accept custom size and color', () {
-      final icon = SvgBulk.home(size: 48, color: Colors.red);
-      expect(icon.size, equals(48.0));
-      expect(icon.color, equals(Colors.red));
+    test('AmazingIconBulk icons should accept custom size', () {
+      final icon = AmazingIconBulk.home(size: 48);
+      expect(icon, isA<Widget>());
     });
 
-    test('SvgBulk.all() should return 997 icons', () {
-      final icons = SvgBulk.all();
-      expect(icons.length, equals(997));
-    });
-
-    test('SvgBulk.all() with custom size should apply to all icons', () {
-      final icons = SvgBulk.all(size: 32);
-      expect(icons.every((icon) => icon.size == 32), isTrue);
-    });
-
-    test('SvgBulk icons should have recolor enabled', () {
-      final icon = SvgBulk.home();
-      expect(icon.recolor, isTrue);
+    test('AmazingIconBulk icons should accept custom color', () {
+      final icon = AmazingIconBulk.home(color: Colors.red);
+      expect(icon, isA<Widget>());
     });
   });
 
-  group('SVG TwoTone Icons Tests', () {
-    test('SvgTwoTone icons should be created with default values', () {
-      final icon = SvgTwoTone.home();
-      expect(icon.size, equals(24.0));
-      expect(icon.recolor, isTrue);
+  group('AmazingIconTwoTone Tests', () {
+    test('AmazingIconTwoTone icons should return valid widgets', () {
+      expect(AmazingIconTwotone.home(), isA<Widget>());
+      expect(AmazingIconTwotone.gallery(), isA<Widget>());
+      expect(AmazingIconTwotone.user(), isA<Widget>());
     });
 
-    test('SvgTwoTone icons should accept custom size and color', () {
-      final icon = SvgTwoTone.heart(size: 48, color: Colors.blue);
-      expect(icon.size, equals(48.0));
-      expect(icon.color, equals(Colors.blue));
+    test('AmazingIconTwoTone icons should accept custom size', () {
+      final icon = AmazingIconTwotone.home(size: 48);
+      expect(icon, isA<Widget>());
     });
 
-    test('SvgTwoTone.all() should return 985 icons', () {
-      final icons = SvgTwoTone.all();
-      expect(icons.length, equals(985));
-    });
-
-    test('SvgTwoTone icons should have recolor enabled', () {
-      final icon = SvgTwoTone.home();
-      expect(icon.recolor, isTrue);
+    test('AmazingIconTwoTone icons should accept custom color', () {
+      final icon = AmazingIconTwotone.home(color: Colors.blue);
+      expect(icon, isA<Widget>());
     });
   });
 
-  group('SVG Country Flags Tests', () {
-    test('SvgCountry.fromCountryCode() should return valid widget', () {
-      final flag = SvgCountry.fromCountryCode('fr');
+  group('AmazingIconCountry Tests (jovial_svg)', () {
+    test('AmazingIconCountry.fromCountryCode() should return valid widget', () {
+      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'fr');
       expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry.fromCountryCode() should accept custom size and shape', () {
-      final flag = SvgCountry.fromCountryCode('us', size: 50, shape: IconShape.circle);
+    test('AmazingIconCountry.fromCountryCode() should accept custom size', () {
+      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'us', size: 50);
       expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry.fromCountryCode() should return SvgCountry for invalid code', () {
-      final flag = SvgCountry.fromCountryCode('invalid');
+    test('AmazingIconCountry.fromCountryCode() should accept different shapes', () {
+      expect(
+        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.circle),
+        isA<Widget>(),
+      );
+      expect(
+        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.rounded),
+        isA<Widget>(),
+      );
+      expect(
+        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.sharp),
+        isA<Widget>(),
+      );
+    });
+
+    test('AmazingIconCountry.fromCountryCode() should accept custom alignment', () {
+      final flag = AmazingIconCountry.fromCountryCode(
+        countryCode: 'fr',
+        alignment: Alignment.topLeft,
+      );
       expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry.validCodes should contain 266 country codes', () {
-      expect(SvgCountry.validCodes.length, equals(266));
+    test('AmazingIconCountry.fromCountryCode() should handle invalid codes', () {
+      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'invalid');
+      expect(flag, isA<Widget>());
     });
 
-    test('SvgCountry should support common country codes', () {
-      expect(SvgCountry.fromCountryCode('fr'), isA<Widget>());
-      expect(SvgCountry.fromCountryCode('us'), isA<Widget>());
-      expect(SvgCountry.fromCountryCode('jp'), isA<Widget>());
-      expect(SvgCountry.fromCountryCode('gb'), isA<Widget>());
+    test('AmazingIconCountry.all() should return 266 country codes', () {
+      final countries = AmazingIconCountry.all();
+      expect(countries.length, equals(266));
     });
 
-    test('SvgCountry should support special codes', () {
-      expect(SvgCountry.fromCountryCode('eu'), isA<Widget>()); // European Union
-      expect(SvgCountry.fromCountryCode('un'), isA<Widget>()); // United Nations
-      expect(SvgCountry.fromCountryCode('gb-eng'), isA<Widget>()); // England
+    test('AmazingIconCountry should support common country codes', () {
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'fr'), isA<Widget>());
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'us'), isA<Widget>());
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'jp'), isA<Widget>());
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'gb'), isA<Widget>());
+    });
+
+    test('AmazingIconCountry should support special codes', () {
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'eu'), isA<Widget>()); // European Union
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'un'), isA<Widget>()); // United Nations
+      expect(AmazingIconCountry.fromCountryCode(countryCode: 'gb-eng'), isA<Widget>()); // England
+    });
+
+    test('AmazingIconCountry.someExamples() should return list of widgets', () {
+      final examples = AmazingIconCountry.someExamples();
+      expect(examples, isA<List<Widget>>());
+      expect(examples.length, equals(5));
     });
 
     test('IconShape enum should have 3 values', () {
@@ -136,40 +145,54 @@ void main() {
     });
   });
 
-  group('SVG Payment Icons Tests', () {
-    test('SvgPayment icons should be created with default values', () {
-      final icon = SvgPayment.visa();
-      expect(icon.size, equals(24.0));
-      expect(icon.recolor, isFalse);
+  group('AmazingIconPayment Tests (jovial_svg)', () {
+    test('AmazingIconPayment icons should return valid widgets', () {
+      expect(AmazingIconPayment.visa(), isA<Widget>());
+      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
+      expect(AmazingIconPayment.bitcoin(), isA<Widget>());
     });
 
-    test('SvgPayment icons should accept custom size', () {
-      final icon = SvgPayment.visa(size: 50);
-      expect(icon.size, equals(50.0));
+    test('AmazingIconPayment icons should accept custom size', () {
+      final icon = AmazingIconPayment.visa(size: 50);
+      expect(icon, isA<Widget>());
     });
 
-    test('SvgPayment.all() should return 39 payment icons', () {
-      final icons = SvgPayment.all();
-      expect(icons.length, equals(39));
+    test('AmazingIconPayment should have common payment methods', () {
+      expect(AmazingIconPayment.visa(), isA<Widget>());
+      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.amex(), isA<Widget>());
+      expect(AmazingIconPayment.google_pay(), isA<Widget>());
+      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
+      expect(AmazingIconPayment.stripe(), isA<Widget>());
     });
 
-    test('SvgPayment icons should have recolor disabled', () {
-      final icon = SvgPayment.visa();
-      expect(icon.recolor, isFalse);
+    test('AmazingIconPayment.someIcons() should return list of 9 widgets', () {
+      final icons = AmazingIconPayment.someIcons();
+      expect(icons, isA<List<Widget>>());
+      expect(icons.length, equals(9));
     });
 
-    test('SvgPayment should have common payment methods', () {
-      expect(SvgPayment.visa(), isA<SvgIcon>());
-      expect(SvgPayment.mastercard(), isA<SvgIcon>());
-      expect(SvgPayment.pay_pal(), isA<SvgIcon>());
-      expect(SvgPayment.bitcoin(), isA<SvgIcon>());
+    test('AmazingIconPayment should support cryptocurrency icons', () {
+      expect(AmazingIconPayment.bitcoin(), isA<Widget>());
+      expect(AmazingIconPayment.bitcoin_cash(), isA<Widget>());
+      expect(AmazingIconPayment.etherium(), isA<Widget>());
+      expect(AmazingIconPayment.lightcoin(), isA<Widget>());
     });
-  });
 
-  group('Icon Naming Tests', () {
-    test('Reserved word "size" should be renamed to "size_icon"', () {
-      // Should not throw if size_icon exists
-      expect(() => SvgBulk.size_icon(), returnsNormally);
+    test('AmazingIconPayment should support digital wallets', () {
+      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
+      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
+      expect(AmazingIconPayment.google_pay(), isA<Widget>());
+      expect(AmazingIconPayment.shop_pay(), isA<Widget>());
+    });
+
+    test('AmazingIconPayment should support traditional payment methods', () {
+      expect(AmazingIconPayment.visa(), isA<Widget>());
+      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.amex(), isA<Widget>());
+      expect(AmazingIconPayment.discover(), isA<Widget>());
+      expect(AmazingIconPayment.jcb(), isA<Widget>());
     });
   });
 }

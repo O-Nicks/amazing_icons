@@ -8,17 +8,12 @@
 library amazing_icons;
 
 // Icon fonts
-export 'amazing_icon_broken.dart';
-export 'amazing_icon_filled.dart';
-export 'amazing_icon_outlined.dart';
+export 'src/amazing_icon_broken.dart';
+export 'src/amazing_icon_filled.dart';
+export 'src/amazing_icon_outlined.dart';
+export 'src/amazing_icon_twotone.dart';
+export 'src/amazing_icon_bulk.dart';
 
-// SVG icons with opacity effects
-export 'svg_bulk.dart';
-export 'svg_twotone.dart';
-
-// Fixed color SVG icons
-export 'svg_country.dart';
-export 'svg_payment.dart';
-
-// SVG icon base widget
-export 'svg_icon.dart';
+// jovial_svg icons (color preserved, scalable)
+export 'src/amazing_icon_country.dart';
+export 'src/amazing_icon_payment.dart';
