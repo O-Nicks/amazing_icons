@@ -137,17 +137,17 @@ Widget buildPaymentRow() {
 
 ## Icon Categories
 
-### Icon Fonts (997 icons each)
+### Icon Fonts (990+ icons each)
 - **Outlined**: Clean outline style icons
 - **Filled**: Solid filled icons
 - **Broken**: Modern broken/interrupted line style
 
 ### Icon Fonts with Opacity Effects
-- **Bulk** (997 icons): Dual-layer icons with customizable opacity-based depth effect
-- **TwoTone** (991 icons): Dual-layer icons with customizable two-tone opacity styling
+- **Bulk** (989 icons): Dual-layer icons with customizable opacity-based depth effect
+- **TwoTone** (939 icons): Dual-layer icons with customizable two-tone opacity styling
 
 ### Colored Icons (Optimized SVG)
-- **Country Flags** (201 flags): All country flags in full color with shape customization
+- **Country Flags** (266 flags): All country flags in full color with shape customization
 - **Payment** (39 icons): Payment brands and cryptocurrency logos in original colors
 
 
@@ -160,23 +160,6 @@ cd example
 flutter run
 ```
 
-## Icon Reference
-
-### Common Icons Available
-
-**UI & Navigation**: home, settings, menu, search, filter, notification, calendar, clock, timer, etc.
-
-**Social & Communication**: message, chat, call, video, mail, share, user, profile, etc.
-
-**Media**: play, pause, stop, music, video, camera, gallery, image, etc.
-
-**Business**: wallet, card, money, receipt, chart, graph, document, folder, etc.
-
-**Technology**: code, cpu, monitor, mobile, laptop, cloud, database, network, etc.
-
-**Crypto**: bitcoin, ethereum, binance, cardano, polkadot, and 50+ more cryptocurrencies
-
-**And many more!**
 
 ## Performance
 

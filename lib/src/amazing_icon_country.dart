@@ -41,11 +41,23 @@ enum IconShape {
 ///   children: AmazingIconCountry.someExamples(),
 /// )
 /// ```
+///
+/// ## Get all Country Codes
+/// Retrieve the full list of supported country codes with the [all] method:
+/// ```dart
+/// List<String> countryCodes = AmazingIconCountry.all();
+/// ```
 class AmazingIconCountry {
   AmazingIconCountry._();
 
   static const String _kAssetPath = 'packages/amazing_icons/icons/si/country/';
 
+  /// Get flag from country code
+  /// - [size]: Height of the icon in pixels (default: 25.0)
+  /// - [shape]: Shape of the icon (circle, rounded, sharp). Default is rounded.
+  /// - [alignment]: Alignment of the icon within its container (default: center)
+  /// - [countryCode]: country code (e.g. "us", "fr"). Case insensitive.
+  ///  If the code is not found, a placeholder flag ("xx") is shown.
   static Widget fromCountryCode({
     double size = 25.0,
     IconShape shape = IconShape.rounded,

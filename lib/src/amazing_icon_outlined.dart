@@ -1,7 +1,7 @@
 // GENERATED – do not edit by hand.
 import 'package:flutter/widgets.dart';
 
-/// Outlined style icon font with 997 clean outline icons.
+/// Outlined style icon font with clean outline icons.
 ///
 /// Use these icons like Flutter's built-in [Icon] widget. Perfect for
 /// single-color icons with a clean, minimalist outline style.
