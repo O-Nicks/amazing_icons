@@ -349,17 +349,4 @@ class AmazingIconPayment {
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/yandex.si'),
         ),
       );
-
-  /// Get all icon names
-  static List<Widget> someIcons() => [
-        affirm(size: 40),
-        alipay(size: 40),
-        amazon(size: 40),
-        amex(size: 40),
-        apple_pay(size: 40),
-        bancontact(size: 40),
-        bitcoin(size: 40),
-        bitcoin_cash(size: 40),
-        bitpay(size: 40),
-      ];
 }

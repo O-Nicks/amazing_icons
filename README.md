@@ -38,6 +38,29 @@ Explore the complete collection with a searchable gallery and preview all icon s
 
 ## Usage
 
+### Optimized Imports (Recommended)
+
+To reduce the compiled code size, import only the icon styles you need:
+
+```dart
+// Import only what you need
+import 'package:amazing_icons/outlined.dart';   // Only outlined icons
+import 'package:amazing_icons/filled.dart';     // Only filled icons
+import 'package:amazing_icons/broken.dart';     // Only broken icons
+import 'package:amazing_icons/bulk.dart';       // Only bulk icons
+import 'package:amazing_icons/twotone.dart';    // Only twotone icons
+import 'package:amazing_icons/country.dart';    // Only country flags
+import 'package:amazing_icons/payment.dart';    // Only payment icons
+
+// Or import everything (less optimal)
+import 'package:amazing_icons/amazing_icons.dart';
+```
+
+**📦 Package Size Note:**
+- Font files (~1.6 MB) and assets are always bundled in the app
+- Selective imports only optimize the **compiled Dart code** (tree-shaking)
+- For truly minimal bundle size, consider importing only what you need
+
 ### Icon Fonts (Outlined, Filled, Broken)
 
 Icon fonts work just like Flutter's built-in `Icons`. They're perfect for single-color icons.
