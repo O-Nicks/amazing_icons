@@ -45,7 +45,10 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Text('Outlined Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(width: 10),
-                  Icon(AmazingIconOutlined.home, size: 25, color: Colors.red),
+                  Icon(
+                    AmazingIconOutlined.ruler,
+                    size: 25,
+                  ),
                 ],
               ),
               const SizedBox(height: 5),
@@ -66,7 +69,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Text('Filled Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(width: 10),
-                  Icon(AmazingIconFilled.home, size: 25, color: Colors.red),
+                  Icon(AmazingIconFilled.import_icon, size: 25, color: Colors.red),
                 ],
               ),
               const SizedBox(height: 5),
@@ -87,7 +90,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Text('Broken Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(width: 10),
-                  Icon(AmazingIconBroken.home, size: 25, color: Colors.red),
+                  Icon(AmazingIconBroken.airplane, size: 25, color: Colors.red),
                 ],
               ),
               const SizedBox(height: 5),
