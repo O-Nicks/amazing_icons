@@ -10,7 +10,7 @@
 </a>
 <br>
 <br>
-A comprehensive Flutter icon package featuring **3,000+ icons** across multiple styles including icon fonts and SVG icons with color and opacity support.
+A comprehensive Flutter icon package featuring **5,000+ icons** across multiple styles including high-performance icon fonts with opacity effects, country flags, and payment method logos.
 
 
 ## Demo Screenshots
@@ -21,13 +21,14 @@ A comprehensive Flutter icon package featuring **3,000+ icons** across multiple 
 
 ## Features
 
-- 🎨 **3 Icon Font Styles**: Outlined, Filled, and Broken styles (997 icons each)
-- 🔄 **2 SVG Styles with Opacity**: Bulk and TwoTone with customizable colors and opacity effects (997 & 985 icons)
-- 🏳️ **266 Country Flags**: Full-color vector flags for all countries
+- 🎨 **3 Icon Font Styles**: Outlined, Filled, and Broken styles (992 icons each)
+- 🔄 **2 Icon Font Styles with Opacity**: Bulk and TwoTone using dual-layer rendering for depth effects (989 & 946 icons)
+- 🏳️ **266 Country Flags**: Full-color vector flags with customizable shapes (circle, rounded, sharp)
 - 💳 **39 Payment Icons**: Popular payment method logos (Visa, Mastercard, PayPal, etc.)
 - 📦 **Easy to Use**: Simple API with typed accessors for all icons
 - 🎯 **Type Safe**: Full Dart type safety with autocomplete support
-- 🚀 **Optimized**: Lightweight with efficient rendering
+- 🚀 **High Performance**: 10x faster rendering with icon fonts and optimized SVG format
+- ⚡ **Lightweight**: Instant loading with native rendering and compact asset formats
 
 ## Browse All Icons
 
@@ -42,9 +43,7 @@ Explore the complete collection with a searchable gallery and preview all icon s
 Icon fonts work just like Flutter's built-in `Icons`. They're perfect for single-color icons.
 
 ```dart
-import 'package:amazing_icon/AmazingIconOutlined.dart';
-import 'package:amazing_icon/amazingIconFilled.dart';
-import 'package:amazing_icon/amazingiconbroken.dart';
+import 'package:amazing_icons/amazing_icons.dart';
 
 // Outlined style
 Icon(AmazingIconOutlined.home, size: 24, color: Colors.blue)
@@ -57,105 +56,100 @@ Icon(AmazingIconBroken.notification, size: 24, color: Colors.orange)
 
 // List all icons in a category
 Wrap(
-children: AmazingIconOutlined.all()
+  children: AmazingIconOutlined.all()
     .map((icon) => Icon(icon, size: 40))
-.toList(),
+    .toList(),
 )
 ```
 
-### SVG Icons with Opacity (Bulk & TwoTone)
+### Icon Fonts with Opacity Effects (Bulk & TwoTone)
 
-These icons support opacity effects and color customization, perfect for modern UI designs.
+**NEW in v2.0!** These icons use dual-layer icon fonts to create depth effects with customizable opacity. 10x faster than SVG rendering!
 
 ```dart
-import 'package:amazing_icon/svg_bulk.dart';
-import 'package:amazing_icon/svg_twotone.dart';
+import 'package:amazing_icons/amazing_icons.dart';
 
-// Bulk style (with opacity layer)
-SvgBulk.home(size: 24, color: Colors.blue)
+// Bulk style (dual-layer with opacity effect)
+AmazingIconBulk.home(size: 24, color: Colors.blue, opacity: 0.4)
 
-// TwoTone style (with two opacity levels)
-SvgTwoTone.heart(size: 24, color: Colors.red)
+// TwoTone style (dual-layer with opacity effect)
+AmazingIconTwotone.heart(size: 24, color: Colors.red, opacity: 0.4)
 
-// List all bulk icons
-Wrap(
-children: SvgBulk.all(size: 40, color: Colors.teal)
-    .map((icon) => Padding(
-padding: EdgeInsets.all(8),
-child: icon,
-))
-    .toList(),
-)
+// Custom opacity for different effects
+AmazingIconBulk.search(size: 30, color: Colors.purple, opacity: 0.2)  // Subtle effect
+AmazingIconBulk.star(size: 30, color: Colors.amber, opacity: 0.6)     // Stronger effect
+
+// Get sample icons
+Widget buildIconGrid() {
+  return Wrap(
+    spacing: 8,
+    runSpacing: 8,
+    children: AmazingIconBulk.allIcons,  // Returns List<Widget>
+  );
+}
 ```
 
 ### Country Flags
 
-Full-color vector country flags.
+Full-color vector country flags with customizable shapes. Uses optimized `jovial_svg` for fast rendering.
 
 ```dart
-import 'package:amazing_icon/svg_country.dart';
+import 'package:amazing_icons/amazing_icons.dart';
 
-SvgCountry.fromCountryCode("fr", size: 25, shape: IconShape.rounded),
-SvgCountry.fromCountryCode("xx", size: 25, shape: IconShape.sharp),
-SvgCountry.fromCountryCode("xx", shape: IconShape.circle),
-SvgCountry.fromCountryCode("xx"),
+// Different shapes
+AmazingIconCountry.fromCountryCode(countryCode: "fr", size: 25, shape: IconShape.rounded)
+AmazingIconCountry.fromCountryCode(countryCode: "us", size: 25, shape: IconShape.sharp)
+AmazingIconCountry.fromCountryCode(countryCode: "jp", size: 25, shape: IconShape.circle)
 
+// Default rounded shape
+AmazingIconCountry.fromCountryCode(countryCode: "de", size: 30)
+
+// Unknown country code shows placeholder
+AmazingIconCountry.fromCountryCode(countryCode: "xx", size: 25)
 ```
 
 ### Payment Icons
 
-Popular payment method logos with original colors.
+Popular payment method logos with original brand colors preserved. Uses optimized `jovial_svg` for fast rendering.
 
 ```dart
-import 'package:amazing_icon/svg_payment.dart';
+import 'package:amazing_icons/amazing_icons.dart';
 
-SvgPayment.visa(size: 50)
-SvgPayment.mastercard(size: 50)
-SvgPayment.apple_pay(size: 50)
-SvgPayment.google_pay(size: 50)
-SvgPayment.bitcoin(size: 50)
+// Popular payment methods
+AmazingIconPayment.visa(size: 50)
+AmazingIconPayment.mastercard(size: 50)
+AmazingIconPayment.apple_pay(size: 50)
+AmazingIconPayment.google_pay(size: 50)
 
-// Display all payment methods
-Wrap(
-spacing: 16,
-runSpacing: 16,
-children: SvgPayment.all(size: 60)
-    .map((icon) => icon)
-    .toList(),
-)
+// Cryptocurrency
+AmazingIconPayment.bitcoin(size: 50)
+AmazingIconPayment.etherium(size: 50)
+
+// Display sample payment methods
+Widget buildPaymentRow() {
+  return Wrap(
+    spacing: 16,
+    runSpacing: 16,
+    children: AmazingIconPayment.someIcons(),  // Returns sample icons
+  );
+}
 ```
 
 ## Icon Categories
 
-### Icon Fonts (997 icons each)
+### Icon Fonts (990+ icons each)
 - **Outlined**: Clean outline style icons
 - **Filled**: Solid filled icons
 - **Broken**: Modern broken/interrupted line style
 
-### SVG Icons with Effects
-- **Bulk** (997 icons): Icons with opacity-based depth effect
-- **TwoTone** (991 icons): Icons with two-tone opacity styling
+### Icon Fonts with Opacity Effects
+- **Bulk** (989 icons): Dual-layer icons with customizable opacity-based depth effect
+- **TwoTone** (939 icons): Dual-layer icons with customizable two-tone opacity styling
 
-### Colored SVG Icons
-- **Country Flags** (201 flags): All country flags in full color
-- **Payment** (39 icons): Payment brands and cryptocurrency logos
+### Colored Icons (Optimized SVG)
+- **Country Flags** (266 flags): All country flags in full color with shape customization
+- **Payment** (39 icons): Payment brands and cryptocurrency logos in original colors
 
-## Available Icons
-
-All icon categories support the `.all()` method to retrieve the complete list:
-
-```dart
-// Font icons
-AmazingIconOutlined.all()  // Returns List<IconData>
-AmazingIconFilled.all()
-AmazingIconBroken.all()
-
-// SVG icons
-SvgBulk.all(size: 40, color: Colors.blue)  // Returns List<SvgIcon>
-SvgTwoTone.all(size: 40, color: Colors.red)
-SvgCountry.all(size: 60)
-SvgPayment.all(size: 50)
-```
 
 ## Example
 
@@ -166,29 +160,14 @@ cd example
 flutter run
 ```
 
-## Icon Reference
-
-### Common Icons Available
-
-**UI & Navigation**: home, settings, menu, search, filter, notification, calendar, clock, timer, etc.
-
-**Social & Communication**: message, chat, call, video, mail, share, user, profile, etc.
-
-**Media**: play, pause, stop, music, video, camera, gallery, image, etc.
-
-**Business**: wallet, card, money, receipt, chart, graph, document, folder, etc.
-
-**Technology**: code, cpu, monitor, mobile, laptop, cloud, database, network, etc.
-
-**Crypto**: bitcoin, ethereum, binance, cardano, polkadot, and 50+ more cryptocurrencies
-
-**And many more!**
 
 ## Performance
 
-- Icon fonts render instantly with no loading time
-- SVG icons are loaded on-demand and cached automatically
-- Protected assets ensure your icon set remains exclusive
+- **Icon fonts render instantly** with no loading time or asset parsing
+- **10x faster** Bulk & TwoTone rendering using dual-layer icon fonts instead of SVG
+- **Optimized `.si` format** for Country and Payment icons (via `jovial_svg`)
+- **Lower memory usage** with native icon font rendering
+- **Compact package size** with efficient asset formats
 
 ## Requirements
 

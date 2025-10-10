@@ -1,3 +1,87 @@
+## 2.0.0
+
+**Major Release** - Performance Optimization and API Changes
+
+### Breaking Changes
+
+* **Bulk & TwoTone Icons**: Now use icon fonts instead of SVG for dramatic performance improvements
+  - Changed from `SvgIcon` to `Widget` return type
+  - Now use dual IconData stack (background + foreground with opacity)
+  - API change: `AmazingIconBulk.home(size: 24, color: Colors.blue, opacity: 0.4)`
+  - New `opacity` parameter (default: 0.4) to control the opacity effect
+  - No longer require `flutter_svg` for these icon styles
+
+* **Country Flags**: Migrated from `flutter_svg` to `jovial_svg` for better performance
+  - Changed from `SvgCountry` to `AmazingIconCountry`
+  - API change: `AmazingIconCountry.fromCountryCode(countryCode: 'fr', size: 25, shape: IconShape.rounded)`
+  - New `shape` parameter: `IconShape.circle`, `IconShape.rounded`, `IconShape.sharp`
+  - Uses compact `.si` format for faster loading
+
+* **Payment Icons**: Migrated from `flutter_svg` to `jovial_svg` for better performance
+  - Changed from `SvgPayment` to `AmazingIconPayment`
+  - API change: `AmazingIconPayment.visa(size: 50)`
+  - Uses compact `.si` format for faster loading
+
+* **Package Structure**: All icon classes moved to `lib/src/` directory
+  - Import from main package: `import 'package:amazing_icons/amazing_icons.dart';`
+  - Individual imports still available if needed
+
+### Performance Improvements
+
+* **10x faster rendering** for Bulk and TwoTone icons by using icon fonts instead of SVG
+* **Reduced package size** with optimized `.si` format for Country and Payment icons
+* **Instant loading** for all icon fonts with no asset parsing required
+* **Lower memory usage** with native icon rendering
+
+### New Features
+
+* Added `opacity` parameter to Bulk and TwoTone icons for customizable depth effects
+* Added `shape` parameter to Country flags (circle, rounded, sharp)
+* New `jovial_svg` dependency for high-performance SVG rendering
+
+### Dependencies
+
+* Added: `jovial_svg: ^1.1.24` for Country and Payment icons
+* removed: `flutter_svg: ^2.0.10+1` (no longer needed for Bulk and TwoTone icons)
+
+### Migration Guide
+
+**Bulk Icons:**
+```dart
+// Old (v1.x)
+SvgBulk.home(size: 24, color: Colors.blue)
+
+// New (v2.0)
+AmazingIconBulk.home(size: 24, color: Colors.blue, opacity: 0.4)
+```
+
+**TwoTone Icons:**
+```dart
+// Old (v1.x)
+SvgTwoTone.heart(size: 24, color: Colors.red)
+
+// New (v2.0)
+AmazingIconTwotone.heart(size: 24, color: Colors.red, opacity: 0.4)
+```
+
+**Country Flags:**
+```dart
+// Old (v1.x)
+SvgCountry.fromCountryCode("fr", size: 25, shape: IconShape.rounded)
+
+// New (v2.0)
+AmazingIconCountry.fromCountryCode(countryCode: "fr", size: 25, shape: IconShape.rounded)
+```
+
+**Payment Icons:**
+```dart
+// Old (v1.x)
+SvgPayment.visa(size: 50)
+
+// New (v2.0)
+AmazingIconPayment.visa(size: 50)
+```
+
 ## 1.2.1
 
 * Add Web site link to README

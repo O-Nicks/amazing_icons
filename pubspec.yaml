@@ -1,6 +1,6 @@
 name: amazing_icons
 description: A flutter package that provides a collection of customizable icons for various use cases.
-version: 1.2.1
+version: 2.0.0
 repository: https://github.com/O-Nicks/amazing_icons
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^2.0.10+1
+  jovial_svg: ^1.1.24
 
 dev_dependencies:
   flutter_test:
@@ -19,10 +19,8 @@ dev_dependencies:
 
 flutter:
   assets:
-    - icons/fixed/payment/
-    - icons/fixed/country/
-    - icons/colorable/bulk/
-    - icons/colorable/twotone/
+    - icons/si/country/
+    - icons/si/payment/
 
   fonts:
     - family: AmazingIconFilled
@@ -36,3 +34,19 @@ flutter:
     - family: AmazingIconBroken
       fonts:
         - asset: fonts/AmazingIconBroken.ttf
+
+    - family: AmazingIconBulkBg
+      fonts:
+        - asset: fonts/AmazingIconBulkBg.ttf
+
+    - family: AmazingIconBulkFg
+      fonts:
+        - asset: fonts/AmazingIconBulkFg.ttf
+
+    - family: AmazingIconTwotoneBg
+      fonts:
+        - asset: fonts/AmazingIconTwotoneBg.ttf
+
+    - family: AmazingIconTwotoneFg
+      fonts:
+        - asset: fonts/AmazingIconTwotoneFg.ttf
