@@ -40,131 +40,49 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              const SizedBox(height: 20),
+              const Text('Icon Fonts:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               const Row(
                 children: [
-                  Text('Outlined Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Icon(AmazingIconOutlined.home, size: 40, color: Colors.blue),
                   SizedBox(width: 10),
-                  Icon(
-                    AmazingIconOutlined.ruler,
-                    size: 25,
-                  ),
-                ],
-              ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconOutlined.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
-                ),
-              ),
-              const SizedBox(height: 20),
-              const Row(
-                children: [
-                  Text('Filled Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  Icon(AmazingIconFilled.settings, size: 40, color: Colors.green),
                   SizedBox(width: 10),
-                  Icon(AmazingIconFilled.import_icon, size: 25, color: Colors.red),
+                  Icon(AmazingIconBroken.user, size: 40, color: Colors.red),
                 ],
               ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconFilled.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
-                ),
-              ),
               const SizedBox(height: 20),
-              const Row(
-                children: [
-                  Text('Broken Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  SizedBox(width: 10),
-                  Icon(AmazingIconBroken.airplane, size: 25, color: Colors.red),
-                ],
-              ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconBroken.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
-                ),
-              ),
-              const SizedBox(height: 20),
+              const Text('Bulk Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               Row(
                 children: [
-                  const Text('Two Tone Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  AmazingIconBulk.home(size: 40, color: Colors.blue),
                   const SizedBox(width: 10),
-                  AmazingIconTwotone.add_item(size: 25, color: Colors.red),
+                  AmazingIconBulk.settings(size: 40, color: Colors.green),
+                  const SizedBox(width: 10),
+                  AmazingIconBulk.user(size: 40, color: Colors.red),
                 ],
               ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconTwotone.someIcons),
-              ),
               const SizedBox(height: 20),
+              const Text('TwoTone Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               Row(
                 children: [
-                  const Text('Bulk Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  AmazingIconTwotone.home(size: 40, color: Colors.blue),
                   const SizedBox(width: 10),
-                  AmazingIconBulk.add_item(size: 25, color: Colors.red),
+                  AmazingIconTwotone.gallery(size: 40, color: Colors.green),
+                  const SizedBox(width: 10),
+                  AmazingIconTwotone.user(size: 40, color: Colors.red),
                 ],
               ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconBulk.someIcons),
-              ),
               const SizedBox(height: 20),
+              const Text('Payment Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               Row(
                 children: [
-                  const Text('Country Flags', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  AmazingIconPayment.visa(size: 40),
                   const SizedBox(width: 10),
-                  AmazingIconCountry.fromCountryCode(countryCode: "fr")
+                  AmazingIconPayment.mastercard(size: 40),
+                  const SizedBox(width: 10),
+                  AmazingIconPayment.pay_pal(size: 40),
                 ],
               ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 50,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconCountry.someExamples(),
-                ),
-              ),
-              const SizedBox(height: 20),
-              Row(
-                children: [
-                  const Text('Payment Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: 10),
-                  AmazingIconPayment.pay_pal(size: 35)
-                ],
-              ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconPayment.someIcons(),
-                ),
-              ),
-              const SizedBox(height: 20),
             ],
           ),
         ),
