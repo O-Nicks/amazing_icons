@@ -1,7 +1,65 @@
+## 3.0.0
 
-## 2.1.0
+**Package Size Optimization & Code Quality**
 
+### Breaking Changes
 
+* **Country Flags Removed**: All country flag icons have been completely removed from the package
+  - Significantly reduces package size for users who don't need country flags
+  - **Migration**: Use the dedicated `country_flags` package or similar alternatives
+  - See migration guide below for replacement code
+
+* **Payment Icons**: File naming standardized to camelCase
+  - Renamed: `alipay` → `aliPay`, `bancontact` → `banContact`, `bitpay` → `bitPay`
+  - Renamed: `mastercard` → `masterCard`, `paysafe` → `paySafe`, `webmoney` → `webMoney`
+  - No API changes required (methods already used camelCase)
+
+* **Other Icons**: File naming standardized to camelCase
+  
+
+### New Features
+
+* **Optimized Selective Imports**: Import only the icon styles you need to reduce compiled code size
+  ```dart
+  import 'package:amazing_icons/outlined.dart';  // Only outlined icons
+  import 'package:amazing_icons/filled.dart';    // Only filled icons
+  import 'package:amazing_icons/broken.dart';    // Only broken icons
+  import 'package:amazing_icons/bulk.dart';      // Only bulk icons
+  import 'package:amazing_icons/twotone.dart';   // Only twotone icons
+  import 'package:amazing_icons/payment.dart';   // Only payment icons
+  ```
+
+* **Comprehensive API Documentation**: All public methods now include detailed documentation
+
+### Package Optimization
+
+* Removed unnecessary generator and tooling files from published package
+* Removed demo assets (screenshots, GIFs) to reduce package size
+* Cleaned up font generation artifacts (.json files)
+* Optimized code structure and imports
+
+### Migration Guide from v2.0.0
+
+**Country Flags (Removed):**
+```dart
+// Old (v2.x)
+AmazingIconCountry.fromCountryCode(countryCode: 'fr', size: 25, shape: IconShape.rounded)
+
+// New (v3.0) - Use dedicated package instead
+// Add to pubspec.yaml: country_flags: ^3.0.0
+import 'package:country_flags/country_flags.dart';
+CountryFlag.fromCountryCode('FR', height: 25, width: 35, shape: BoxShape.rectangle, borderRadius: 8)
+```
+
+**Optimized Imports (Recommended):**
+```dart
+// Instead of importing everything
+import 'package:amazing_icons/amazing_icons.dart';  // Still works but less optimal
+
+// Import only what you need for better tree-shaking
+import 'package:amazing_icons/outlined.dart';
+import 'package:amazing_icons/bulk.dart';
+```
 
 
 ## 2.0.0

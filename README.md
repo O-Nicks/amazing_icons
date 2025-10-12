@@ -79,12 +79,6 @@ Icon(AmazingIconFilled.heart, size: 24, color: Colors.red)
 import 'package:amazing_icons/broken.dart';
 Icon(AmazingIconBroken.notification, size: 24, color: Colors.orange)
 
-// List all icons in a category
-Wrap(
-  children: AmazingIconOutlined.all()
-    .map((icon) => Icon(icon, size: 40))
-    .toList(),
-)
 ```
 
 ### Icon Fonts with Opacity Effects (Bulk & TwoTone)
@@ -103,14 +97,6 @@ AmazingIconTwotone.heart(size: 24, color: Colors.red, opacity: 0.4)
 AmazingIconBulk.search(size: 30, color: Colors.purple, opacity: 0.2)  // Subtle effect
 AmazingIconBulk.star(size: 30, color: Colors.amber, opacity: 0.6)     // Stronger effect
 
-// Get sample icons
-Widget buildIconGrid() {
-  return Wrap(
-    spacing: 8,
-    runSpacing: 8,
-    children: AmazingIconBulk.allIcons,  // Returns List<Widget>
-  );
-}
 ```
 
 ### Payment Icons
@@ -122,22 +108,14 @@ import 'package:amazing_icons/payment.dart';    // Only payment icons
 
 // Popular payment methods
 AmazingIconPayment.visa(size: 50)
-AmazingIconPayment.mastercard(size: 50)
-AmazingIconPayment.apple_pay(size: 50)
-AmazingIconPayment.google_pay(size: 50)
+AmazingIconPayment.masterCard(size: 50)
+AmazingIconPayment.applePay(size: 50)
+AmazingIconPayment.googlePay(size: 50)
 
 // Cryptocurrency
 AmazingIconPayment.bitcoin(size: 50)
 AmazingIconPayment.etherium(size: 50)
 
-// Display sample payment methods
-Widget buildPaymentRow() {
-  return Wrap(
-    spacing: 16,
-    runSpacing: 16,
-    children: AmazingIconPayment.someIcons(),  // Returns sample icons
-  );
-}
 ```
 
 ## Icon Categories

@@ -6,7 +6,7 @@ class _AmazingIconTwotoneFg {
   _AmazingIconTwotoneFg._();
 
   static const String _kFontFam = 'AmazingIconTwotoneFg';
-  static const String? _kFontPkg = "amazing_icons";
+  static const String _kFontPkg = "amazing_icons";
 
   /// Icon data for aaveFg icon.
   static const IconData aaveFg = IconData(0xf4b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);

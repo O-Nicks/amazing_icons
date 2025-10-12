@@ -1,7 +1,4 @@
 import 'package:amazing_icons/amazing_icons.dart';
-import 'package:amazing_icons/src/amazing_icon_broken.dart';
-import 'package:amazing_icons/src/amazing_icon_filled.dart';
-import 'package:amazing_icons/src/amazing_icon_payment.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
