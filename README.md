@@ -12,6 +12,12 @@
 <br>
 A comprehensive Flutter icon package featuring **5,000 icons** across multiple styles including high-performance icon fonts with opacity effects and payment method logos.
 
+## Browse All Icons
+
+🌐 **[View all icons at amazingicons.dev →](https://www.amazingicons.dev)**
+
+Explore the complete collection with a searchable gallery and preview all icon styles interactively.
+
 
 ## Demo Screenshots
 
@@ -28,11 +34,6 @@ A comprehensive Flutter icon package featuring **5,000 icons** across multiple s
 - 🚀 **High Performance**: 10x faster rendering with icon fonts and optimized SVG format
 - ⚡ **Lightweight**: Instant loading with native rendering and compact asset formats
 
-## Browse All Icons
-
-🌐 **[View all icons at amazingicons.dev →](https://www.amazingicons.dev)**
-
-Explore the complete collection with a searchable gallery and preview all icon styles interactively.
 
 ## Usage
 
