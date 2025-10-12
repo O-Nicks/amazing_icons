@@ -1,5 +1,13 @@
 import 'package:flutter/widgets.dart';
 
+/// A widget that renders a duo-tone icon using two layers of icons.
+/// [bgIcon] is the background icon.
+/// [fgIcon] is the foreground icon.
+/// [size] is the size of the icon.
+/// [color] is the color of the icon.
+/// [opacity] is the opacity of the foreground icon.
+/// [name] is the name of the icon, used for error messages.
+
 class RenderDuoIcon extends StatelessWidget {
   final double size;
   final IconData? bgIcon;

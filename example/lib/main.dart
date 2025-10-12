@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Icon(AmazingIconOutlined.home, size: 40, color: Colors.blue),
                   SizedBox(width: 10),
-                  Icon(AmazingIconFilled.settings, size: 40, color: Colors.green),
+                  Icon(AmazingIconFilled.gallery, size: 40, color: Colors.green),
                   SizedBox(width: 10),
                   Icon(AmazingIconBroken.user, size: 40, color: Colors.red),
                 ],
@@ -56,7 +56,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   AmazingIconBulk.home(size: 40, color: Colors.blue),
                   const SizedBox(width: 10),
-                  AmazingIconBulk.settings(size: 40, color: Colors.green),
+                  AmazingIconBulk.gallery(size: 40, color: Colors.green),
                   const SizedBox(width: 10),
                   AmazingIconBulk.user(size: 40, color: Colors.red),
                 ],
@@ -78,9 +78,9 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   AmazingIconPayment.visa(size: 40),
                   const SizedBox(width: 10),
-                  AmazingIconPayment.mastercard(size: 40),
+                  AmazingIconPayment.masterCard(size: 40),
                   const SizedBox(width: 10),
-                  AmazingIconPayment.pay_pal(size: 40),
+                  AmazingIconPayment.googlePay(size: 40),
                 ],
               ),
             ],

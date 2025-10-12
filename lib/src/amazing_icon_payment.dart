@@ -3,350 +3,754 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:jovial_svg/jovial_svg.dart';
 
-/// Payment method icons with original brand colors preserved.
-///
-/// These icons use optimized `.si` format via `jovial_svg` for fast rendering
-/// while maintaining authentic brand colors for payment providers and cryptocurrencies.
-///
-/// ## Example
-/// ```dart
-/// // Popular payment methods
-/// AmazingIconPayment.visa(size: 50)
-/// AmazingIconPayment.mastercard(size: 50)
-/// AmazingIconPayment.paypal(size: 50)
-///
-/// // Cryptocurrency icons
-/// AmazingIconPayment.bitcoin(size: 50)
-/// AmazingIconPayment.ethereum(size: 50)
-///
-/// // Digital wallets
-/// AmazingIconPayment.apple_pay(size: 50)
-/// AmazingIconPayment.google_pay(size: 50)
-/// ```
-///
-/// ## Get Sample Icons
-/// Access sample payment icons using the [someIcons] method:
-/// ```dart
-/// Wrap(
-///   spacing: 16,
-///   runSpacing: 16,
-///   children: AmazingIconPayment.someIcons(),
-/// )
-/// ```
+/// Payment method icons using jovial_svg for color preservation
 class AmazingIconPayment {
   AmazingIconPayment._();
 
   static const String _kAssetPath = 'packages/amazing_icons/icons/si/payment';
 
-  static Widget affirm({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.affirm(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget affirm({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/affirm.si'),
         ),
       );
 
-  static Widget alipay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.aliPay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget aliPay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/alipay.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/aliPay.si'),
         ),
       );
 
-  static Widget amazon({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.amazon(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget amazon({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/amazon.si'),
         ),
       );
 
-  static Widget amex({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.amex(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget amex({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/amex.si'),
         ),
       );
 
-  static Widget apple_pay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.applePay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget applePay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/apple_pay.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/applePay.si'),
         ),
       );
 
-  static Widget bancontact({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.banContact(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget banContact({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bancontact.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/banContact.si'),
         ),
       );
 
-  static Widget bitcoin({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.bitPay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget bitPay({double size = 24.0}) => SizedBox(
+        width: size,
+        height: size,
+        child: ScalableImageWidget.fromSISource(
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bitPay.si'),
+        ),
+      );
+
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.bitcoin(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget bitcoin({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bitcoin.si'),
         ),
       );
 
-  static Widget bitcoin_cash({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.bitcoinCash(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget bitcoinCash({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bitcoin_cash.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bitcoinCash.si'),
         ),
       );
 
-  static Widget bitpay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
-        height: size,
-        child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/bitpay.si'),
-        ),
-      );
-
-  static Widget citadele({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.citadele(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget citadele({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/citadele.si'),
         ),
       );
 
-  static Widget diners_club({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.dinersClub(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget dinersClub({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/diners_club.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/dinersClub.si'),
         ),
       );
 
-  static Widget discover({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.discover(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget discover({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/discover.si'),
         ),
       );
 
-  static Widget elo({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.elo(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget elo({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/elo.si'),
         ),
       );
 
-  static Widget etherium({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.etherium(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget etherium({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/etherium.si'),
         ),
       );
 
-  static Widget forbrugsforeningen({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.forbrugsforeningen(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget forbrugsforeningen({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/forbrugsforeningen.si'),
         ),
       );
 
-  static Widget giropay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.giropay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget giropay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/giropay.si'),
         ),
       );
 
-  static Widget google_pay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.googlePay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget googlePay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/google_pay.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/googlePay.si'),
         ),
       );
 
-  static Widget ideal({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.ideal(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget ideal({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/ideal.si'),
         ),
       );
 
-  static Widget interac({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.interac(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget interac({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/interac.si'),
         ),
       );
 
-  static Widget jcb({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.jcb(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget jcb({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/jcb.si'),
         ),
       );
 
-  static Widget klarna({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.klarna(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget klarna({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/klarna.si'),
         ),
       );
 
-  static Widget lightcoin({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.lightcoin(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget lightcoin({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/lightcoin.si'),
         ),
       );
 
-  static Widget maestro({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.maestro(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget maestro({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/maestro.si'),
         ),
       );
 
-  static Widget mastercard({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.masterCard(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget masterCard({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/mastercard.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/masterCard.si'),
         ),
       );
 
-  static Widget pay_pal({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.payPal(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget payPal({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/pay_pal.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/payPal.si'),
         ),
       );
 
-  static Widget payoneer({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.paySafe(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget paySafe({double size = 24.0}) => SizedBox(
+        width: size,
+        height: size,
+        child: ScalableImageWidget.fromSISource(
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/paySafe.si'),
+        ),
+      );
+
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.payoneer(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget payoneer({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/payoneer.si'),
         ),
       );
 
-  static Widget paysafe({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
-        height: size,
-        child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/paysafe.si'),
-        ),
-      );
-
-  static Widget qiwi({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.qiwi(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget qiwi({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/qiwi.si'),
         ),
       );
 
-  static Widget sepa({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.sepa(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget sepa({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/sepa.si'),
         ),
       );
 
-  static Widget shop_pay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.shopPay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget shopPay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/shop_pay.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/shopPay.si'),
         ),
       );
 
-  static Widget skrill({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.skrill(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget skrill({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/skrill.si'),
         ),
       );
 
-  static Widget sofort({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.sofort(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget sofort({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/sofort.si'),
         ),
       );
 
-  static Widget stripe({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.stripe(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget stripe({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/stripe.si'),
         ),
       );
 
-  static Widget union_pay({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.unionPay(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget unionPay({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/union_pay.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/unionPay.si'),
         ),
       );
 
-  static Widget verifone({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.verifone(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget verifone({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/verifone.si'),
         ),
       );
 
-  static Widget visa({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.visa(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget visa({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/visa.si'),
         ),
       );
 
-  static Widget we_chat({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.weChat(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget weChat({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/we_chat.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/weChat.si'),
         ),
       );
 
-  static Widget webmoney({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.webMoney(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget webMoney({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/webmoney.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/webMoney.si'),
         ),
       );
 
-  static Widget yandex({double size = 25.0}) => SizedBox(
-        width: size * 4 / 3,
+  /// Parameters:
+  /// - [size] – specifies the icon's width and height (default: `24.0`).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconPaiement.yandex(size: 32);
+  /// ```
+  ///
+  /// This method uses [ScalableImageWidget.fromSISource] to ensure
+  /// optimal rendering performance and color accuracy for vector graphics.
+  static Widget yandex({double size = 24.0}) => SizedBox(
+        width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
           si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/yandex.si'),
         ),
       );
+
+  /// Get all icon names
+  static List<String> all() => [
+        'affirm',
+        'aliPay',
+        'amazon',
+        'amex',
+        'applePay',
+        'banContact',
+        'bitPay',
+        'bitcoin',
+        'bitcoinCash',
+        'citadele',
+        'dinersClub',
+        'discover',
+        'elo',
+        'etherium',
+        'forbrugsforeningen',
+        'giropay',
+        'googlePay',
+        'ideal',
+        'interac',
+        'jcb',
+        'klarna',
+        'lightcoin',
+        'maestro',
+        'masterCard',
+        'payPal',
+        'paySafe',
+        'payoneer',
+        'qiwi',
+        'sepa',
+        'shopPay',
+        'skrill',
+        'sofort',
+        'stripe',
+        'unionPay',
+        'verifone',
+        'visa',
+        'weChat',
+        'webMoney',
+        'yandex'
+      ];
 }

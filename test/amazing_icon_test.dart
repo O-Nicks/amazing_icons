@@ -77,8 +77,8 @@ void main() {
   group('AmazingIconPayment Tests (jovial_svg)', () {
     test('AmazingIconPayment icons should return valid widgets', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
-      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
+      expect(AmazingIconPayment.payoneer(), isA<Widget>());
       expect(AmazingIconPayment.bitcoin(), isA<Widget>());
     });
 
@@ -89,30 +89,30 @@ void main() {
 
     test('AmazingIconPayment should have common payment methods', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
       expect(AmazingIconPayment.amex(), isA<Widget>());
-      expect(AmazingIconPayment.google_pay(), isA<Widget>());
-      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
+      expect(AmazingIconPayment.googlePay(), isA<Widget>());
+      expect(AmazingIconPayment.payPal(), isA<Widget>());
       expect(AmazingIconPayment.stripe(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support cryptocurrency icons', () {
       expect(AmazingIconPayment.bitcoin(), isA<Widget>());
-      expect(AmazingIconPayment.bitcoin_cash(), isA<Widget>());
+      expect(AmazingIconPayment.bitcoinCash(), isA<Widget>());
       expect(AmazingIconPayment.etherium(), isA<Widget>());
       expect(AmazingIconPayment.lightcoin(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support digital wallets', () {
-      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
-      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
-      expect(AmazingIconPayment.google_pay(), isA<Widget>());
-      expect(AmazingIconPayment.shop_pay(), isA<Widget>());
+      expect(AmazingIconPayment.payPal(), isA<Widget>());
+      expect(AmazingIconPayment.applePay(), isA<Widget>());
+      expect(AmazingIconPayment.googlePay(), isA<Widget>());
+      expect(AmazingIconPayment.shopPay(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support traditional payment methods', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
       expect(AmazingIconPayment.amex(), isA<Widget>());
       expect(AmazingIconPayment.discover(), isA<Widget>());
       expect(AmazingIconPayment.jcb(), isA<Widget>());
