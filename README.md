@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Null Safty](https://img.shields.io/badge/null_safty-true-true)](https://dart.dev/null-safety)
 [![Flutter](https://img.shields.io/badge/flutter-3.0.0%2B-blue.svg)](https://flutter.dev)
-[![Icons](https://img.shields.io/badge/Icons-5000%2B-purple.svg)](https://pub.dev/packages/amazing_icons)
+[![Icons](https://img.shields.io/badge/Icons-5000-purple.svg)](https://pub.dev/packages/amazing_icons)
 
 # Amazing Icon
 <a href="https://www.buymeacoffee.com/o.nicks" target="_blank">
@@ -15,8 +15,7 @@ A comprehensive Flutter icon package featuring **5,000 icons** across multiple s
 
 ## Demo Screenshots
 
-![Screen](assets/demo/demo.jpg)
-![Showcase](assets/demo/demo-gif.gif)
+![Screen](https://imgur.com/a/HXmaGiX)
 
 
 ## Features
