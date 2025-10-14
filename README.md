@@ -167,8 +167,8 @@ Contributions are welcome! If you find a bug or want to add a feature:
 
 ## License
 
-Code: This package is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-Icons: CC BY 4.0 — see [ICON_LICENSES.md](./ICON_LICENSES.md)
+* Code: This package is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+* Icons: See [ICON_LICENSES.md](./ICON_LICENSES.md)
 
 ## Support
 
