@@ -167,10 +167,12 @@ Contributions are welcome! If you find a bug or want to add a feature:
 
 ## License
 
-This package is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Code: This package is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Icons: CC BY 4.0 — see [ICON_LICENSES.md](./ICON_LICENSES.md)
 
 ## Support
 
 If you find this package useful, please give it a ⭐ on [GitHub](https://github.com/O-Nicks/amazing_icons)!
 
 For issues and feature requests, please file them on the [issue tracker](https://github.com/O-Nicks/amazing_icons/issues).
+
