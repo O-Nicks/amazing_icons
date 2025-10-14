@@ -40,131 +40,123 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              const SizedBox(height: 20),
-              const Row(
-                children: [
-                  Text('Outlined Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  SizedBox(width: 10),
-                  Icon(
-                    AmazingIconOutlined.ruler,
-                    size: 25,
-                  ),
-                ],
-              ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconOutlined.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
+              const Text('Outlined Icon Fonts:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              const SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Icon(AmazingIconOutlined.home, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.gallery, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.user, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.setting2, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.snapchat, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.notification, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.message, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconOutlined.camera, size: 40, color: Colors.black),
+                  ],
                 ),
               ),
               const SizedBox(height: 20),
-              const Row(
-                children: [
-                  Text('Filled Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  SizedBox(width: 10),
-                  Icon(AmazingIconFilled.import_icon, size: 25, color: Colors.red),
-                ],
-              ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconFilled.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
+              const Text('Filled Icon Fonts:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              const SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Icon(AmazingIconFilled.home, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.gallery, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.user, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.setting2, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.snapchat, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.notification, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.message, size: 40, color: Colors.black),
+                    SizedBox(width: 10),
+                    Icon(AmazingIconFilled.camera, size: 40, color: Colors.black),
+                  ],
                 ),
               ),
               const SizedBox(height: 20),
-              const Row(
-                children: [
-                  Text('Broken Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  SizedBox(width: 10),
-                  Icon(AmazingIconBroken.airplane, size: 25, color: Colors.red),
-                ],
-              ),
-              const SizedBox(height: 5),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconBroken.someIcons()
-                      .map((icon) => Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(icon, size: 40),
-                          ))
-                      .toList(),
+              const Text('Bulk Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    AmazingIconBulk.home(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.gallery(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.user(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.setting2(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.snapchat(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.notification(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.message(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconBulk.camera(size: 40, color: Colors.red),
+                  ],
                 ),
               ),
               const SizedBox(height: 20),
-              Row(
-                children: [
-                  const Text('Two Tone Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: 10),
-                  AmazingIconTwotone.add_item(size: 25, color: Colors.red),
-                ],
-              ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconTwotone.someIcons),
-              ),
-              const SizedBox(height: 20),
-              Row(
-                children: [
-                  const Text('Bulk Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: 10),
-                  AmazingIconBulk.add_item(size: 25, color: Colors.red),
-                ],
-              ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(scrollDirection: Axis.horizontal, children: AmazingIconBulk.someIcons),
-              ),
-              const SizedBox(height: 20),
-              Row(
-                children: [
-                  const Text('Country Flags', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: 10),
-                  AmazingIconCountry.fromCountryCode(countryCode: "fr")
-                ],
-              ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 50,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconCountry.someExamples(),
+              const Text('TwoTone Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    AmazingIconTwotone.home(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.gallery(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.user(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.setting2(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.snapchat(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.notification(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.message(size: 40, color: Colors.red),
+                    const SizedBox(width: 10),
+                    AmazingIconTwotone.camera(size: 40, color: Colors.red),
+                  ],
                 ),
               ),
               const SizedBox(height: 20),
-              Row(
-                children: [
-                  const Text('Payment Icons', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  const SizedBox(width: 10),
-                  AmazingIconPayment.pay_pal(size: 35)
-                ],
-              ),
-              const SizedBox(height: 10),
-              SizedBox(
-                height: 60,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: AmazingIconPayment.someIcons(),
+              const Text('Payment Icons:', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    AmazingIconPayment.visa(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.masterCard(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.googlePay(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.applePay(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.payoneer(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.bitcoin(size: 48),
+                    const SizedBox(width: 10),
+                    AmazingIconPayment.amex(size: 48),
+                  ],
                 ),
               ),
-              const SizedBox(height: 20),
             ],
           ),
         ),

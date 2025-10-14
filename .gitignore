@@ -37,3 +37,13 @@ icons/fontable/
 generate_icons_json.py
 icons.json
 CLAUDE.md
+
+fonts/AmazingIconBroken.json
+fonts/AmazingIconBulkBg.json
+fonts/AmazingIconBulkFg.json
+fonts/AmazingIconBulk.json
+fonts/AmazingIconTwotoneBg.json
+fonts/AmazingIconTwotoneFg.json
+fonts/AmazingIconTwotone.json
+fonts/AmazingIconOutlined.json
+fonts/AmazingIconFilled.json

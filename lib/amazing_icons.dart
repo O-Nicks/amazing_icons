@@ -15,5 +15,4 @@ export 'src/amazing_icon_twotone.dart';
 export 'src/amazing_icon_bulk.dart';
 
 // jovial_svg icons (color preserved, scalable)
-export 'src/amazing_icon_country.dart';
 export 'src/amazing_icon_payment.dart';

@@ -1,7 +1,4 @@
 import 'package:amazing_icons/amazing_icons.dart';
-import 'package:amazing_icons/src/amazing_icon_broken.dart';
-import 'package:amazing_icons/src/amazing_icon_filled.dart';
-import 'package:amazing_icons/src/amazing_icon_payment.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -74,82 +71,11 @@ void main() {
     });
   });
 
-  group('AmazingIconCountry Tests (jovial_svg)', () {
-    test('AmazingIconCountry.fromCountryCode() should return valid widget', () {
-      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'fr');
-      expect(flag, isA<Widget>());
-    });
-
-    test('AmazingIconCountry.fromCountryCode() should accept custom size', () {
-      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'us', size: 50);
-      expect(flag, isA<Widget>());
-    });
-
-    test('AmazingIconCountry.fromCountryCode() should accept different shapes', () {
-      expect(
-        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.circle),
-        isA<Widget>(),
-      );
-      expect(
-        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.rounded),
-        isA<Widget>(),
-      );
-      expect(
-        AmazingIconCountry.fromCountryCode(countryCode: 'fr', shape: IconShape.sharp),
-        isA<Widget>(),
-      );
-    });
-
-    test('AmazingIconCountry.fromCountryCode() should accept custom alignment', () {
-      final flag = AmazingIconCountry.fromCountryCode(
-        countryCode: 'fr',
-        alignment: Alignment.topLeft,
-      );
-      expect(flag, isA<Widget>());
-    });
-
-    test('AmazingIconCountry.fromCountryCode() should handle invalid codes', () {
-      final flag = AmazingIconCountry.fromCountryCode(countryCode: 'invalid');
-      expect(flag, isA<Widget>());
-    });
-
-    test('AmazingIconCountry.all() should return 266 country codes', () {
-      final countries = AmazingIconCountry.all();
-      expect(countries.length, equals(266));
-    });
-
-    test('AmazingIconCountry should support common country codes', () {
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'fr'), isA<Widget>());
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'us'), isA<Widget>());
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'jp'), isA<Widget>());
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'gb'), isA<Widget>());
-    });
-
-    test('AmazingIconCountry should support special codes', () {
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'eu'), isA<Widget>()); // European Union
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'un'), isA<Widget>()); // United Nations
-      expect(AmazingIconCountry.fromCountryCode(countryCode: 'gb-eng'), isA<Widget>()); // England
-    });
-
-    test('AmazingIconCountry.someExamples() should return list of widgets', () {
-      final examples = AmazingIconCountry.someExamples();
-      expect(examples, isA<List<Widget>>());
-      expect(examples.length, equals(5));
-    });
-
-    test('IconShape enum should have 3 values', () {
-      expect(IconShape.values.length, equals(3));
-      expect(IconShape.values, contains(IconShape.circle));
-      expect(IconShape.values, contains(IconShape.rounded));
-      expect(IconShape.values, contains(IconShape.sharp));
-    });
-  });
-
   group('AmazingIconPayment Tests (jovial_svg)', () {
     test('AmazingIconPayment icons should return valid widgets', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
-      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
+      expect(AmazingIconPayment.payoneer(), isA<Widget>());
       expect(AmazingIconPayment.bitcoin(), isA<Widget>());
     });
 
@@ -160,36 +86,30 @@ void main() {
 
     test('AmazingIconPayment should have common payment methods', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
       expect(AmazingIconPayment.amex(), isA<Widget>());
-      expect(AmazingIconPayment.google_pay(), isA<Widget>());
-      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
+      expect(AmazingIconPayment.googlePay(), isA<Widget>());
+      expect(AmazingIconPayment.payPal(), isA<Widget>());
       expect(AmazingIconPayment.stripe(), isA<Widget>());
-    });
-
-    test('AmazingIconPayment.someIcons() should return list of 9 widgets', () {
-      final icons = AmazingIconPayment.someIcons();
-      expect(icons, isA<List<Widget>>());
-      expect(icons.length, equals(9));
     });
 
     test('AmazingIconPayment should support cryptocurrency icons', () {
       expect(AmazingIconPayment.bitcoin(), isA<Widget>());
-      expect(AmazingIconPayment.bitcoin_cash(), isA<Widget>());
+      expect(AmazingIconPayment.bitcoinCash(), isA<Widget>());
       expect(AmazingIconPayment.etherium(), isA<Widget>());
       expect(AmazingIconPayment.lightcoin(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support digital wallets', () {
-      expect(AmazingIconPayment.pay_pal(), isA<Widget>());
-      expect(AmazingIconPayment.apple_pay(), isA<Widget>());
-      expect(AmazingIconPayment.google_pay(), isA<Widget>());
-      expect(AmazingIconPayment.shop_pay(), isA<Widget>());
+      expect(AmazingIconPayment.payPal(), isA<Widget>());
+      expect(AmazingIconPayment.applePay(), isA<Widget>());
+      expect(AmazingIconPayment.googlePay(), isA<Widget>());
+      expect(AmazingIconPayment.shopPay(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support traditional payment methods', () {
       expect(AmazingIconPayment.visa(), isA<Widget>());
-      expect(AmazingIconPayment.mastercard(), isA<Widget>());
+      expect(AmazingIconPayment.masterCard(), isA<Widget>());
       expect(AmazingIconPayment.amex(), isA<Widget>());
       expect(AmazingIconPayment.discover(), isA<Widget>());
       expect(AmazingIconPayment.jcb(), isA<Widget>());
