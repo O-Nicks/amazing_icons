@@ -21,7 +21,7 @@ Explore the complete collection with a searchable gallery and preview all icon s
 
 ## Demo Screenshots
 
-![Screen](https://i.ibb.co/gL81pTb0/demo-icon.jpg)
+![Screen](https://i.ibb.co/xKXLM86z/dem.jpg)
 
 
 ## Features
