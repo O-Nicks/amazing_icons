@@ -356,8 +356,8 @@ class AmazingIconOutlined {
   /// Icon data for bookSquare icon.
   static const IconData bookSquare = IconData(0xf46f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for bootsrap icon.
-  static const IconData bootsrap = IconData(0xf46c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for bootstrap icon.
+  static const IconData bootstrap = IconData(0xf46c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for box icon.
   static const IconData box = IconData(0xf46b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -386,14 +386,14 @@ class AmazingIconOutlined {
   /// Icon data for briefcase icon.
   static const IconData briefcase = IconData(0xf463, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for brifecaseCross icon.
-  static const IconData brifecaseCross = IconData(0xf462, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for briefcaseCross icon.
+  static const IconData briefcaseCross = IconData(0xf462, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for brifecaseTick icon.
-  static const IconData brifecaseTick = IconData(0xf461, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for briefcaseTick icon.
+  static const IconData briefcaseTick = IconData(0xf461, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for brifecaseTimer icon.
-  static const IconData brifecaseTimer = IconData(0xf460, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for briefcaseTimer icon.
+  static const IconData briefcaseTimer = IconData(0xf460, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for broom icon.
   static const IconData broom = IconData(0xf45f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -440,8 +440,8 @@ class AmazingIconOutlined {
   /// Icon data for buildings2 icon.
   static const IconData buildings2 = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for buliding icon.
-  static const IconData buliding = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for building icon.
+  static const IconData building = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for bus icon.
   static const IconData bus = IconData(0xf44f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2756,8 +2756,8 @@ class AmazingIconOutlined {
   /// Icon data for truckTime icon.
   static const IconData truckTime = IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for trushSquare icon.
-  static const IconData trushSquare = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for trashSquare icon.
+  static const IconData trashSquare = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for twitch icon.
   static const IconData twitch = IconData(0xf14b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2783,8 +2783,8 @@ class AmazingIconOutlined {
   /// Icon data for userAdd icon.
   static const IconData userAdd = IconData(0xf144, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for userCirlceAdd icon.
-  static const IconData userCirlceAdd = IconData(0xf143, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for userCircleAdd icon.
+  static const IconData userCircleAdd = IconData(0xf143, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for userEdit icon.
   static const IconData userEdit = IconData(0xf142, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2855,8 +2855,8 @@ class AmazingIconOutlined {
   /// Icon data for videoVertical icon.
   static const IconData videoVertical = IconData(0xf12c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for voiceCricle icon.
-  static const IconData voiceCricle = IconData(0xf12b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for voiceCircle icon.
+  static const IconData voiceCircle = IconData(0xf12b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for voiceSquare icon.
   static const IconData voiceSquare = IconData(0xf12a, fontFamily: _kFontFam, fontPackage: _kFontPkg);

@@ -2300,7 +2300,7 @@ class AmazingIconBulk {
   }) =>
       _build('briefcase', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brifecaseCross` bulk icon with a background and foreground layer.
+  /// Displays the `briefcaseCross` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2309,16 +2309,16 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.brifecaseCross(size: 32, color: Colors.red);
+  /// AmazingIconBulk.briefcaseCross(size: 32, color: Colors.red);
   /// ```
-  static Widget brifecaseCross({
+  static Widget briefcaseCross({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('brifecaseCross', size: size, color: color, opacity: opacity);
+      _build('briefcaseCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brifecaseTick` bulk icon with a background and foreground layer.
+  /// Displays the `briefcaseTick` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2327,16 +2327,16 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.brifecaseTick(size: 32, color: Colors.red);
+  /// AmazingIconBulk.briefcaseTick(size: 32, color: Colors.red);
   /// ```
-  static Widget brifecaseTick({
+  static Widget briefcaseTick({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('brifecaseTick', size: size, color: color, opacity: opacity);
+      _build('briefcaseTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brifecaseTimer` bulk icon with a background and foreground layer.
+  /// Displays the `briefcaseTimer` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2345,14 +2345,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.brifecaseTimer(size: 32, color: Colors.red);
+  /// AmazingIconBulk.briefcaseTimer(size: 32, color: Colors.red);
   /// ```
-  static Widget brifecaseTimer({
+  static Widget briefcaseTimer({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('brifecaseTimer', size: size, color: color, opacity: opacity);
+      _build('briefcaseTimer', size: size, color: color, opacity: opacity);
 
   /// Displays the `broom` bulk icon with a background and foreground layer.
   ///
@@ -2624,7 +2624,7 @@ class AmazingIconBulk {
   }) =>
       _build('buildings2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `buliding` bulk icon with a background and foreground layer.
+  /// Displays the `building` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2633,14 +2633,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.buliding(size: 32, color: Colors.red);
+  /// AmazingIconBulk.building(size: 32, color: Colors.red);
   /// ```
-  static Widget buliding({
+  static Widget building({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('buliding', size: size, color: color, opacity: opacity);
+      _build('building', size: size, color: color, opacity: opacity);
 
   /// Displays the `bus` bulk icon with a background and foreground layer.
   ///
@@ -16484,7 +16484,7 @@ class AmazingIconBulk {
   }) =>
       _build('truckTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `trushSquare` bulk icon with a background and foreground layer.
+  /// Displays the `trashSquare` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16493,14 +16493,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.trushSquare(size: 32, color: Colors.red);
+  /// AmazingIconBulk.trashSquare(size: 32, color: Colors.red);
   /// ```
-  static Widget trushSquare({
+  static Widget trashSquare({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('trushSquare', size: size, color: color, opacity: opacity);
+      _build('trashSquare', size: size, color: color, opacity: opacity);
 
   /// Displays the `twitch` bulk icon with a background and foreground layer.
   ///
@@ -16646,7 +16646,7 @@ class AmazingIconBulk {
   }) =>
       _build('userAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userCirlceAdd` bulk icon with a background and foreground layer.
+  /// Displays the `userCircleAdd` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16655,14 +16655,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.userCirlceAdd(size: 32, color: Colors.red);
+  /// AmazingIconBulk.userCircleAdd(size: 32, color: Colors.red);
   /// ```
-  static Widget userCirlceAdd({
+  static Widget userCircleAdd({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('userCirlceAdd', size: size, color: color, opacity: opacity);
+      _build('userCircleAdd', size: size, color: color, opacity: opacity);
 
   /// Displays the `userEdit` bulk icon with a background and foreground layer.
   ///
@@ -17060,7 +17060,7 @@ class AmazingIconBulk {
   }) =>
       _build('videoVertical', size: size, color: color, opacity: opacity);
 
-  /// Displays the `voiceCricle` bulk icon with a background and foreground layer.
+  /// Displays the `voiceCircle` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -17069,14 +17069,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.voiceCricle(size: 32, color: Colors.red);
+  /// AmazingIconBulk.voiceCircle(size: 32, color: Colors.red);
   /// ```
-  static Widget voiceCricle({
+  static Widget voiceCircle({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('voiceCricle', size: size, color: color, opacity: opacity);
+      _build('voiceCircle', size: size, color: color, opacity: opacity);
 
   /// Displays the `voiceSquare` bulk icon with a background and foreground layer.
   ///

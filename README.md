@@ -48,7 +48,6 @@ import 'package:amazing_icons/filled.dart';     // Only filled icons
 import 'package:amazing_icons/broken.dart';     // Only broken icons
 import 'package:amazing_icons/bulk.dart';       // Only bulk icons
 import 'package:amazing_icons/twotone.dart';    // Only twotone icons
-import 'package:amazing_icons/country.dart';    // Only country flags
 import 'package:amazing_icons/payment.dart';    // Only payment icons
 
 // Or import everything (less optimal)
