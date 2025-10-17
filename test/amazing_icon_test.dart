@@ -96,8 +96,8 @@ void main() {
     test('AmazingIconPayment should support cryptocurrency icons', () {
       expect(AmazingIconPayment.bitcoin(), isA<Widget>());
       expect(AmazingIconPayment.bitcoinCash(), isA<Widget>());
-      expect(AmazingIconPayment.etherium(), isA<Widget>());
-      expect(AmazingIconPayment.lightcoin(), isA<Widget>());
+      expect(AmazingIconPayment.ethereum(), isA<Widget>());
+      expect(AmazingIconPayment.litecoin(), isA<Widget>());
     });
 
     test('AmazingIconPayment should support digital wallets', () {
