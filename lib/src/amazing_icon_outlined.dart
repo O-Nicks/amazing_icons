@@ -440,8 +440,8 @@ class AmazingIconOutlined {
   /// Icon data for buildings2 icon.
   static const IconData buildings2 = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for building icon.
-  static const IconData building = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for building2 icon.
+  static const IconData building2 = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for bus icon.
   static const IconData bus = IconData(0xf44f, fontFamily: _kFontFam, fontPackage: _kFontPkg);

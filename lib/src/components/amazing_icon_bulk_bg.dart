@@ -440,8 +440,8 @@ class _AmazingIconBulkBg {
   /// Icon data for buildingsBg icon.
   static const IconData buildingsBg = IconData(0xf44e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for buildingBg icon.
-  static const IconData buildingBg = IconData(0xf44d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for building2Bg icon.
+  static const IconData building2Bg = IconData(0xf44d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for busBg icon.
   static const IconData busBg = IconData(0xf44c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3120,7 +3120,7 @@ class _AmazingIconBulkBg {
     'building4Bg': building4Bg,
     'buildingsBg': buildingsBg,
     'buildings2Bg': buildings2Bg,
-    'buildingBg': buildingBg,
+    'building2Bg': building2Bg,
     'busBg': busBg,
     'buyCryptoBg': buyCryptoBg,
     'cakeBg': cakeBg,

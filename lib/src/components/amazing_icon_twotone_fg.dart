@@ -407,8 +407,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for buildingsFg icon.
   static const IconData buildingsFg = IconData(0xf42e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for buildingFg icon.
-  static const IconData buildingFg = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for building2Fg icon.
+  static const IconData building2Fg = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for busFg icon.
   static const IconData busFg = IconData(0xf42c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2980,7 +2980,7 @@ class _AmazingIconTwotoneFg {
     'building4Fg': building4Fg,
     'buildingsFg': buildingsFg,
     'buildings2Fg': buildings2Fg,
-    'buildingFg': buildingFg,
+    'building2Fg': building2Fg,
     'busFg': busFg,
     'buyCryptoFg': buyCryptoFg,
     'cakeFg': cakeFg,

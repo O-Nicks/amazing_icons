@@ -2354,6 +2354,24 @@ class AmazingIconTwotone {
   }) =>
       _build('building', size: size, color: color, opacity: opacity);
 
+  /// Displays the `building2` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.building2(size: 32, color: Colors.red);
+  /// ```
+  static Widget building2({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('building2', size: size, color: color, opacity: opacity);
+
   /// Displays the `building3` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -2425,24 +2443,6 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('buildings2', size: size, color: color, opacity: opacity);
-
-  /// Displays the `building` bulk icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconBulk.building(size: 32, color: Colors.red);
-  /// ```
-  static Widget building({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('building', size: size, color: color, opacity: opacity);
 
   /// Displays the `bus` bulk icon with a background and foreground layer.
   ///
