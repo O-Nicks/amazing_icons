@@ -32,7 +32,7 @@ part 'components/amazing_icon_twotone_fg.dart';
 class AmazingIconTwotone {
   AmazingIconTwotone._();
 
-  /// Displays the `aave` twototne icon with a background and foreground layer.
+  /// Displays the `aave` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -41,7 +41,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.aave(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.aave(size: 32, color: Colors.red);
   /// ```
   static Widget aave({
     double size = 25,
@@ -50,7 +50,7 @@ class AmazingIconTwotone {
   }) =>
       _build('aave', size: size, color: color, opacity: opacity);
 
-  /// Displays the `activity` twototne icon with a background and foreground layer.
+  /// Displays the `activity` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -59,7 +59,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.activity(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.activity(size: 32, color: Colors.red);
   /// ```
   static Widget activity({
     double size = 25,
@@ -68,7 +68,7 @@ class AmazingIconTwotone {
   }) =>
       _build('activity', size: size, color: color, opacity: opacity);
 
-  /// Displays the `add` twototne icon with a background and foreground layer.
+  /// Displays the `add` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -77,7 +77,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.add(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.add(size: 32, color: Colors.red);
   /// ```
   static Widget add({
     double size = 25,
@@ -86,7 +86,7 @@ class AmazingIconTwotone {
   }) =>
       _build('add', size: size, color: color, opacity: opacity);
 
-  /// Displays the `addCircle` twototne icon with a background and foreground layer.
+  /// Displays the `addCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -95,7 +95,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.addCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.addCircle(size: 32, color: Colors.red);
   /// ```
   static Widget addCircle({
     double size = 25,
@@ -104,7 +104,7 @@ class AmazingIconTwotone {
   }) =>
       _build('addCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `addItem` twototne icon with a background and foreground layer.
+  /// Displays the `addItem` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -113,7 +113,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.addItem(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.addItem(size: 32, color: Colors.red);
   /// ```
   static Widget addItem({
     double size = 25,
@@ -122,7 +122,7 @@ class AmazingIconTwotone {
   }) =>
       _build('addItem', size: size, color: color, opacity: opacity);
 
-  /// Displays the `addSquare` twototne icon with a background and foreground layer.
+  /// Displays the `addSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -131,7 +131,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.addSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.addSquare(size: 32, color: Colors.red);
   /// ```
   static Widget addSquare({
     double size = 25,
@@ -140,7 +140,7 @@ class AmazingIconTwotone {
   }) =>
       _build('addSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `airdrop` twototne icon with a background and foreground layer.
+  /// Displays the `airdrop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -149,7 +149,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.airdrop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.airdrop(size: 32, color: Colors.red);
   /// ```
   static Widget airdrop({
     double size = 25,
@@ -158,7 +158,7 @@ class AmazingIconTwotone {
   }) =>
       _build('airdrop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `airplaneSquare` twototne icon with a background and foreground layer.
+  /// Displays the `airplaneSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -167,7 +167,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.airplaneSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.airplaneSquare(size: 32, color: Colors.red);
   /// ```
   static Widget airplaneSquare({
     double size = 25,
@@ -176,7 +176,7 @@ class AmazingIconTwotone {
   }) =>
       _build('airplaneSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `airpod` twototne icon with a background and foreground layer.
+  /// Displays the `airpod` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -185,7 +185,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.airpod(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.airpod(size: 32, color: Colors.red);
   /// ```
   static Widget airpod({
     double size = 25,
@@ -194,7 +194,7 @@ class AmazingIconTwotone {
   }) =>
       _build('airpod', size: size, color: color, opacity: opacity);
 
-  /// Displays the `airpods` twototne icon with a background and foreground layer.
+  /// Displays the `airpods` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -203,7 +203,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.airpods(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.airpods(size: 32, color: Colors.red);
   /// ```
   static Widget airpods({
     double size = 25,
@@ -212,7 +212,7 @@ class AmazingIconTwotone {
   }) =>
       _build('airpods', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alarm` twototne icon with a background and foreground layer.
+  /// Displays the `alarm` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -221,7 +221,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alarm(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alarm(size: 32, color: Colors.red);
   /// ```
   static Widget alarm({
     double size = 25,
@@ -230,7 +230,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alarm', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignBottom` twototne icon with a background and foreground layer.
+  /// Displays the `alignBottom` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -239,7 +239,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignBottom(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignBottom(size: 32, color: Colors.red);
   /// ```
   static Widget alignBottom({
     double size = 25,
@@ -248,7 +248,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignBottom', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignHorizontally` twototne icon with a background and foreground layer.
+  /// Displays the `alignHorizontally` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -257,7 +257,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignHorizontally(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignHorizontally(size: 32, color: Colors.red);
   /// ```
   static Widget alignHorizontally({
     double size = 25,
@@ -266,7 +266,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignHorizontally', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignLeft` twototne icon with a background and foreground layer.
+  /// Displays the `alignLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -275,7 +275,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignLeft(size: 32, color: Colors.red);
   /// ```
   static Widget alignLeft({
     double size = 25,
@@ -284,7 +284,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignRight` twototne icon with a background and foreground layer.
+  /// Displays the `alignRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -293,7 +293,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignRight(size: 32, color: Colors.red);
   /// ```
   static Widget alignRight({
     double size = 25,
@@ -302,7 +302,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignTop` twototne icon with a background and foreground layer.
+  /// Displays the `alignTop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -311,7 +311,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignTop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignTop(size: 32, color: Colors.red);
   /// ```
   static Widget alignTop({
     double size = 25,
@@ -320,7 +320,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignTop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `alignVertically` twototne icon with a background and foreground layer.
+  /// Displays the `alignVertically` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -329,7 +329,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.alignVertically(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.alignVertically(size: 32, color: Colors.red);
   /// ```
   static Widget alignVertically({
     double size = 25,
@@ -338,7 +338,7 @@ class AmazingIconTwotone {
   }) =>
       _build('alignVertically', size: size, color: color, opacity: opacity);
 
-  /// Displays the `android` twototne icon with a background and foreground layer.
+  /// Displays the `android` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -347,7 +347,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.android(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.android(size: 32, color: Colors.red);
   /// ```
   static Widget android({
     double size = 25,
@@ -356,7 +356,7 @@ class AmazingIconTwotone {
   }) =>
       _build('android', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ankr` twototne icon with a background and foreground layer.
+  /// Displays the `ankr` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -365,7 +365,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ankr(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ankr(size: 32, color: Colors.red);
   /// ```
   static Widget ankr({
     double size = 25,
@@ -374,7 +374,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ankr', size: size, color: color, opacity: opacity);
 
-  /// Displays the `apple` twototne icon with a background and foreground layer.
+  /// Displays the `apple` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -383,7 +383,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.apple(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.apple(size: 32, color: Colors.red);
   /// ```
   static Widget apple({
     double size = 25,
@@ -392,7 +392,7 @@ class AmazingIconTwotone {
   }) =>
       _build('apple', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archive` twototne icon with a background and foreground layer.
+  /// Displays the `archive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -401,7 +401,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archive(size: 32, color: Colors.red);
   /// ```
   static Widget archive({
     double size = 25,
@@ -410,7 +410,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archive1` twototne icon with a background and foreground layer.
+  /// Displays the `archive1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -419,7 +419,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archive1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archive1(size: 32, color: Colors.red);
   /// ```
   static Widget archive1({
     double size = 25,
@@ -428,7 +428,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archive1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archive2` twototne icon with a background and foreground layer.
+  /// Displays the `archive2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -437,7 +437,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archive2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archive2(size: 32, color: Colors.red);
   /// ```
   static Widget archive2({
     double size = 25,
@@ -446,7 +446,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archive2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archiveAdd` twototne icon with a background and foreground layer.
+  /// Displays the `archiveAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -455,7 +455,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archiveAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archiveAdd(size: 32, color: Colors.red);
   /// ```
   static Widget archiveAdd({
     double size = 25,
@@ -464,7 +464,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archiveAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archiveBook` twototne icon with a background and foreground layer.
+  /// Displays the `archiveBook` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -473,7 +473,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archiveBook(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archiveBook(size: 32, color: Colors.red);
   /// ```
   static Widget archiveBook({
     double size = 25,
@@ -482,7 +482,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archiveBook', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archiveMinus` twototne icon with a background and foreground layer.
+  /// Displays the `archiveMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -491,7 +491,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archiveMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archiveMinus(size: 32, color: Colors.red);
   /// ```
   static Widget archiveMinus({
     double size = 25,
@@ -500,7 +500,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archiveMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archiveSlash` twototne icon with a background and foreground layer.
+  /// Displays the `archiveSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -509,7 +509,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archiveSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archiveSlash(size: 32, color: Colors.red);
   /// ```
   static Widget archiveSlash({
     double size = 25,
@@ -518,7 +518,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archiveSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `archiveTick` twototne icon with a background and foreground layer.
+  /// Displays the `archiveTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -527,7 +527,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.archiveTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.archiveTick(size: 32, color: Colors.red);
   /// ```
   static Widget archiveTick({
     double size = 25,
@@ -536,7 +536,7 @@ class AmazingIconTwotone {
   }) =>
       _build('archiveTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrow` twototne icon with a background and foreground layer.
+  /// Displays the `arrow` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -545,7 +545,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrow(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrow(size: 32, color: Colors.red);
   /// ```
   static Widget arrow({
     double size = 25,
@@ -554,7 +554,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrow', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleDown` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -563,7 +563,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleDown(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleDown({
     double size = 25,
@@ -572,7 +572,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleDown2` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleDown2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -581,7 +581,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleDown2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleDown2(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleDown2({
     double size = 25,
@@ -590,7 +590,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleDown2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleLeft` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -599,7 +599,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleLeft(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleLeft({
     double size = 25,
@@ -608,7 +608,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleLeft2` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleLeft2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -617,7 +617,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleLeft2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleLeft2(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleLeft2({
     double size = 25,
@@ -626,7 +626,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleLeft2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleRight` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -635,7 +635,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleRight(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleRight({
     double size = 25,
@@ -644,7 +644,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleRight2` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleRight2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -653,7 +653,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleRight2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleRight2(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleRight2({
     double size = 25,
@@ -662,7 +662,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleRight2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleUp` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -671,7 +671,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleUp(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleUp({
     double size = 25,
@@ -680,7 +680,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowCircleUp2` twototne icon with a background and foreground layer.
+  /// Displays the `arrowCircleUp2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -689,7 +689,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowCircleUp2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowCircleUp2(size: 32, color: Colors.red);
   /// ```
   static Widget arrowCircleUp2({
     double size = 25,
@@ -698,7 +698,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowCircleUp2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowDown` twototne icon with a background and foreground layer.
+  /// Displays the `arrowDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -707,7 +707,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowDown(size: 32, color: Colors.red);
   /// ```
   static Widget arrowDown({
     double size = 25,
@@ -716,7 +716,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowLeft` twototne icon with a background and foreground layer.
+  /// Displays the `arrowLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -725,7 +725,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowLeft(size: 32, color: Colors.red);
   /// ```
   static Widget arrowLeft({
     double size = 25,
@@ -734,7 +734,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowRight` twototne icon with a background and foreground layer.
+  /// Displays the `arrowRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -743,7 +743,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowRight(size: 32, color: Colors.red);
   /// ```
   static Widget arrowRight({
     double size = 25,
@@ -752,7 +752,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSquare` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -761,7 +761,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSquare(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSquare({
     double size = 25,
@@ -770,7 +770,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSquareDown` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSquareDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -779,7 +779,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSquareDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSquareDown(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSquareDown({
     double size = 25,
@@ -788,7 +788,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSquareDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSquareLeft` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSquareLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -797,7 +797,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSquareLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSquareLeft(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSquareLeft({
     double size = 25,
@@ -806,7 +806,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSquareLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSquareRight` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSquareRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -815,7 +815,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSquareRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSquareRight(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSquareRight({
     double size = 25,
@@ -824,7 +824,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSquareRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSquareUp` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSquareUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -833,7 +833,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSquareUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSquareUp(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSquareUp({
     double size = 25,
@@ -842,7 +842,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSquareUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapHorizontal` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapHorizontal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -851,7 +851,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapHorizontal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapHorizontal(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapHorizontal({
     double size = 25,
@@ -860,7 +860,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapHorizontal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapHorizontal1` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapHorizontal1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -869,7 +869,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapHorizontal1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapHorizontal1(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapHorizontal1({
     double size = 25,
@@ -878,7 +878,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapHorizontal1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapHorizontalCircle` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapHorizontalCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -887,7 +887,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapHorizontalCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapHorizontalCircle(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapHorizontalCircle({
     double size = 25,
@@ -896,7 +896,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapHorizontalCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapHorizontalSquare` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapHorizontalSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -905,7 +905,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapHorizontalSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapHorizontalSquare(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapHorizontalSquare({
     double size = 25,
@@ -914,7 +914,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapHorizontalSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapVertical` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapVertical` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -923,7 +923,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapVertical(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapVertical(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapVertical({
     double size = 25,
@@ -932,7 +932,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapVertical', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapVertical1` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapVertical1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -941,7 +941,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapVertical1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapVertical1(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapVertical1({
     double size = 25,
@@ -950,7 +950,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapVertical1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapVerticalCircle` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapVerticalCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -959,7 +959,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapVerticalCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapVerticalCircle(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapVerticalCircle({
     double size = 25,
@@ -968,7 +968,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapVerticalCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowSwapVerticalSquare` twototne icon with a background and foreground layer.
+  /// Displays the `arrowSwapVerticalSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -977,7 +977,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowSwapVerticalSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowSwapVerticalSquare(size: 32, color: Colors.red);
   /// ```
   static Widget arrowSwapVerticalSquare({
     double size = 25,
@@ -986,7 +986,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowSwapVerticalSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `arrowUp` twototne icon with a background and foreground layer.
+  /// Displays the `arrowUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -995,7 +995,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.arrowUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.arrowUp(size: 32, color: Colors.red);
   /// ```
   static Widget arrowUp({
     double size = 25,
@@ -1004,7 +1004,7 @@ class AmazingIconTwotone {
   }) =>
       _build('arrowUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `attachCircle` twototne icon with a background and foreground layer.
+  /// Displays the `attachCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1013,7 +1013,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.attachCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.attachCircle(size: 32, color: Colors.red);
   /// ```
   static Widget attachCircle({
     double size = 25,
@@ -1022,7 +1022,7 @@ class AmazingIconTwotone {
   }) =>
       _build('attachCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `attachSquare` twototne icon with a background and foreground layer.
+  /// Displays the `attachSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1031,7 +1031,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.attachSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.attachSquare(size: 32, color: Colors.red);
   /// ```
   static Widget attachSquare({
     double size = 25,
@@ -1040,7 +1040,7 @@ class AmazingIconTwotone {
   }) =>
       _build('attachSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `audioSquare` twototne icon with a background and foreground layer.
+  /// Displays the `audioSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1049,7 +1049,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.audioSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.audioSquare(size: 32, color: Colors.red);
   /// ```
   static Widget audioSquare({
     double size = 25,
@@ -1058,7 +1058,7 @@ class AmazingIconTwotone {
   }) =>
       _build('audioSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `augur` twototne icon with a background and foreground layer.
+  /// Displays the `augur` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1067,7 +1067,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.augur(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.augur(size: 32, color: Colors.red);
   /// ```
   static Widget augur({
     double size = 25,
@@ -1076,7 +1076,7 @@ class AmazingIconTwotone {
   }) =>
       _build('augur', size: size, color: color, opacity: opacity);
 
-  /// Displays the `autoBrightness` twototne icon with a background and foreground layer.
+  /// Displays the `autoBrightness` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1085,7 +1085,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.autoBrightness(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.autoBrightness(size: 32, color: Colors.red);
   /// ```
   static Widget autoBrightness({
     double size = 25,
@@ -1094,7 +1094,7 @@ class AmazingIconTwotone {
   }) =>
       _build('autoBrightness', size: size, color: color, opacity: opacity);
 
-  /// Displays the `autonio` twototne icon with a background and foreground layer.
+  /// Displays the `autonio` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1103,7 +1103,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.autonio(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.autonio(size: 32, color: Colors.red);
   /// ```
   static Widget autonio({
     double size = 25,
@@ -1112,7 +1112,7 @@ class AmazingIconTwotone {
   }) =>
       _build('autonio', size: size, color: color, opacity: opacity);
 
-  /// Displays the `avalanche` twototne icon with a background and foreground layer.
+  /// Displays the `avalanche` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1121,7 +1121,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.avalanche(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.avalanche(size: 32, color: Colors.red);
   /// ```
   static Widget avalanche({
     double size = 25,
@@ -1130,7 +1130,7 @@ class AmazingIconTwotone {
   }) =>
       _build('avalanche', size: size, color: color, opacity: opacity);
 
-  /// Displays the `award` twototne icon with a background and foreground layer.
+  /// Displays the `award` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1139,7 +1139,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.award(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.award(size: 32, color: Colors.red);
   /// ```
   static Widget award({
     double size = 25,
@@ -1148,7 +1148,7 @@ class AmazingIconTwotone {
   }) =>
       _build('award', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backSquare` twototne icon with a background and foreground layer.
+  /// Displays the `backSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1157,7 +1157,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backSquare(size: 32, color: Colors.red);
   /// ```
   static Widget backSquare({
     double size = 25,
@@ -1166,7 +1166,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backward` twototne icon with a background and foreground layer.
+  /// Displays the `backward` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1175,7 +1175,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backward(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backward(size: 32, color: Colors.red);
   /// ```
   static Widget backward({
     double size = 25,
@@ -1184,7 +1184,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backward', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backward10Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `backward10Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1193,7 +1193,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backward10Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backward10Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget backward10Seconds({
     double size = 25,
@@ -1202,7 +1202,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backward10Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backward15Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `backward15Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1211,7 +1211,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backward15Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backward15Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget backward15Seconds({
     double size = 25,
@@ -1220,7 +1220,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backward15Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backward5Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `backward5Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1229,7 +1229,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backward5Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backward5Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget backward5Seconds({
     double size = 25,
@@ -1238,7 +1238,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backward5Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `backwardItem` twototne icon with a background and foreground layer.
+  /// Displays the `backwardItem` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1247,7 +1247,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.backwardItem(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.backwardItem(size: 32, color: Colors.red);
   /// ```
   static Widget backwardItem({
     double size = 25,
@@ -1256,7 +1256,7 @@ class AmazingIconTwotone {
   }) =>
       _build('backwardItem', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bag` twototne icon with a background and foreground layer.
+  /// Displays the `bag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1265,7 +1265,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bag(size: 32, color: Colors.red);
   /// ```
   static Widget bag({
     double size = 25,
@@ -1274,7 +1274,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bag2` twototne icon with a background and foreground layer.
+  /// Displays the `bag2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1283,7 +1283,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bag2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bag2(size: 32, color: Colors.red);
   /// ```
   static Widget bag2({
     double size = 25,
@@ -1292,7 +1292,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bag2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagCross` twototne icon with a background and foreground layer.
+  /// Displays the `bagCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1301,7 +1301,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagCross(size: 32, color: Colors.red);
   /// ```
   static Widget bagCross({
     double size = 25,
@@ -1310,7 +1310,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagCross1` twototne icon with a background and foreground layer.
+  /// Displays the `bagCross1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1319,7 +1319,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagCross1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagCross1(size: 32, color: Colors.red);
   /// ```
   static Widget bagCross1({
     double size = 25,
@@ -1328,7 +1328,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagCross1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagHappy` twototne icon with a background and foreground layer.
+  /// Displays the `bagHappy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1337,7 +1337,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagHappy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagHappy(size: 32, color: Colors.red);
   /// ```
   static Widget bagHappy({
     double size = 25,
@@ -1346,7 +1346,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagHappy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagTick` twototne icon with a background and foreground layer.
+  /// Displays the `bagTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1355,7 +1355,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagTick(size: 32, color: Colors.red);
   /// ```
   static Widget bagTick({
     double size = 25,
@@ -1364,7 +1364,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagTick2` twototne icon with a background and foreground layer.
+  /// Displays the `bagTick2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1373,7 +1373,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagTick2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagTick2(size: 32, color: Colors.red);
   /// ```
   static Widget bagTick2({
     double size = 25,
@@ -1382,7 +1382,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagTick2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bagTimer` twototne icon with a background and foreground layer.
+  /// Displays the `bagTimer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1391,7 +1391,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bagTimer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bagTimer(size: 32, color: Colors.red);
   /// ```
   static Widget bagTimer({
     double size = 25,
@@ -1400,7 +1400,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bagTimer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bank` twototne icon with a background and foreground layer.
+  /// Displays the `bank` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1409,7 +1409,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bank(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bank(size: 32, color: Colors.red);
   /// ```
   static Widget bank({
     double size = 25,
@@ -1418,7 +1418,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bank', size: size, color: color, opacity: opacity);
 
-  /// Displays the `barcode` twototne icon with a background and foreground layer.
+  /// Displays the `barcode` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1427,7 +1427,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.barcode(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.barcode(size: 32, color: Colors.red);
   /// ```
   static Widget barcode({
     double size = 25,
@@ -1436,7 +1436,7 @@ class AmazingIconTwotone {
   }) =>
       _build('barcode', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryCharging` twototne icon with a background and foreground layer.
+  /// Displays the `batteryCharging` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1445,7 +1445,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryCharging(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryCharging(size: 32, color: Colors.red);
   /// ```
   static Widget batteryCharging({
     double size = 25,
@@ -1454,7 +1454,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryCharging', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryDisable` twototne icon with a background and foreground layer.
+  /// Displays the `batteryDisable` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1463,7 +1463,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryDisable(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryDisable(size: 32, color: Colors.red);
   /// ```
   static Widget batteryDisable({
     double size = 25,
@@ -1472,7 +1472,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryDisable', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryEmpty` twototne icon with a background and foreground layer.
+  /// Displays the `batteryEmpty` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1481,7 +1481,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryEmpty(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryEmpty(size: 32, color: Colors.red);
   /// ```
   static Widget batteryEmpty({
     double size = 25,
@@ -1490,7 +1490,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryEmpty', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryEmpty1` twototne icon with a background and foreground layer.
+  /// Displays the `batteryEmpty1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1499,7 +1499,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryEmpty1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryEmpty1(size: 32, color: Colors.red);
   /// ```
   static Widget batteryEmpty1({
     double size = 25,
@@ -1508,7 +1508,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryEmpty1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryEmpty2` twototne icon with a background and foreground layer.
+  /// Displays the `batteryEmpty2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1517,7 +1517,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryEmpty2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryEmpty2(size: 32, color: Colors.red);
   /// ```
   static Widget batteryEmpty2({
     double size = 25,
@@ -1526,7 +1526,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryEmpty2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `batteryFull` twototne icon with a background and foreground layer.
+  /// Displays the `batteryFull` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1535,7 +1535,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.batteryFull(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.batteryFull(size: 32, color: Colors.red);
   /// ```
   static Widget batteryFull({
     double size = 25,
@@ -1544,7 +1544,7 @@ class AmazingIconTwotone {
   }) =>
       _build('batteryFull', size: size, color: color, opacity: opacity);
 
-  /// Displays the `be` twototne icon with a background and foreground layer.
+  /// Displays the `be` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1553,7 +1553,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.be(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.be(size: 32, color: Colors.red);
   /// ```
   static Widget be({
     double size = 25,
@@ -1562,7 +1562,7 @@ class AmazingIconTwotone {
   }) =>
       _build('be', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bezier` twototne icon with a background and foreground layer.
+  /// Displays the `bezier` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1571,7 +1571,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bezier(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bezier(size: 32, color: Colors.red);
   /// ```
   static Widget bezier({
     double size = 25,
@@ -1580,7 +1580,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bezier', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bill` twototne icon with a background and foreground layer.
+  /// Displays the `bill` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1589,7 +1589,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bill(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bill(size: 32, color: Colors.red);
   /// ```
   static Widget bill({
     double size = 25,
@@ -1598,7 +1598,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bill', size: size, color: color, opacity: opacity);
 
-  /// Displays the `binanceCoin` twototne icon with a background and foreground layer.
+  /// Displays the `binanceCoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1607,7 +1607,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.binanceCoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.binanceCoin(size: 32, color: Colors.red);
   /// ```
   static Widget binanceCoin({
     double size = 25,
@@ -1616,7 +1616,7 @@ class AmazingIconTwotone {
   }) =>
       _build('binanceCoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `binanceUsd` twototne icon with a background and foreground layer.
+  /// Displays the `binanceUsd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1625,7 +1625,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.binanceUsd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.binanceUsd(size: 32, color: Colors.red);
   /// ```
   static Widget binanceUsd({
     double size = 25,
@@ -1634,7 +1634,7 @@ class AmazingIconTwotone {
   }) =>
       _build('binanceUsd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bitcoin` twototne icon with a background and foreground layer.
+  /// Displays the `bitcoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1643,7 +1643,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bitcoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bitcoin(size: 32, color: Colors.red);
   /// ```
   static Widget bitcoin({
     double size = 25,
@@ -1652,7 +1652,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bitcoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bitcoinCard` twototne icon with a background and foreground layer.
+  /// Displays the `bitcoinCard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1661,7 +1661,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bitcoinCard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bitcoinCard(size: 32, color: Colors.red);
   /// ```
   static Widget bitcoinCard({
     double size = 25,
@@ -1670,7 +1670,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bitcoinCard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bitcoinConvert` twototne icon with a background and foreground layer.
+  /// Displays the `bitcoinConvert` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1679,7 +1679,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bitcoinConvert(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bitcoinConvert(size: 32, color: Colors.red);
   /// ```
   static Widget bitcoinConvert({
     double size = 25,
@@ -1688,7 +1688,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bitcoinConvert', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bitcoinRefresh` twototne icon with a background and foreground layer.
+  /// Displays the `bitcoinRefresh` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1697,7 +1697,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bitcoinRefresh(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bitcoinRefresh(size: 32, color: Colors.red);
   /// ```
   static Widget bitcoinRefresh({
     double size = 25,
@@ -1706,7 +1706,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bitcoinRefresh', size: size, color: color, opacity: opacity);
 
-  /// Displays the `blend` twototne icon with a background and foreground layer.
+  /// Displays the `blend` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1715,7 +1715,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.blend(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.blend(size: 32, color: Colors.red);
   /// ```
   static Widget blend({
     double size = 25,
@@ -1724,7 +1724,7 @@ class AmazingIconTwotone {
   }) =>
       _build('blend', size: size, color: color, opacity: opacity);
 
-  /// Displays the `blend2` twototne icon with a background and foreground layer.
+  /// Displays the `blend2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1733,7 +1733,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.blend2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.blend2(size: 32, color: Colors.red);
   /// ```
   static Widget blend2({
     double size = 25,
@@ -1742,7 +1742,7 @@ class AmazingIconTwotone {
   }) =>
       _build('blend2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `blogger` twototne icon with a background and foreground layer.
+  /// Displays the `blogger` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1751,7 +1751,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.blogger(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.blogger(size: 32, color: Colors.red);
   /// ```
   static Widget blogger({
     double size = 25,
@@ -1760,7 +1760,7 @@ class AmazingIconTwotone {
   }) =>
       _build('blogger', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bluetooth2` twototne icon with a background and foreground layer.
+  /// Displays the `bluetooth2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1769,7 +1769,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bluetooth2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bluetooth2(size: 32, color: Colors.red);
   /// ```
   static Widget bluetooth2({
     double size = 25,
@@ -1778,7 +1778,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bluetooth2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bluetoothCircle` twototne icon with a background and foreground layer.
+  /// Displays the `bluetoothCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1787,7 +1787,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bluetoothCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bluetoothCircle(size: 32, color: Colors.red);
   /// ```
   static Widget bluetoothCircle({
     double size = 25,
@@ -1796,7 +1796,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bluetoothCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bluetoothRectangle` twototne icon with a background and foreground layer.
+  /// Displays the `bluetoothRectangle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1805,7 +1805,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bluetoothRectangle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bluetoothRectangle(size: 32, color: Colors.red);
   /// ```
   static Widget bluetoothRectangle({
     double size = 25,
@@ -1814,7 +1814,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bluetoothRectangle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `blur` twototne icon with a background and foreground layer.
+  /// Displays the `blur` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1823,7 +1823,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.blur(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.blur(size: 32, color: Colors.red);
   /// ```
   static Widget blur({
     double size = 25,
@@ -1832,7 +1832,7 @@ class AmazingIconTwotone {
   }) =>
       _build('blur', size: size, color: color, opacity: opacity);
 
-  /// Displays the `book` twototne icon with a background and foreground layer.
+  /// Displays the `book` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1841,7 +1841,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.book(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.book(size: 32, color: Colors.red);
   /// ```
   static Widget book({
     double size = 25,
@@ -1850,7 +1850,7 @@ class AmazingIconTwotone {
   }) =>
       _build('book', size: size, color: color, opacity: opacity);
 
-  /// Displays the `book1` twototne icon with a background and foreground layer.
+  /// Displays the `book1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1859,7 +1859,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.book1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.book1(size: 32, color: Colors.red);
   /// ```
   static Widget book1({
     double size = 25,
@@ -1868,7 +1868,7 @@ class AmazingIconTwotone {
   }) =>
       _build('book1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bookSaved` twototne icon with a background and foreground layer.
+  /// Displays the `bookSaved` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1877,7 +1877,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bookSaved(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bookSaved(size: 32, color: Colors.red);
   /// ```
   static Widget bookSaved({
     double size = 25,
@@ -1886,7 +1886,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bookSaved', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bookSquare` twototne icon with a background and foreground layer.
+  /// Displays the `bookSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1895,7 +1895,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bookSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bookSquare(size: 32, color: Colors.red);
   /// ```
   static Widget bookSquare({
     double size = 25,
@@ -1904,7 +1904,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bookSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bookmark` twototne icon with a background and foreground layer.
+  /// Displays the `bookmark` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1913,7 +1913,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bookmark(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bookmark(size: 32, color: Colors.red);
   /// ```
   static Widget bookmark({
     double size = 25,
@@ -1922,7 +1922,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bookmark', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bookmark2` twototne icon with a background and foreground layer.
+  /// Displays the `bookmark2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1931,7 +1931,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bookmark2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bookmark2(size: 32, color: Colors.red);
   /// ```
   static Widget bookmark2({
     double size = 25,
@@ -1940,7 +1940,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bookmark2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bootstrap` twototne icon with a background and foreground layer.
+  /// Displays the `bootstrap` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1949,7 +1949,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bootstrap(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bootstrap(size: 32, color: Colors.red);
   /// ```
   static Widget bootstrap({
     double size = 25,
@@ -1958,7 +1958,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bootstrap', size: size, color: color, opacity: opacity);
 
-  /// Displays the `box` twototne icon with a background and foreground layer.
+  /// Displays the `box` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1967,7 +1967,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.box(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.box(size: 32, color: Colors.red);
   /// ```
   static Widget box({
     double size = 25,
@@ -1976,7 +1976,7 @@ class AmazingIconTwotone {
   }) =>
       _build('box', size: size, color: color, opacity: opacity);
 
-  /// Displays the `box1` twototne icon with a background and foreground layer.
+  /// Displays the `box1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -1985,7 +1985,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.box1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.box1(size: 32, color: Colors.red);
   /// ```
   static Widget box1({
     double size = 25,
@@ -1994,7 +1994,7 @@ class AmazingIconTwotone {
   }) =>
       _build('box1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `box2` twototne icon with a background and foreground layer.
+  /// Displays the `box2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2003,7 +2003,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.box2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.box2(size: 32, color: Colors.red);
   /// ```
   static Widget box2({
     double size = 25,
@@ -2012,7 +2012,7 @@ class AmazingIconTwotone {
   }) =>
       _build('box2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `boxAdd` twototne icon with a background and foreground layer.
+  /// Displays the `boxAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2021,7 +2021,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.boxAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.boxAdd(size: 32, color: Colors.red);
   /// ```
   static Widget boxAdd({
     double size = 25,
@@ -2030,7 +2030,7 @@ class AmazingIconTwotone {
   }) =>
       _build('boxAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `boxRemove` twototne icon with a background and foreground layer.
+  /// Displays the `boxRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2039,7 +2039,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.boxRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.boxRemove(size: 32, color: Colors.red);
   /// ```
   static Widget boxRemove({
     double size = 25,
@@ -2048,7 +2048,7 @@ class AmazingIconTwotone {
   }) =>
       _build('boxRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `boxSearch` twototne icon with a background and foreground layer.
+  /// Displays the `boxSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2057,7 +2057,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.boxSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.boxSearch(size: 32, color: Colors.red);
   /// ```
   static Widget boxSearch({
     double size = 25,
@@ -2066,7 +2066,7 @@ class AmazingIconTwotone {
   }) =>
       _build('boxSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `boxTick` twototne icon with a background and foreground layer.
+  /// Displays the `boxTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2075,7 +2075,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.boxTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.boxTick(size: 32, color: Colors.red);
   /// ```
   static Widget boxTick({
     double size = 25,
@@ -2084,7 +2084,7 @@ class AmazingIconTwotone {
   }) =>
       _build('boxTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `boxTime` twototne icon with a background and foreground layer.
+  /// Displays the `boxTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2093,7 +2093,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.boxTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.boxTime(size: 32, color: Colors.red);
   /// ```
   static Widget boxTime({
     double size = 25,
@@ -2102,7 +2102,7 @@ class AmazingIconTwotone {
   }) =>
       _build('boxTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `briefcase` twototne icon with a background and foreground layer.
+  /// Displays the `briefcase` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2111,7 +2111,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.briefcase(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.briefcase(size: 32, color: Colors.red);
   /// ```
   static Widget briefcase({
     double size = 25,
@@ -2120,7 +2120,7 @@ class AmazingIconTwotone {
   }) =>
       _build('briefcase', size: size, color: color, opacity: opacity);
 
-  /// Displays the `briefcaseCross` twototne icon with a background and foreground layer.
+  /// Displays the `briefcaseCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2129,7 +2129,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.briefcaseCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.briefcaseCross(size: 32, color: Colors.red);
   /// ```
   static Widget briefcaseCross({
     double size = 25,
@@ -2138,7 +2138,7 @@ class AmazingIconTwotone {
   }) =>
       _build('briefcaseCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `briefcaseTick` twototne icon with a background and foreground layer.
+  /// Displays the `briefcaseTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2147,7 +2147,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.briefcaseTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.briefcaseTick(size: 32, color: Colors.red);
   /// ```
   static Widget briefcaseTick({
     double size = 25,
@@ -2156,7 +2156,7 @@ class AmazingIconTwotone {
   }) =>
       _build('briefcaseTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `briefcaseTimer` twototne icon with a background and foreground layer.
+  /// Displays the `briefcaseTimer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2165,7 +2165,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.briefcaseTimer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.briefcaseTimer(size: 32, color: Colors.red);
   /// ```
   static Widget briefcaseTimer({
     double size = 25,
@@ -2174,7 +2174,7 @@ class AmazingIconTwotone {
   }) =>
       _build('briefcaseTimer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `broom` twototne icon with a background and foreground layer.
+  /// Displays the `broom` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2183,7 +2183,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.broom(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.broom(size: 32, color: Colors.red);
   /// ```
   static Widget broom({
     double size = 25,
@@ -2192,7 +2192,7 @@ class AmazingIconTwotone {
   }) =>
       _build('broom', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brush` twototne icon with a background and foreground layer.
+  /// Displays the `brush` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2201,7 +2201,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.brush(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.brush(size: 32, color: Colors.red);
   /// ```
   static Widget brush({
     double size = 25,
@@ -2210,7 +2210,7 @@ class AmazingIconTwotone {
   }) =>
       _build('brush', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brush1` twototne icon with a background and foreground layer.
+  /// Displays the `brush1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2219,7 +2219,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.brush1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.brush1(size: 32, color: Colors.red);
   /// ```
   static Widget brush1({
     double size = 25,
@@ -2228,7 +2228,7 @@ class AmazingIconTwotone {
   }) =>
       _build('brush1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brush2` twototne icon with a background and foreground layer.
+  /// Displays the `brush2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2237,7 +2237,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.brush2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.brush2(size: 32, color: Colors.red);
   /// ```
   static Widget brush2({
     double size = 25,
@@ -2246,7 +2246,7 @@ class AmazingIconTwotone {
   }) =>
       _build('brush2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `brush4` twototne icon with a background and foreground layer.
+  /// Displays the `brush4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2255,7 +2255,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.brush4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.brush4(size: 32, color: Colors.red);
   /// ```
   static Widget brush4({
     double size = 25,
@@ -2264,7 +2264,7 @@ class AmazingIconTwotone {
   }) =>
       _build('brush4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bubble` twototne icon with a background and foreground layer.
+  /// Displays the `bubble` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2273,7 +2273,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bubble(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bubble(size: 32, color: Colors.red);
   /// ```
   static Widget bubble({
     double size = 25,
@@ -2282,7 +2282,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bubble', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bucket` twototne icon with a background and foreground layer.
+  /// Displays the `bucket` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2291,7 +2291,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bucket(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bucket(size: 32, color: Colors.red);
   /// ```
   static Widget bucket({
     double size = 25,
@@ -2300,7 +2300,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bucket', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bucketCircle` twototne icon with a background and foreground layer.
+  /// Displays the `bucketCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2309,7 +2309,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bucketCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bucketCircle(size: 32, color: Colors.red);
   /// ```
   static Widget bucketCircle({
     double size = 25,
@@ -2318,7 +2318,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bucketCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bucketSquare` twototne icon with a background and foreground layer.
+  /// Displays the `bucketSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2327,7 +2327,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bucketSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bucketSquare(size: 32, color: Colors.red);
   /// ```
   static Widget bucketSquare({
     double size = 25,
@@ -2336,7 +2336,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bucketSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `building` twototne icon with a background and foreground layer.
+  /// Displays the `building` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2345,7 +2345,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.building(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.building(size: 32, color: Colors.red);
   /// ```
   static Widget building({
     double size = 25,
@@ -2354,7 +2354,7 @@ class AmazingIconTwotone {
   }) =>
       _build('building', size: size, color: color, opacity: opacity);
 
-  /// Displays the `building2` twototne icon with a background and foreground layer.
+  /// Displays the `building2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2363,7 +2363,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.building2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.building2(size: 32, color: Colors.red);
   /// ```
   static Widget building2({
     double size = 25,
@@ -2372,7 +2372,7 @@ class AmazingIconTwotone {
   }) =>
       _build('building2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `building3` twototne icon with a background and foreground layer.
+  /// Displays the `building3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2381,7 +2381,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.building3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.building3(size: 32, color: Colors.red);
   /// ```
   static Widget building3({
     double size = 25,
@@ -2390,7 +2390,7 @@ class AmazingIconTwotone {
   }) =>
       _build('building3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `building4` twototne icon with a background and foreground layer.
+  /// Displays the `building4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2399,7 +2399,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.building4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.building4(size: 32, color: Colors.red);
   /// ```
   static Widget building4({
     double size = 25,
@@ -2408,7 +2408,7 @@ class AmazingIconTwotone {
   }) =>
       _build('building4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `buildings` twototne icon with a background and foreground layer.
+  /// Displays the `buildings` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2417,7 +2417,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.buildings(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.buildings(size: 32, color: Colors.red);
   /// ```
   static Widget buildings({
     double size = 25,
@@ -2426,7 +2426,7 @@ class AmazingIconTwotone {
   }) =>
       _build('buildings', size: size, color: color, opacity: opacity);
 
-  /// Displays the `buildings2` twototne icon with a background and foreground layer.
+  /// Displays the `buildings2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2435,7 +2435,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.buildings2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.buildings2(size: 32, color: Colors.red);
   /// ```
   static Widget buildings2({
     double size = 25,
@@ -2444,7 +2444,7 @@ class AmazingIconTwotone {
   }) =>
       _build('buildings2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `bus` twototne icon with a background and foreground layer.
+  /// Displays the `bus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2453,7 +2453,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.bus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.bus(size: 32, color: Colors.red);
   /// ```
   static Widget bus({
     double size = 25,
@@ -2462,7 +2462,7 @@ class AmazingIconTwotone {
   }) =>
       _build('bus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `buyCrypto` twototne icon with a background and foreground layer.
+  /// Displays the `buyCrypto` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2471,7 +2471,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.buyCrypto(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.buyCrypto(size: 32, color: Colors.red);
   /// ```
   static Widget buyCrypto({
     double size = 25,
@@ -2480,7 +2480,7 @@ class AmazingIconTwotone {
   }) =>
       _build('buyCrypto', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cake` twototne icon with a background and foreground layer.
+  /// Displays the `cake` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2489,7 +2489,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cake(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cake(size: 32, color: Colors.red);
   /// ```
   static Widget cake({
     double size = 25,
@@ -2498,7 +2498,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cake', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calculator` twototne icon with a background and foreground layer.
+  /// Displays the `calculator` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2507,7 +2507,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calculator(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calculator(size: 32, color: Colors.red);
   /// ```
   static Widget calculator({
     double size = 25,
@@ -2516,7 +2516,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calculator', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendar` twototne icon with a background and foreground layer.
+  /// Displays the `calendar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2525,7 +2525,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendar(size: 32, color: Colors.red);
   /// ```
   static Widget calendar({
     double size = 25,
@@ -2534,7 +2534,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendar1` twototne icon with a background and foreground layer.
+  /// Displays the `calendar1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2543,7 +2543,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendar1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendar1(size: 32, color: Colors.red);
   /// ```
   static Widget calendar1({
     double size = 25,
@@ -2552,7 +2552,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendar1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendar2` twototne icon with a background and foreground layer.
+  /// Displays the `calendar2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2561,7 +2561,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendar2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendar2(size: 32, color: Colors.red);
   /// ```
   static Widget calendar2({
     double size = 25,
@@ -2570,7 +2570,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendar2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarAdd` twototne icon with a background and foreground layer.
+  /// Displays the `calendarAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2579,7 +2579,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarAdd(size: 32, color: Colors.red);
   /// ```
   static Widget calendarAdd({
     double size = 25,
@@ -2588,7 +2588,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarCircle` twototne icon with a background and foreground layer.
+  /// Displays the `calendarCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2597,7 +2597,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarCircle(size: 32, color: Colors.red);
   /// ```
   static Widget calendarCircle({
     double size = 25,
@@ -2606,7 +2606,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarEdit` twototne icon with a background and foreground layer.
+  /// Displays the `calendarEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2615,7 +2615,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarEdit(size: 32, color: Colors.red);
   /// ```
   static Widget calendarEdit({
     double size = 25,
@@ -2624,7 +2624,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarRemove` twototne icon with a background and foreground layer.
+  /// Displays the `calendarRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2633,7 +2633,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarRemove(size: 32, color: Colors.red);
   /// ```
   static Widget calendarRemove({
     double size = 25,
@@ -2642,7 +2642,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarSearch` twototne icon with a background and foreground layer.
+  /// Displays the `calendarSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2651,7 +2651,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarSearch(size: 32, color: Colors.red);
   /// ```
   static Widget calendarSearch({
     double size = 25,
@@ -2660,7 +2660,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `calendarTick` twototne icon with a background and foreground layer.
+  /// Displays the `calendarTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2669,7 +2669,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.calendarTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.calendarTick(size: 32, color: Colors.red);
   /// ```
   static Widget calendarTick({
     double size = 25,
@@ -2678,7 +2678,7 @@ class AmazingIconTwotone {
   }) =>
       _build('calendarTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callAdd` twototne icon with a background and foreground layer.
+  /// Displays the `callAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2687,7 +2687,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callAdd(size: 32, color: Colors.red);
   /// ```
   static Widget callAdd({
     double size = 25,
@@ -2696,7 +2696,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callCalling` twototne icon with a background and foreground layer.
+  /// Displays the `callCalling` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2705,7 +2705,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callCalling(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callCalling(size: 32, color: Colors.red);
   /// ```
   static Widget callCalling({
     double size = 25,
@@ -2714,7 +2714,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callCalling', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callIncoming` twototne icon with a background and foreground layer.
+  /// Displays the `callIncoming` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2723,7 +2723,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callIncoming(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callIncoming(size: 32, color: Colors.red);
   /// ```
   static Widget callIncoming({
     double size = 25,
@@ -2732,7 +2732,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callIncoming', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callMinus` twototne icon with a background and foreground layer.
+  /// Displays the `callMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2741,7 +2741,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callMinus(size: 32, color: Colors.red);
   /// ```
   static Widget callMinus({
     double size = 25,
@@ -2750,7 +2750,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callOutgoing` twototne icon with a background and foreground layer.
+  /// Displays the `callOutgoing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2759,7 +2759,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callOutgoing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callOutgoing(size: 32, color: Colors.red);
   /// ```
   static Widget callOutgoing({
     double size = 25,
@@ -2768,7 +2768,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callOutgoing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callReceived` twototne icon with a background and foreground layer.
+  /// Displays the `callReceived` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2777,7 +2777,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callReceived(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callReceived(size: 32, color: Colors.red);
   /// ```
   static Widget callReceived({
     double size = 25,
@@ -2786,7 +2786,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callReceived', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callRemove` twototne icon with a background and foreground layer.
+  /// Displays the `callRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2795,7 +2795,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callRemove(size: 32, color: Colors.red);
   /// ```
   static Widget callRemove({
     double size = 25,
@@ -2804,7 +2804,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `callSlash` twototne icon with a background and foreground layer.
+  /// Displays the `callSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2813,7 +2813,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.callSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.callSlash(size: 32, color: Colors.red);
   /// ```
   static Widget callSlash({
     double size = 25,
@@ -2822,7 +2822,7 @@ class AmazingIconTwotone {
   }) =>
       _build('callSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `camera` twototne icon with a background and foreground layer.
+  /// Displays the `camera` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2831,7 +2831,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.camera(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.camera(size: 32, color: Colors.red);
   /// ```
   static Widget camera({
     double size = 25,
@@ -2840,7 +2840,7 @@ class AmazingIconTwotone {
   }) =>
       _build('camera', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cameraSlash` twototne icon with a background and foreground layer.
+  /// Displays the `cameraSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2849,7 +2849,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cameraSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cameraSlash(size: 32, color: Colors.red);
   /// ```
   static Widget cameraSlash({
     double size = 25,
@@ -2858,7 +2858,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cameraSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `candle` twototne icon with a background and foreground layer.
+  /// Displays the `candle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2867,7 +2867,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.candle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.candle(size: 32, color: Colors.red);
   /// ```
   static Widget candle({
     double size = 25,
@@ -2876,7 +2876,7 @@ class AmazingIconTwotone {
   }) =>
       _build('candle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `candle2` twototne icon with a background and foreground layer.
+  /// Displays the `candle2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2885,7 +2885,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.candle2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.candle2(size: 32, color: Colors.red);
   /// ```
   static Widget candle2({
     double size = 25,
@@ -2894,7 +2894,7 @@ class AmazingIconTwotone {
   }) =>
       _build('candle2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `car` twototne icon with a background and foreground layer.
+  /// Displays the `car` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2903,7 +2903,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.car(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.car(size: 32, color: Colors.red);
   /// ```
   static Widget car({
     double size = 25,
@@ -2912,7 +2912,7 @@ class AmazingIconTwotone {
   }) =>
       _build('car', size: size, color: color, opacity: opacity);
 
-  /// Displays the `card` twototne icon with a background and foreground layer.
+  /// Displays the `card` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2921,7 +2921,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.card(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.card(size: 32, color: Colors.red);
   /// ```
   static Widget card({
     double size = 25,
@@ -2930,7 +2930,7 @@ class AmazingIconTwotone {
   }) =>
       _build('card', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardAdd` twototne icon with a background and foreground layer.
+  /// Displays the `cardAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2939,7 +2939,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardAdd(size: 32, color: Colors.red);
   /// ```
   static Widget cardAdd({
     double size = 25,
@@ -2948,7 +2948,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardCoin` twototne icon with a background and foreground layer.
+  /// Displays the `cardCoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2957,7 +2957,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardCoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardCoin(size: 32, color: Colors.red);
   /// ```
   static Widget cardCoin({
     double size = 25,
@@ -2966,7 +2966,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardCoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardEdit` twototne icon with a background and foreground layer.
+  /// Displays the `cardEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2975,7 +2975,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardEdit(size: 32, color: Colors.red);
   /// ```
   static Widget cardEdit({
     double size = 25,
@@ -2984,7 +2984,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardPos` twototne icon with a background and foreground layer.
+  /// Displays the `cardPos` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -2993,7 +2993,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardPos(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardPos(size: 32, color: Colors.red);
   /// ```
   static Widget cardPos({
     double size = 25,
@@ -3002,7 +3002,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardPos', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardReceive` twototne icon with a background and foreground layer.
+  /// Displays the `cardReceive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3011,7 +3011,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardReceive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardReceive(size: 32, color: Colors.red);
   /// ```
   static Widget cardReceive({
     double size = 25,
@@ -3020,7 +3020,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardReceive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardRemove` twototne icon with a background and foreground layer.
+  /// Displays the `cardRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3029,7 +3029,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardRemove(size: 32, color: Colors.red);
   /// ```
   static Widget cardRemove({
     double size = 25,
@@ -3038,7 +3038,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardRemove1` twototne icon with a background and foreground layer.
+  /// Displays the `cardRemove1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3047,7 +3047,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardRemove1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardRemove1(size: 32, color: Colors.red);
   /// ```
   static Widget cardRemove1({
     double size = 25,
@@ -3056,7 +3056,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardRemove1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardSend` twototne icon with a background and foreground layer.
+  /// Displays the `cardSend` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3065,7 +3065,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardSend(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardSend(size: 32, color: Colors.red);
   /// ```
   static Widget cardSend({
     double size = 25,
@@ -3074,7 +3074,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardSend', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardSlash` twototne icon with a background and foreground layer.
+  /// Displays the `cardSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3083,7 +3083,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardSlash(size: 32, color: Colors.red);
   /// ```
   static Widget cardSlash({
     double size = 25,
@@ -3092,7 +3092,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardTick` twototne icon with a background and foreground layer.
+  /// Displays the `cardTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3101,7 +3101,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardTick(size: 32, color: Colors.red);
   /// ```
   static Widget cardTick({
     double size = 25,
@@ -3110,7 +3110,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardTick1` twototne icon with a background and foreground layer.
+  /// Displays the `cardTick1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3119,7 +3119,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardTick1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardTick1(size: 32, color: Colors.red);
   /// ```
   static Widget cardTick1({
     double size = 25,
@@ -3128,7 +3128,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardTick1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cardano` twototne icon with a background and foreground layer.
+  /// Displays the `cardano` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3137,7 +3137,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cardano(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cardano(size: 32, color: Colors.red);
   /// ```
   static Widget cardano({
     double size = 25,
@@ -3146,7 +3146,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cardano', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cards` twototne icon with a background and foreground layer.
+  /// Displays the `cards` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3155,7 +3155,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cards(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cards(size: 32, color: Colors.red);
   /// ```
   static Widget cards({
     double size = 25,
@@ -3164,7 +3164,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cards', size: size, color: color, opacity: opacity);
 
-  /// Displays the `category` twototne icon with a background and foreground layer.
+  /// Displays the `category` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3173,7 +3173,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.category(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.category(size: 32, color: Colors.red);
   /// ```
   static Widget category({
     double size = 25,
@@ -3182,7 +3182,7 @@ class AmazingIconTwotone {
   }) =>
       _build('category', size: size, color: color, opacity: opacity);
 
-  /// Displays the `category2` twototne icon with a background and foreground layer.
+  /// Displays the `category2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3191,7 +3191,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.category2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.category2(size: 32, color: Colors.red);
   /// ```
   static Widget category2({
     double size = 25,
@@ -3200,7 +3200,7 @@ class AmazingIconTwotone {
   }) =>
       _build('category2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cd` twototne icon with a background and foreground layer.
+  /// Displays the `cd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3209,7 +3209,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cd(size: 32, color: Colors.red);
   /// ```
   static Widget cd({
     double size = 25,
@@ -3218,7 +3218,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `celo` twototne icon with a background and foreground layer.
+  /// Displays the `celo` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3227,7 +3227,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.celo(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.celo(size: 32, color: Colors.red);
   /// ```
   static Widget celo({
     double size = 25,
@@ -3236,7 +3236,7 @@ class AmazingIconTwotone {
   }) =>
       _build('celo', size: size, color: color, opacity: opacity);
 
-  /// Displays the `celsius` twototne icon with a background and foreground layer.
+  /// Displays the `celsius` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3245,7 +3245,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.celsius(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.celsius(size: 32, color: Colors.red);
   /// ```
   static Widget celsius({
     double size = 25,
@@ -3254,7 +3254,7 @@ class AmazingIconTwotone {
   }) =>
       _build('celsius', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chart` twototne icon with a background and foreground layer.
+  /// Displays the `chart` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3263,7 +3263,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chart(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chart(size: 32, color: Colors.red);
   /// ```
   static Widget chart({
     double size = 25,
@@ -3272,7 +3272,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chart', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chart1` twototne icon with a background and foreground layer.
+  /// Displays the `chart1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3281,7 +3281,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chart1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chart1(size: 32, color: Colors.red);
   /// ```
   static Widget chart1({
     double size = 25,
@@ -3290,7 +3290,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chart1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chart2` twototne icon with a background and foreground layer.
+  /// Displays the `chart2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3299,7 +3299,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chart2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chart2(size: 32, color: Colors.red);
   /// ```
   static Widget chart2({
     double size = 25,
@@ -3308,7 +3308,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chart2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chart3` twototne icon with a background and foreground layer.
+  /// Displays the `chart3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3317,7 +3317,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chart3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chart3(size: 32, color: Colors.red);
   /// ```
   static Widget chart3({
     double size = 25,
@@ -3326,7 +3326,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chart3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chart4` twototne icon with a background and foreground layer.
+  /// Displays the `chart4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3335,7 +3335,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chart4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chart4(size: 32, color: Colors.red);
   /// ```
   static Widget chart4({
     double size = 25,
@@ -3344,7 +3344,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chart4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chartFail` twototne icon with a background and foreground layer.
+  /// Displays the `chartFail` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3353,7 +3353,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chartFail(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chartFail(size: 32, color: Colors.red);
   /// ```
   static Widget chartFail({
     double size = 25,
@@ -3362,7 +3362,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chartFail', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chartSquare` twototne icon with a background and foreground layer.
+  /// Displays the `chartSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3371,7 +3371,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chartSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chartSquare(size: 32, color: Colors.red);
   /// ```
   static Widget chartSquare({
     double size = 25,
@@ -3380,7 +3380,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chartSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chartSuccess` twototne icon with a background and foreground layer.
+  /// Displays the `chartSuccess` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3389,7 +3389,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chartSuccess(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chartSuccess(size: 32, color: Colors.red);
   /// ```
   static Widget chartSuccess({
     double size = 25,
@@ -3398,7 +3398,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chartSuccess', size: size, color: color, opacity: opacity);
 
-  /// Displays the `check` twototne icon with a background and foreground layer.
+  /// Displays the `check` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3407,7 +3407,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.check(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.check(size: 32, color: Colors.red);
   /// ```
   static Widget check({
     double size = 25,
@@ -3416,7 +3416,7 @@ class AmazingIconTwotone {
   }) =>
       _build('check', size: size, color: color, opacity: opacity);
 
-  /// Displays the `chrome` twototne icon with a background and foreground layer.
+  /// Displays the `chrome` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3425,7 +3425,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.chrome(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.chrome(size: 32, color: Colors.red);
   /// ```
   static Widget chrome({
     double size = 25,
@@ -3434,7 +3434,7 @@ class AmazingIconTwotone {
   }) =>
       _build('chrome', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboard` twototne icon with a background and foreground layer.
+  /// Displays the `clipboard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3443,7 +3443,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboard(size: 32, color: Colors.red);
   /// ```
   static Widget clipboard({
     double size = 25,
@@ -3452,7 +3452,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboardClose` twototne icon with a background and foreground layer.
+  /// Displays the `clipboardClose` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3461,7 +3461,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboardClose(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboardClose(size: 32, color: Colors.red);
   /// ```
   static Widget clipboardClose({
     double size = 25,
@@ -3470,7 +3470,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboardClose', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboardExport` twototne icon with a background and foreground layer.
+  /// Displays the `clipboardExport` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3479,7 +3479,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboardExport(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboardExport(size: 32, color: Colors.red);
   /// ```
   static Widget clipboardExport({
     double size = 25,
@@ -3488,7 +3488,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboardExport', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboardImport` twototne icon with a background and foreground layer.
+  /// Displays the `clipboardImport` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3497,7 +3497,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboardImport(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboardImport(size: 32, color: Colors.red);
   /// ```
   static Widget clipboardImport({
     double size = 25,
@@ -3506,7 +3506,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboardImport', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboardText` twototne icon with a background and foreground layer.
+  /// Displays the `clipboardText` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3515,7 +3515,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboardText(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboardText(size: 32, color: Colors.red);
   /// ```
   static Widget clipboardText({
     double size = 25,
@@ -3524,7 +3524,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboardText', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clipboardTick` twototne icon with a background and foreground layer.
+  /// Displays the `clipboardTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3533,7 +3533,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clipboardTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clipboardTick(size: 32, color: Colors.red);
   /// ```
   static Widget clipboardTick({
     double size = 25,
@@ -3542,7 +3542,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clipboardTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clock` twototne icon with a background and foreground layer.
+  /// Displays the `clock` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3551,7 +3551,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clock(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clock(size: 32, color: Colors.red);
   /// ```
   static Widget clock({
     double size = 25,
@@ -3560,7 +3560,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `clock1` twototne icon with a background and foreground layer.
+  /// Displays the `clock1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3569,7 +3569,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.clock1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.clock1(size: 32, color: Colors.red);
   /// ```
   static Widget clock1({
     double size = 25,
@@ -3578,7 +3578,7 @@ class AmazingIconTwotone {
   }) =>
       _build('clock1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `closeCircle` twototne icon with a background and foreground layer.
+  /// Displays the `closeCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3587,7 +3587,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.closeCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.closeCircle(size: 32, color: Colors.red);
   /// ```
   static Widget closeCircle({
     double size = 25,
@@ -3596,7 +3596,7 @@ class AmazingIconTwotone {
   }) =>
       _build('closeCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `closeSquare` twototne icon with a background and foreground layer.
+  /// Displays the `closeSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3605,7 +3605,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.closeSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.closeSquare(size: 32, color: Colors.red);
   /// ```
   static Widget closeSquare({
     double size = 25,
@@ -3614,7 +3614,7 @@ class AmazingIconTwotone {
   }) =>
       _build('closeSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudAdd` twototne icon with a background and foreground layer.
+  /// Displays the `cloudAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3623,7 +3623,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudAdd(size: 32, color: Colors.red);
   /// ```
   static Widget cloudAdd({
     double size = 25,
@@ -3632,7 +3632,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudChange` twototne icon with a background and foreground layer.
+  /// Displays the `cloudChange` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3641,7 +3641,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudChange(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudChange(size: 32, color: Colors.red);
   /// ```
   static Widget cloudChange({
     double size = 25,
@@ -3650,7 +3650,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudChange', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudConnection` twototne icon with a background and foreground layer.
+  /// Displays the `cloudConnection` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3659,7 +3659,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudConnection(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudConnection(size: 32, color: Colors.red);
   /// ```
   static Widget cloudConnection({
     double size = 25,
@@ -3668,7 +3668,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudConnection', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudCross` twototne icon with a background and foreground layer.
+  /// Displays the `cloudCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3677,7 +3677,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudCross(size: 32, color: Colors.red);
   /// ```
   static Widget cloudCross({
     double size = 25,
@@ -3686,7 +3686,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudDrizzle` twototne icon with a background and foreground layer.
+  /// Displays the `cloudDrizzle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3695,7 +3695,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudDrizzle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudDrizzle(size: 32, color: Colors.red);
   /// ```
   static Widget cloudDrizzle({
     double size = 25,
@@ -3704,7 +3704,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudDrizzle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudFog` twototne icon with a background and foreground layer.
+  /// Displays the `cloudFog` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3713,7 +3713,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudFog(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudFog(size: 32, color: Colors.red);
   /// ```
   static Widget cloudFog({
     double size = 25,
@@ -3722,7 +3722,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudFog', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudLightning` twototne icon with a background and foreground layer.
+  /// Displays the `cloudLightning` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3731,7 +3731,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudLightning(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudLightning(size: 32, color: Colors.red);
   /// ```
   static Widget cloudLightning({
     double size = 25,
@@ -3740,7 +3740,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudLightning', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudMinus` twototne icon with a background and foreground layer.
+  /// Displays the `cloudMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3749,7 +3749,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudMinus(size: 32, color: Colors.red);
   /// ```
   static Widget cloudMinus({
     double size = 25,
@@ -3758,7 +3758,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudNotif` twototne icon with a background and foreground layer.
+  /// Displays the `cloudNotif` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3767,7 +3767,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudNotif(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudNotif(size: 32, color: Colors.red);
   /// ```
   static Widget cloudNotif({
     double size = 25,
@@ -3776,7 +3776,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudNotif', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudPlus` twototne icon with a background and foreground layer.
+  /// Displays the `cloudPlus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3785,7 +3785,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudPlus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudPlus(size: 32, color: Colors.red);
   /// ```
   static Widget cloudPlus({
     double size = 25,
@@ -3794,7 +3794,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudPlus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudRemove` twototne icon with a background and foreground layer.
+  /// Displays the `cloudRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3803,7 +3803,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudRemove(size: 32, color: Colors.red);
   /// ```
   static Widget cloudRemove({
     double size = 25,
@@ -3812,7 +3812,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudSnow` twototne icon with a background and foreground layer.
+  /// Displays the `cloudSnow` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3821,7 +3821,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudSnow(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudSnow(size: 32, color: Colors.red);
   /// ```
   static Widget cloudSnow({
     double size = 25,
@@ -3830,7 +3830,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudSnow', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cloudSunny` twototne icon with a background and foreground layer.
+  /// Displays the `cloudSunny` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3839,7 +3839,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cloudSunny(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cloudSunny(size: 32, color: Colors.red);
   /// ```
   static Widget cloudSunny({
     double size = 25,
@@ -3848,7 +3848,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cloudSunny', size: size, color: color, opacity: opacity);
 
-  /// Displays the `code` twototne icon with a background and foreground layer.
+  /// Displays the `code` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3857,7 +3857,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.code(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.code(size: 32, color: Colors.red);
   /// ```
   static Widget code({
     double size = 25,
@@ -3866,7 +3866,7 @@ class AmazingIconTwotone {
   }) =>
       _build('code', size: size, color: color, opacity: opacity);
 
-  /// Displays the `code1` twototne icon with a background and foreground layer.
+  /// Displays the `code1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3875,7 +3875,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.code1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.code1(size: 32, color: Colors.red);
   /// ```
   static Widget code1({
     double size = 25,
@@ -3884,7 +3884,7 @@ class AmazingIconTwotone {
   }) =>
       _build('code1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `codeCircle` twototne icon with a background and foreground layer.
+  /// Displays the `codeCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3893,7 +3893,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.codeCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.codeCircle(size: 32, color: Colors.red);
   /// ```
   static Widget codeCircle({
     double size = 25,
@@ -3902,7 +3902,7 @@ class AmazingIconTwotone {
   }) =>
       _build('codeCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `coffee` twototne icon with a background and foreground layer.
+  /// Displays the `coffee` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3911,7 +3911,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.coffee(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.coffee(size: 32, color: Colors.red);
   /// ```
   static Widget coffee({
     double size = 25,
@@ -3920,7 +3920,7 @@ class AmazingIconTwotone {
   }) =>
       _build('coffee', size: size, color: color, opacity: opacity);
 
-  /// Displays the `coin` twototne icon with a background and foreground layer.
+  /// Displays the `coin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3929,7 +3929,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.coin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.coin(size: 32, color: Colors.red);
   /// ```
   static Widget coin({
     double size = 25,
@@ -3938,7 +3938,7 @@ class AmazingIconTwotone {
   }) =>
       _build('coin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `coin1` twototne icon with a background and foreground layer.
+  /// Displays the `coin1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3947,7 +3947,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.coin1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.coin1(size: 32, color: Colors.red);
   /// ```
   static Widget coin1({
     double size = 25,
@@ -3956,7 +3956,7 @@ class AmazingIconTwotone {
   }) =>
       _build('coin1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `colorFilter` twototne icon with a background and foreground layer.
+  /// Displays the `colorFilter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3965,7 +3965,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.colorFilter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.colorFilter(size: 32, color: Colors.red);
   /// ```
   static Widget colorFilter({
     double size = 25,
@@ -3974,7 +3974,7 @@ class AmazingIconTwotone {
   }) =>
       _build('colorFilter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `colorSwatch` twototne icon with a background and foreground layer.
+  /// Displays the `colorSwatch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -3983,7 +3983,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.colorSwatch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.colorSwatch(size: 32, color: Colors.red);
   /// ```
   static Widget colorSwatch({
     double size = 25,
@@ -3992,7 +3992,7 @@ class AmazingIconTwotone {
   }) =>
       _build('colorSwatch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `colorsSquare` twototne icon with a background and foreground layer.
+  /// Displays the `colorsSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4001,7 +4001,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.colorsSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.colorsSquare(size: 32, color: Colors.red);
   /// ```
   static Widget colorsSquare({
     double size = 25,
@@ -4010,7 +4010,7 @@ class AmazingIconTwotone {
   }) =>
       _build('colorsSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `command` twototne icon with a background and foreground layer.
+  /// Displays the `command` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4019,7 +4019,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.command(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.command(size: 32, color: Colors.red);
   /// ```
   static Widget command({
     double size = 25,
@@ -4028,7 +4028,7 @@ class AmazingIconTwotone {
   }) =>
       _build('command', size: size, color: color, opacity: opacity);
 
-  /// Displays the `commandSquare` twototne icon with a background and foreground layer.
+  /// Displays the `commandSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4037,7 +4037,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.commandSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.commandSquare(size: 32, color: Colors.red);
   /// ```
   static Widget commandSquare({
     double size = 25,
@@ -4046,7 +4046,7 @@ class AmazingIconTwotone {
   }) =>
       _build('commandSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `computing` twototne icon with a background and foreground layer.
+  /// Displays the `computing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4055,7 +4055,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.computing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.computing(size: 32, color: Colors.red);
   /// ```
   static Widget computing({
     double size = 25,
@@ -4064,7 +4064,7 @@ class AmazingIconTwotone {
   }) =>
       _build('computing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `convert` twototne icon with a background and foreground layer.
+  /// Displays the `convert` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4073,7 +4073,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.convert(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.convert(size: 32, color: Colors.red);
   /// ```
   static Widget convert({
     double size = 25,
@@ -4082,7 +4082,7 @@ class AmazingIconTwotone {
   }) =>
       _build('convert', size: size, color: color, opacity: opacity);
 
-  /// Displays the `convert3dCube` twototne icon with a background and foreground layer.
+  /// Displays the `convert3dCube` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4091,7 +4091,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.convert3dCube(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.convert3dCube(size: 32, color: Colors.red);
   /// ```
   static Widget convert3dCube({
     double size = 25,
@@ -4100,7 +4100,7 @@ class AmazingIconTwotone {
   }) =>
       _build('convert3dCube', size: size, color: color, opacity: opacity);
 
-  /// Displays the `convertCard` twototne icon with a background and foreground layer.
+  /// Displays the `convertCard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4109,7 +4109,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.convertCard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.convertCard(size: 32, color: Colors.red);
   /// ```
   static Widget convertCard({
     double size = 25,
@@ -4118,7 +4118,7 @@ class AmazingIconTwotone {
   }) =>
       _build('convertCard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `convertshape` twototne icon with a background and foreground layer.
+  /// Displays the `convertshape` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4127,7 +4127,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.convertshape(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.convertshape(size: 32, color: Colors.red);
   /// ```
   static Widget convertshape({
     double size = 25,
@@ -4136,7 +4136,7 @@ class AmazingIconTwotone {
   }) =>
       _build('convertshape', size: size, color: color, opacity: opacity);
 
-  /// Displays the `convertshape2` twototne icon with a background and foreground layer.
+  /// Displays the `convertshape2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4145,7 +4145,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.convertshape2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.convertshape2(size: 32, color: Colors.red);
   /// ```
   static Widget convertshape2({
     double size = 25,
@@ -4154,7 +4154,7 @@ class AmazingIconTwotone {
   }) =>
       _build('convertshape2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `copy` twototne icon with a background and foreground layer.
+  /// Displays the `copy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4163,7 +4163,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.copy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.copy(size: 32, color: Colors.red);
   /// ```
   static Widget copy({
     double size = 25,
@@ -4172,7 +4172,7 @@ class AmazingIconTwotone {
   }) =>
       _build('copy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `copySuccess` twototne icon with a background and foreground layer.
+  /// Displays the `copySuccess` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4181,7 +4181,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.copySuccess(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.copySuccess(size: 32, color: Colors.red);
   /// ```
   static Widget copySuccess({
     double size = 25,
@@ -4190,7 +4190,7 @@ class AmazingIconTwotone {
   }) =>
       _build('copySuccess', size: size, color: color, opacity: opacity);
 
-  /// Displays the `copyright` twototne icon with a background and foreground layer.
+  /// Displays the `copyright` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4199,7 +4199,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.copyright(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.copyright(size: 32, color: Colors.red);
   /// ```
   static Widget copyright({
     double size = 25,
@@ -4208,7 +4208,7 @@ class AmazingIconTwotone {
   }) =>
       _build('copyright', size: size, color: color, opacity: opacity);
 
-  /// Displays the `courthouse` twototne icon with a background and foreground layer.
+  /// Displays the `courthouse` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4217,7 +4217,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.courthouse(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.courthouse(size: 32, color: Colors.red);
   /// ```
   static Widget courthouse({
     double size = 25,
@@ -4226,7 +4226,7 @@ class AmazingIconTwotone {
   }) =>
       _build('courthouse', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cpu` twototne icon with a background and foreground layer.
+  /// Displays the `cpu` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4235,7 +4235,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cpu(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cpu(size: 32, color: Colors.red);
   /// ```
   static Widget cpu({
     double size = 25,
@@ -4244,7 +4244,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cpu', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cpuCharge` twototne icon with a background and foreground layer.
+  /// Displays the `cpuCharge` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4253,7 +4253,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cpuCharge(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cpuCharge(size: 32, color: Colors.red);
   /// ```
   static Widget cpuCharge({
     double size = 25,
@@ -4262,7 +4262,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cpuCharge', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cpuSetting` twototne icon with a background and foreground layer.
+  /// Displays the `cpuSetting` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4271,7 +4271,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cpuSetting(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cpuSetting(size: 32, color: Colors.red);
   /// ```
   static Widget cpuSetting({
     double size = 25,
@@ -4280,7 +4280,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cpuSetting', size: size, color: color, opacity: opacity);
 
-  /// Displays the `creativeCommons` twototne icon with a background and foreground layer.
+  /// Displays the `creativeCommons` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4289,7 +4289,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.creativeCommons(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.creativeCommons(size: 32, color: Colors.red);
   /// ```
   static Widget creativeCommons({
     double size = 25,
@@ -4298,7 +4298,7 @@ class AmazingIconTwotone {
   }) =>
       _build('creativeCommons', size: size, color: color, opacity: opacity);
 
-  /// Displays the `crop` twototne icon with a background and foreground layer.
+  /// Displays the `crop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4307,7 +4307,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.crop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.crop(size: 32, color: Colors.red);
   /// ```
   static Widget crop({
     double size = 25,
@@ -4316,7 +4316,7 @@ class AmazingIconTwotone {
   }) =>
       _build('crop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `crown1` twototne icon with a background and foreground layer.
+  /// Displays the `crown1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4325,7 +4325,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.crown1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.crown1(size: 32, color: Colors.red);
   /// ```
   static Widget crown1({
     double size = 25,
@@ -4334,7 +4334,7 @@ class AmazingIconTwotone {
   }) =>
       _build('crown1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cube3d` twototne icon with a background and foreground layer.
+  /// Displays the `cube3d` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4343,7 +4343,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cube3d(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cube3d(size: 32, color: Colors.red);
   /// ```
   static Widget cube3d({
     double size = 25,
@@ -4352,7 +4352,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cube3d', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cube3dScan` twototne icon with a background and foreground layer.
+  /// Displays the `cube3dScan` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4361,7 +4361,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cube3dScan(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cube3dScan(size: 32, color: Colors.red);
   /// ```
   static Widget cube3dScan({
     double size = 25,
@@ -4370,7 +4370,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cube3dScan', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cup` twototne icon with a background and foreground layer.
+  /// Displays the `cup` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4379,7 +4379,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cup(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cup(size: 32, color: Colors.red);
   /// ```
   static Widget cup({
     double size = 25,
@@ -4388,7 +4388,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cup', size: size, color: color, opacity: opacity);
 
-  /// Displays the `cvc` twototne icon with a background and foreground layer.
+  /// Displays the `cvc` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4397,7 +4397,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.cvc(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.cvc(size: 32, color: Colors.red);
   /// ```
   static Widget cvc({
     double size = 25,
@@ -4406,7 +4406,7 @@ class AmazingIconTwotone {
   }) =>
       _build('cvc', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dai` twototne icon with a background and foreground layer.
+  /// Displays the `dai` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4415,7 +4415,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dai(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dai(size: 32, color: Colors.red);
   /// ```
   static Widget dai({
     double size = 25,
@@ -4424,7 +4424,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dai', size: size, color: color, opacity: opacity);
 
-  /// Displays the `danger` twototne icon with a background and foreground layer.
+  /// Displays the `danger` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4433,7 +4433,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.danger(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.danger(size: 32, color: Colors.red);
   /// ```
   static Widget danger({
     double size = 25,
@@ -4442,7 +4442,7 @@ class AmazingIconTwotone {
   }) =>
       _build('danger', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dash` twototne icon with a background and foreground layer.
+  /// Displays the `dash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4451,7 +4451,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dash(size: 32, color: Colors.red);
   /// ```
   static Widget dash({
     double size = 25,
@@ -4460,7 +4460,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `data` twototne icon with a background and foreground layer.
+  /// Displays the `data` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4469,7 +4469,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.data(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.data(size: 32, color: Colors.red);
   /// ```
   static Widget data({
     double size = 25,
@@ -4478,7 +4478,7 @@ class AmazingIconTwotone {
   }) =>
       _build('data', size: size, color: color, opacity: opacity);
 
-  /// Displays the `data2` twototne icon with a background and foreground layer.
+  /// Displays the `data2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4487,7 +4487,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.data2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.data2(size: 32, color: Colors.red);
   /// ```
   static Widget data2({
     double size = 25,
@@ -4496,7 +4496,7 @@ class AmazingIconTwotone {
   }) =>
       _build('data2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `decred` twototne icon with a background and foreground layer.
+  /// Displays the `decred` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4505,7 +4505,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.decred(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.decred(size: 32, color: Colors.red);
   /// ```
   static Widget decred({
     double size = 25,
@@ -4514,7 +4514,7 @@ class AmazingIconTwotone {
   }) =>
       _build('decred', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dent` twototne icon with a background and foreground layer.
+  /// Displays the `dent` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4523,7 +4523,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dent(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dent(size: 32, color: Colors.red);
   /// ```
   static Widget dent({
     double size = 25,
@@ -4532,7 +4532,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dent', size: size, color: color, opacity: opacity);
 
-  /// Displays the `designtools` twototne icon with a background and foreground layer.
+  /// Displays the `designtools` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4541,7 +4541,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.designtools(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.designtools(size: 32, color: Colors.red);
   /// ```
   static Widget designtools({
     double size = 25,
@@ -4550,7 +4550,7 @@ class AmazingIconTwotone {
   }) =>
       _build('designtools', size: size, color: color, opacity: opacity);
 
-  /// Displays the `deviceMessage` twototne icon with a background and foreground layer.
+  /// Displays the `deviceMessage` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4559,7 +4559,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.deviceMessage(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.deviceMessage(size: 32, color: Colors.red);
   /// ```
   static Widget deviceMessage({
     double size = 25,
@@ -4568,7 +4568,7 @@ class AmazingIconTwotone {
   }) =>
       _build('deviceMessage', size: size, color: color, opacity: opacity);
 
-  /// Displays the `diagram` twototne icon with a background and foreground layer.
+  /// Displays the `diagram` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4577,7 +4577,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.diagram(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.diagram(size: 32, color: Colors.red);
   /// ```
   static Widget diagram({
     double size = 25,
@@ -4586,7 +4586,7 @@ class AmazingIconTwotone {
   }) =>
       _build('diagram', size: size, color: color, opacity: opacity);
 
-  /// Displays the `diamonds` twototne icon with a background and foreground layer.
+  /// Displays the `diamonds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4595,7 +4595,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.diamonds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.diamonds(size: 32, color: Colors.red);
   /// ```
   static Widget diamonds({
     double size = 25,
@@ -4604,7 +4604,7 @@ class AmazingIconTwotone {
   }) =>
       _build('diamonds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `direct` twototne icon with a background and foreground layer.
+  /// Displays the `direct` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4613,7 +4613,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.direct(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.direct(size: 32, color: Colors.red);
   /// ```
   static Widget direct({
     double size = 25,
@@ -4622,7 +4622,7 @@ class AmazingIconTwotone {
   }) =>
       _build('direct', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directInbox` twototne icon with a background and foreground layer.
+  /// Displays the `directInbox` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4631,7 +4631,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directInbox(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directInbox(size: 32, color: Colors.red);
   /// ```
   static Widget directInbox({
     double size = 25,
@@ -4640,7 +4640,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directInbox', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directNormal` twototne icon with a background and foreground layer.
+  /// Displays the `directNormal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4649,7 +4649,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directNormal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directNormal(size: 32, color: Colors.red);
   /// ```
   static Widget directNormal({
     double size = 25,
@@ -4658,7 +4658,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directNormal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directNotification` twototne icon with a background and foreground layer.
+  /// Displays the `directNotification` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4667,7 +4667,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directNotification(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directNotification(size: 32, color: Colors.red);
   /// ```
   static Widget directNotification({
     double size = 25,
@@ -4676,7 +4676,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directNotification', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directSend` twototne icon with a background and foreground layer.
+  /// Displays the `directSend` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4685,7 +4685,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directSend(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directSend(size: 32, color: Colors.red);
   /// ```
   static Widget directSend({
     double size = 25,
@@ -4694,7 +4694,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directSend', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directboxDefault` twototne icon with a background and foreground layer.
+  /// Displays the `directboxDefault` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4703,7 +4703,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directboxDefault(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directboxDefault(size: 32, color: Colors.red);
   /// ```
   static Widget directboxDefault({
     double size = 25,
@@ -4712,7 +4712,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directboxDefault', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directboxNotif` twototne icon with a background and foreground layer.
+  /// Displays the `directboxNotif` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4721,7 +4721,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directboxNotif(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directboxNotif(size: 32, color: Colors.red);
   /// ```
   static Widget directboxNotif({
     double size = 25,
@@ -4730,7 +4730,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directboxNotif', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directboxReceive` twototne icon with a background and foreground layer.
+  /// Displays the `directboxReceive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4739,7 +4739,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directboxReceive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directboxReceive(size: 32, color: Colors.red);
   /// ```
   static Widget directboxReceive({
     double size = 25,
@@ -4748,7 +4748,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directboxReceive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `directboxSend` twototne icon with a background and foreground layer.
+  /// Displays the `directboxSend` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4757,7 +4757,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.directboxSend(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.directboxSend(size: 32, color: Colors.red);
   /// ```
   static Widget directboxSend({
     double size = 25,
@@ -4766,7 +4766,7 @@ class AmazingIconTwotone {
   }) =>
       _build('directboxSend', size: size, color: color, opacity: opacity);
 
-  /// Displays the `discountCircle` twototne icon with a background and foreground layer.
+  /// Displays the `discountCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4775,7 +4775,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.discountCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.discountCircle(size: 32, color: Colors.red);
   /// ```
   static Widget discountCircle({
     double size = 25,
@@ -4784,7 +4784,7 @@ class AmazingIconTwotone {
   }) =>
       _build('discountCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `discountShape` twototne icon with a background and foreground layer.
+  /// Displays the `discountShape` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4793,7 +4793,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.discountShape(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.discountShape(size: 32, color: Colors.red);
   /// ```
   static Widget discountShape({
     double size = 25,
@@ -4802,7 +4802,7 @@ class AmazingIconTwotone {
   }) =>
       _build('discountShape', size: size, color: color, opacity: opacity);
 
-  /// Displays the `discover` twototne icon with a background and foreground layer.
+  /// Displays the `discover` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4811,7 +4811,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.discover(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.discover(size: 32, color: Colors.red);
   /// ```
   static Widget discover({
     double size = 25,
@@ -4820,7 +4820,7 @@ class AmazingIconTwotone {
   }) =>
       _build('discover', size: size, color: color, opacity: opacity);
 
-  /// Displays the `discover1` twototne icon with a background and foreground layer.
+  /// Displays the `discover1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4829,7 +4829,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.discover1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.discover1(size: 32, color: Colors.red);
   /// ```
   static Widget discover1({
     double size = 25,
@@ -4838,7 +4838,7 @@ class AmazingIconTwotone {
   }) =>
       _build('discover1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dislike` twototne icon with a background and foreground layer.
+  /// Displays the `dislike` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4847,7 +4847,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dislike(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dislike(size: 32, color: Colors.red);
   /// ```
   static Widget dislike({
     double size = 25,
@@ -4856,7 +4856,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dislike', size: size, color: color, opacity: opacity);
 
-  /// Displays the `document` twototne icon with a background and foreground layer.
+  /// Displays the `document` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4865,7 +4865,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.document(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.document(size: 32, color: Colors.red);
   /// ```
   static Widget document({
     double size = 25,
@@ -4874,7 +4874,7 @@ class AmazingIconTwotone {
   }) =>
       _build('document', size: size, color: color, opacity: opacity);
 
-  /// Displays the `document1` twototne icon with a background and foreground layer.
+  /// Displays the `document1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4883,7 +4883,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.document1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.document1(size: 32, color: Colors.red);
   /// ```
   static Widget document1({
     double size = 25,
@@ -4892,7 +4892,7 @@ class AmazingIconTwotone {
   }) =>
       _build('document1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentCloud` twototne icon with a background and foreground layer.
+  /// Displays the `documentCloud` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4901,7 +4901,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentCloud(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentCloud(size: 32, color: Colors.red);
   /// ```
   static Widget documentCloud({
     double size = 25,
@@ -4910,7 +4910,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentCloud', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentCode` twototne icon with a background and foreground layer.
+  /// Displays the `documentCode` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4919,7 +4919,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentCode(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentCode(size: 32, color: Colors.red);
   /// ```
   static Widget documentCode({
     double size = 25,
@@ -4928,7 +4928,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentCode', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentCode2` twototne icon with a background and foreground layer.
+  /// Displays the `documentCode2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4937,7 +4937,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentCode2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentCode2(size: 32, color: Colors.red);
   /// ```
   static Widget documentCode2({
     double size = 25,
@@ -4946,7 +4946,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentCode2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentCopy` twototne icon with a background and foreground layer.
+  /// Displays the `documentCopy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4955,7 +4955,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentCopy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentCopy(size: 32, color: Colors.red);
   /// ```
   static Widget documentCopy({
     double size = 25,
@@ -4964,7 +4964,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentCopy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentDownload` twototne icon with a background and foreground layer.
+  /// Displays the `documentDownload` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4973,7 +4973,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentDownload(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentDownload(size: 32, color: Colors.red);
   /// ```
   static Widget documentDownload({
     double size = 25,
@@ -4982,7 +4982,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentDownload', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `documentFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -4991,7 +4991,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget documentFavorite({
     double size = 25,
@@ -5000,7 +5000,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentFilter` twototne icon with a background and foreground layer.
+  /// Displays the `documentFilter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5009,7 +5009,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentFilter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentFilter(size: 32, color: Colors.red);
   /// ```
   static Widget documentFilter({
     double size = 25,
@@ -5018,7 +5018,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentFilter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentForward` twototne icon with a background and foreground layer.
+  /// Displays the `documentForward` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5027,7 +5027,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentForward(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentForward(size: 32, color: Colors.red);
   /// ```
   static Widget documentForward({
     double size = 25,
@@ -5036,7 +5036,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentForward', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentLike` twototne icon with a background and foreground layer.
+  /// Displays the `documentLike` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5045,7 +5045,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentLike(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentLike(size: 32, color: Colors.red);
   /// ```
   static Widget documentLike({
     double size = 25,
@@ -5054,7 +5054,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentLike', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentNormal` twototne icon with a background and foreground layer.
+  /// Displays the `documentNormal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5063,7 +5063,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentNormal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentNormal(size: 32, color: Colors.red);
   /// ```
   static Widget documentNormal({
     double size = 25,
@@ -5072,7 +5072,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentNormal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentPrevious` twototne icon with a background and foreground layer.
+  /// Displays the `documentPrevious` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5081,7 +5081,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentPrevious(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentPrevious(size: 32, color: Colors.red);
   /// ```
   static Widget documentPrevious({
     double size = 25,
@@ -5090,7 +5090,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentPrevious', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentSketch` twototne icon with a background and foreground layer.
+  /// Displays the `documentSketch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5099,7 +5099,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentSketch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentSketch(size: 32, color: Colors.red);
   /// ```
   static Widget documentSketch({
     double size = 25,
@@ -5108,7 +5108,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentSketch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentText` twototne icon with a background and foreground layer.
+  /// Displays the `documentText` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5117,7 +5117,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentText(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentText(size: 32, color: Colors.red);
   /// ```
   static Widget documentText({
     double size = 25,
@@ -5126,7 +5126,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentText', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentText1` twototne icon with a background and foreground layer.
+  /// Displays the `documentText1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5135,7 +5135,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentText1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentText1(size: 32, color: Colors.red);
   /// ```
   static Widget documentText1({
     double size = 25,
@@ -5144,7 +5144,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentText1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `documentUpload` twototne icon with a background and foreground layer.
+  /// Displays the `documentUpload` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5153,7 +5153,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.documentUpload(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.documentUpload(size: 32, color: Colors.red);
   /// ```
   static Widget documentUpload({
     double size = 25,
@@ -5162,7 +5162,7 @@ class AmazingIconTwotone {
   }) =>
       _build('documentUpload', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dollarCircle` twototne icon with a background and foreground layer.
+  /// Displays the `dollarCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5171,7 +5171,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dollarCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dollarCircle(size: 32, color: Colors.red);
   /// ```
   static Widget dollarCircle({
     double size = 25,
@@ -5180,7 +5180,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dollarCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dollarSquare` twototne icon with a background and foreground layer.
+  /// Displays the `dollarSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5189,7 +5189,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dollarSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dollarSquare(size: 32, color: Colors.red);
   /// ```
   static Widget dollarSquare({
     double size = 25,
@@ -5198,7 +5198,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dollarSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dribbble` twototne icon with a background and foreground layer.
+  /// Displays the `dribbble` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5207,7 +5207,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dribbble(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dribbble(size: 32, color: Colors.red);
   /// ```
   static Widget dribbble({
     double size = 25,
@@ -5216,7 +5216,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dribbble', size: size, color: color, opacity: opacity);
 
-  /// Displays the `driver` twototne icon with a background and foreground layer.
+  /// Displays the `driver` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5225,7 +5225,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.driver(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.driver(size: 32, color: Colors.red);
   /// ```
   static Widget driver({
     double size = 25,
@@ -5234,7 +5234,7 @@ class AmazingIconTwotone {
   }) =>
       _build('driver', size: size, color: color, opacity: opacity);
 
-  /// Displays the `driver2` twototne icon with a background and foreground layer.
+  /// Displays the `driver2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5243,7 +5243,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.driver2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.driver2(size: 32, color: Colors.red);
   /// ```
   static Widget driver2({
     double size = 25,
@@ -5252,7 +5252,7 @@ class AmazingIconTwotone {
   }) =>
       _build('driver2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `driverRefresh` twototne icon with a background and foreground layer.
+  /// Displays the `driverRefresh` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5261,7 +5261,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.driverRefresh(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.driverRefresh(size: 32, color: Colors.red);
   /// ```
   static Widget driverRefresh({
     double size = 25,
@@ -5270,7 +5270,7 @@ class AmazingIconTwotone {
   }) =>
       _build('driverRefresh', size: size, color: color, opacity: opacity);
 
-  /// Displays the `driving` twototne icon with a background and foreground layer.
+  /// Displays the `driving` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5279,7 +5279,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.driving(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.driving(size: 32, color: Colors.red);
   /// ```
   static Widget driving({
     double size = 25,
@@ -5288,7 +5288,7 @@ class AmazingIconTwotone {
   }) =>
       _build('driving', size: size, color: color, opacity: opacity);
 
-  /// Displays the `dropbox` twototne icon with a background and foreground layer.
+  /// Displays the `dropbox` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5297,7 +5297,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.dropbox(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.dropbox(size: 32, color: Colors.red);
   /// ```
   static Widget dropbox({
     double size = 25,
@@ -5306,7 +5306,7 @@ class AmazingIconTwotone {
   }) =>
       _build('dropbox', size: size, color: color, opacity: opacity);
 
-  /// Displays the `edit` twototne icon with a background and foreground layer.
+  /// Displays the `edit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5315,7 +5315,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.edit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.edit(size: 32, color: Colors.red);
   /// ```
   static Widget edit({
     double size = 25,
@@ -5324,7 +5324,7 @@ class AmazingIconTwotone {
   }) =>
       _build('edit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `edit2` twototne icon with a background and foreground layer.
+  /// Displays the `edit2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5333,7 +5333,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.edit2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.edit2(size: 32, color: Colors.red);
   /// ```
   static Widget edit2({
     double size = 25,
@@ -5342,7 +5342,7 @@ class AmazingIconTwotone {
   }) =>
       _build('edit2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `educare` twototne icon with a background and foreground layer.
+  /// Displays the `educare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5351,7 +5351,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.educare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.educare(size: 32, color: Colors.red);
   /// ```
   static Widget educare({
     double size = 25,
@@ -5360,7 +5360,7 @@ class AmazingIconTwotone {
   }) =>
       _build('educare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `electricity` twototne icon with a background and foreground layer.
+  /// Displays the `electricity` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5369,7 +5369,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.electricity(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.electricity(size: 32, color: Colors.red);
   /// ```
   static Widget electricity({
     double size = 25,
@@ -5378,7 +5378,7 @@ class AmazingIconTwotone {
   }) =>
       _build('electricity', size: size, color: color, opacity: opacity);
 
-  /// Displays the `email` twototne icon with a background and foreground layer.
+  /// Displays the `email` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5387,7 +5387,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.email(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.email(size: 32, color: Colors.red);
   /// ```
   static Widget email({
     double size = 25,
@@ -5396,7 +5396,7 @@ class AmazingIconTwotone {
   }) =>
       _build('email', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emailEdit` twototne icon with a background and foreground layer.
+  /// Displays the `emailEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5405,7 +5405,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emailEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emailEdit(size: 32, color: Colors.red);
   /// ```
   static Widget emailEdit({
     double size = 25,
@@ -5414,7 +5414,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emailEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emailNotification` twototne icon with a background and foreground layer.
+  /// Displays the `emailNotification` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5423,7 +5423,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emailNotification(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emailNotification(size: 32, color: Colors.red);
   /// ```
   static Widget emailNotification({
     double size = 25,
@@ -5432,7 +5432,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emailNotification', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emailSearch` twototne icon with a background and foreground layer.
+  /// Displays the `emailSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5441,7 +5441,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emailSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emailSearch(size: 32, color: Colors.red);
   /// ```
   static Widget emailSearch({
     double size = 25,
@@ -5450,7 +5450,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emailSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emailStar` twototne icon with a background and foreground layer.
+  /// Displays the `emailStar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5459,7 +5459,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emailStar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emailStar(size: 32, color: Colors.red);
   /// ```
   static Widget emailStar({
     double size = 25,
@@ -5468,7 +5468,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emailStar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emailTracking` twototne icon with a background and foreground layer.
+  /// Displays the `emailTracking` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5477,7 +5477,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emailTracking(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emailTracking(size: 32, color: Colors.red);
   /// ```
   static Widget emailTracking({
     double size = 25,
@@ -5486,7 +5486,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emailTracking', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emercoin` twototne icon with a background and foreground layer.
+  /// Displays the `emercoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5495,7 +5495,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emercoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emercoin(size: 32, color: Colors.red);
   /// ```
   static Widget emercoin({
     double size = 25,
@@ -5504,7 +5504,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emercoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emojiHappy` twototne icon with a background and foreground layer.
+  /// Displays the `emojiHappy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5513,7 +5513,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emojiHappy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emojiHappy(size: 32, color: Colors.red);
   /// ```
   static Widget emojiHappy({
     double size = 25,
@@ -5522,7 +5522,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emojiHappy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emojiNormal` twototne icon with a background and foreground layer.
+  /// Displays the `emojiNormal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5531,7 +5531,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emojiNormal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emojiNormal(size: 32, color: Colors.red);
   /// ```
   static Widget emojiNormal({
     double size = 25,
@@ -5540,7 +5540,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emojiNormal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emojiSad` twototne icon with a background and foreground layer.
+  /// Displays the `emojiSad` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5549,7 +5549,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emojiSad(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emojiSad(size: 32, color: Colors.red);
   /// ```
   static Widget emojiSad({
     double size = 25,
@@ -5558,7 +5558,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emojiSad', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWallet` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWallet` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5567,7 +5567,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWallet(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWallet(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWallet({
     double size = 25,
@@ -5576,7 +5576,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWallet', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWalletAdd` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWalletAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5585,7 +5585,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWalletAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWalletAdd(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWalletAdd({
     double size = 25,
@@ -5594,7 +5594,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWalletAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWalletChange` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWalletChange` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5603,7 +5603,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWalletChange(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWalletChange(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWalletChange({
     double size = 25,
@@ -5612,7 +5612,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWalletChange', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWalletRemove` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWalletRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5621,7 +5621,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWalletRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWalletRemove(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWalletRemove({
     double size = 25,
@@ -5630,7 +5630,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWalletRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWalletTick` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWalletTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5639,7 +5639,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWalletTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWalletTick(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWalletTick({
     double size = 25,
@@ -5648,7 +5648,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWalletTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `emptyWalletTime` twototne icon with a background and foreground layer.
+  /// Displays the `emptyWalletTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5657,7 +5657,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.emptyWalletTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.emptyWalletTime(size: 32, color: Colors.red);
   /// ```
   static Widget emptyWalletTime({
     double size = 25,
@@ -5666,7 +5666,7 @@ class AmazingIconTwotone {
   }) =>
       _build('emptyWalletTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `enjinCoin` twototne icon with a background and foreground layer.
+  /// Displays the `enjinCoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5675,7 +5675,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.enjinCoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.enjinCoin(size: 32, color: Colors.red);
   /// ```
   static Widget enjinCoin({
     double size = 25,
@@ -5684,7 +5684,7 @@ class AmazingIconTwotone {
   }) =>
       _build('enjinCoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `eos` twototne icon with a background and foreground layer.
+  /// Displays the `eos` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5693,7 +5693,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.eos(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.eos(size: 32, color: Colors.red);
   /// ```
   static Widget eos({
     double size = 25,
@@ -5702,7 +5702,7 @@ class AmazingIconTwotone {
   }) =>
       _build('eos', size: size, color: color, opacity: opacity);
 
-  /// Displays the `eraser` twototne icon with a background and foreground layer.
+  /// Displays the `eraser` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5711,7 +5711,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.eraser(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.eraser(size: 32, color: Colors.red);
   /// ```
   static Widget eraser({
     double size = 25,
@@ -5720,7 +5720,7 @@ class AmazingIconTwotone {
   }) =>
       _build('eraser', size: size, color: color, opacity: opacity);
 
-  /// Displays the `eraser1` twototne icon with a background and foreground layer.
+  /// Displays the `eraser1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5729,7 +5729,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.eraser1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.eraser1(size: 32, color: Colors.red);
   /// ```
   static Widget eraser1({
     double size = 25,
@@ -5738,7 +5738,7 @@ class AmazingIconTwotone {
   }) =>
       _build('eraser1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ethereum` twototne icon with a background and foreground layer.
+  /// Displays the `ethereum` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5747,7 +5747,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ethereum(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ethereum(size: 32, color: Colors.red);
   /// ```
   static Widget ethereum({
     double size = 25,
@@ -5756,7 +5756,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ethereum', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ethereumClassic` twototne icon with a background and foreground layer.
+  /// Displays the `ethereumClassic` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5765,7 +5765,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ethereumClassic(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ethereumClassic(size: 32, color: Colors.red);
   /// ```
   static Widget ethereumClassic({
     double size = 25,
@@ -5774,7 +5774,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ethereumClassic', size: size, color: color, opacity: opacity);
 
-  /// Displays the `export` twototne icon with a background and foreground layer.
+  /// Displays the `export` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5783,7 +5783,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.export(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.export(size: 32, color: Colors.red);
   /// ```
   static Widget export({
     double size = 25,
@@ -5792,7 +5792,7 @@ class AmazingIconTwotone {
   }) =>
       _build('export', size: size, color: color, opacity: opacity);
 
-  /// Displays the `export1` twototne icon with a background and foreground layer.
+  /// Displays the `export1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5801,7 +5801,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.export1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.export1(size: 32, color: Colors.red);
   /// ```
   static Widget export1({
     double size = 25,
@@ -5810,7 +5810,7 @@ class AmazingIconTwotone {
   }) =>
       _build('export1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `export2` twototne icon with a background and foreground layer.
+  /// Displays the `export2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5819,7 +5819,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.export2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.export2(size: 32, color: Colors.red);
   /// ```
   static Widget export2({
     double size = 25,
@@ -5828,7 +5828,7 @@ class AmazingIconTwotone {
   }) =>
       _build('export2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `export3` twototne icon with a background and foreground layer.
+  /// Displays the `export3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5837,7 +5837,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.export3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.export3(size: 32, color: Colors.red);
   /// ```
   static Widget export3({
     double size = 25,
@@ -5846,7 +5846,7 @@ class AmazingIconTwotone {
   }) =>
       _build('export3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `externalDrive` twototne icon with a background and foreground layer.
+  /// Displays the `externalDrive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5855,7 +5855,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.externalDrive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.externalDrive(size: 32, color: Colors.red);
   /// ```
   static Widget externalDrive({
     double size = 25,
@@ -5864,7 +5864,7 @@ class AmazingIconTwotone {
   }) =>
       _build('externalDrive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `eye` twototne icon with a background and foreground layer.
+  /// Displays the `eye` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5873,7 +5873,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.eye(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.eye(size: 32, color: Colors.red);
   /// ```
   static Widget eye({
     double size = 25,
@@ -5882,7 +5882,7 @@ class AmazingIconTwotone {
   }) =>
       _build('eye', size: size, color: color, opacity: opacity);
 
-  /// Displays the `eyeSlash` twototne icon with a background and foreground layer.
+  /// Displays the `eyeSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5891,7 +5891,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.eyeSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.eyeSlash(size: 32, color: Colors.red);
   /// ```
   static Widget eyeSlash({
     double size = 25,
@@ -5900,7 +5900,7 @@ class AmazingIconTwotone {
   }) =>
       _build('eyeSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `facebook` twototne icon with a background and foreground layer.
+  /// Displays the `facebook` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5909,7 +5909,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.facebook(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.facebook(size: 32, color: Colors.red);
   /// ```
   static Widget facebook({
     double size = 25,
@@ -5918,7 +5918,7 @@ class AmazingIconTwotone {
   }) =>
       _build('facebook', size: size, color: color, opacity: opacity);
 
-  /// Displays the `fatrows` twototne icon with a background and foreground layer.
+  /// Displays the `fatrows` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5927,7 +5927,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.fatrows(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.fatrows(size: 32, color: Colors.red);
   /// ```
   static Widget fatrows({
     double size = 25,
@@ -5936,7 +5936,7 @@ class AmazingIconTwotone {
   }) =>
       _build('fatrows', size: size, color: color, opacity: opacity);
 
-  /// Displays the `favoriteChart` twototne icon with a background and foreground layer.
+  /// Displays the `favoriteChart` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5945,7 +5945,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.favoriteChart(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.favoriteChart(size: 32, color: Colors.red);
   /// ```
   static Widget favoriteChart({
     double size = 25,
@@ -5954,7 +5954,7 @@ class AmazingIconTwotone {
   }) =>
       _build('favoriteChart', size: size, color: color, opacity: opacity);
 
-  /// Displays the `figma` twototne icon with a background and foreground layer.
+  /// Displays the `figma` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5963,7 +5963,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.figma(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.figma(size: 32, color: Colors.red);
   /// ```
   static Widget figma({
     double size = 25,
@@ -5972,7 +5972,7 @@ class AmazingIconTwotone {
   }) =>
       _build('figma', size: size, color: color, opacity: opacity);
 
-  /// Displays the `figma1` twototne icon with a background and foreground layer.
+  /// Displays the `figma1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5981,7 +5981,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.figma1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.figma1(size: 32, color: Colors.red);
   /// ```
   static Widget figma1({
     double size = 25,
@@ -5990,7 +5990,7 @@ class AmazingIconTwotone {
   }) =>
       _build('figma1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filter` twototne icon with a background and foreground layer.
+  /// Displays the `filter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -5999,7 +5999,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filter(size: 32, color: Colors.red);
   /// ```
   static Widget filter({
     double size = 25,
@@ -6008,7 +6008,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterAdd` twototne icon with a background and foreground layer.
+  /// Displays the `filterAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6017,7 +6017,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterAdd(size: 32, color: Colors.red);
   /// ```
   static Widget filterAdd({
     double size = 25,
@@ -6026,7 +6026,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterEdit` twototne icon with a background and foreground layer.
+  /// Displays the `filterEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6035,7 +6035,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterEdit(size: 32, color: Colors.red);
   /// ```
   static Widget filterEdit({
     double size = 25,
@@ -6044,7 +6044,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterRemove` twototne icon with a background and foreground layer.
+  /// Displays the `filterRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6053,7 +6053,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterRemove(size: 32, color: Colors.red);
   /// ```
   static Widget filterRemove({
     double size = 25,
@@ -6062,7 +6062,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterSearch` twototne icon with a background and foreground layer.
+  /// Displays the `filterSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6071,7 +6071,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterSearch(size: 32, color: Colors.red);
   /// ```
   static Widget filterSearch({
     double size = 25,
@@ -6080,7 +6080,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterSquare` twototne icon with a background and foreground layer.
+  /// Displays the `filterSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6089,7 +6089,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterSquare(size: 32, color: Colors.red);
   /// ```
   static Widget filterSquare({
     double size = 25,
@@ -6098,7 +6098,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `filterTick` twototne icon with a background and foreground layer.
+  /// Displays the `filterTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6107,7 +6107,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.filterTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.filterTick(size: 32, color: Colors.red);
   /// ```
   static Widget filterTick({
     double size = 25,
@@ -6116,7 +6116,7 @@ class AmazingIconTwotone {
   }) =>
       _build('filterTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `fingerCricle` twototne icon with a background and foreground layer.
+  /// Displays the `fingerCricle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6125,7 +6125,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.fingerCricle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.fingerCricle(size: 32, color: Colors.red);
   /// ```
   static Widget fingerCricle({
     double size = 25,
@@ -6134,7 +6134,7 @@ class AmazingIconTwotone {
   }) =>
       _build('fingerCricle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `fingerScan` twototne icon with a background and foreground layer.
+  /// Displays the `fingerScan` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6143,7 +6143,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.fingerScan(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.fingerScan(size: 32, color: Colors.red);
   /// ```
   static Widget fingerScan({
     double size = 25,
@@ -6152,7 +6152,7 @@ class AmazingIconTwotone {
   }) =>
       _build('fingerScan', size: size, color: color, opacity: opacity);
 
-  /// Displays the `firstline` twototne icon with a background and foreground layer.
+  /// Displays the `firstline` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6161,7 +6161,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.firstline(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.firstline(size: 32, color: Colors.red);
   /// ```
   static Widget firstline({
     double size = 25,
@@ -6170,7 +6170,7 @@ class AmazingIconTwotone {
   }) =>
       _build('firstline', size: size, color: color, opacity: opacity);
 
-  /// Displays the `flag` twototne icon with a background and foreground layer.
+  /// Displays the `flag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6179,7 +6179,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.flag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.flag(size: 32, color: Colors.red);
   /// ```
   static Widget flag({
     double size = 25,
@@ -6188,7 +6188,7 @@ class AmazingIconTwotone {
   }) =>
       _build('flag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `flag2` twototne icon with a background and foreground layer.
+  /// Displays the `flag2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6197,7 +6197,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.flag2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.flag2(size: 32, color: Colors.red);
   /// ```
   static Widget flag2({
     double size = 25,
@@ -6206,7 +6206,7 @@ class AmazingIconTwotone {
   }) =>
       _build('flag2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `flash1` twototne icon with a background and foreground layer.
+  /// Displays the `flash1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6215,7 +6215,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.flash1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.flash1(size: 32, color: Colors.red);
   /// ```
   static Widget flash1({
     double size = 25,
@@ -6224,7 +6224,7 @@ class AmazingIconTwotone {
   }) =>
       _build('flash1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `flashCircle` twototne icon with a background and foreground layer.
+  /// Displays the `flashCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6233,7 +6233,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.flashCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.flashCircle(size: 32, color: Colors.red);
   /// ```
   static Widget flashCircle({
     double size = 25,
@@ -6242,7 +6242,7 @@ class AmazingIconTwotone {
   }) =>
       _build('flashCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `flashSlash` twototne icon with a background and foreground layer.
+  /// Displays the `flashSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6251,7 +6251,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.flashSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.flashSlash(size: 32, color: Colors.red);
   /// ```
   static Widget flashSlash({
     double size = 25,
@@ -6260,7 +6260,7 @@ class AmazingIconTwotone {
   }) =>
       _build('flashSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folder2` twototne icon with a background and foreground layer.
+  /// Displays the `folder2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6269,7 +6269,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folder2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folder2(size: 32, color: Colors.red);
   /// ```
   static Widget folder2({
     double size = 25,
@@ -6278,7 +6278,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folder2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderAdd` twototne icon with a background and foreground layer.
+  /// Displays the `folderAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6287,7 +6287,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderAdd(size: 32, color: Colors.red);
   /// ```
   static Widget folderAdd({
     double size = 25,
@@ -6296,7 +6296,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderCloud` twototne icon with a background and foreground layer.
+  /// Displays the `folderCloud` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6305,7 +6305,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderCloud(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderCloud(size: 32, color: Colors.red);
   /// ```
   static Widget folderCloud({
     double size = 25,
@@ -6314,7 +6314,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderCloud', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderConnection` twototne icon with a background and foreground layer.
+  /// Displays the `folderConnection` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6323,7 +6323,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderConnection(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderConnection(size: 32, color: Colors.red);
   /// ```
   static Widget folderConnection({
     double size = 25,
@@ -6332,7 +6332,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderConnection', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderCross` twototne icon with a background and foreground layer.
+  /// Displays the `folderCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6341,7 +6341,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderCross(size: 32, color: Colors.red);
   /// ```
   static Widget folderCross({
     double size = 25,
@@ -6350,7 +6350,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `folderFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6359,7 +6359,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget folderFavorite({
     double size = 25,
@@ -6368,7 +6368,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderMinus` twototne icon with a background and foreground layer.
+  /// Displays the `folderMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6377,7 +6377,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderMinus(size: 32, color: Colors.red);
   /// ```
   static Widget folderMinus({
     double size = 25,
@@ -6386,7 +6386,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `folderOpen` twototne icon with a background and foreground layer.
+  /// Displays the `folderOpen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6395,7 +6395,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.folderOpen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.folderOpen(size: 32, color: Colors.red);
   /// ```
   static Widget folderOpen({
     double size = 25,
@@ -6404,7 +6404,7 @@ class AmazingIconTwotone {
   }) =>
       _build('folderOpen', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forbidden` twototne icon with a background and foreground layer.
+  /// Displays the `forbidden` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6413,7 +6413,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forbidden(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forbidden(size: 32, color: Colors.red);
   /// ```
   static Widget forbidden({
     double size = 25,
@@ -6422,7 +6422,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forbidden', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forbidden2` twototne icon with a background and foreground layer.
+  /// Displays the `forbidden2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6431,7 +6431,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forbidden2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forbidden2(size: 32, color: Colors.red);
   /// ```
   static Widget forbidden2({
     double size = 25,
@@ -6440,7 +6440,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forbidden2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `formatCircle` twototne icon with a background and foreground layer.
+  /// Displays the `formatCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6449,7 +6449,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.formatCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.formatCircle(size: 32, color: Colors.red);
   /// ```
   static Widget formatCircle({
     double size = 25,
@@ -6458,7 +6458,7 @@ class AmazingIconTwotone {
   }) =>
       _build('formatCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `formatSquare` twototne icon with a background and foreground layer.
+  /// Displays the `formatSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6467,7 +6467,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.formatSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.formatSquare(size: 32, color: Colors.red);
   /// ```
   static Widget formatSquare({
     double size = 25,
@@ -6476,7 +6476,7 @@ class AmazingIconTwotone {
   }) =>
       _build('formatSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forward` twototne icon with a background and foreground layer.
+  /// Displays the `forward` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6485,7 +6485,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forward(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forward(size: 32, color: Colors.red);
   /// ```
   static Widget forward({
     double size = 25,
@@ -6494,7 +6494,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forward', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forward10Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `forward10Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6503,7 +6503,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forward10Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forward10Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget forward10Seconds({
     double size = 25,
@@ -6512,7 +6512,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forward10Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forward15Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `forward15Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6521,7 +6521,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forward15Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forward15Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget forward15Seconds({
     double size = 25,
@@ -6530,7 +6530,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forward15Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forward5Seconds` twototne icon with a background and foreground layer.
+  /// Displays the `forward5Seconds` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6539,7 +6539,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forward5Seconds(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forward5Seconds(size: 32, color: Colors.red);
   /// ```
   static Widget forward5Seconds({
     double size = 25,
@@ -6548,7 +6548,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forward5Seconds', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forwardItem` twototne icon with a background and foreground layer.
+  /// Displays the `forwardItem` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6557,7 +6557,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forwardItem(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forwardItem(size: 32, color: Colors.red);
   /// ```
   static Widget forwardItem({
     double size = 25,
@@ -6566,7 +6566,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forwardItem', size: size, color: color, opacity: opacity);
 
-  /// Displays the `forwardSquare` twototne icon with a background and foreground layer.
+  /// Displays the `forwardSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6575,7 +6575,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.forwardSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.forwardSquare(size: 32, color: Colors.red);
   /// ```
   static Widget forwardSquare({
     double size = 25,
@@ -6584,7 +6584,7 @@ class AmazingIconTwotone {
   }) =>
       _build('forwardSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `framer` twototne icon with a background and foreground layer.
+  /// Displays the `framer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6593,7 +6593,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.framer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.framer(size: 32, color: Colors.red);
   /// ```
   static Widget framer({
     double size = 25,
@@ -6602,7 +6602,7 @@ class AmazingIconTwotone {
   }) =>
       _build('framer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ftxToken` twototne icon with a background and foreground layer.
+  /// Displays the `ftxToken` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6611,7 +6611,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ftxToken(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ftxToken(size: 32, color: Colors.red);
   /// ```
   static Widget ftxToken({
     double size = 25,
@@ -6620,7 +6620,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ftxToken', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gallery` twototne icon with a background and foreground layer.
+  /// Displays the `gallery` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6629,7 +6629,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gallery(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gallery(size: 32, color: Colors.red);
   /// ```
   static Widget gallery({
     double size = 25,
@@ -6638,7 +6638,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gallery', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryAdd` twototne icon with a background and foreground layer.
+  /// Displays the `galleryAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6647,7 +6647,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryAdd(size: 32, color: Colors.red);
   /// ```
   static Widget galleryAdd({
     double size = 25,
@@ -6656,7 +6656,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryEdit` twototne icon with a background and foreground layer.
+  /// Displays the `galleryEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6665,7 +6665,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryEdit(size: 32, color: Colors.red);
   /// ```
   static Widget galleryEdit({
     double size = 25,
@@ -6674,7 +6674,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryExport` twototne icon with a background and foreground layer.
+  /// Displays the `galleryExport` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6683,7 +6683,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryExport(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryExport(size: 32, color: Colors.red);
   /// ```
   static Widget galleryExport({
     double size = 25,
@@ -6692,7 +6692,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryExport', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `galleryFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6701,7 +6701,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget galleryFavorite({
     double size = 25,
@@ -6710,7 +6710,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryImport` twototne icon with a background and foreground layer.
+  /// Displays the `galleryImport` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6719,7 +6719,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryImport(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryImport(size: 32, color: Colors.red);
   /// ```
   static Widget galleryImport({
     double size = 25,
@@ -6728,7 +6728,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryImport', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryRemove` twototne icon with a background and foreground layer.
+  /// Displays the `galleryRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6737,7 +6737,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryRemove(size: 32, color: Colors.red);
   /// ```
   static Widget galleryRemove({
     double size = 25,
@@ -6746,7 +6746,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gallerySlash` twototne icon with a background and foreground layer.
+  /// Displays the `gallerySlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6755,7 +6755,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gallerySlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gallerySlash(size: 32, color: Colors.red);
   /// ```
   static Widget gallerySlash({
     double size = 25,
@@ -6764,7 +6764,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gallerySlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `galleryTick` twototne icon with a background and foreground layer.
+  /// Displays the `galleryTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6773,7 +6773,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.galleryTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.galleryTick(size: 32, color: Colors.red);
   /// ```
   static Widget galleryTick({
     double size = 25,
@@ -6782,7 +6782,7 @@ class AmazingIconTwotone {
   }) =>
       _build('galleryTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gameboy` twototne icon with a background and foreground layer.
+  /// Displays the `gameboy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6791,7 +6791,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gameboy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gameboy(size: 32, color: Colors.red);
   /// ```
   static Widget gameboy({
     double size = 25,
@@ -6800,7 +6800,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gameboy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gasStation` twototne icon with a background and foreground layer.
+  /// Displays the `gasStation` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6809,7 +6809,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gasStation(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gasStation(size: 32, color: Colors.red);
   /// ```
   static Widget gasStation({
     double size = 25,
@@ -6818,7 +6818,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gasStation', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gemini` twototne icon with a background and foreground layer.
+  /// Displays the `gemini` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6827,7 +6827,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gemini(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gemini(size: 32, color: Colors.red);
   /// ```
   static Widget gemini({
     double size = 25,
@@ -6836,7 +6836,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gemini', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gemini2` twototne icon with a background and foreground layer.
+  /// Displays the `gemini2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6845,7 +6845,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gemini2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gemini2(size: 32, color: Colors.red);
   /// ```
   static Widget gemini2({
     double size = 25,
@@ -6854,7 +6854,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gemini2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ghost` twototne icon with a background and foreground layer.
+  /// Displays the `ghost` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6863,7 +6863,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ghost(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ghost(size: 32, color: Colors.red);
   /// ```
   static Widget ghost({
     double size = 25,
@@ -6872,7 +6872,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ghost', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gift` twototne icon with a background and foreground layer.
+  /// Displays the `gift` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6881,7 +6881,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gift(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gift(size: 32, color: Colors.red);
   /// ```
   static Widget gift({
     double size = 25,
@@ -6890,7 +6890,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gift', size: size, color: color, opacity: opacity);
 
-  /// Displays the `glass` twototne icon with a background and foreground layer.
+  /// Displays the `glass` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6899,7 +6899,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.glass(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.glass(size: 32, color: Colors.red);
   /// ```
   static Widget glass({
     double size = 25,
@@ -6908,7 +6908,7 @@ class AmazingIconTwotone {
   }) =>
       _build('glass', size: size, color: color, opacity: opacity);
 
-  /// Displays the `glass1` twototne icon with a background and foreground layer.
+  /// Displays the `glass1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6917,7 +6917,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.glass1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.glass1(size: 32, color: Colors.red);
   /// ```
   static Widget glass1({
     double size = 25,
@@ -6926,7 +6926,7 @@ class AmazingIconTwotone {
   }) =>
       _build('glass1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `global` twototne icon with a background and foreground layer.
+  /// Displays the `global` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6935,7 +6935,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.global(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.global(size: 32, color: Colors.red);
   /// ```
   static Widget global({
     double size = 25,
@@ -6944,7 +6944,7 @@ class AmazingIconTwotone {
   }) =>
       _build('global', size: size, color: color, opacity: opacity);
 
-  /// Displays the `globalEdit` twototne icon with a background and foreground layer.
+  /// Displays the `globalEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6953,7 +6953,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.globalEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.globalEdit(size: 32, color: Colors.red);
   /// ```
   static Widget globalEdit({
     double size = 25,
@@ -6962,7 +6962,7 @@ class AmazingIconTwotone {
   }) =>
       _build('globalEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `globalRefresh` twototne icon with a background and foreground layer.
+  /// Displays the `globalRefresh` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6971,7 +6971,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.globalRefresh(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.globalRefresh(size: 32, color: Colors.red);
   /// ```
   static Widget globalRefresh({
     double size = 25,
@@ -6980,7 +6980,7 @@ class AmazingIconTwotone {
   }) =>
       _build('globalRefresh', size: size, color: color, opacity: opacity);
 
-  /// Displays the `globalSearch` twototne icon with a background and foreground layer.
+  /// Displays the `globalSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6989,7 +6989,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.globalSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.globalSearch(size: 32, color: Colors.red);
   /// ```
   static Widget globalSearch({
     double size = 25,
@@ -6998,7 +6998,7 @@ class AmazingIconTwotone {
   }) =>
       _build('globalSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `googleDrive` twototne icon with a background and foreground layer.
+  /// Displays the `googleDrive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7007,7 +7007,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.googleDrive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.googleDrive(size: 32, color: Colors.red);
   /// ```
   static Widget googleDrive({
     double size = 25,
@@ -7016,7 +7016,7 @@ class AmazingIconTwotone {
   }) =>
       _build('googleDrive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `googlePlay` twototne icon with a background and foreground layer.
+  /// Displays the `googlePlay` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7025,7 +7025,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.googlePlay(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.googlePlay(size: 32, color: Colors.red);
   /// ```
   static Widget googlePlay({
     double size = 25,
@@ -7034,7 +7034,7 @@ class AmazingIconTwotone {
   }) =>
       _build('googlePlay', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gps` twototne icon with a background and foreground layer.
+  /// Displays the `gps` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7043,7 +7043,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gps(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gps(size: 32, color: Colors.red);
   /// ```
   static Widget gps({
     double size = 25,
@@ -7052,7 +7052,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gps', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gpsSlash` twototne icon with a background and foreground layer.
+  /// Displays the `gpsSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7061,7 +7061,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gpsSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gpsSlash(size: 32, color: Colors.red);
   /// ```
   static Widget gpsSlash({
     double size = 25,
@@ -7070,7 +7070,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gpsSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grammerly` twototne icon with a background and foreground layer.
+  /// Displays the `grammerly` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7079,7 +7079,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grammerly(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grammerly(size: 32, color: Colors.red);
   /// ```
   static Widget grammerly({
     double size = 25,
@@ -7088,7 +7088,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grammerly', size: size, color: color, opacity: opacity);
 
-  /// Displays the `graph` twototne icon with a background and foreground layer.
+  /// Displays the `graph` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7097,7 +7097,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.graph(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.graph(size: 32, color: Colors.red);
   /// ```
   static Widget graph({
     double size = 25,
@@ -7106,7 +7106,7 @@ class AmazingIconTwotone {
   }) =>
       _build('graph', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid1` twototne icon with a background and foreground layer.
+  /// Displays the `grid1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7115,7 +7115,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid1(size: 32, color: Colors.red);
   /// ```
   static Widget grid1({
     double size = 25,
@@ -7124,7 +7124,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid2` twototne icon with a background and foreground layer.
+  /// Displays the `grid2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7133,7 +7133,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid2(size: 32, color: Colors.red);
   /// ```
   static Widget grid2({
     double size = 25,
@@ -7142,7 +7142,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid3` twototne icon with a background and foreground layer.
+  /// Displays the `grid3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7151,7 +7151,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid3(size: 32, color: Colors.red);
   /// ```
   static Widget grid3({
     double size = 25,
@@ -7160,7 +7160,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid4` twototne icon with a background and foreground layer.
+  /// Displays the `grid4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7169,7 +7169,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid4(size: 32, color: Colors.red);
   /// ```
   static Widget grid4({
     double size = 25,
@@ -7178,7 +7178,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid5` twototne icon with a background and foreground layer.
+  /// Displays the `grid5` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7187,7 +7187,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid5(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid5(size: 32, color: Colors.red);
   /// ```
   static Widget grid5({
     double size = 25,
@@ -7196,7 +7196,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid5', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid6` twototne icon with a background and foreground layer.
+  /// Displays the `grid6` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7205,7 +7205,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid6(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid6(size: 32, color: Colors.red);
   /// ```
   static Widget grid6({
     double size = 25,
@@ -7214,7 +7214,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid6', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid7` twototne icon with a background and foreground layer.
+  /// Displays the `grid7` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7223,7 +7223,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid7(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid7(size: 32, color: Colors.red);
   /// ```
   static Widget grid7({
     double size = 25,
@@ -7232,7 +7232,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid7', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid8` twototne icon with a background and foreground layer.
+  /// Displays the `grid8` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7241,7 +7241,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid8(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid8(size: 32, color: Colors.red);
   /// ```
   static Widget grid8({
     double size = 25,
@@ -7250,7 +7250,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid8', size: size, color: color, opacity: opacity);
 
-  /// Displays the `grid9` twototne icon with a background and foreground layer.
+  /// Displays the `grid9` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7259,7 +7259,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.grid9(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.grid9(size: 32, color: Colors.red);
   /// ```
   static Widget grid9({
     double size = 25,
@@ -7268,7 +7268,7 @@ class AmazingIconTwotone {
   }) =>
       _build('grid9', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gridEdit` twototne icon with a background and foreground layer.
+  /// Displays the `gridEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7277,7 +7277,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gridEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gridEdit(size: 32, color: Colors.red);
   /// ```
   static Widget gridEdit({
     double size = 25,
@@ -7286,7 +7286,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gridEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gridEraser` twototne icon with a background and foreground layer.
+  /// Displays the `gridEraser` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7295,7 +7295,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gridEraser(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gridEraser(size: 32, color: Colors.red);
   /// ```
   static Widget gridEraser({
     double size = 25,
@@ -7304,7 +7304,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gridEraser', size: size, color: color, opacity: opacity);
 
-  /// Displays the `gridLock` twototne icon with a background and foreground layer.
+  /// Displays the `gridLock` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7313,7 +7313,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.gridLock(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.gridLock(size: 32, color: Colors.red);
   /// ```
   static Widget gridLock({
     double size = 25,
@@ -7322,7 +7322,7 @@ class AmazingIconTwotone {
   }) =>
       _build('gridLock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `happyemoji` twototne icon with a background and foreground layer.
+  /// Displays the `happyemoji` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7331,7 +7331,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.happyemoji(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.happyemoji(size: 32, color: Colors.red);
   /// ```
   static Widget happyemoji({
     double size = 25,
@@ -7340,7 +7340,7 @@ class AmazingIconTwotone {
   }) =>
       _build('happyemoji', size: size, color: color, opacity: opacity);
 
-  /// Displays the `harmony` twototne icon with a background and foreground layer.
+  /// Displays the `harmony` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7349,7 +7349,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.harmony(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.harmony(size: 32, color: Colors.red);
   /// ```
   static Widget harmony({
     double size = 25,
@@ -7358,7 +7358,7 @@ class AmazingIconTwotone {
   }) =>
       _build('harmony', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hashtag` twototne icon with a background and foreground layer.
+  /// Displays the `hashtag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7367,7 +7367,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hashtag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hashtag(size: 32, color: Colors.red);
   /// ```
   static Widget hashtag({
     double size = 25,
@@ -7376,7 +7376,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hashtag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hashtag1` twototne icon with a background and foreground layer.
+  /// Displays the `hashtag1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7385,7 +7385,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hashtag1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hashtag1(size: 32, color: Colors.red);
   /// ```
   static Widget hashtag1({
     double size = 25,
@@ -7394,7 +7394,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hashtag1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hashtagDown` twototne icon with a background and foreground layer.
+  /// Displays the `hashtagDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7403,7 +7403,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hashtagDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hashtagDown(size: 32, color: Colors.red);
   /// ```
   static Widget hashtagDown({
     double size = 25,
@@ -7412,7 +7412,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hashtagDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hashtagUp` twototne icon with a background and foreground layer.
+  /// Displays the `hashtagUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7421,7 +7421,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hashtagUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hashtagUp(size: 32, color: Colors.red);
   /// ```
   static Widget hashtagUp({
     double size = 25,
@@ -7430,7 +7430,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hashtagUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `headphones` twototne icon with a background and foreground layer.
+  /// Displays the `headphones` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7439,7 +7439,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.headphones(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.headphones(size: 32, color: Colors.red);
   /// ```
   static Widget headphones({
     double size = 25,
@@ -7448,7 +7448,7 @@ class AmazingIconTwotone {
   }) =>
       _build('headphones', size: size, color: color, opacity: opacity);
 
-  /// Displays the `health` twototne icon with a background and foreground layer.
+  /// Displays the `health` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7457,7 +7457,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.health(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.health(size: 32, color: Colors.red);
   /// ```
   static Widget health({
     double size = 25,
@@ -7466,7 +7466,7 @@ class AmazingIconTwotone {
   }) =>
       _build('health', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartAdd` twototne icon with a background and foreground layer.
+  /// Displays the `heartAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7475,7 +7475,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartAdd(size: 32, color: Colors.red);
   /// ```
   static Widget heartAdd({
     double size = 25,
@@ -7484,7 +7484,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartCircle` twototne icon with a background and foreground layer.
+  /// Displays the `heartCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7493,7 +7493,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartCircle(size: 32, color: Colors.red);
   /// ```
   static Widget heartCircle({
     double size = 25,
@@ -7502,7 +7502,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartEdit` twototne icon with a background and foreground layer.
+  /// Displays the `heartEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7511,7 +7511,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartEdit(size: 32, color: Colors.red);
   /// ```
   static Widget heartEdit({
     double size = 25,
@@ -7520,7 +7520,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartRemove` twototne icon with a background and foreground layer.
+  /// Displays the `heartRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7529,7 +7529,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartRemove(size: 32, color: Colors.red);
   /// ```
   static Widget heartRemove({
     double size = 25,
@@ -7538,7 +7538,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartSearch` twototne icon with a background and foreground layer.
+  /// Displays the `heartSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7547,7 +7547,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartSearch(size: 32, color: Colors.red);
   /// ```
   static Widget heartSearch({
     double size = 25,
@@ -7556,7 +7556,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartSlash` twototne icon with a background and foreground layer.
+  /// Displays the `heartSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7565,7 +7565,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartSlash(size: 32, color: Colors.red);
   /// ```
   static Widget heartSlash({
     double size = 25,
@@ -7574,7 +7574,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `heartTick` twototne icon with a background and foreground layer.
+  /// Displays the `heartTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7583,7 +7583,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.heartTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.heartTick(size: 32, color: Colors.red);
   /// ```
   static Widget heartTick({
     double size = 25,
@@ -7592,7 +7592,7 @@ class AmazingIconTwotone {
   }) =>
       _build('heartTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hederaHashgraph` twototne icon with a background and foreground layer.
+  /// Displays the `hederaHashgraph` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7601,7 +7601,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hederaHashgraph(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hederaHashgraph(size: 32, color: Colors.red);
   /// ```
   static Widget hederaHashgraph({
     double size = 25,
@@ -7610,7 +7610,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hederaHashgraph', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hex` twototne icon with a background and foreground layer.
+  /// Displays the `hex` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7619,7 +7619,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hex(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hex(size: 32, color: Colors.red);
   /// ```
   static Widget hex({
     double size = 25,
@@ -7628,7 +7628,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hex', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchy` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7637,7 +7637,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchy(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchy({
     double size = 25,
@@ -7646,7 +7646,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchy2` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchy2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7655,7 +7655,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchy2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchy2(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchy2({
     double size = 25,
@@ -7664,7 +7664,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchy2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchy3` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchy3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7673,7 +7673,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchy3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchy3(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchy3({
     double size = 25,
@@ -7682,7 +7682,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchy3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchySquare` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchySquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7691,7 +7691,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchySquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchySquare(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchySquare({
     double size = 25,
@@ -7700,7 +7700,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchySquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchySquare2` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchySquare2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7709,7 +7709,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchySquare2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchySquare2(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchySquare2({
     double size = 25,
@@ -7718,7 +7718,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchySquare2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hierarchySquare3` twototne icon with a background and foreground layer.
+  /// Displays the `hierarchySquare3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7727,7 +7727,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hierarchySquare3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hierarchySquare3(size: 32, color: Colors.red);
   /// ```
   static Widget hierarchySquare3({
     double size = 25,
@@ -7736,7 +7736,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hierarchySquare3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `home` twototne icon with a background and foreground layer.
+  /// Displays the `home` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7745,7 +7745,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.home(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.home(size: 32, color: Colors.red);
   /// ```
   static Widget home({
     double size = 25,
@@ -7754,7 +7754,7 @@ class AmazingIconTwotone {
   }) =>
       _build('home', size: size, color: color, opacity: opacity);
 
-  /// Displays the `home1` twototne icon with a background and foreground layer.
+  /// Displays the `home1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7763,7 +7763,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.home1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.home1(size: 32, color: Colors.red);
   /// ```
   static Widget home1({
     double size = 25,
@@ -7772,7 +7772,7 @@ class AmazingIconTwotone {
   }) =>
       _build('home1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `homeHashtag` twototne icon with a background and foreground layer.
+  /// Displays the `homeHashtag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7781,7 +7781,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.homeHashtag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.homeHashtag(size: 32, color: Colors.red);
   /// ```
   static Widget homeHashtag({
     double size = 25,
@@ -7790,7 +7790,7 @@ class AmazingIconTwotone {
   }) =>
       _build('homeHashtag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `homeTrendDown` twototne icon with a background and foreground layer.
+  /// Displays the `homeTrendDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7799,7 +7799,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.homeTrendDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.homeTrendDown(size: 32, color: Colors.red);
   /// ```
   static Widget homeTrendDown({
     double size = 25,
@@ -7808,7 +7808,7 @@ class AmazingIconTwotone {
   }) =>
       _build('homeTrendDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `homeTrendUp` twototne icon with a background and foreground layer.
+  /// Displays the `homeTrendUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7817,7 +7817,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.homeTrendUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.homeTrendUp(size: 32, color: Colors.red);
   /// ```
   static Widget homeTrendUp({
     double size = 25,
@@ -7826,7 +7826,7 @@ class AmazingIconTwotone {
   }) =>
       _build('homeTrendUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `homeWifi` twototne icon with a background and foreground layer.
+  /// Displays the `homeWifi` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7835,7 +7835,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.homeWifi(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.homeWifi(size: 32, color: Colors.red);
   /// ```
   static Widget homeWifi({
     double size = 25,
@@ -7844,7 +7844,7 @@ class AmazingIconTwotone {
   }) =>
       _build('homeWifi', size: size, color: color, opacity: opacity);
 
-  /// Displays the `hospital` twototne icon with a background and foreground layer.
+  /// Displays the `hospital` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7853,7 +7853,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.hospital(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.hospital(size: 32, color: Colors.red);
   /// ```
   static Widget hospital({
     double size = 25,
@@ -7862,7 +7862,7 @@ class AmazingIconTwotone {
   }) =>
       _build('hospital', size: size, color: color, opacity: opacity);
 
-  /// Displays the `house` twototne icon with a background and foreground layer.
+  /// Displays the `house` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7871,7 +7871,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.house(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.house(size: 32, color: Colors.red);
   /// ```
   static Widget house({
     double size = 25,
@@ -7880,7 +7880,7 @@ class AmazingIconTwotone {
   }) =>
       _build('house', size: size, color: color, opacity: opacity);
 
-  /// Displays the `house1` twototne icon with a background and foreground layer.
+  /// Displays the `house1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7889,7 +7889,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.house1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.house1(size: 32, color: Colors.red);
   /// ```
   static Widget house1({
     double size = 25,
@@ -7898,7 +7898,7 @@ class AmazingIconTwotone {
   }) =>
       _build('house1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `html3` twototne icon with a background and foreground layer.
+  /// Displays the `html3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7907,7 +7907,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.html3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.html3(size: 32, color: Colors.red);
   /// ```
   static Widget html3({
     double size = 25,
@@ -7916,7 +7916,7 @@ class AmazingIconTwotone {
   }) =>
       _build('html3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `html5` twototne icon with a background and foreground layer.
+  /// Displays the `html5` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7925,7 +7925,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.html5(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.html5(size: 32, color: Colors.red);
   /// ```
   static Widget html5({
     double size = 25,
@@ -7934,7 +7934,7 @@ class AmazingIconTwotone {
   }) =>
       _build('html5', size: size, color: color, opacity: opacity);
 
-  /// Displays the `huobiToken` twototne icon with a background and foreground layer.
+  /// Displays the `huobiToken` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7943,7 +7943,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.huobiToken(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.huobiToken(size: 32, color: Colors.red);
   /// ```
   static Widget huobiToken({
     double size = 25,
@@ -7952,7 +7952,7 @@ class AmazingIconTwotone {
   }) =>
       _build('huobiToken', size: size, color: color, opacity: opacity);
 
-  /// Displays the `illustrator` twototne icon with a background and foreground layer.
+  /// Displays the `illustrator` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7961,7 +7961,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.illustrator(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.illustrator(size: 32, color: Colors.red);
   /// ```
   static Widget illustrator({
     double size = 25,
@@ -7970,7 +7970,7 @@ class AmazingIconTwotone {
   }) =>
       _build('illustrator', size: size, color: color, opacity: opacity);
 
-  /// Displays the `image` twototne icon with a background and foreground layer.
+  /// Displays the `image` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7979,7 +7979,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.image(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.image(size: 32, color: Colors.red);
   /// ```
   static Widget image({
     double size = 25,
@@ -7988,7 +7988,7 @@ class AmazingIconTwotone {
   }) =>
       _build('image', size: size, color: color, opacity: opacity);
 
-  /// Displays the `import` twototne icon with a background and foreground layer.
+  /// Displays the `import` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7997,7 +7997,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.import(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.import(size: 32, color: Colors.red);
   /// ```
   static Widget import({
     double size = 25,
@@ -8006,7 +8006,7 @@ class AmazingIconTwotone {
   }) =>
       _build('import', size: size, color: color, opacity: opacity);
 
-  /// Displays the `import1` twototne icon with a background and foreground layer.
+  /// Displays the `import1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8015,7 +8015,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.import1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.import1(size: 32, color: Colors.red);
   /// ```
   static Widget import1({
     double size = 25,
@@ -8024,7 +8024,7 @@ class AmazingIconTwotone {
   }) =>
       _build('import1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `importCircle` twototne icon with a background and foreground layer.
+  /// Displays the `importCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8033,7 +8033,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.importCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.importCircle(size: 32, color: Colors.red);
   /// ```
   static Widget importCircle({
     double size = 25,
@@ -8042,7 +8042,7 @@ class AmazingIconTwotone {
   }) =>
       _build('importCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `importQuare` twototne icon with a background and foreground layer.
+  /// Displays the `importQuare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8051,7 +8051,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.importQuare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.importQuare(size: 32, color: Colors.red);
   /// ```
   static Widget importQuare({
     double size = 25,
@@ -8060,7 +8060,7 @@ class AmazingIconTwotone {
   }) =>
       _build('importQuare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `infoCircle` twototne icon with a background and foreground layer.
+  /// Displays the `infoCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8069,7 +8069,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.infoCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.infoCircle(size: 32, color: Colors.red);
   /// ```
   static Widget infoCircle({
     double size = 25,
@@ -8078,7 +8078,7 @@ class AmazingIconTwotone {
   }) =>
       _build('infoCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `information` twototne icon with a background and foreground layer.
+  /// Displays the `information` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8087,7 +8087,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.information(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.information(size: 32, color: Colors.red);
   /// ```
   static Widget information({
     double size = 25,
@@ -8096,7 +8096,7 @@ class AmazingIconTwotone {
   }) =>
       _build('information', size: size, color: color, opacity: opacity);
 
-  /// Displays the `instagram` twototne icon with a background and foreground layer.
+  /// Displays the `instagram` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8105,7 +8105,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.instagram(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.instagram(size: 32, color: Colors.red);
   /// ```
   static Widget instagram({
     double size = 25,
@@ -8114,7 +8114,7 @@ class AmazingIconTwotone {
   }) =>
       _build('instagram', size: size, color: color, opacity: opacity);
 
-  /// Displays the `iost` twototne icon with a background and foreground layer.
+  /// Displays the `iost` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8123,7 +8123,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.iost(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.iost(size: 32, color: Colors.red);
   /// ```
   static Widget iost({
     double size = 25,
@@ -8132,7 +8132,7 @@ class AmazingIconTwotone {
   }) =>
       _build('iost', size: size, color: color, opacity: opacity);
 
-  /// Displays the `javaScript` twototne icon with a background and foreground layer.
+  /// Displays the `javaScript` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8141,7 +8141,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.javaScript(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.javaScript(size: 32, color: Colors.red);
   /// ```
   static Widget javaScript({
     double size = 25,
@@ -8150,7 +8150,7 @@ class AmazingIconTwotone {
   }) =>
       _build('javaScript', size: size, color: color, opacity: opacity);
 
-  /// Displays the `js` twototne icon with a background and foreground layer.
+  /// Displays the `js` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8159,7 +8159,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.js(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.js(size: 32, color: Colors.red);
   /// ```
   static Widget js({
     double size = 25,
@@ -8168,7 +8168,7 @@ class AmazingIconTwotone {
   }) =>
       _build('js', size: size, color: color, opacity: opacity);
 
-  /// Displays the `judge` twototne icon with a background and foreground layer.
+  /// Displays the `judge` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8177,7 +8177,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.judge(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.judge(size: 32, color: Colors.red);
   /// ```
   static Widget judge({
     double size = 25,
@@ -8186,7 +8186,7 @@ class AmazingIconTwotone {
   }) =>
       _build('judge', size: size, color: color, opacity: opacity);
 
-  /// Displays the `kanban` twototne icon with a background and foreground layer.
+  /// Displays the `kanban` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8195,7 +8195,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.kanban(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.kanban(size: 32, color: Colors.red);
   /// ```
   static Widget kanban({
     double size = 25,
@@ -8204,7 +8204,7 @@ class AmazingIconTwotone {
   }) =>
       _build('kanban', size: size, color: color, opacity: opacity);
 
-  /// Displays the `key` twototne icon with a background and foreground layer.
+  /// Displays the `key` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8213,7 +8213,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.key(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.key(size: 32, color: Colors.red);
   /// ```
   static Widget key({
     double size = 25,
@@ -8222,7 +8222,7 @@ class AmazingIconTwotone {
   }) =>
       _build('key', size: size, color: color, opacity: opacity);
 
-  /// Displays the `keySquare` twototne icon with a background and foreground layer.
+  /// Displays the `keySquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8231,7 +8231,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.keySquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.keySquare(size: 32, color: Colors.red);
   /// ```
   static Widget keySquare({
     double size = 25,
@@ -8240,7 +8240,7 @@ class AmazingIconTwotone {
   }) =>
       _build('keySquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `keyboard` twototne icon with a background and foreground layer.
+  /// Displays the `keyboard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8249,7 +8249,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.keyboard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.keyboard(size: 32, color: Colors.red);
   /// ```
   static Widget keyboard({
     double size = 25,
@@ -8258,7 +8258,7 @@ class AmazingIconTwotone {
   }) =>
       _build('keyboard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `keyboardOpen` twototne icon with a background and foreground layer.
+  /// Displays the `keyboardOpen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8267,7 +8267,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.keyboardOpen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.keyboardOpen(size: 32, color: Colors.red);
   /// ```
   static Widget keyboardOpen({
     double size = 25,
@@ -8276,7 +8276,7 @@ class AmazingIconTwotone {
   }) =>
       _build('keyboardOpen', size: size, color: color, opacity: opacity);
 
-  /// Displays the `kyberNetwork` twototne icon with a background and foreground layer.
+  /// Displays the `kyberNetwork` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8285,7 +8285,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.kyberNetwork(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.kyberNetwork(size: 32, color: Colors.red);
   /// ```
   static Widget kyberNetwork({
     double size = 25,
@@ -8294,7 +8294,7 @@ class AmazingIconTwotone {
   }) =>
       _build('kyberNetwork', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lamp` twototne icon with a background and foreground layer.
+  /// Displays the `lamp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8303,7 +8303,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lamp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lamp(size: 32, color: Colors.red);
   /// ```
   static Widget lamp({
     double size = 25,
@@ -8312,7 +8312,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lamp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lamp1` twototne icon with a background and foreground layer.
+  /// Displays the `lamp1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8321,7 +8321,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lamp1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lamp1(size: 32, color: Colors.red);
   /// ```
   static Widget lamp1({
     double size = 25,
@@ -8330,7 +8330,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lamp1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lampCharge` twototne icon with a background and foreground layer.
+  /// Displays the `lampCharge` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8339,7 +8339,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lampCharge(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lampCharge(size: 32, color: Colors.red);
   /// ```
   static Widget lampCharge({
     double size = 25,
@@ -8348,7 +8348,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lampCharge', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lampOn` twototne icon with a background and foreground layer.
+  /// Displays the `lampOn` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8357,7 +8357,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lampOn(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lampOn(size: 32, color: Colors.red);
   /// ```
   static Widget lampOn({
     double size = 25,
@@ -8366,7 +8366,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lampOn', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lampSlash` twototne icon with a background and foreground layer.
+  /// Displays the `lampSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8375,7 +8375,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lampSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lampSlash(size: 32, color: Colors.red);
   /// ```
   static Widget lampSlash({
     double size = 25,
@@ -8384,7 +8384,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lampSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `languageCircle` twototne icon with a background and foreground layer.
+  /// Displays the `languageCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8393,7 +8393,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.languageCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.languageCircle(size: 32, color: Colors.red);
   /// ```
   static Widget languageCircle({
     double size = 25,
@@ -8402,7 +8402,7 @@ class AmazingIconTwotone {
   }) =>
       _build('languageCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `languageSquare` twototne icon with a background and foreground layer.
+  /// Displays the `languageSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8411,7 +8411,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.languageSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.languageSquare(size: 32, color: Colors.red);
   /// ```
   static Widget languageSquare({
     double size = 25,
@@ -8420,7 +8420,7 @@ class AmazingIconTwotone {
   }) =>
       _build('languageSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layer` twototne icon with a background and foreground layer.
+  /// Displays the `layer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8429,7 +8429,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layer(size: 32, color: Colors.red);
   /// ```
   static Widget layer({
     double size = 25,
@@ -8438,7 +8438,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGrid1` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGrid1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8447,7 +8447,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGrid1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGrid1(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGrid1({
     double size = 25,
@@ -8456,7 +8456,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGrid1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGrid2` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGrid2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8465,7 +8465,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGrid2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGrid2(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGrid2({
     double size = 25,
@@ -8474,7 +8474,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGrid2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGrid3` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGrid3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8483,7 +8483,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGrid3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGrid3(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGrid3({
     double size = 25,
@@ -8492,7 +8492,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGrid3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGrid4` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGrid4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8501,7 +8501,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGrid4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGrid4(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGrid4({
     double size = 25,
@@ -8510,7 +8510,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGrid4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGridAdd` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGridAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8519,7 +8519,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGridAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGridAdd(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGridAdd({
     double size = 25,
@@ -8528,7 +8528,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGridAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `layoutGridEqual` twototne icon with a background and foreground layer.
+  /// Displays the `layoutGridEqual` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8537,7 +8537,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.layoutGridEqual(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.layoutGridEqual(size: 32, color: Colors.red);
   /// ```
   static Widget layoutGridEqual({
     double size = 25,
@@ -8546,7 +8546,7 @@ class AmazingIconTwotone {
   }) =>
       _build('layoutGridEqual', size: size, color: color, opacity: opacity);
 
-  /// Displays the `level` twototne icon with a background and foreground layer.
+  /// Displays the `level` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8555,7 +8555,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.level(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.level(size: 32, color: Colors.red);
   /// ```
   static Widget level({
     double size = 25,
@@ -8564,7 +8564,7 @@ class AmazingIconTwotone {
   }) =>
       _build('level', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lifebuoy` twototne icon with a background and foreground layer.
+  /// Displays the `lifebuoy` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8573,7 +8573,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lifebuoy(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lifebuoy(size: 32, color: Colors.red);
   /// ```
   static Widget lifebuoy({
     double size = 25,
@@ -8582,7 +8582,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lifebuoy', size: size, color: color, opacity: opacity);
 
-  /// Displays the `like` twototne icon with a background and foreground layer.
+  /// Displays the `like` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8591,7 +8591,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.like(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.like(size: 32, color: Colors.red);
   /// ```
   static Widget like({
     double size = 25,
@@ -8600,7 +8600,7 @@ class AmazingIconTwotone {
   }) =>
       _build('like', size: size, color: color, opacity: opacity);
 
-  /// Displays the `like1` twototne icon with a background and foreground layer.
+  /// Displays the `like1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8609,7 +8609,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.like1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.like1(size: 32, color: Colors.red);
   /// ```
   static Widget like1({
     double size = 25,
@@ -8618,7 +8618,7 @@ class AmazingIconTwotone {
   }) =>
       _build('like1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `likeDislike` twototne icon with a background and foreground layer.
+  /// Displays the `likeDislike` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8627,7 +8627,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.likeDislike(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.likeDislike(size: 32, color: Colors.red);
   /// ```
   static Widget likeDislike({
     double size = 25,
@@ -8636,7 +8636,7 @@ class AmazingIconTwotone {
   }) =>
       _build('likeDislike', size: size, color: color, opacity: opacity);
 
-  /// Displays the `likeShapes` twototne icon with a background and foreground layer.
+  /// Displays the `likeShapes` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8645,7 +8645,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.likeShapes(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.likeShapes(size: 32, color: Colors.red);
   /// ```
   static Widget likeShapes({
     double size = 25,
@@ -8654,7 +8654,7 @@ class AmazingIconTwotone {
   }) =>
       _build('likeShapes', size: size, color: color, opacity: opacity);
 
-  /// Displays the `likeTag` twototne icon with a background and foreground layer.
+  /// Displays the `likeTag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8663,7 +8663,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.likeTag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.likeTag(size: 32, color: Colors.red);
   /// ```
   static Widget likeTag({
     double size = 25,
@@ -8672,7 +8672,7 @@ class AmazingIconTwotone {
   }) =>
       _build('likeTag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `link` twototne icon with a background and foreground layer.
+  /// Displays the `link` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8681,7 +8681,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.link(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.link(size: 32, color: Colors.red);
   /// ```
   static Widget link({
     double size = 25,
@@ -8690,7 +8690,7 @@ class AmazingIconTwotone {
   }) =>
       _build('link', size: size, color: color, opacity: opacity);
 
-  /// Displays the `link1` twototne icon with a background and foreground layer.
+  /// Displays the `link1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8699,7 +8699,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.link1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.link1(size: 32, color: Colors.red);
   /// ```
   static Widget link1({
     double size = 25,
@@ -8708,7 +8708,7 @@ class AmazingIconTwotone {
   }) =>
       _build('link1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `link2` twototne icon with a background and foreground layer.
+  /// Displays the `link2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8717,7 +8717,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.link2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.link2(size: 32, color: Colors.red);
   /// ```
   static Widget link2({
     double size = 25,
@@ -8726,7 +8726,7 @@ class AmazingIconTwotone {
   }) =>
       _build('link2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `link3` twototne icon with a background and foreground layer.
+  /// Displays the `link3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8735,7 +8735,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.link3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.link3(size: 32, color: Colors.red);
   /// ```
   static Widget link3({
     double size = 25,
@@ -8744,7 +8744,7 @@ class AmazingIconTwotone {
   }) =>
       _build('link3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `linkCircle` twototne icon with a background and foreground layer.
+  /// Displays the `linkCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8753,7 +8753,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.linkCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.linkCircle(size: 32, color: Colors.red);
   /// ```
   static Widget linkCircle({
     double size = 25,
@@ -8762,7 +8762,7 @@ class AmazingIconTwotone {
   }) =>
       _build('linkCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `linkSquare` twototne icon with a background and foreground layer.
+  /// Displays the `linkSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8771,7 +8771,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.linkSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.linkSquare(size: 32, color: Colors.red);
   /// ```
   static Widget linkSquare({
     double size = 25,
@@ -8780,7 +8780,7 @@ class AmazingIconTwotone {
   }) =>
       _build('linkSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `litecoin` twototne icon with a background and foreground layer.
+  /// Displays the `litecoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8789,7 +8789,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.litecoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.litecoin(size: 32, color: Colors.red);
   /// ```
   static Widget litecoin({
     double size = 25,
@@ -8798,7 +8798,7 @@ class AmazingIconTwotone {
   }) =>
       _build('litecoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `location` twototne icon with a background and foreground layer.
+  /// Displays the `location` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8807,7 +8807,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.location(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.location(size: 32, color: Colors.red);
   /// ```
   static Widget location({
     double size = 25,
@@ -8816,7 +8816,7 @@ class AmazingIconTwotone {
   }) =>
       _build('location', size: size, color: color, opacity: opacity);
 
-  /// Displays the `locationAdd` twototne icon with a background and foreground layer.
+  /// Displays the `locationAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8825,7 +8825,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.locationAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.locationAdd(size: 32, color: Colors.red);
   /// ```
   static Widget locationAdd({
     double size = 25,
@@ -8834,7 +8834,7 @@ class AmazingIconTwotone {
   }) =>
       _build('locationAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `locationCross` twototne icon with a background and foreground layer.
+  /// Displays the `locationCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8843,7 +8843,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.locationCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.locationCross(size: 32, color: Colors.red);
   /// ```
   static Widget locationCross({
     double size = 25,
@@ -8852,7 +8852,7 @@ class AmazingIconTwotone {
   }) =>
       _build('locationCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `locationMinus` twototne icon with a background and foreground layer.
+  /// Displays the `locationMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8861,7 +8861,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.locationMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.locationMinus(size: 32, color: Colors.red);
   /// ```
   static Widget locationMinus({
     double size = 25,
@@ -8870,7 +8870,7 @@ class AmazingIconTwotone {
   }) =>
       _build('locationMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `locationSlash` twototne icon with a background and foreground layer.
+  /// Displays the `locationSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8879,7 +8879,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.locationSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.locationSlash(size: 32, color: Colors.red);
   /// ```
   static Widget locationSlash({
     double size = 25,
@@ -8888,7 +8888,7 @@ class AmazingIconTwotone {
   }) =>
       _build('locationSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `locationTick` twototne icon with a background and foreground layer.
+  /// Displays the `locationTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8897,7 +8897,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.locationTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.locationTick(size: 32, color: Colors.red);
   /// ```
   static Widget locationTick({
     double size = 25,
@@ -8906,7 +8906,7 @@ class AmazingIconTwotone {
   }) =>
       _build('locationTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lock` twototne icon with a background and foreground layer.
+  /// Displays the `lock` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8915,7 +8915,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lock(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lock(size: 32, color: Colors.red);
   /// ```
   static Widget lock({
     double size = 25,
@@ -8924,7 +8924,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lock1` twototne icon with a background and foreground layer.
+  /// Displays the `lock1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8933,7 +8933,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lock1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lock1(size: 32, color: Colors.red);
   /// ```
   static Widget lock1({
     double size = 25,
@@ -8942,7 +8942,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lock1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lockCircle` twototne icon with a background and foreground layer.
+  /// Displays the `lockCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8951,7 +8951,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lockCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lockCircle(size: 32, color: Colors.red);
   /// ```
   static Widget lockCircle({
     double size = 25,
@@ -8960,7 +8960,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lockCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lockSlash` twototne icon with a background and foreground layer.
+  /// Displays the `lockSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8969,7 +8969,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lockSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lockSlash(size: 32, color: Colors.red);
   /// ```
   static Widget lockSlash({
     double size = 25,
@@ -8978,7 +8978,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lockSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `login` twototne icon with a background and foreground layer.
+  /// Displays the `login` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -8987,7 +8987,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.login(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.login(size: 32, color: Colors.red);
   /// ```
   static Widget login({
     double size = 25,
@@ -8996,7 +8996,7 @@ class AmazingIconTwotone {
   }) =>
       _build('login', size: size, color: color, opacity: opacity);
 
-  /// Displays the `login1` twototne icon with a background and foreground layer.
+  /// Displays the `login1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9005,7 +9005,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.login1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.login1(size: 32, color: Colors.red);
   /// ```
   static Widget login1({
     double size = 25,
@@ -9014,7 +9014,7 @@ class AmazingIconTwotone {
   }) =>
       _build('login1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `logout` twototne icon with a background and foreground layer.
+  /// Displays the `logout` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9023,7 +9023,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.logout(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.logout(size: 32, color: Colors.red);
   /// ```
   static Widget logout({
     double size = 25,
@@ -9032,7 +9032,7 @@ class AmazingIconTwotone {
   }) =>
       _build('logout', size: size, color: color, opacity: opacity);
 
-  /// Displays the `logout1` twototne icon with a background and foreground layer.
+  /// Displays the `logout1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9041,7 +9041,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.logout1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.logout1(size: 32, color: Colors.red);
   /// ```
   static Widget logout1({
     double size = 25,
@@ -9050,7 +9050,7 @@ class AmazingIconTwotone {
   }) =>
       _build('logout1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `lovely` twototne icon with a background and foreground layer.
+  /// Displays the `lovely` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9059,7 +9059,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.lovely(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.lovely(size: 32, color: Colors.red);
   /// ```
   static Widget lovely({
     double size = 25,
@@ -9068,7 +9068,7 @@ class AmazingIconTwotone {
   }) =>
       _build('lovely', size: size, color: color, opacity: opacity);
 
-  /// Displays the `magicStar` twototne icon with a background and foreground layer.
+  /// Displays the `magicStar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9077,7 +9077,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.magicStar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.magicStar(size: 32, color: Colors.red);
   /// ```
   static Widget magicStar({
     double size = 25,
@@ -9086,7 +9086,7 @@ class AmazingIconTwotone {
   }) =>
       _build('magicStar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `magicpen` twototne icon with a background and foreground layer.
+  /// Displays the `magicpen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9095,7 +9095,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.magicpen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.magicpen(size: 32, color: Colors.red);
   /// ```
   static Widget magicpen({
     double size = 25,
@@ -9104,7 +9104,7 @@ class AmazingIconTwotone {
   }) =>
       _build('magicpen', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mainComponent` twototne icon with a background and foreground layer.
+  /// Displays the `mainComponent` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9113,7 +9113,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mainComponent(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mainComponent(size: 32, color: Colors.red);
   /// ```
   static Widget mainComponent({
     double size = 25,
@@ -9122,7 +9122,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mainComponent', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maker` twototne icon with a background and foreground layer.
+  /// Displays the `maker` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9131,7 +9131,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maker(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maker(size: 32, color: Colors.red);
   /// ```
   static Widget maker({
     double size = 25,
@@ -9140,7 +9140,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maker', size: size, color: color, opacity: opacity);
 
-  /// Displays the `man` twototne icon with a background and foreground layer.
+  /// Displays the `man` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9149,7 +9149,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.man(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.man(size: 32, color: Colors.red);
   /// ```
   static Widget man({
     double size = 25,
@@ -9158,7 +9158,7 @@ class AmazingIconTwotone {
   }) =>
       _build('man', size: size, color: color, opacity: opacity);
 
-  /// Displays the `map` twototne icon with a background and foreground layer.
+  /// Displays the `map` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9167,7 +9167,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.map(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.map(size: 32, color: Colors.red);
   /// ```
   static Widget map({
     double size = 25,
@@ -9176,7 +9176,7 @@ class AmazingIconTwotone {
   }) =>
       _build('map', size: size, color: color, opacity: opacity);
 
-  /// Displays the `map1` twototne icon with a background and foreground layer.
+  /// Displays the `map1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9185,7 +9185,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.map1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.map1(size: 32, color: Colors.red);
   /// ```
   static Widget map1({
     double size = 25,
@@ -9194,7 +9194,7 @@ class AmazingIconTwotone {
   }) =>
       _build('map1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mask` twototne icon with a background and foreground layer.
+  /// Displays the `mask` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9203,7 +9203,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mask(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mask(size: 32, color: Colors.red);
   /// ```
   static Widget mask({
     double size = 25,
@@ -9212,7 +9212,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mask', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mask1` twototne icon with a background and foreground layer.
+  /// Displays the `mask1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9221,7 +9221,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mask1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mask1(size: 32, color: Colors.red);
   /// ```
   static Widget mask1({
     double size = 25,
@@ -9230,7 +9230,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mask1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mask2` twototne icon with a background and foreground layer.
+  /// Displays the `mask2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9239,7 +9239,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mask2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mask2(size: 32, color: Colors.red);
   /// ```
   static Widget mask2({
     double size = 25,
@@ -9248,7 +9248,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mask2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `math` twototne icon with a background and foreground layer.
+  /// Displays the `math` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9257,7 +9257,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.math(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.math(size: 32, color: Colors.red);
   /// ```
   static Widget math({
     double size = 25,
@@ -9266,7 +9266,7 @@ class AmazingIconTwotone {
   }) =>
       _build('math', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize` twototne icon with a background and foreground layer.
+  /// Displays the `maximize` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9275,7 +9275,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize(size: 32, color: Colors.red);
   /// ```
   static Widget maximize({
     double size = 25,
@@ -9284,7 +9284,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize1` twototne icon with a background and foreground layer.
+  /// Displays the `maximize1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9293,7 +9293,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize1(size: 32, color: Colors.red);
   /// ```
   static Widget maximize1({
     double size = 25,
@@ -9302,7 +9302,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize2` twototne icon with a background and foreground layer.
+  /// Displays the `maximize2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9311,7 +9311,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize2(size: 32, color: Colors.red);
   /// ```
   static Widget maximize2({
     double size = 25,
@@ -9320,7 +9320,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize3` twototne icon with a background and foreground layer.
+  /// Displays the `maximize3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9329,7 +9329,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize3(size: 32, color: Colors.red);
   /// ```
   static Widget maximize3({
     double size = 25,
@@ -9338,7 +9338,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize4` twototne icon with a background and foreground layer.
+  /// Displays the `maximize4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9347,7 +9347,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize4(size: 32, color: Colors.red);
   /// ```
   static Widget maximize4({
     double size = 25,
@@ -9356,7 +9356,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximize5` twototne icon with a background and foreground layer.
+  /// Displays the `maximize5` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9365,7 +9365,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximize5(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximize5(size: 32, color: Colors.red);
   /// ```
   static Widget maximize5({
     double size = 25,
@@ -9374,7 +9374,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximize5', size: size, color: color, opacity: opacity);
 
-  /// Displays the `maximizeCircle` twototne icon with a background and foreground layer.
+  /// Displays the `maximizeCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9383,7 +9383,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.maximizeCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.maximizeCircle(size: 32, color: Colors.red);
   /// ```
   static Widget maximizeCircle({
     double size = 25,
@@ -9392,7 +9392,7 @@ class AmazingIconTwotone {
   }) =>
       _build('maximizeCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `medal` twototne icon with a background and foreground layer.
+  /// Displays the `medal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9401,7 +9401,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.medal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.medal(size: 32, color: Colors.red);
   /// ```
   static Widget medal({
     double size = 25,
@@ -9410,7 +9410,7 @@ class AmazingIconTwotone {
   }) =>
       _build('medal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `medalStar` twototne icon with a background and foreground layer.
+  /// Displays the `medalStar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9419,7 +9419,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.medalStar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.medalStar(size: 32, color: Colors.red);
   /// ```
   static Widget medalStar({
     double size = 25,
@@ -9428,7 +9428,7 @@ class AmazingIconTwotone {
   }) =>
       _build('medalStar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `menu` twototne icon with a background and foreground layer.
+  /// Displays the `menu` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9437,7 +9437,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.menu(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.menu(size: 32, color: Colors.red);
   /// ```
   static Widget menu({
     double size = 25,
@@ -9446,7 +9446,7 @@ class AmazingIconTwotone {
   }) =>
       _build('menu', size: size, color: color, opacity: opacity);
 
-  /// Displays the `menu1` twototne icon with a background and foreground layer.
+  /// Displays the `menu1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9455,7 +9455,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.menu1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.menu1(size: 32, color: Colors.red);
   /// ```
   static Widget menu1({
     double size = 25,
@@ -9464,7 +9464,7 @@ class AmazingIconTwotone {
   }) =>
       _build('menu1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `menuBoard` twototne icon with a background and foreground layer.
+  /// Displays the `menuBoard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9473,7 +9473,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.menuBoard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.menuBoard(size: 32, color: Colors.red);
   /// ```
   static Widget menuBoard({
     double size = 25,
@@ -9482,7 +9482,7 @@ class AmazingIconTwotone {
   }) =>
       _build('menuBoard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `message` twototne icon with a background and foreground layer.
+  /// Displays the `message` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9491,7 +9491,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.message(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.message(size: 32, color: Colors.red);
   /// ```
   static Widget message({
     double size = 25,
@@ -9500,7 +9500,7 @@ class AmazingIconTwotone {
   }) =>
       _build('message', size: size, color: color, opacity: opacity);
 
-  /// Displays the `message2` twototne icon with a background and foreground layer.
+  /// Displays the `message2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9509,7 +9509,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.message2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.message2(size: 32, color: Colors.red);
   /// ```
   static Widget message2({
     double size = 25,
@@ -9518,7 +9518,7 @@ class AmazingIconTwotone {
   }) =>
       _build('message2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageAdd` twototne icon with a background and foreground layer.
+  /// Displays the `messageAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9527,7 +9527,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageAdd(size: 32, color: Colors.red);
   /// ```
   static Widget messageAdd({
     double size = 25,
@@ -9536,7 +9536,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageAdd1` twototne icon with a background and foreground layer.
+  /// Displays the `messageAdd1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9545,7 +9545,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageAdd1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageAdd1(size: 32, color: Colors.red);
   /// ```
   static Widget messageAdd1({
     double size = 25,
@@ -9554,7 +9554,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageAdd1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageCircle` twototne icon with a background and foreground layer.
+  /// Displays the `messageCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9563,7 +9563,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageCircle(size: 32, color: Colors.red);
   /// ```
   static Widget messageCircle({
     double size = 25,
@@ -9572,7 +9572,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageEdit` twototne icon with a background and foreground layer.
+  /// Displays the `messageEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9581,7 +9581,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageEdit(size: 32, color: Colors.red);
   /// ```
   static Widget messageEdit({
     double size = 25,
@@ -9590,7 +9590,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `messageFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9599,7 +9599,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget messageFavorite({
     double size = 25,
@@ -9608,7 +9608,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageMinus` twototne icon with a background and foreground layer.
+  /// Displays the `messageMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9617,7 +9617,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageMinus(size: 32, color: Colors.red);
   /// ```
   static Widget messageMinus({
     double size = 25,
@@ -9626,7 +9626,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageNotif` twototne icon with a background and foreground layer.
+  /// Displays the `messageNotif` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9635,7 +9635,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageNotif(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageNotif(size: 32, color: Colors.red);
   /// ```
   static Widget messageNotif({
     double size = 25,
@@ -9644,7 +9644,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageNotif', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageProgramming` twototne icon with a background and foreground layer.
+  /// Displays the `messageProgramming` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9653,7 +9653,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageProgramming(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageProgramming(size: 32, color: Colors.red);
   /// ```
   static Widget messageProgramming({
     double size = 25,
@@ -9662,7 +9662,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageProgramming', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageQuestion` twototne icon with a background and foreground layer.
+  /// Displays the `messageQuestion` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9671,7 +9671,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageQuestion(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageQuestion(size: 32, color: Colors.red);
   /// ```
   static Widget messageQuestion({
     double size = 25,
@@ -9680,7 +9680,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageQuestion', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageRemove` twototne icon with a background and foreground layer.
+  /// Displays the `messageRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9689,7 +9689,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageRemove(size: 32, color: Colors.red);
   /// ```
   static Widget messageRemove({
     double size = 25,
@@ -9698,7 +9698,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageSearch` twototne icon with a background and foreground layer.
+  /// Displays the `messageSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9707,7 +9707,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageSearch(size: 32, color: Colors.red);
   /// ```
   static Widget messageSearch({
     double size = 25,
@@ -9716,7 +9716,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageSquare` twototne icon with a background and foreground layer.
+  /// Displays the `messageSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9725,7 +9725,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageSquare(size: 32, color: Colors.red);
   /// ```
   static Widget messageSquare({
     double size = 25,
@@ -9734,7 +9734,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageText` twototne icon with a background and foreground layer.
+  /// Displays the `messageText` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9743,7 +9743,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageText(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageText(size: 32, color: Colors.red);
   /// ```
   static Widget messageText({
     double size = 25,
@@ -9752,7 +9752,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageText', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageText1` twototne icon with a background and foreground layer.
+  /// Displays the `messageText1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9761,7 +9761,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageText1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageText1(size: 32, color: Colors.red);
   /// ```
   static Widget messageText1({
     double size = 25,
@@ -9770,7 +9770,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageText1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageTick` twototne icon with a background and foreground layer.
+  /// Displays the `messageTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9779,7 +9779,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageTick(size: 32, color: Colors.red);
   /// ```
   static Widget messageTick({
     double size = 25,
@@ -9788,7 +9788,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messageTime` twototne icon with a background and foreground layer.
+  /// Displays the `messageTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9797,7 +9797,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messageTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messageTime(size: 32, color: Colors.red);
   /// ```
   static Widget messageTime({
     double size = 25,
@@ -9806,7 +9806,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messageTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messages` twototne icon with a background and foreground layer.
+  /// Displays the `messages` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9815,7 +9815,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messages(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messages(size: 32, color: Colors.red);
   /// ```
   static Widget messages({
     double size = 25,
@@ -9824,7 +9824,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messages', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messages1` twototne icon with a background and foreground layer.
+  /// Displays the `messages1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9833,7 +9833,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messages1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messages1(size: 32, color: Colors.red);
   /// ```
   static Widget messages1({
     double size = 25,
@@ -9842,7 +9842,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messages1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messages2` twototne icon with a background and foreground layer.
+  /// Displays the `messages2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9851,7 +9851,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messages2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messages2(size: 32, color: Colors.red);
   /// ```
   static Widget messages2({
     double size = 25,
@@ -9860,7 +9860,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messages2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messages3` twototne icon with a background and foreground layer.
+  /// Displays the `messages3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9869,7 +9869,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messages3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messages3(size: 32, color: Colors.red);
   /// ```
   static Widget messages3({
     double size = 25,
@@ -9878,7 +9878,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messages3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `messenger` twototne icon with a background and foreground layer.
+  /// Displays the `messenger` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9887,7 +9887,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.messenger(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.messenger(size: 32, color: Colors.red);
   /// ```
   static Widget messenger({
     double size = 25,
@@ -9896,7 +9896,7 @@ class AmazingIconTwotone {
   }) =>
       _build('messenger', size: size, color: color, opacity: opacity);
 
-  /// Displays the `microphone` twototne icon with a background and foreground layer.
+  /// Displays the `microphone` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9905,7 +9905,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.microphone(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.microphone(size: 32, color: Colors.red);
   /// ```
   static Widget microphone({
     double size = 25,
@@ -9914,7 +9914,7 @@ class AmazingIconTwotone {
   }) =>
       _build('microphone', size: size, color: color, opacity: opacity);
 
-  /// Displays the `microphone2` twototne icon with a background and foreground layer.
+  /// Displays the `microphone2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9923,7 +9923,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.microphone2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.microphone2(size: 32, color: Colors.red);
   /// ```
   static Widget microphone2({
     double size = 25,
@@ -9932,7 +9932,7 @@ class AmazingIconTwotone {
   }) =>
       _build('microphone2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `microphoneSlash` twototne icon with a background and foreground layer.
+  /// Displays the `microphoneSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9941,7 +9941,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.microphoneSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.microphoneSlash(size: 32, color: Colors.red);
   /// ```
   static Widget microphoneSlash({
     double size = 25,
@@ -9950,7 +9950,7 @@ class AmazingIconTwotone {
   }) =>
       _build('microphoneSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `microphoneSlash1` twototne icon with a background and foreground layer.
+  /// Displays the `microphoneSlash1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9959,7 +9959,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.microphoneSlash1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.microphoneSlash1(size: 32, color: Colors.red);
   /// ```
   static Widget microphoneSlash1({
     double size = 25,
@@ -9968,7 +9968,7 @@ class AmazingIconTwotone {
   }) =>
       _build('microphoneSlash1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `microscope` twototne icon with a background and foreground layer.
+  /// Displays the `microscope` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9977,7 +9977,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.microscope(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.microscope(size: 32, color: Colors.red);
   /// ```
   static Widget microscope({
     double size = 25,
@@ -9986,7 +9986,7 @@ class AmazingIconTwotone {
   }) =>
       _build('microscope', size: size, color: color, opacity: opacity);
 
-  /// Displays the `milk` twototne icon with a background and foreground layer.
+  /// Displays the `milk` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -9995,7 +9995,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.milk(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.milk(size: 32, color: Colors.red);
   /// ```
   static Widget milk({
     double size = 25,
@@ -10004,7 +10004,7 @@ class AmazingIconTwotone {
   }) =>
       _build('milk', size: size, color: color, opacity: opacity);
 
-  /// Displays the `miniMusicSqaure` twototne icon with a background and foreground layer.
+  /// Displays the `miniMusicSqaure` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10013,7 +10013,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.miniMusicSqaure(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.miniMusicSqaure(size: 32, color: Colors.red);
   /// ```
   static Widget miniMusicSqaure({
     double size = 25,
@@ -10022,7 +10022,7 @@ class AmazingIconTwotone {
   }) =>
       _build('miniMusicSqaure', size: size, color: color, opacity: opacity);
 
-  /// Displays the `minusCirlce` twototne icon with a background and foreground layer.
+  /// Displays the `minusCirlce` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10031,7 +10031,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.minusCirlce(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.minusCirlce(size: 32, color: Colors.red);
   /// ```
   static Widget minusCirlce({
     double size = 25,
@@ -10040,7 +10040,7 @@ class AmazingIconTwotone {
   }) =>
       _build('minusCirlce', size: size, color: color, opacity: opacity);
 
-  /// Displays the `minusSquare` twototne icon with a background and foreground layer.
+  /// Displays the `minusSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10049,7 +10049,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.minusSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.minusSquare(size: 32, color: Colors.red);
   /// ```
   static Widget minusSquare({
     double size = 25,
@@ -10058,7 +10058,7 @@ class AmazingIconTwotone {
   }) =>
       _build('minusSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mirror` twototne icon with a background and foreground layer.
+  /// Displays the `mirror` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10067,7 +10067,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mirror(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mirror(size: 32, color: Colors.red);
   /// ```
   static Widget mirror({
     double size = 25,
@@ -10076,7 +10076,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mirror', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mirroringScreen` twototne icon with a background and foreground layer.
+  /// Displays the `mirroringScreen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10085,7 +10085,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mirroringScreen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mirroringScreen(size: 32, color: Colors.red);
   /// ```
   static Widget mirroringScreen({
     double size = 25,
@@ -10094,7 +10094,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mirroringScreen', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mobile` twototne icon with a background and foreground layer.
+  /// Displays the `mobile` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10103,7 +10103,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mobile(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mobile(size: 32, color: Colors.red);
   /// ```
   static Widget mobile({
     double size = 25,
@@ -10112,7 +10112,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mobile', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mobileProgramming` twototne icon with a background and foreground layer.
+  /// Displays the `mobileProgramming` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10121,7 +10121,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mobileProgramming(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mobileProgramming(size: 32, color: Colors.red);
   /// ```
   static Widget mobileProgramming({
     double size = 25,
@@ -10130,7 +10130,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mobileProgramming', size: size, color: color, opacity: opacity);
 
-  /// Displays the `monero` twototne icon with a background and foreground layer.
+  /// Displays the `monero` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10139,7 +10139,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.monero(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.monero(size: 32, color: Colors.red);
   /// ```
   static Widget monero({
     double size = 25,
@@ -10148,7 +10148,7 @@ class AmazingIconTwotone {
   }) =>
       _build('monero', size: size, color: color, opacity: opacity);
 
-  /// Displays the `money` twototne icon with a background and foreground layer.
+  /// Displays the `money` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10157,7 +10157,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.money(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.money(size: 32, color: Colors.red);
   /// ```
   static Widget money({
     double size = 25,
@@ -10166,7 +10166,7 @@ class AmazingIconTwotone {
   }) =>
       _build('money', size: size, color: color, opacity: opacity);
 
-  /// Displays the `money2` twototne icon with a background and foreground layer.
+  /// Displays the `money2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10175,7 +10175,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.money2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.money2(size: 32, color: Colors.red);
   /// ```
   static Widget money2({
     double size = 25,
@@ -10184,7 +10184,7 @@ class AmazingIconTwotone {
   }) =>
       _build('money2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `money3` twototne icon with a background and foreground layer.
+  /// Displays the `money3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10193,7 +10193,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.money3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.money3(size: 32, color: Colors.red);
   /// ```
   static Widget money3({
     double size = 25,
@@ -10202,7 +10202,7 @@ class AmazingIconTwotone {
   }) =>
       _build('money3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `money4` twototne icon with a background and foreground layer.
+  /// Displays the `money4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10211,7 +10211,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.money4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.money4(size: 32, color: Colors.red);
   /// ```
   static Widget money4({
     double size = 25,
@@ -10220,7 +10220,7 @@ class AmazingIconTwotone {
   }) =>
       _build('money4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyAdd` twototne icon with a background and foreground layer.
+  /// Displays the `moneyAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10229,7 +10229,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyAdd(size: 32, color: Colors.red);
   /// ```
   static Widget moneyAdd({
     double size = 25,
@@ -10238,7 +10238,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyChange` twototne icon with a background and foreground layer.
+  /// Displays the `moneyChange` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10247,7 +10247,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyChange(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyChange(size: 32, color: Colors.red);
   /// ```
   static Widget moneyChange({
     double size = 25,
@@ -10256,7 +10256,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyChange', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyForbidden` twototne icon with a background and foreground layer.
+  /// Displays the `moneyForbidden` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10265,7 +10265,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyForbidden(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyForbidden(size: 32, color: Colors.red);
   /// ```
   static Widget moneyForbidden({
     double size = 25,
@@ -10274,7 +10274,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyForbidden', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyRecive` twototne icon with a background and foreground layer.
+  /// Displays the `moneyRecive` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10283,7 +10283,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyRecive(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyRecive(size: 32, color: Colors.red);
   /// ```
   static Widget moneyRecive({
     double size = 25,
@@ -10292,7 +10292,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyRecive', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyRemove` twototne icon with a background and foreground layer.
+  /// Displays the `moneyRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10301,7 +10301,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyRemove(size: 32, color: Colors.red);
   /// ```
   static Widget moneyRemove({
     double size = 25,
@@ -10310,7 +10310,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneySend` twototne icon with a background and foreground layer.
+  /// Displays the `moneySend` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10319,7 +10319,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneySend(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneySend(size: 32, color: Colors.red);
   /// ```
   static Widget moneySend({
     double size = 25,
@@ -10328,7 +10328,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneySend', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyTick` twototne icon with a background and foreground layer.
+  /// Displays the `moneyTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10337,7 +10337,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyTick(size: 32, color: Colors.red);
   /// ```
   static Widget moneyTick({
     double size = 25,
@@ -10346,7 +10346,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneyTime` twototne icon with a background and foreground layer.
+  /// Displays the `moneyTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10355,7 +10355,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneyTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneyTime(size: 32, color: Colors.red);
   /// ```
   static Widget moneyTime({
     double size = 25,
@@ -10364,7 +10364,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneyTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moneys` twototne icon with a background and foreground layer.
+  /// Displays the `moneys` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10373,7 +10373,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moneys(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moneys(size: 32, color: Colors.red);
   /// ```
   static Widget moneys({
     double size = 25,
@@ -10382,7 +10382,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moneys', size: size, color: color, opacity: opacity);
 
-  /// Displays the `monitor` twototne icon with a background and foreground layer.
+  /// Displays the `monitor` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10391,7 +10391,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.monitor(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.monitor(size: 32, color: Colors.red);
   /// ```
   static Widget monitor({
     double size = 25,
@@ -10400,7 +10400,7 @@ class AmazingIconTwotone {
   }) =>
       _build('monitor', size: size, color: color, opacity: opacity);
 
-  /// Displays the `monitorMobbile` twototne icon with a background and foreground layer.
+  /// Displays the `monitorMobbile` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10409,7 +10409,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.monitorMobbile(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.monitorMobbile(size: 32, color: Colors.red);
   /// ```
   static Widget monitorMobbile({
     double size = 25,
@@ -10418,7 +10418,7 @@ class AmazingIconTwotone {
   }) =>
       _build('monitorMobbile', size: size, color: color, opacity: opacity);
 
-  /// Displays the `monitorRecorder` twototne icon with a background and foreground layer.
+  /// Displays the `monitorRecorder` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10427,7 +10427,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.monitorRecorder(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.monitorRecorder(size: 32, color: Colors.red);
   /// ```
   static Widget monitorRecorder({
     double size = 25,
@@ -10436,7 +10436,7 @@ class AmazingIconTwotone {
   }) =>
       _build('monitorRecorder', size: size, color: color, opacity: opacity);
 
-  /// Displays the `more` twototne icon with a background and foreground layer.
+  /// Displays the `more` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10445,7 +10445,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.more(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.more(size: 32, color: Colors.red);
   /// ```
   static Widget more({
     double size = 25,
@@ -10454,7 +10454,7 @@ class AmazingIconTwotone {
   }) =>
       _build('more', size: size, color: color, opacity: opacity);
 
-  /// Displays the `more2` twototne icon with a background and foreground layer.
+  /// Displays the `more2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10463,7 +10463,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.more2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.more2(size: 32, color: Colors.red);
   /// ```
   static Widget more2({
     double size = 25,
@@ -10472,7 +10472,7 @@ class AmazingIconTwotone {
   }) =>
       _build('more2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moreCircle` twototne icon with a background and foreground layer.
+  /// Displays the `moreCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10481,7 +10481,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moreCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moreCircle(size: 32, color: Colors.red);
   /// ```
   static Widget moreCircle({
     double size = 25,
@@ -10490,7 +10490,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moreCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `moreSquare` twototne icon with a background and foreground layer.
+  /// Displays the `moreSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10499,7 +10499,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.moreSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.moreSquare(size: 32, color: Colors.red);
   /// ```
   static Widget moreSquare({
     double size = 25,
@@ -10508,7 +10508,7 @@ class AmazingIconTwotone {
   }) =>
       _build('moreSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mouse` twototne icon with a background and foreground layer.
+  /// Displays the `mouse` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10517,7 +10517,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mouse(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mouse(size: 32, color: Colors.red);
   /// ```
   static Widget mouse({
     double size = 25,
@@ -10526,7 +10526,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mouse', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mouse1` twototne icon with a background and foreground layer.
+  /// Displays the `mouse1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10535,7 +10535,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mouse1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mouse1(size: 32, color: Colors.red);
   /// ```
   static Widget mouse1({
     double size = 25,
@@ -10544,7 +10544,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mouse1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mouseCircle` twototne icon with a background and foreground layer.
+  /// Displays the `mouseCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10553,7 +10553,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mouseCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mouseCircle(size: 32, color: Colors.red);
   /// ```
   static Widget mouseCircle({
     double size = 25,
@@ -10562,7 +10562,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mouseCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `mouseSquare` twototne icon with a background and foreground layer.
+  /// Displays the `mouseSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10571,7 +10571,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.mouseSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.mouseSquare(size: 32, color: Colors.red);
   /// ```
   static Widget mouseSquare({
     double size = 25,
@@ -10580,7 +10580,7 @@ class AmazingIconTwotone {
   }) =>
       _build('mouseSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `music` twototne icon with a background and foreground layer.
+  /// Displays the `music` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10589,7 +10589,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.music(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.music(size: 32, color: Colors.red);
   /// ```
   static Widget music({
     double size = 25,
@@ -10598,7 +10598,7 @@ class AmazingIconTwotone {
   }) =>
       _build('music', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicCircle` twototne icon with a background and foreground layer.
+  /// Displays the `musicCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10607,7 +10607,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicCircle(size: 32, color: Colors.red);
   /// ```
   static Widget musicCircle({
     double size = 25,
@@ -10616,7 +10616,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicDashboard` twototne icon with a background and foreground layer.
+  /// Displays the `musicDashboard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10625,7 +10625,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicDashboard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicDashboard(size: 32, color: Colors.red);
   /// ```
   static Widget musicDashboard({
     double size = 25,
@@ -10634,7 +10634,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicDashboard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicFilter` twototne icon with a background and foreground layer.
+  /// Displays the `musicFilter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10643,7 +10643,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicFilter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicFilter(size: 32, color: Colors.red);
   /// ```
   static Widget musicFilter({
     double size = 25,
@@ -10652,7 +10652,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicFilter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicLibrary2` twototne icon with a background and foreground layer.
+  /// Displays the `musicLibrary2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10661,7 +10661,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicLibrary2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicLibrary2(size: 32, color: Colors.red);
   /// ```
   static Widget musicLibrary2({
     double size = 25,
@@ -10670,7 +10670,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicLibrary2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicPlay` twototne icon with a background and foreground layer.
+  /// Displays the `musicPlay` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10679,7 +10679,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicPlay(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicPlay(size: 32, color: Colors.red);
   /// ```
   static Widget musicPlay({
     double size = 25,
@@ -10688,7 +10688,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicPlay', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicPlaylist` twototne icon with a background and foreground layer.
+  /// Displays the `musicPlaylist` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10697,7 +10697,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicPlaylist(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicPlaylist(size: 32, color: Colors.red);
   /// ```
   static Widget musicPlaylist({
     double size = 25,
@@ -10706,7 +10706,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicPlaylist', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicSquare` twototne icon with a background and foreground layer.
+  /// Displays the `musicSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10715,7 +10715,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicSquare(size: 32, color: Colors.red);
   /// ```
   static Widget musicSquare({
     double size = 25,
@@ -10724,7 +10724,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicSquareAdd` twototne icon with a background and foreground layer.
+  /// Displays the `musicSquareAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10733,7 +10733,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicSquareAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicSquareAdd(size: 32, color: Colors.red);
   /// ```
   static Widget musicSquareAdd({
     double size = 25,
@@ -10742,7 +10742,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicSquareAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicSquareRemove` twototne icon with a background and foreground layer.
+  /// Displays the `musicSquareRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10751,7 +10751,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicSquareRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicSquareRemove(size: 32, color: Colors.red);
   /// ```
   static Widget musicSquareRemove({
     double size = 25,
@@ -10760,7 +10760,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicSquareRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicSquareSearch` twototne icon with a background and foreground layer.
+  /// Displays the `musicSquareSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10769,7 +10769,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicSquareSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicSquareSearch(size: 32, color: Colors.red);
   /// ```
   static Widget musicSquareSearch({
     double size = 25,
@@ -10778,7 +10778,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicSquareSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicnote` twototne icon with a background and foreground layer.
+  /// Displays the `musicnote` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10787,7 +10787,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.musicnote(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.musicnote(size: 32, color: Colors.red);
   /// ```
   static Widget musicnote({
     double size = 25,
@@ -10796,7 +10796,7 @@ class AmazingIconTwotone {
   }) =>
       _build('musicnote', size: size, color: color, opacity: opacity);
 
-  /// Displays the `nebulas` twototne icon with a background and foreground layer.
+  /// Displays the `nebulas` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10805,7 +10805,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.nebulas(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.nebulas(size: 32, color: Colors.red);
   /// ```
   static Widget nebulas({
     double size = 25,
@@ -10814,7 +10814,7 @@ class AmazingIconTwotone {
   }) =>
       _build('nebulas', size: size, color: color, opacity: opacity);
 
-  /// Displays the `nem` twototne icon with a background and foreground layer.
+  /// Displays the `nem` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10823,7 +10823,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.nem(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.nem(size: 32, color: Colors.red);
   /// ```
   static Widget nem({
     double size = 25,
@@ -10832,7 +10832,7 @@ class AmazingIconTwotone {
   }) =>
       _build('nem', size: size, color: color, opacity: opacity);
 
-  /// Displays the `nexo` twototne icon with a background and foreground layer.
+  /// Displays the `nexo` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10841,7 +10841,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.nexo(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.nexo(size: 32, color: Colors.red);
   /// ```
   static Widget nexo({
     double size = 25,
@@ -10850,7 +10850,7 @@ class AmazingIconTwotone {
   }) =>
       _build('nexo', size: size, color: color, opacity: opacity);
 
-  /// Displays the `next` twototne icon with a background and foreground layer.
+  /// Displays the `next` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10859,7 +10859,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.next(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.next(size: 32, color: Colors.red);
   /// ```
   static Widget next({
     double size = 25,
@@ -10868,7 +10868,7 @@ class AmazingIconTwotone {
   }) =>
       _build('next', size: size, color: color, opacity: opacity);
 
-  /// Displays the `note` twototne icon with a background and foreground layer.
+  /// Displays the `note` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10877,7 +10877,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.note(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.note(size: 32, color: Colors.red);
   /// ```
   static Widget note({
     double size = 25,
@@ -10886,7 +10886,7 @@ class AmazingIconTwotone {
   }) =>
       _build('note', size: size, color: color, opacity: opacity);
 
-  /// Displays the `note1` twototne icon with a background and foreground layer.
+  /// Displays the `note1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10895,7 +10895,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.note1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.note1(size: 32, color: Colors.red);
   /// ```
   static Widget note1({
     double size = 25,
@@ -10904,7 +10904,7 @@ class AmazingIconTwotone {
   }) =>
       _build('note1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `note2` twototne icon with a background and foreground layer.
+  /// Displays the `note2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10913,7 +10913,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.note2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.note2(size: 32, color: Colors.red);
   /// ```
   static Widget note2({
     double size = 25,
@@ -10922,7 +10922,7 @@ class AmazingIconTwotone {
   }) =>
       _build('note2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `note3` twototne icon with a background and foreground layer.
+  /// Displays the `note3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10931,7 +10931,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.note3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.note3(size: 32, color: Colors.red);
   /// ```
   static Widget note3({
     double size = 25,
@@ -10940,7 +10940,7 @@ class AmazingIconTwotone {
   }) =>
       _build('note3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `noteAdd` twototne icon with a background and foreground layer.
+  /// Displays the `noteAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10949,7 +10949,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.noteAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.noteAdd(size: 32, color: Colors.red);
   /// ```
   static Widget noteAdd({
     double size = 25,
@@ -10958,7 +10958,7 @@ class AmazingIconTwotone {
   }) =>
       _build('noteAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `noteFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `noteFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10967,7 +10967,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.noteFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.noteFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget noteFavorite({
     double size = 25,
@@ -10976,7 +10976,7 @@ class AmazingIconTwotone {
   }) =>
       _build('noteFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `noteRemove` twototne icon with a background and foreground layer.
+  /// Displays the `noteRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10985,7 +10985,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.noteRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.noteRemove(size: 32, color: Colors.red);
   /// ```
   static Widget noteRemove({
     double size = 25,
@@ -10994,7 +10994,7 @@ class AmazingIconTwotone {
   }) =>
       _build('noteRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `noteSquare` twototne icon with a background and foreground layer.
+  /// Displays the `noteSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11003,7 +11003,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.noteSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.noteSquare(size: 32, color: Colors.red);
   /// ```
   static Widget noteSquare({
     double size = 25,
@@ -11012,7 +11012,7 @@ class AmazingIconTwotone {
   }) =>
       _build('noteSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `noteText` twototne icon with a background and foreground layer.
+  /// Displays the `noteText` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11021,7 +11021,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.noteText(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.noteText(size: 32, color: Colors.red);
   /// ```
   static Widget noteText({
     double size = 25,
@@ -11030,7 +11030,7 @@ class AmazingIconTwotone {
   }) =>
       _build('noteText', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notification` twototne icon with a background and foreground layer.
+  /// Displays the `notification` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11039,7 +11039,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notification(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notification(size: 32, color: Colors.red);
   /// ```
   static Widget notification({
     double size = 25,
@@ -11048,7 +11048,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notification', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notification1` twototne icon with a background and foreground layer.
+  /// Displays the `notification1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11057,7 +11057,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notification1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notification1(size: 32, color: Colors.red);
   /// ```
   static Widget notification1({
     double size = 25,
@@ -11066,7 +11066,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notification1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notificationBing` twototne icon with a background and foreground layer.
+  /// Displays the `notificationBing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11075,7 +11075,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notificationBing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notificationBing(size: 32, color: Colors.red);
   /// ```
   static Widget notificationBing({
     double size = 25,
@@ -11084,7 +11084,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notificationBing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notificationCircle` twototne icon with a background and foreground layer.
+  /// Displays the `notificationCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11093,7 +11093,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notificationCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notificationCircle(size: 32, color: Colors.red);
   /// ```
   static Widget notificationCircle({
     double size = 25,
@@ -11102,7 +11102,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notificationCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notificationFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `notificationFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11111,7 +11111,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notificationFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notificationFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget notificationFavorite({
     double size = 25,
@@ -11120,7 +11120,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notificationFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `notificationStatus` twototne icon with a background and foreground layer.
+  /// Displays the `notificationStatus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11129,7 +11129,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.notificationStatus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.notificationStatus(size: 32, color: Colors.red);
   /// ```
   static Widget notificationStatus({
     double size = 25,
@@ -11138,7 +11138,7 @@ class AmazingIconTwotone {
   }) =>
       _build('notificationStatus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `oceanProtocol` twototne icon with a background and foreground layer.
+  /// Displays the `oceanProtocol` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11147,7 +11147,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.oceanProtocol(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.oceanProtocol(size: 32, color: Colors.red);
   /// ```
   static Widget oceanProtocol({
     double size = 25,
@@ -11156,7 +11156,7 @@ class AmazingIconTwotone {
   }) =>
       _build('oceanProtocol', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ok` twototne icon with a background and foreground layer.
+  /// Displays the `ok` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11165,7 +11165,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ok(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ok(size: 32, color: Colors.red);
   /// ```
   static Widget ok({
     double size = 25,
@@ -11174,7 +11174,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ok', size: size, color: color, opacity: opacity);
 
-  /// Displays the `okb` twototne icon with a background and foreground layer.
+  /// Displays the `okb` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11183,7 +11183,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.okb(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.okb(size: 32, color: Colors.red);
   /// ```
   static Widget okb({
     double size = 25,
@@ -11192,7 +11192,7 @@ class AmazingIconTwotone {
   }) =>
       _build('okb', size: size, color: color, opacity: opacity);
 
-  /// Displays the `omegaCircle` twototne icon with a background and foreground layer.
+  /// Displays the `omegaCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11201,7 +11201,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.omegaCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.omegaCircle(size: 32, color: Colors.red);
   /// ```
   static Widget omegaCircle({
     double size = 25,
@@ -11210,7 +11210,7 @@ class AmazingIconTwotone {
   }) =>
       _build('omegaCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `omegaSquare` twototne icon with a background and foreground layer.
+  /// Displays the `omegaSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11219,7 +11219,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.omegaSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.omegaSquare(size: 32, color: Colors.red);
   /// ```
   static Widget omegaSquare({
     double size = 25,
@@ -11228,7 +11228,7 @@ class AmazingIconTwotone {
   }) =>
       _build('omegaSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ontology` twototne icon with a background and foreground layer.
+  /// Displays the `ontology` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11237,7 +11237,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ontology(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ontology(size: 32, color: Colors.red);
   /// ```
   static Widget ontology({
     double size = 25,
@@ -11246,7 +11246,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ontology', size: size, color: color, opacity: opacity);
 
-  /// Displays the `paintbucket` twototne icon with a background and foreground layer.
+  /// Displays the `paintbucket` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11255,7 +11255,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.paintbucket(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.paintbucket(size: 32, color: Colors.red);
   /// ```
   static Widget paintbucket({
     double size = 25,
@@ -11264,7 +11264,7 @@ class AmazingIconTwotone {
   }) =>
       _build('paintbucket', size: size, color: color, opacity: opacity);
 
-  /// Displays the `passwordCheck` twototne icon with a background and foreground layer.
+  /// Displays the `passwordCheck` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11273,7 +11273,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.passwordCheck(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.passwordCheck(size: 32, color: Colors.red);
   /// ```
   static Widget passwordCheck({
     double size = 25,
@@ -11282,7 +11282,7 @@ class AmazingIconTwotone {
   }) =>
       _build('passwordCheck', size: size, color: color, opacity: opacity);
 
-  /// Displays the `path` twototne icon with a background and foreground layer.
+  /// Displays the `path` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11291,7 +11291,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.path(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.path(size: 32, color: Colors.red);
   /// ```
   static Widget path({
     double size = 25,
@@ -11300,7 +11300,7 @@ class AmazingIconTwotone {
   }) =>
       _build('path', size: size, color: color, opacity: opacity);
 
-  /// Displays the `path2` twototne icon with a background and foreground layer.
+  /// Displays the `path2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11309,7 +11309,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.path2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.path2(size: 32, color: Colors.red);
   /// ```
   static Widget path2({
     double size = 25,
@@ -11318,7 +11318,7 @@ class AmazingIconTwotone {
   }) =>
       _build('path2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pathSquare` twototne icon with a background and foreground layer.
+  /// Displays the `pathSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11327,7 +11327,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pathSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pathSquare(size: 32, color: Colors.red);
   /// ```
   static Widget pathSquare({
     double size = 25,
@@ -11336,7 +11336,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pathSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pause` twototne icon with a background and foreground layer.
+  /// Displays the `pause` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11345,7 +11345,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pause(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pause(size: 32, color: Colors.red);
   /// ```
   static Widget pause({
     double size = 25,
@@ -11354,7 +11354,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pause', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pauseCircle` twototne icon with a background and foreground layer.
+  /// Displays the `pauseCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11363,7 +11363,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pauseCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pauseCircle(size: 32, color: Colors.red);
   /// ```
   static Widget pauseCircle({
     double size = 25,
@@ -11372,7 +11372,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pauseCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `paypal` twototne icon with a background and foreground layer.
+  /// Displays the `paypal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11381,7 +11381,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.paypal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.paypal(size: 32, color: Colors.red);
   /// ```
   static Widget paypal({
     double size = 25,
@@ -11390,7 +11390,7 @@ class AmazingIconTwotone {
   }) =>
       _build('paypal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `penAdd` twototne icon with a background and foreground layer.
+  /// Displays the `penAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11399,7 +11399,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.penAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.penAdd(size: 32, color: Colors.red);
   /// ```
   static Widget penAdd({
     double size = 25,
@@ -11408,7 +11408,7 @@ class AmazingIconTwotone {
   }) =>
       _build('penAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `penClose` twototne icon with a background and foreground layer.
+  /// Displays the `penClose` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11417,7 +11417,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.penClose(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.penClose(size: 32, color: Colors.red);
   /// ```
   static Widget penClose({
     double size = 25,
@@ -11426,7 +11426,7 @@ class AmazingIconTwotone {
   }) =>
       _build('penClose', size: size, color: color, opacity: opacity);
 
-  /// Displays the `penRemove` twototne icon with a background and foreground layer.
+  /// Displays the `penRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11435,7 +11435,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.penRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.penRemove(size: 32, color: Colors.red);
   /// ```
   static Widget penRemove({
     double size = 25,
@@ -11444,7 +11444,7 @@ class AmazingIconTwotone {
   }) =>
       _build('penRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `penTool` twototne icon with a background and foreground layer.
+  /// Displays the `penTool` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11453,7 +11453,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.penTool(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.penTool(size: 32, color: Colors.red);
   /// ```
   static Widget penTool({
     double size = 25,
@@ -11462,7 +11462,7 @@ class AmazingIconTwotone {
   }) =>
       _build('penTool', size: size, color: color, opacity: opacity);
 
-  /// Displays the `penTool2` twototne icon with a background and foreground layer.
+  /// Displays the `penTool2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11471,7 +11471,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.penTool2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.penTool2(size: 32, color: Colors.red);
   /// ```
   static Widget penTool2({
     double size = 25,
@@ -11480,7 +11480,7 @@ class AmazingIconTwotone {
   }) =>
       _build('penTool2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `people` twototne icon with a background and foreground layer.
+  /// Displays the `people` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11489,7 +11489,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.people(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.people(size: 32, color: Colors.red);
   /// ```
   static Widget people({
     double size = 25,
@@ -11498,7 +11498,7 @@ class AmazingIconTwotone {
   }) =>
       _build('people', size: size, color: color, opacity: opacity);
 
-  /// Displays the `percentageCircle` twototne icon with a background and foreground layer.
+  /// Displays the `percentageCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11507,7 +11507,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.percentageCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.percentageCircle(size: 32, color: Colors.red);
   /// ```
   static Widget percentageCircle({
     double size = 25,
@@ -11516,7 +11516,7 @@ class AmazingIconTwotone {
   }) =>
       _build('percentageCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `percentageSquare` twototne icon with a background and foreground layer.
+  /// Displays the `percentageSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11525,7 +11525,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.percentageSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.percentageSquare(size: 32, color: Colors.red);
   /// ```
   static Widget percentageSquare({
     double size = 25,
@@ -11534,7 +11534,7 @@ class AmazingIconTwotone {
   }) =>
       _build('percentageSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `personalcard` twototne icon with a background and foreground layer.
+  /// Displays the `personalcard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11543,7 +11543,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.personalcard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.personalcard(size: 32, color: Colors.red);
   /// ```
   static Widget personalcard({
     double size = 25,
@@ -11552,7 +11552,7 @@ class AmazingIconTwotone {
   }) =>
       _build('personalcard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pet` twototne icon with a background and foreground layer.
+  /// Displays the `pet` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11561,7 +11561,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pet(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pet(size: 32, color: Colors.red);
   /// ```
   static Widget pet({
     double size = 25,
@@ -11570,7 +11570,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pet', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pharagraphspacing` twototne icon with a background and foreground layer.
+  /// Displays the `pharagraphspacing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11579,7 +11579,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pharagraphspacing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pharagraphspacing(size: 32, color: Colors.red);
   /// ```
   static Widget pharagraphspacing({
     double size = 25,
@@ -11588,7 +11588,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pharagraphspacing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `photoshop` twototne icon with a background and foreground layer.
+  /// Displays the `photoshop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11597,7 +11597,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.photoshop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.photoshop(size: 32, color: Colors.red);
   /// ```
   static Widget photoshop({
     double size = 25,
@@ -11606,7 +11606,7 @@ class AmazingIconTwotone {
   }) =>
       _build('photoshop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pictureFrame` twototne icon with a background and foreground layer.
+  /// Displays the `pictureFrame` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11615,7 +11615,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.pictureFrame(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.pictureFrame(size: 32, color: Colors.red);
   /// ```
   static Widget pictureFrame({
     double size = 25,
@@ -11624,7 +11624,7 @@ class AmazingIconTwotone {
   }) =>
       _build('pictureFrame', size: size, color: color, opacity: opacity);
 
-  /// Displays the `playAdd` twototne icon with a background and foreground layer.
+  /// Displays the `playAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11633,7 +11633,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.playAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.playAdd(size: 32, color: Colors.red);
   /// ```
   static Widget playAdd({
     double size = 25,
@@ -11642,7 +11642,7 @@ class AmazingIconTwotone {
   }) =>
       _build('playAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `playCircle` twototne icon with a background and foreground layer.
+  /// Displays the `playCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11651,7 +11651,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.playCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.playCircle(size: 32, color: Colors.red);
   /// ```
   static Widget playCircle({
     double size = 25,
@@ -11660,7 +11660,7 @@ class AmazingIconTwotone {
   }) =>
       _build('playCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `playCricle` twototne icon with a background and foreground layer.
+  /// Displays the `playCricle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11669,7 +11669,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.playCricle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.playCricle(size: 32, color: Colors.red);
   /// ```
   static Widget playCricle({
     double size = 25,
@@ -11678,7 +11678,7 @@ class AmazingIconTwotone {
   }) =>
       _build('playCricle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `playRemove` twototne icon with a background and foreground layer.
+  /// Displays the `playRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11687,7 +11687,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.playRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.playRemove(size: 32, color: Colors.red);
   /// ```
   static Widget playRemove({
     double size = 25,
@@ -11696,7 +11696,7 @@ class AmazingIconTwotone {
   }) =>
       _build('playRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `polkadot` twototne icon with a background and foreground layer.
+  /// Displays the `polkadot` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11705,7 +11705,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.polkadot(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.polkadot(size: 32, color: Colors.red);
   /// ```
   static Widget polkadot({
     double size = 25,
@@ -11714,7 +11714,7 @@ class AmazingIconTwotone {
   }) =>
       _build('polkadot', size: size, color: color, opacity: opacity);
 
-  /// Displays the `polygon` twototne icon with a background and foreground layer.
+  /// Displays the `polygon` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11723,7 +11723,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.polygon(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.polygon(size: 32, color: Colors.red);
   /// ```
   static Widget polygon({
     double size = 25,
@@ -11732,7 +11732,7 @@ class AmazingIconTwotone {
   }) =>
       _build('polygon', size: size, color: color, opacity: opacity);
 
-  /// Displays the `polyswarm` twototne icon with a background and foreground layer.
+  /// Displays the `polyswarm` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11741,7 +11741,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.polyswarm(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.polyswarm(size: 32, color: Colors.red);
   /// ```
   static Widget polyswarm({
     double size = 25,
@@ -11750,7 +11750,7 @@ class AmazingIconTwotone {
   }) =>
       _build('polyswarm', size: size, color: color, opacity: opacity);
 
-  /// Displays the `presentionChart` twototne icon with a background and foreground layer.
+  /// Displays the `presentionChart` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11759,7 +11759,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.presentionChart(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.presentionChart(size: 32, color: Colors.red);
   /// ```
   static Widget presentionChart({
     double size = 25,
@@ -11768,7 +11768,7 @@ class AmazingIconTwotone {
   }) =>
       _build('presentionChart', size: size, color: color, opacity: opacity);
 
-  /// Displays the `previous` twototne icon with a background and foreground layer.
+  /// Displays the `previous` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11777,7 +11777,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.previous(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.previous(size: 32, color: Colors.red);
   /// ```
   static Widget previous({
     double size = 25,
@@ -11786,7 +11786,7 @@ class AmazingIconTwotone {
   }) =>
       _build('previous', size: size, color: color, opacity: opacity);
 
-  /// Displays the `printer` twototne icon with a background and foreground layer.
+  /// Displays the `printer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11795,7 +11795,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.printer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.printer(size: 32, color: Colors.red);
   /// ```
   static Widget printer({
     double size = 25,
@@ -11804,7 +11804,7 @@ class AmazingIconTwotone {
   }) =>
       _build('printer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `printerSlash` twototne icon with a background and foreground layer.
+  /// Displays the `printerSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11813,7 +11813,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.printerSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.printerSlash(size: 32, color: Colors.red);
   /// ```
   static Widget printerSlash({
     double size = 25,
@@ -11822,7 +11822,7 @@ class AmazingIconTwotone {
   }) =>
       _build('printerSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profile` twototne icon with a background and foreground layer.
+  /// Displays the `profile` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11831,7 +11831,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profile(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profile(size: 32, color: Colors.red);
   /// ```
   static Widget profile({
     double size = 25,
@@ -11840,7 +11840,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profile', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profile2user` twototne icon with a background and foreground layer.
+  /// Displays the `profile2user` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11849,7 +11849,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profile2user(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profile2user(size: 32, color: Colors.red);
   /// ```
   static Widget profile2user({
     double size = 25,
@@ -11858,7 +11858,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profile2user', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profileAdd` twototne icon with a background and foreground layer.
+  /// Displays the `profileAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11867,7 +11867,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profileAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profileAdd(size: 32, color: Colors.red);
   /// ```
   static Widget profileAdd({
     double size = 25,
@@ -11876,7 +11876,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profileAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profileCircle` twototne icon with a background and foreground layer.
+  /// Displays the `profileCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11885,7 +11885,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profileCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profileCircle(size: 32, color: Colors.red);
   /// ```
   static Widget profileCircle({
     double size = 25,
@@ -11894,7 +11894,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profileCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profileDelete` twototne icon with a background and foreground layer.
+  /// Displays the `profileDelete` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11903,7 +11903,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profileDelete(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profileDelete(size: 32, color: Colors.red);
   /// ```
   static Widget profileDelete({
     double size = 25,
@@ -11912,7 +11912,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profileDelete', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profileRemove` twototne icon with a background and foreground layer.
+  /// Displays the `profileRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11921,7 +11921,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profileRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profileRemove(size: 32, color: Colors.red);
   /// ```
   static Widget profileRemove({
     double size = 25,
@@ -11930,7 +11930,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profileRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `profileTick` twototne icon with a background and foreground layer.
+  /// Displays the `profileTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11939,7 +11939,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.profileTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.profileTick(size: 32, color: Colors.red);
   /// ```
   static Widget profileTick({
     double size = 25,
@@ -11948,7 +11948,7 @@ class AmazingIconTwotone {
   }) =>
       _build('profileTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `programmingArrow` twototne icon with a background and foreground layer.
+  /// Displays the `programmingArrow` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11957,7 +11957,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.programmingArrow(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.programmingArrow(size: 32, color: Colors.red);
   /// ```
   static Widget programmingArrow({
     double size = 25,
@@ -11966,7 +11966,7 @@ class AmazingIconTwotone {
   }) =>
       _build('programmingArrow', size: size, color: color, opacity: opacity);
 
-  /// Displays the `programmingArrows` twototne icon with a background and foreground layer.
+  /// Displays the `programmingArrows` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11975,7 +11975,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.programmingArrows(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.programmingArrows(size: 32, color: Colors.red);
   /// ```
   static Widget programmingArrows({
     double size = 25,
@@ -11984,7 +11984,7 @@ class AmazingIconTwotone {
   }) =>
       _build('programmingArrows', size: size, color: color, opacity: opacity);
 
-  /// Displays the `python` twototne icon with a background and foreground layer.
+  /// Displays the `python` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11993,7 +11993,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.python(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.python(size: 32, color: Colors.red);
   /// ```
   static Widget python({
     double size = 25,
@@ -12002,7 +12002,7 @@ class AmazingIconTwotone {
   }) =>
       _build('python', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quant` twototne icon with a background and foreground layer.
+  /// Displays the `quant` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12011,7 +12011,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quant(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quant(size: 32, color: Colors.red);
   /// ```
   static Widget quant({
     double size = 25,
@@ -12020,7 +12020,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quant', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteDown` twototne icon with a background and foreground layer.
+  /// Displays the `quoteDown` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12029,7 +12029,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteDown(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteDown(size: 32, color: Colors.red);
   /// ```
   static Widget quoteDown({
     double size = 25,
@@ -12038,7 +12038,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteDown', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteDownCircle` twototne icon with a background and foreground layer.
+  /// Displays the `quoteDownCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12047,7 +12047,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteDownCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteDownCircle(size: 32, color: Colors.red);
   /// ```
   static Widget quoteDownCircle({
     double size = 25,
@@ -12056,7 +12056,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteDownCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteDownSquare` twototne icon with a background and foreground layer.
+  /// Displays the `quoteDownSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12065,7 +12065,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteDownSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteDownSquare(size: 32, color: Colors.red);
   /// ```
   static Widget quoteDownSquare({
     double size = 25,
@@ -12074,7 +12074,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteDownSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteUp` twototne icon with a background and foreground layer.
+  /// Displays the `quoteUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12083,7 +12083,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteUp(size: 32, color: Colors.red);
   /// ```
   static Widget quoteUp({
     double size = 25,
@@ -12092,7 +12092,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteUpCircle` twototne icon with a background and foreground layer.
+  /// Displays the `quoteUpCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12101,7 +12101,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteUpCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteUpCircle(size: 32, color: Colors.red);
   /// ```
   static Widget quoteUpCircle({
     double size = 25,
@@ -12110,7 +12110,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteUpCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `quoteUpSquare` twototne icon with a background and foreground layer.
+  /// Displays the `quoteUpSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12119,7 +12119,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.quoteUpSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.quoteUpSquare(size: 32, color: Colors.red);
   /// ```
   static Widget quoteUpSquare({
     double size = 25,
@@ -12128,7 +12128,7 @@ class AmazingIconTwotone {
   }) =>
       _build('quoteUpSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `radar1` twototne icon with a background and foreground layer.
+  /// Displays the `radar1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12137,7 +12137,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.radar1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.radar1(size: 32, color: Colors.red);
   /// ```
   static Widget radar1({
     double size = 25,
@@ -12146,7 +12146,7 @@ class AmazingIconTwotone {
   }) =>
       _build('radar1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `radar2` twototne icon with a background and foreground layer.
+  /// Displays the `radar2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12155,7 +12155,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.radar2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.radar2(size: 32, color: Colors.red);
   /// ```
   static Widget radar2({
     double size = 25,
@@ -12164,7 +12164,7 @@ class AmazingIconTwotone {
   }) =>
       _build('radar2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `radio` twototne icon with a background and foreground layer.
+  /// Displays the `radio` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12173,7 +12173,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.radio(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.radio(size: 32, color: Colors.red);
   /// ```
   static Widget radio({
     double size = 25,
@@ -12182,7 +12182,7 @@ class AmazingIconTwotone {
   }) =>
       _build('radio', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ram` twototne icon with a background and foreground layer.
+  /// Displays the `ram` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12191,7 +12191,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ram(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ram(size: 32, color: Colors.red);
   /// ```
   static Widget ram({
     double size = 25,
@@ -12200,7 +12200,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ram', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ram2` twototne icon with a background and foreground layer.
+  /// Displays the `ram2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12209,7 +12209,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ram2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ram2(size: 32, color: Colors.red);
   /// ```
   static Widget ram2({
     double size = 25,
@@ -12218,7 +12218,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ram2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ranking` twototne icon with a background and foreground layer.
+  /// Displays the `ranking` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12227,7 +12227,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ranking(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ranking(size: 32, color: Colors.red);
   /// ```
   static Widget ranking({
     double size = 25,
@@ -12236,7 +12236,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ranking', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ranking1` twototne icon with a background and foreground layer.
+  /// Displays the `ranking1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12245,7 +12245,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ranking1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ranking1(size: 32, color: Colors.red);
   /// ```
   static Widget ranking1({
     double size = 25,
@@ -12254,7 +12254,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ranking1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receipt` twototne icon with a background and foreground layer.
+  /// Displays the `receipt` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12263,7 +12263,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receipt(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receipt(size: 32, color: Colors.red);
   /// ```
   static Widget receipt({
     double size = 25,
@@ -12272,7 +12272,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receipt', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receipt1` twototne icon with a background and foreground layer.
+  /// Displays the `receipt1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12281,7 +12281,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receipt1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receipt1(size: 32, color: Colors.red);
   /// ```
   static Widget receipt1({
     double size = 25,
@@ -12290,7 +12290,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receipt1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receipt2` twototne icon with a background and foreground layer.
+  /// Displays the `receipt2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12299,7 +12299,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receipt2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receipt2(size: 32, color: Colors.red);
   /// ```
   static Widget receipt2({
     double size = 25,
@@ -12308,7 +12308,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receipt2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receipt3` twototne icon with a background and foreground layer.
+  /// Displays the `receipt3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12317,7 +12317,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receipt3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receipt3(size: 32, color: Colors.red);
   /// ```
   static Widget receipt3({
     double size = 25,
@@ -12326,7 +12326,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receipt3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptAdd` twototne icon with a background and foreground layer.
+  /// Displays the `receiptAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12335,7 +12335,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptAdd(size: 32, color: Colors.red);
   /// ```
   static Widget receiptAdd({
     double size = 25,
@@ -12344,7 +12344,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptDiscount` twototne icon with a background and foreground layer.
+  /// Displays the `receiptDiscount` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12353,7 +12353,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptDiscount(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptDiscount(size: 32, color: Colors.red);
   /// ```
   static Widget receiptDiscount({
     double size = 25,
@@ -12362,7 +12362,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptDiscount', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptDiscount2` twototne icon with a background and foreground layer.
+  /// Displays the `receiptDiscount2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12371,7 +12371,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptDiscount2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptDiscount2(size: 32, color: Colors.red);
   /// ```
   static Widget receiptDiscount2({
     double size = 25,
@@ -12380,7 +12380,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptDiscount2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptEdit` twototne icon with a background and foreground layer.
+  /// Displays the `receiptEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12389,7 +12389,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptEdit(size: 32, color: Colors.red);
   /// ```
   static Widget receiptEdit({
     double size = 25,
@@ -12398,7 +12398,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptItem` twototne icon with a background and foreground layer.
+  /// Displays the `receiptItem` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12407,7 +12407,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptItem(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptItem(size: 32, color: Colors.red);
   /// ```
   static Widget receiptItem({
     double size = 25,
@@ -12416,7 +12416,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptItem', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptMinus` twototne icon with a background and foreground layer.
+  /// Displays the `receiptMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12425,7 +12425,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptMinus(size: 32, color: Colors.red);
   /// ```
   static Widget receiptMinus({
     double size = 25,
@@ -12434,7 +12434,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptSearch` twototne icon with a background and foreground layer.
+  /// Displays the `receiptSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12443,7 +12443,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptSearch(size: 32, color: Colors.red);
   /// ```
   static Widget receiptSearch({
     double size = 25,
@@ -12452,7 +12452,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptSquare` twototne icon with a background and foreground layer.
+  /// Displays the `receiptSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12461,7 +12461,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptSquare(size: 32, color: Colors.red);
   /// ```
   static Widget receiptSquare({
     double size = 25,
@@ -12470,7 +12470,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiptText` twototne icon with a background and foreground layer.
+  /// Displays the `receiptText` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12479,7 +12479,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiptText(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiptText(size: 32, color: Colors.red);
   /// ```
   static Widget receiptText({
     double size = 25,
@@ -12488,7 +12488,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiptText', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiveSquare` twototne icon with a background and foreground layer.
+  /// Displays the `receiveSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12497,7 +12497,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiveSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiveSquare(size: 32, color: Colors.red);
   /// ```
   static Widget receiveSquare({
     double size = 25,
@@ -12506,7 +12506,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiveSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `receiveSquare2` twototne icon with a background and foreground layer.
+  /// Displays the `receiveSquare2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12515,7 +12515,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.receiveSquare2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.receiveSquare2(size: 32, color: Colors.red);
   /// ```
   static Widget receiveSquare2({
     double size = 25,
@@ -12524,7 +12524,7 @@ class AmazingIconTwotone {
   }) =>
       _build('receiveSquare2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `received` twototne icon with a background and foreground layer.
+  /// Displays the `received` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12533,7 +12533,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.received(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.received(size: 32, color: Colors.red);
   /// ```
   static Widget received({
     double size = 25,
@@ -12542,7 +12542,7 @@ class AmazingIconTwotone {
   }) =>
       _build('received', size: size, color: color, opacity: opacity);
 
-  /// Displays the `recordCircle` twototne icon with a background and foreground layer.
+  /// Displays the `recordCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12551,7 +12551,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.recordCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.recordCircle(size: 32, color: Colors.red);
   /// ```
   static Widget recordCircle({
     double size = 25,
@@ -12560,7 +12560,7 @@ class AmazingIconTwotone {
   }) =>
       _build('recordCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `recoveryConvert` twototne icon with a background and foreground layer.
+  /// Displays the `recoveryConvert` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12569,7 +12569,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.recoveryConvert(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.recoveryConvert(size: 32, color: Colors.red);
   /// ```
   static Widget recoveryConvert({
     double size = 25,
@@ -12578,7 +12578,7 @@ class AmazingIconTwotone {
   }) =>
       _build('recoveryConvert', size: size, color: color, opacity: opacity);
 
-  /// Displays the `redo` twototne icon with a background and foreground layer.
+  /// Displays the `redo` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12587,7 +12587,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.redo(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.redo(size: 32, color: Colors.red);
   /// ```
   static Widget redo({
     double size = 25,
@@ -12596,7 +12596,7 @@ class AmazingIconTwotone {
   }) =>
       _build('redo', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refresh` twototne icon with a background and foreground layer.
+  /// Displays the `refresh` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12605,7 +12605,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refresh(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refresh(size: 32, color: Colors.red);
   /// ```
   static Widget refresh({
     double size = 25,
@@ -12614,7 +12614,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refresh', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refresh2` twototne icon with a background and foreground layer.
+  /// Displays the `refresh2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12623,7 +12623,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refresh2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refresh2(size: 32, color: Colors.red);
   /// ```
   static Widget refresh2({
     double size = 25,
@@ -12632,7 +12632,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refresh2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refreshCircle` twototne icon with a background and foreground layer.
+  /// Displays the `refreshCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12641,7 +12641,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refreshCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refreshCircle(size: 32, color: Colors.red);
   /// ```
   static Widget refreshCircle({
     double size = 25,
@@ -12650,7 +12650,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refreshCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refreshLeftSquare` twototne icon with a background and foreground layer.
+  /// Displays the `refreshLeftSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12659,7 +12659,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refreshLeftSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refreshLeftSquare(size: 32, color: Colors.red);
   /// ```
   static Widget refreshLeftSquare({
     double size = 25,
@@ -12668,7 +12668,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refreshLeftSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refreshRightSquare` twototne icon with a background and foreground layer.
+  /// Displays the `refreshRightSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12677,7 +12677,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refreshRightSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refreshRightSquare(size: 32, color: Colors.red);
   /// ```
   static Widget refreshRightSquare({
     double size = 25,
@@ -12686,7 +12686,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refreshRightSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `refreshSquare2` twototne icon with a background and foreground layer.
+  /// Displays the `refreshSquare2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12695,7 +12695,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.refreshSquare2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.refreshSquare2(size: 32, color: Colors.red);
   /// ```
   static Widget refreshSquare2({
     double size = 25,
@@ -12704,7 +12704,7 @@ class AmazingIconTwotone {
   }) =>
       _build('refreshSquare2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeat` twototne icon with a background and foreground layer.
+  /// Displays the `repeat` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12713,7 +12713,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.repeat(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.repeat(size: 32, color: Colors.red);
   /// ```
   static Widget repeat({
     double size = 25,
@@ -12722,7 +12722,7 @@ class AmazingIconTwotone {
   }) =>
       _build('repeat', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeatCircle` twototne icon with a background and foreground layer.
+  /// Displays the `repeatCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12731,7 +12731,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.repeatCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.repeatCircle(size: 32, color: Colors.red);
   /// ```
   static Widget repeatCircle({
     double size = 25,
@@ -12740,7 +12740,7 @@ class AmazingIconTwotone {
   }) =>
       _build('repeatCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeateMusic` twototne icon with a background and foreground layer.
+  /// Displays the `repeateMusic` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12749,7 +12749,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.repeateMusic(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.repeateMusic(size: 32, color: Colors.red);
   /// ```
   static Widget repeateMusic({
     double size = 25,
@@ -12758,7 +12758,7 @@ class AmazingIconTwotone {
   }) =>
       _build('repeateMusic', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeateOne` twototne icon with a background and foreground layer.
+  /// Displays the `repeateOne` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12767,7 +12767,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.repeateOne(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.repeateOne(size: 32, color: Colors.red);
   /// ```
   static Widget repeateOne({
     double size = 25,
@@ -12776,7 +12776,7 @@ class AmazingIconTwotone {
   }) =>
       _build('repeateOne', size: size, color: color, opacity: opacity);
 
-  /// Displays the `reserve` twototne icon with a background and foreground layer.
+  /// Displays the `reserve` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12785,7 +12785,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.reserve(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.reserve(size: 32, color: Colors.red);
   /// ```
   static Widget reserve({
     double size = 25,
@@ -12794,7 +12794,7 @@ class AmazingIconTwotone {
   }) =>
       _build('reserve', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rotate3d` twototne icon with a background and foreground layer.
+  /// Displays the `rotate3d` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12803,7 +12803,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rotate3d(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rotate3d(size: 32, color: Colors.red);
   /// ```
   static Widget rotate3d({
     double size = 25,
@@ -12812,7 +12812,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rotate3d', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rotateLeft` twototne icon with a background and foreground layer.
+  /// Displays the `rotateLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12821,7 +12821,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rotateLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rotateLeft(size: 32, color: Colors.red);
   /// ```
   static Widget rotateLeft({
     double size = 25,
@@ -12830,7 +12830,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rotateLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rotateLeft1` twototne icon with a background and foreground layer.
+  /// Displays the `rotateLeft1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12839,7 +12839,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rotateLeft1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rotateLeft1(size: 32, color: Colors.red);
   /// ```
   static Widget rotateLeft1({
     double size = 25,
@@ -12848,7 +12848,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rotateLeft1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rotateRight` twototne icon with a background and foreground layer.
+  /// Displays the `rotateRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12857,7 +12857,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rotateRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rotateRight(size: 32, color: Colors.red);
   /// ```
   static Widget rotateRight({
     double size = 25,
@@ -12866,7 +12866,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rotateRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rotateRight1` twototne icon with a background and foreground layer.
+  /// Displays the `rotateRight1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12875,7 +12875,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rotateRight1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rotateRight1(size: 32, color: Colors.red);
   /// ```
   static Widget rotateRight1({
     double size = 25,
@@ -12884,7 +12884,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rotateRight1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `routeSquare` twototne icon with a background and foreground layer.
+  /// Displays the `routeSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12893,7 +12893,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.routeSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.routeSquare(size: 32, color: Colors.red);
   /// ```
   static Widget routeSquare({
     double size = 25,
@@ -12902,7 +12902,7 @@ class AmazingIconTwotone {
   }) =>
       _build('routeSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `routing` twototne icon with a background and foreground layer.
+  /// Displays the `routing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12911,7 +12911,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.routing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.routing(size: 32, color: Colors.red);
   /// ```
   static Widget routing({
     double size = 25,
@@ -12920,7 +12920,7 @@ class AmazingIconTwotone {
   }) =>
       _build('routing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `routing2` twototne icon with a background and foreground layer.
+  /// Displays the `routing2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12929,7 +12929,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.routing2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.routing2(size: 32, color: Colors.red);
   /// ```
   static Widget routing2({
     double size = 25,
@@ -12938,7 +12938,7 @@ class AmazingIconTwotone {
   }) =>
       _build('routing2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rowHorizontal` twototne icon with a background and foreground layer.
+  /// Displays the `rowHorizontal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12947,7 +12947,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rowHorizontal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rowHorizontal(size: 32, color: Colors.red);
   /// ```
   static Widget rowHorizontal({
     double size = 25,
@@ -12956,7 +12956,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rowHorizontal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rowVertical` twototne icon with a background and foreground layer.
+  /// Displays the `rowVertical` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12965,7 +12965,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rowVertical(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rowVertical(size: 32, color: Colors.red);
   /// ```
   static Widget rowVertical({
     double size = 25,
@@ -12974,7 +12974,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rowVertical', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ruler` twototne icon with a background and foreground layer.
+  /// Displays the `ruler` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12983,7 +12983,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ruler(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ruler(size: 32, color: Colors.red);
   /// ```
   static Widget ruler({
     double size = 25,
@@ -12992,7 +12992,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ruler', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rulerandpen` twototne icon with a background and foreground layer.
+  /// Displays the `ruler&pen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13001,7 +13001,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.rulerandpen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ruler&pen(size: 32, color: Colors.red);
   /// ```
   static Widget rulerandpen({
     double size = 25,
@@ -13010,7 +13010,7 @@ class AmazingIconTwotone {
   }) =>
       _build('rulerandpen', size: size, color: color, opacity: opacity);
 
-  /// Displays the `safeHome` twototne icon with a background and foreground layer.
+  /// Displays the `safeHome` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13019,7 +13019,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.safeHome(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.safeHome(size: 32, color: Colors.red);
   /// ```
   static Widget safeHome({
     double size = 25,
@@ -13028,7 +13028,7 @@ class AmazingIconTwotone {
   }) =>
       _build('safeHome', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sagittarius` twototne icon with a background and foreground layer.
+  /// Displays the `sagittarius` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13037,7 +13037,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sagittarius(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sagittarius(size: 32, color: Colors.red);
   /// ```
   static Widget sagittarius({
     double size = 25,
@@ -13046,7 +13046,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sagittarius', size: size, color: color, opacity: opacity);
 
-  /// Displays the `save2` twototne icon with a background and foreground layer.
+  /// Displays the `save2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13055,7 +13055,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.save2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.save2(size: 32, color: Colors.red);
   /// ```
   static Widget save2({
     double size = 25,
@@ -13064,7 +13064,7 @@ class AmazingIconTwotone {
   }) =>
       _build('save2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `saveAdd` twototne icon with a background and foreground layer.
+  /// Displays the `saveAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13073,7 +13073,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.saveAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.saveAdd(size: 32, color: Colors.red);
   /// ```
   static Widget saveAdd({
     double size = 25,
@@ -13082,7 +13082,7 @@ class AmazingIconTwotone {
   }) =>
       _build('saveAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `saveMinus` twototne icon with a background and foreground layer.
+  /// Displays the `saveMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13091,7 +13091,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.saveMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.saveMinus(size: 32, color: Colors.red);
   /// ```
   static Widget saveMinus({
     double size = 25,
@@ -13100,7 +13100,7 @@ class AmazingIconTwotone {
   }) =>
       _build('saveMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `saveRemove` twototne icon with a background and foreground layer.
+  /// Displays the `saveRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13109,7 +13109,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.saveRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.saveRemove(size: 32, color: Colors.red);
   /// ```
   static Widget saveRemove({
     double size = 25,
@@ -13118,7 +13118,7 @@ class AmazingIconTwotone {
   }) =>
       _build('saveRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scan` twototne icon with a background and foreground layer.
+  /// Displays the `scan` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13127,7 +13127,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scan(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scan(size: 32, color: Colors.red);
   /// ```
   static Widget scan({
     double size = 25,
@@ -13136,7 +13136,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scan', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scanBarcode` twototne icon with a background and foreground layer.
+  /// Displays the `scanBarcode` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13145,7 +13145,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scanBarcode(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scanBarcode(size: 32, color: Colors.red);
   /// ```
   static Widget scanBarcode({
     double size = 25,
@@ -13154,7 +13154,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scanBarcode', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scanner` twototne icon with a background and foreground layer.
+  /// Displays the `scanner` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13163,7 +13163,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scanner(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scanner(size: 32, color: Colors.red);
   /// ```
   static Widget scanner({
     double size = 25,
@@ -13172,7 +13172,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scanner', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scanning` twototne icon with a background and foreground layer.
+  /// Displays the `scanning` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13181,7 +13181,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scanning(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scanning(size: 32, color: Colors.red);
   /// ```
   static Widget scanning({
     double size = 25,
@@ -13190,7 +13190,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scanning', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scissor` twototne icon with a background and foreground layer.
+  /// Displays the `scissor` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13199,7 +13199,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scissor(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scissor(size: 32, color: Colors.red);
   /// ```
   static Widget scissor({
     double size = 25,
@@ -13208,7 +13208,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scissor', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scissor1` twototne icon with a background and foreground layer.
+  /// Displays the `scissor1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13217,7 +13217,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scissor1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scissor1(size: 32, color: Colors.red);
   /// ```
   static Widget scissor1({
     double size = 25,
@@ -13226,7 +13226,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scissor1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `screenmirroring` twototne icon with a background and foreground layer.
+  /// Displays the `screenmirroring` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13235,7 +13235,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.screenmirroring(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.screenmirroring(size: 32, color: Colors.red);
   /// ```
   static Widget screenmirroring({
     double size = 25,
@@ -13244,7 +13244,7 @@ class AmazingIconTwotone {
   }) =>
       _build('screenmirroring', size: size, color: color, opacity: opacity);
 
-  /// Displays the `scroll` twototne icon with a background and foreground layer.
+  /// Displays the `scroll` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13253,7 +13253,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.scroll(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.scroll(size: 32, color: Colors.red);
   /// ```
   static Widget scroll({
     double size = 25,
@@ -13262,7 +13262,7 @@ class AmazingIconTwotone {
   }) =>
       _build('scroll', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchFavorite` twototne icon with a background and foreground layer.
+  /// Displays the `searchFavorite` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13271,7 +13271,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchFavorite(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchFavorite(size: 32, color: Colors.red);
   /// ```
   static Widget searchFavorite({
     double size = 25,
@@ -13280,7 +13280,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchFavorite', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchFavorite1` twototne icon with a background and foreground layer.
+  /// Displays the `searchFavorite1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13289,7 +13289,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchFavorite1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchFavorite1(size: 32, color: Colors.red);
   /// ```
   static Widget searchFavorite1({
     double size = 25,
@@ -13298,7 +13298,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchFavorite1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchNormal` twototne icon with a background and foreground layer.
+  /// Displays the `searchNormal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13307,7 +13307,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchNormal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchNormal(size: 32, color: Colors.red);
   /// ```
   static Widget searchNormal({
     double size = 25,
@@ -13316,7 +13316,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchNormal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchNormal1` twototne icon with a background and foreground layer.
+  /// Displays the `searchNormal1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13325,7 +13325,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchNormal1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchNormal1(size: 32, color: Colors.red);
   /// ```
   static Widget searchNormal1({
     double size = 25,
@@ -13334,7 +13334,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchNormal1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchStatus` twototne icon with a background and foreground layer.
+  /// Displays the `searchStatus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13343,7 +13343,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchStatus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchStatus(size: 32, color: Colors.red);
   /// ```
   static Widget searchStatus({
     double size = 25,
@@ -13352,7 +13352,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchStatus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchStatus1` twototne icon with a background and foreground layer.
+  /// Displays the `searchStatus1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13361,7 +13361,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchStatus1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchStatus1(size: 32, color: Colors.red);
   /// ```
   static Widget searchStatus1({
     double size = 25,
@@ -13370,7 +13370,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchStatus1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchZoomIn` twototne icon with a background and foreground layer.
+  /// Displays the `searchZoomIn` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13379,7 +13379,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchZoomIn(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchZoomIn(size: 32, color: Colors.red);
   /// ```
   static Widget searchZoomIn({
     double size = 25,
@@ -13388,7 +13388,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchZoomIn', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchZoomIn1` twototne icon with a background and foreground layer.
+  /// Displays the `searchZoomIn1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13397,7 +13397,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchZoomIn1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchZoomIn1(size: 32, color: Colors.red);
   /// ```
   static Widget searchZoomIn1({
     double size = 25,
@@ -13406,7 +13406,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchZoomIn1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchZoomOut` twototne icon with a background and foreground layer.
+  /// Displays the `searchZoomOut` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13415,7 +13415,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchZoomOut(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchZoomOut(size: 32, color: Colors.red);
   /// ```
   static Widget searchZoomOut({
     double size = 25,
@@ -13424,7 +13424,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchZoomOut', size: size, color: color, opacity: opacity);
 
-  /// Displays the `searchZoomOut1` twototne icon with a background and foreground layer.
+  /// Displays the `searchZoomOut1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13433,7 +13433,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.searchZoomOut1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.searchZoomOut1(size: 32, color: Colors.red);
   /// ```
   static Widget searchZoomOut1({
     double size = 25,
@@ -13442,7 +13442,7 @@ class AmazingIconTwotone {
   }) =>
       _build('searchZoomOut1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `security` twototne icon with a background and foreground layer.
+  /// Displays the `security` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13451,7 +13451,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.security(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.security(size: 32, color: Colors.red);
   /// ```
   static Widget security({
     double size = 25,
@@ -13460,7 +13460,7 @@ class AmazingIconTwotone {
   }) =>
       _build('security', size: size, color: color, opacity: opacity);
 
-  /// Displays the `securityCard` twototne icon with a background and foreground layer.
+  /// Displays the `securityCard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13469,7 +13469,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.securityCard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.securityCard(size: 32, color: Colors.red);
   /// ```
   static Widget securityCard({
     double size = 25,
@@ -13478,7 +13478,7 @@ class AmazingIconTwotone {
   }) =>
       _build('securityCard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `securitySafe` twototne icon with a background and foreground layer.
+  /// Displays the `securitySafe` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13487,7 +13487,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.securitySafe(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.securitySafe(size: 32, color: Colors.red);
   /// ```
   static Widget securitySafe({
     double size = 25,
@@ -13496,7 +13496,7 @@ class AmazingIconTwotone {
   }) =>
       _build('securitySafe', size: size, color: color, opacity: opacity);
 
-  /// Displays the `securityTime` twototne icon with a background and foreground layer.
+  /// Displays the `securityTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13505,7 +13505,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.securityTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.securityTime(size: 32, color: Colors.red);
   /// ```
   static Widget securityTime({
     double size = 25,
@@ -13514,7 +13514,7 @@ class AmazingIconTwotone {
   }) =>
       _build('securityTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `securityUser` twototne icon with a background and foreground layer.
+  /// Displays the `securityUser` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13523,7 +13523,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.securityUser(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.securityUser(size: 32, color: Colors.red);
   /// ```
   static Widget securityUser({
     double size = 25,
@@ -13532,7 +13532,7 @@ class AmazingIconTwotone {
   }) =>
       _build('securityUser', size: size, color: color, opacity: opacity);
 
-  /// Displays the `send` twototne icon with a background and foreground layer.
+  /// Displays the `send` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13541,7 +13541,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.send(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.send(size: 32, color: Colors.red);
   /// ```
   static Widget send({
     double size = 25,
@@ -13550,7 +13550,7 @@ class AmazingIconTwotone {
   }) =>
       _build('send', size: size, color: color, opacity: opacity);
 
-  /// Displays the `send1` twototne icon with a background and foreground layer.
+  /// Displays the `send1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13559,7 +13559,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.send1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.send1(size: 32, color: Colors.red);
   /// ```
   static Widget send1({
     double size = 25,
@@ -13568,7 +13568,7 @@ class AmazingIconTwotone {
   }) =>
       _build('send1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `send2` twototne icon with a background and foreground layer.
+  /// Displays the `send2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13577,7 +13577,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.send2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.send2(size: 32, color: Colors.red);
   /// ```
   static Widget send2({
     double size = 25,
@@ -13586,7 +13586,7 @@ class AmazingIconTwotone {
   }) =>
       _build('send2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sendSqaure2` twototne icon with a background and foreground layer.
+  /// Displays the `sendSqaure2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13595,7 +13595,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sendSqaure2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sendSqaure2(size: 32, color: Colors.red);
   /// ```
   static Widget sendSqaure2({
     double size = 25,
@@ -13604,7 +13604,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sendSqaure2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sendSquare` twototne icon with a background and foreground layer.
+  /// Displays the `sendSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13613,7 +13613,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sendSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sendSquare(size: 32, color: Colors.red);
   /// ```
   static Widget sendSquare({
     double size = 25,
@@ -13622,7 +13622,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sendSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `setting` twototne icon with a background and foreground layer.
+  /// Displays the `setting` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13631,7 +13631,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.setting(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.setting(size: 32, color: Colors.red);
   /// ```
   static Widget setting({
     double size = 25,
@@ -13640,7 +13640,7 @@ class AmazingIconTwotone {
   }) =>
       _build('setting', size: size, color: color, opacity: opacity);
 
-  /// Displays the `setting2` twototne icon with a background and foreground layer.
+  /// Displays the `setting2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13649,7 +13649,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.setting2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.setting2(size: 32, color: Colors.red);
   /// ```
   static Widget setting2({
     double size = 25,
@@ -13658,7 +13658,7 @@ class AmazingIconTwotone {
   }) =>
       _build('setting2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `setting3` twototne icon with a background and foreground layer.
+  /// Displays the `setting3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13667,7 +13667,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.setting3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.setting3(size: 32, color: Colors.red);
   /// ```
   static Widget setting3({
     double size = 25,
@@ -13676,7 +13676,7 @@ class AmazingIconTwotone {
   }) =>
       _build('setting3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `setting4` twototne icon with a background and foreground layer.
+  /// Displays the `setting4` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13685,7 +13685,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.setting4(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.setting4(size: 32, color: Colors.red);
   /// ```
   static Widget setting4({
     double size = 25,
@@ -13694,7 +13694,7 @@ class AmazingIconTwotone {
   }) =>
       _build('setting4', size: size, color: color, opacity: opacity);
 
-  /// Displays the `setting5` twototne icon with a background and foreground layer.
+  /// Displays the `setting5` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13703,7 +13703,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.setting5(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.setting5(size: 32, color: Colors.red);
   /// ```
   static Widget setting5({
     double size = 25,
@@ -13712,7 +13712,7 @@ class AmazingIconTwotone {
   }) =>
       _build('setting5', size: size, color: color, opacity: opacity);
 
-  /// Displays the `settings` twototne icon with a background and foreground layer.
+  /// Displays the `settings` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13721,7 +13721,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.settings(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.settings(size: 32, color: Colors.red);
   /// ```
   static Widget settings({
     double size = 25,
@@ -13730,7 +13730,7 @@ class AmazingIconTwotone {
   }) =>
       _build('settings', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shapes` twototne icon with a background and foreground layer.
+  /// Displays the `shapes` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13739,7 +13739,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shapes(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shapes(size: 32, color: Colors.red);
   /// ```
   static Widget shapes({
     double size = 25,
@@ -13748,7 +13748,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shapes', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shapes1` twototne icon with a background and foreground layer.
+  /// Displays the `shapes1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13757,7 +13757,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shapes1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shapes1(size: 32, color: Colors.red);
   /// ```
   static Widget shapes1({
     double size = 25,
@@ -13766,7 +13766,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shapes1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `share` twototne icon with a background and foreground layer.
+  /// Displays the `share` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13775,7 +13775,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.share(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.share(size: 32, color: Colors.red);
   /// ```
   static Widget share({
     double size = 25,
@@ -13784,7 +13784,7 @@ class AmazingIconTwotone {
   }) =>
       _build('share', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shieldCross` twototne icon with a background and foreground layer.
+  /// Displays the `shieldCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13793,7 +13793,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shieldCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shieldCross(size: 32, color: Colors.red);
   /// ```
   static Widget shieldCross({
     double size = 25,
@@ -13802,7 +13802,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shieldCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shieldSearch` twototne icon with a background and foreground layer.
+  /// Displays the `shieldSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13811,7 +13811,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shieldSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shieldSearch(size: 32, color: Colors.red);
   /// ```
   static Widget shieldSearch({
     double size = 25,
@@ -13820,7 +13820,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shieldSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shieldSecurity` twototne icon with a background and foreground layer.
+  /// Displays the `shieldSecurity` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13829,7 +13829,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shieldSecurity(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shieldSecurity(size: 32, color: Colors.red);
   /// ```
   static Widget shieldSecurity({
     double size = 25,
@@ -13838,7 +13838,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shieldSecurity', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shieldSlash` twototne icon with a background and foreground layer.
+  /// Displays the `shieldSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13847,7 +13847,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shieldSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shieldSlash(size: 32, color: Colors.red);
   /// ```
   static Widget shieldSlash({
     double size = 25,
@@ -13856,7 +13856,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shieldSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shieldTick` twototne icon with a background and foreground layer.
+  /// Displays the `shieldTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13865,7 +13865,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shieldTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shieldTick(size: 32, color: Colors.red);
   /// ```
   static Widget shieldTick({
     double size = 25,
@@ -13874,7 +13874,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shieldTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ship` twototne icon with a background and foreground layer.
+  /// Displays the `ship` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13883,7 +13883,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ship(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ship(size: 32, color: Colors.red);
   /// ```
   static Widget ship({
     double size = 25,
@@ -13892,7 +13892,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ship', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shop` twototne icon with a background and foreground layer.
+  /// Displays the `shop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13901,7 +13901,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shop(size: 32, color: Colors.red);
   /// ```
   static Widget shop({
     double size = 25,
@@ -13910,7 +13910,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shopAdd` twototne icon with a background and foreground layer.
+  /// Displays the `shopAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13919,7 +13919,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shopAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shopAdd(size: 32, color: Colors.red);
   /// ```
   static Widget shopAdd({
     double size = 25,
@@ -13928,7 +13928,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shopAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shopRemove` twototne icon with a background and foreground layer.
+  /// Displays the `shopRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13937,7 +13937,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shopRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shopRemove(size: 32, color: Colors.red);
   /// ```
   static Widget shopRemove({
     double size = 25,
@@ -13946,7 +13946,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shopRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shoppingBag` twototne icon with a background and foreground layer.
+  /// Displays the `shoppingBag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13955,7 +13955,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shoppingBag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shoppingBag(size: 32, color: Colors.red);
   /// ```
   static Widget shoppingBag({
     double size = 25,
@@ -13964,7 +13964,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shoppingBag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shoppingCart` twototne icon with a background and foreground layer.
+  /// Displays the `shoppingCart` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13973,7 +13973,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shoppingCart(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shoppingCart(size: 32, color: Colors.red);
   /// ```
   static Widget shoppingCart({
     double size = 25,
@@ -13982,7 +13982,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shoppingCart', size: size, color: color, opacity: opacity);
 
-  /// Displays the `shuffle` twototne icon with a background and foreground layer.
+  /// Displays the `shuffle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13991,7 +13991,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.shuffle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.shuffle(size: 32, color: Colors.red);
   /// ```
   static Widget shuffle({
     double size = 25,
@@ -14000,7 +14000,7 @@ class AmazingIconTwotone {
   }) =>
       _build('shuffle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `siacoin` twototne icon with a background and foreground layer.
+  /// Displays the `siacoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14009,7 +14009,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.siacoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.siacoin(size: 32, color: Colors.red);
   /// ```
   static Widget siacoin({
     double size = 25,
@@ -14018,7 +14018,7 @@ class AmazingIconTwotone {
   }) =>
       _build('siacoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sidebarBottom` twototne icon with a background and foreground layer.
+  /// Displays the `sidebarBottom` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14027,7 +14027,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sidebarBottom(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sidebarBottom(size: 32, color: Colors.red);
   /// ```
   static Widget sidebarBottom({
     double size = 25,
@@ -14036,7 +14036,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sidebarBottom', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sidebarLeft` twototne icon with a background and foreground layer.
+  /// Displays the `sidebarLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14045,7 +14045,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sidebarLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sidebarLeft(size: 32, color: Colors.red);
   /// ```
   static Widget sidebarLeft({
     double size = 25,
@@ -14054,7 +14054,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sidebarLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sidebarRight` twototne icon with a background and foreground layer.
+  /// Displays the `sidebarRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14063,7 +14063,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sidebarRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sidebarRight(size: 32, color: Colors.red);
   /// ```
   static Widget sidebarRight({
     double size = 25,
@@ -14072,7 +14072,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sidebarRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sidebarTop` twototne icon with a background and foreground layer.
+  /// Displays the `sidebarTop` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14081,7 +14081,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sidebarTop(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sidebarTop(size: 32, color: Colors.red);
   /// ```
   static Widget sidebarTop({
     double size = 25,
@@ -14090,7 +14090,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sidebarTop', size: size, color: color, opacity: opacity);
 
-  /// Displays the `signpost` twototne icon with a background and foreground layer.
+  /// Displays the `signpost` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14099,7 +14099,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.signpost(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.signpost(size: 32, color: Colors.red);
   /// ```
   static Widget signpost({
     double size = 25,
@@ -14108,7 +14108,7 @@ class AmazingIconTwotone {
   }) =>
       _build('signpost', size: size, color: color, opacity: opacity);
 
-  /// Displays the `simcard` twototne icon with a background and foreground layer.
+  /// Displays the `simcard` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14117,7 +14117,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.simcard(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.simcard(size: 32, color: Colors.red);
   /// ```
   static Widget simcard({
     double size = 25,
@@ -14126,7 +14126,7 @@ class AmazingIconTwotone {
   }) =>
       _build('simcard', size: size, color: color, opacity: opacity);
 
-  /// Displays the `simcard1` twototne icon with a background and foreground layer.
+  /// Displays the `simcard1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14135,7 +14135,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.simcard1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.simcard1(size: 32, color: Colors.red);
   /// ```
   static Widget simcard1({
     double size = 25,
@@ -14144,7 +14144,7 @@ class AmazingIconTwotone {
   }) =>
       _build('simcard1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `simcard2` twototne icon with a background and foreground layer.
+  /// Displays the `simcard2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14153,7 +14153,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.simcard2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.simcard2(size: 32, color: Colors.red);
   /// ```
   static Widget simcard2({
     double size = 25,
@@ -14162,7 +14162,7 @@ class AmazingIconTwotone {
   }) =>
       _build('simcard2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `size` twototne icon with a background and foreground layer.
+  /// Displays the `size` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14171,7 +14171,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.size(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.size(size: 32, color: Colors.red);
   /// ```
   static Widget size({
     double size = 25,
@@ -14180,7 +14180,7 @@ class AmazingIconTwotone {
   }) =>
       _build('size', size: size, color: color, opacity: opacity);
 
-  /// Displays the `slack` twototne icon with a background and foreground layer.
+  /// Displays the `slack` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14189,7 +14189,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.slack(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.slack(size: 32, color: Colors.red);
   /// ```
   static Widget slack({
     double size = 25,
@@ -14198,7 +14198,7 @@ class AmazingIconTwotone {
   }) =>
       _build('slack', size: size, color: color, opacity: opacity);
 
-  /// Displays the `slash` twototne icon with a background and foreground layer.
+  /// Displays the `slash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14207,7 +14207,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.slash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.slash(size: 32, color: Colors.red);
   /// ```
   static Widget slash({
     double size = 25,
@@ -14216,7 +14216,7 @@ class AmazingIconTwotone {
   }) =>
       _build('slash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `slider` twototne icon with a background and foreground layer.
+  /// Displays the `slider` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14225,7 +14225,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.slider(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.slider(size: 32, color: Colors.red);
   /// ```
   static Widget slider({
     double size = 25,
@@ -14234,7 +14234,7 @@ class AmazingIconTwotone {
   }) =>
       _build('slider', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sliderHorizontal` twototne icon with a background and foreground layer.
+  /// Displays the `sliderHorizontal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14243,7 +14243,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sliderHorizontal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sliderHorizontal(size: 32, color: Colors.red);
   /// ```
   static Widget sliderHorizontal({
     double size = 25,
@@ -14252,7 +14252,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sliderHorizontal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sliderHorizontal1` twototne icon with a background and foreground layer.
+  /// Displays the `sliderHorizontal1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14261,7 +14261,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sliderHorizontal1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sliderHorizontal1(size: 32, color: Colors.red);
   /// ```
   static Widget sliderHorizontal1({
     double size = 25,
@@ -14270,7 +14270,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sliderHorizontal1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sliderVertical` twototne icon with a background and foreground layer.
+  /// Displays the `sliderVertical` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14279,7 +14279,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sliderVertical(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sliderVertical(size: 32, color: Colors.red);
   /// ```
   static Widget sliderVertical({
     double size = 25,
@@ -14288,7 +14288,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sliderVertical', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sliderVertical1` twototne icon with a background and foreground layer.
+  /// Displays the `sliderVertical1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14297,7 +14297,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sliderVertical1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sliderVertical1(size: 32, color: Colors.red);
   /// ```
   static Widget sliderVertical1({
     double size = 25,
@@ -14306,7 +14306,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sliderVertical1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `smallcaps` twototne icon with a background and foreground layer.
+  /// Displays the `smallcaps` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14315,7 +14315,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.smallcaps(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.smallcaps(size: 32, color: Colors.red);
   /// ```
   static Widget smallcaps({
     double size = 25,
@@ -14324,7 +14324,7 @@ class AmazingIconTwotone {
   }) =>
       _build('smallcaps', size: size, color: color, opacity: opacity);
 
-  /// Displays the `smartCar` twototne icon with a background and foreground layer.
+  /// Displays the `smartCar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14333,7 +14333,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.smartCar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.smartCar(size: 32, color: Colors.red);
   /// ```
   static Widget smartCar({
     double size = 25,
@@ -14342,7 +14342,7 @@ class AmazingIconTwotone {
   }) =>
       _build('smartCar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `smartHome` twototne icon with a background and foreground layer.
+  /// Displays the `smartHome` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14351,7 +14351,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.smartHome(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.smartHome(size: 32, color: Colors.red);
   /// ```
   static Widget smartHome({
     double size = 25,
@@ -14360,7 +14360,7 @@ class AmazingIconTwotone {
   }) =>
       _build('smartHome', size: size, color: color, opacity: opacity);
 
-  /// Displays the `smileys` twototne icon with a background and foreground layer.
+  /// Displays the `smileys` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14369,7 +14369,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.smileys(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.smileys(size: 32, color: Colors.red);
   /// ```
   static Widget smileys({
     double size = 25,
@@ -14378,7 +14378,7 @@ class AmazingIconTwotone {
   }) =>
       _build('smileys', size: size, color: color, opacity: opacity);
 
-  /// Displays the `snapchat` twototne icon with a background and foreground layer.
+  /// Displays the `snapchat` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14387,7 +14387,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.snapchat(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.snapchat(size: 32, color: Colors.red);
   /// ```
   static Widget snapchat({
     double size = 25,
@@ -14396,7 +14396,7 @@ class AmazingIconTwotone {
   }) =>
       _build('snapchat', size: size, color: color, opacity: opacity);
 
-  /// Displays the `solana` twototne icon with a background and foreground layer.
+  /// Displays the `solana` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14405,7 +14405,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.solana(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.solana(size: 32, color: Colors.red);
   /// ```
   static Widget solana({
     double size = 25,
@@ -14414,7 +14414,7 @@ class AmazingIconTwotone {
   }) =>
       _build('solana', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sort` twototne icon with a background and foreground layer.
+  /// Displays the `sort` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14423,7 +14423,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sort(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sort(size: 32, color: Colors.red);
   /// ```
   static Widget sort({
     double size = 25,
@@ -14432,7 +14432,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sort', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sound` twototne icon with a background and foreground layer.
+  /// Displays the `sound` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14441,7 +14441,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sound(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sound(size: 32, color: Colors.red);
   /// ```
   static Widget sound({
     double size = 25,
@@ -14450,7 +14450,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sound', size: size, color: color, opacity: opacity);
 
-  /// Displays the `speaker` twototne icon with a background and foreground layer.
+  /// Displays the `speaker` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14459,7 +14459,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.speaker(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.speaker(size: 32, color: Colors.red);
   /// ```
   static Widget speaker({
     double size = 25,
@@ -14468,7 +14468,7 @@ class AmazingIconTwotone {
   }) =>
       _build('speaker', size: size, color: color, opacity: opacity);
 
-  /// Displays the `speedometer` twototne icon with a background and foreground layer.
+  /// Displays the `speedometer` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14477,7 +14477,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.speedometer(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.speedometer(size: 32, color: Colors.red);
   /// ```
   static Widget speedometer({
     double size = 25,
@@ -14486,7 +14486,7 @@ class AmazingIconTwotone {
   }) =>
       _build('speedometer', size: size, color: color, opacity: opacity);
 
-  /// Displays the `spotify` twototne icon with a background and foreground layer.
+  /// Displays the `spotify` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14495,7 +14495,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.spotify(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.spotify(size: 32, color: Colors.red);
   /// ```
   static Widget spotify({
     double size = 25,
@@ -14504,7 +14504,7 @@ class AmazingIconTwotone {
   }) =>
       _build('spotify', size: size, color: color, opacity: opacity);
 
-  /// Displays the `squares` twototne icon with a background and foreground layer.
+  /// Displays the `squares` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14513,7 +14513,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.squares(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.squares(size: 32, color: Colors.red);
   /// ```
   static Widget squares({
     double size = 25,
@@ -14522,7 +14522,7 @@ class AmazingIconTwotone {
   }) =>
       _build('squares', size: size, color: color, opacity: opacity);
 
-  /// Displays the `stacks` twototne icon with a background and foreground layer.
+  /// Displays the `stacks` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14531,7 +14531,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.stacks(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.stacks(size: 32, color: Colors.red);
   /// ```
   static Widget stacks({
     double size = 25,
@@ -14540,7 +14540,7 @@ class AmazingIconTwotone {
   }) =>
       _build('stacks', size: size, color: color, opacity: opacity);
 
-  /// Displays the `star1` twototne icon with a background and foreground layer.
+  /// Displays the `star1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14549,7 +14549,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.star1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.star1(size: 32, color: Colors.red);
   /// ```
   static Widget star1({
     double size = 25,
@@ -14558,7 +14558,7 @@ class AmazingIconTwotone {
   }) =>
       _build('star1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `starSlash` twototne icon with a background and foreground layer.
+  /// Displays the `starSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14567,7 +14567,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.starSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.starSlash(size: 32, color: Colors.red);
   /// ```
   static Widget starSlash({
     double size = 25,
@@ -14576,7 +14576,7 @@ class AmazingIconTwotone {
   }) =>
       _build('starSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `status` twototne icon with a background and foreground layer.
+  /// Displays the `status` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14585,7 +14585,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.status(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.status(size: 32, color: Colors.red);
   /// ```
   static Widget status({
     double size = 25,
@@ -14594,7 +14594,7 @@ class AmazingIconTwotone {
   }) =>
       _build('status', size: size, color: color, opacity: opacity);
 
-  /// Displays the `statusUp` twototne icon with a background and foreground layer.
+  /// Displays the `statusUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14603,7 +14603,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.statusUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.statusUp(size: 32, color: Colors.red);
   /// ```
   static Widget statusUp({
     double size = 25,
@@ -14612,7 +14612,7 @@ class AmazingIconTwotone {
   }) =>
       _build('statusUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `stellar` twototne icon with a background and foreground layer.
+  /// Displays the `stellar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14621,7 +14621,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.stellar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.stellar(size: 32, color: Colors.red);
   /// ```
   static Widget stellar({
     double size = 25,
@@ -14630,7 +14630,7 @@ class AmazingIconTwotone {
   }) =>
       _build('stellar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sticker` twototne icon with a background and foreground layer.
+  /// Displays the `sticker` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14639,7 +14639,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sticker(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sticker(size: 32, color: Colors.red);
   /// ```
   static Widget sticker({
     double size = 25,
@@ -14648,7 +14648,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sticker', size: size, color: color, opacity: opacity);
 
-  /// Displays the `stickynote` twototne icon with a background and foreground layer.
+  /// Displays the `stickynote` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14657,7 +14657,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.stickynote(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.stickynote(size: 32, color: Colors.red);
   /// ```
   static Widget stickynote({
     double size = 25,
@@ -14666,7 +14666,7 @@ class AmazingIconTwotone {
   }) =>
       _build('stickynote', size: size, color: color, opacity: opacity);
 
-  /// Displays the `stopCircle` twototne icon with a background and foreground layer.
+  /// Displays the `stopCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14675,7 +14675,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.stopCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.stopCircle(size: 32, color: Colors.red);
   /// ```
   static Widget stopCircle({
     double size = 25,
@@ -14684,7 +14684,7 @@ class AmazingIconTwotone {
   }) =>
       _build('stopCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `story` twototne icon with a background and foreground layer.
+  /// Displays the `story` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14693,7 +14693,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.story(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.story(size: 32, color: Colors.red);
   /// ```
   static Widget story({
     double size = 25,
@@ -14702,7 +14702,7 @@ class AmazingIconTwotone {
   }) =>
       _build('story', size: size, color: color, opacity: opacity);
 
-  /// Displays the `strongbox` twototne icon with a background and foreground layer.
+  /// Displays the `strongbox` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14711,7 +14711,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.strongbox(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.strongbox(size: 32, color: Colors.red);
   /// ```
   static Widget strongbox({
     double size = 25,
@@ -14720,7 +14720,7 @@ class AmazingIconTwotone {
   }) =>
       _build('strongbox', size: size, color: color, opacity: opacity);
 
-  /// Displays the `strongbox2` twototne icon with a background and foreground layer.
+  /// Displays the `strongbox2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14729,7 +14729,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.strongbox2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.strongbox2(size: 32, color: Colors.red);
   /// ```
   static Widget strongbox2({
     double size = 25,
@@ -14738,7 +14738,7 @@ class AmazingIconTwotone {
   }) =>
       _build('strongbox2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `subtitle` twototne icon with a background and foreground layer.
+  /// Displays the `subtitle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14747,7 +14747,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.subtitle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.subtitle(size: 32, color: Colors.red);
   /// ```
   static Widget subtitle({
     double size = 25,
@@ -14756,7 +14756,7 @@ class AmazingIconTwotone {
   }) =>
       _build('subtitle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sun1` twototne icon with a background and foreground layer.
+  /// Displays the `sun1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14765,7 +14765,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.sun1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.sun1(size: 32, color: Colors.red);
   /// ```
   static Widget sun1({
     double size = 25,
@@ -14774,7 +14774,7 @@ class AmazingIconTwotone {
   }) =>
       _build('sun1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `support24` twototne icon with a background and foreground layer.
+  /// Displays the `support24` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14783,7 +14783,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.support24(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.support24(size: 32, color: Colors.red);
   /// ```
   static Widget support24({
     double size = 25,
@@ -14792,7 +14792,7 @@ class AmazingIconTwotone {
   }) =>
       _build('support24', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tag` twototne icon with a background and foreground layer.
+  /// Displays the `tag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14801,7 +14801,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tag(size: 32, color: Colors.red);
   /// ```
   static Widget tag({
     double size = 25,
@@ -14810,7 +14810,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tag2` twototne icon with a background and foreground layer.
+  /// Displays the `tag2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14819,7 +14819,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tag2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tag2(size: 32, color: Colors.red);
   /// ```
   static Widget tag2({
     double size = 25,
@@ -14828,7 +14828,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tag2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tagCross` twototne icon with a background and foreground layer.
+  /// Displays the `tagCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14837,7 +14837,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tagCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tagCross(size: 32, color: Colors.red);
   /// ```
   static Widget tagCross({
     double size = 25,
@@ -14846,7 +14846,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tagCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tagUser` twototne icon with a background and foreground layer.
+  /// Displays the `tagUser` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14855,7 +14855,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tagUser(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tagUser(size: 32, color: Colors.red);
   /// ```
   static Widget tagUser({
     double size = 25,
@@ -14864,7 +14864,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tagUser', size: size, color: color, opacity: opacity);
 
-  /// Displays the `task` twototne icon with a background and foreground layer.
+  /// Displays the `task` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14873,7 +14873,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.task(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.task(size: 32, color: Colors.red);
   /// ```
   static Widget task({
     double size = 25,
@@ -14882,7 +14882,7 @@ class AmazingIconTwotone {
   }) =>
       _build('task', size: size, color: color, opacity: opacity);
 
-  /// Displays the `taskSquare` twototne icon with a background and foreground layer.
+  /// Displays the `taskSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14891,7 +14891,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.taskSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.taskSquare(size: 32, color: Colors.red);
   /// ```
   static Widget taskSquare({
     double size = 25,
@@ -14900,7 +14900,7 @@ class AmazingIconTwotone {
   }) =>
       _build('taskSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `teacher` twototne icon with a background and foreground layer.
+  /// Displays the `teacher` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14909,7 +14909,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.teacher(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.teacher(size: 32, color: Colors.red);
   /// ```
   static Widget teacher({
     double size = 25,
@@ -14918,7 +14918,7 @@ class AmazingIconTwotone {
   }) =>
       _build('teacher', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tenx` twototne icon with a background and foreground layer.
+  /// Displays the `tenx` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14927,7 +14927,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tenx(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tenx(size: 32, color: Colors.red);
   /// ```
   static Widget tenx({
     double size = 25,
@@ -14936,7 +14936,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tenx', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tether` twototne icon with a background and foreground layer.
+  /// Displays the `tether` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14945,7 +14945,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tether(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tether(size: 32, color: Colors.red);
   /// ```
   static Widget tether({
     double size = 25,
@@ -14954,7 +14954,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tether', size: size, color: color, opacity: opacity);
 
-  /// Displays the `text` twototne icon with a background and foreground layer.
+  /// Displays the `text` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14963,7 +14963,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.text(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.text(size: 32, color: Colors.red);
   /// ```
   static Widget text({
     double size = 25,
@@ -14972,7 +14972,7 @@ class AmazingIconTwotone {
   }) =>
       _build('text', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textBlock` twototne icon with a background and foreground layer.
+  /// Displays the `textBlock` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14981,7 +14981,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textBlock(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textBlock(size: 32, color: Colors.red);
   /// ```
   static Widget textBlock({
     double size = 25,
@@ -14990,7 +14990,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textBlock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textItalic` twototne icon with a background and foreground layer.
+  /// Displays the `textItalic` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14999,7 +14999,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textItalic(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textItalic(size: 32, color: Colors.red);
   /// ```
   static Widget textItalic({
     double size = 25,
@@ -15008,7 +15008,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textItalic', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textStrong` twototne icon with a background and foreground layer.
+  /// Displays the `textStrong` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15017,7 +15017,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textStrong(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textStrong(size: 32, color: Colors.red);
   /// ```
   static Widget textStrong({
     double size = 25,
@@ -15026,7 +15026,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textStrong', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textUnderline` twototne icon with a background and foreground layer.
+  /// Displays the `textUnderline` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15035,7 +15035,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textUnderline(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textUnderline(size: 32, color: Colors.red);
   /// ```
   static Widget textUnderline({
     double size = 25,
@@ -15044,7 +15044,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textUnderline', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignCenter` twototne icon with a background and foreground layer.
+  /// Displays the `textalignCenter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15053,7 +15053,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignCenter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignCenter(size: 32, color: Colors.red);
   /// ```
   static Widget textalignCenter({
     double size = 25,
@@ -15062,7 +15062,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignCenter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignJustifycenter` twototne icon with a background and foreground layer.
+  /// Displays the `textalignJustifycenter` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15071,7 +15071,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignJustifycenter(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignJustifycenter(size: 32, color: Colors.red);
   /// ```
   static Widget textalignJustifycenter({
     double size = 25,
@@ -15080,7 +15080,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignJustifycenter', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignJustifyleft` twototne icon with a background and foreground layer.
+  /// Displays the `textalignJustifyleft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15089,7 +15089,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignJustifyleft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignJustifyleft(size: 32, color: Colors.red);
   /// ```
   static Widget textalignJustifyleft({
     double size = 25,
@@ -15098,7 +15098,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignJustifyleft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignJustifyright` twototne icon with a background and foreground layer.
+  /// Displays the `textalignJustifyright` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15107,7 +15107,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignJustifyright(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignJustifyright(size: 32, color: Colors.red);
   /// ```
   static Widget textalignJustifyright({
     double size = 25,
@@ -15116,7 +15116,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignJustifyright', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignLeft` twototne icon with a background and foreground layer.
+  /// Displays the `textalignLeft` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15125,7 +15125,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignLeft(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignLeft(size: 32, color: Colors.red);
   /// ```
   static Widget textalignLeft({
     double size = 25,
@@ -15134,7 +15134,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignLeft', size: size, color: color, opacity: opacity);
 
-  /// Displays the `textalignRight` twototne icon with a background and foreground layer.
+  /// Displays the `textalignRight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15143,7 +15143,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.textalignRight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.textalignRight(size: 32, color: Colors.red);
   /// ```
   static Widget textalignRight({
     double size = 25,
@@ -15152,7 +15152,7 @@ class AmazingIconTwotone {
   }) =>
       _build('textalignRight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `theGraph` twototne icon with a background and foreground layer.
+  /// Displays the `theGraph` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15161,7 +15161,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.theGraph(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.theGraph(size: 32, color: Colors.red);
   /// ```
   static Widget theGraph({
     double size = 25,
@@ -15170,7 +15170,7 @@ class AmazingIconTwotone {
   }) =>
       _build('theGraph', size: size, color: color, opacity: opacity);
 
-  /// Displays the `theta` twototne icon with a background and foreground layer.
+  /// Displays the `theta` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15179,7 +15179,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.theta(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.theta(size: 32, color: Colors.red);
   /// ```
   static Widget theta({
     double size = 25,
@@ -15188,7 +15188,7 @@ class AmazingIconTwotone {
   }) =>
       _build('theta', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tickCircle` twototne icon with a background and foreground layer.
+  /// Displays the `tickCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15197,7 +15197,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tickCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tickCircle(size: 32, color: Colors.red);
   /// ```
   static Widget tickCircle({
     double size = 25,
@@ -15206,7 +15206,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tickCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tickSquare` twototne icon with a background and foreground layer.
+  /// Displays the `tickSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15215,7 +15215,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tickSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tickSquare(size: 32, color: Colors.red);
   /// ```
   static Widget tickSquare({
     double size = 25,
@@ -15224,7 +15224,7 @@ class AmazingIconTwotone {
   }) =>
       _build('tickSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ticket` twototne icon with a background and foreground layer.
+  /// Displays the `ticket` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15233,7 +15233,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ticket(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ticket(size: 32, color: Colors.red);
   /// ```
   static Widget ticket({
     double size = 25,
@@ -15242,7 +15242,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ticket', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ticket2` twototne icon with a background and foreground layer.
+  /// Displays the `ticket2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15251,7 +15251,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ticket2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ticket2(size: 32, color: Colors.red);
   /// ```
   static Widget ticket2({
     double size = 25,
@@ -15260,7 +15260,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ticket2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ticketDiscount` twototne icon with a background and foreground layer.
+  /// Displays the `ticketDiscount` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15269,7 +15269,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ticketDiscount(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ticketDiscount(size: 32, color: Colors.red);
   /// ```
   static Widget ticketDiscount({
     double size = 25,
@@ -15278,7 +15278,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ticketDiscount', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ticketExpired` twototne icon with a background and foreground layer.
+  /// Displays the `ticketExpired` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15287,7 +15287,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ticketExpired(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ticketExpired(size: 32, color: Colors.red);
   /// ```
   static Widget ticketExpired({
     double size = 25,
@@ -15296,7 +15296,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ticketExpired', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ticketStar` twototne icon with a background and foreground layer.
+  /// Displays the `ticketStar` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15305,7 +15305,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ticketStar(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ticketStar(size: 32, color: Colors.red);
   /// ```
   static Widget ticketStar({
     double size = 25,
@@ -15314,7 +15314,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ticketStar', size: size, color: color, opacity: opacity);
 
-  /// Displays the `timer1` twototne icon with a background and foreground layer.
+  /// Displays the `timer1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15323,7 +15323,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.timer1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.timer1(size: 32, color: Colors.red);
   /// ```
   static Widget timer1({
     double size = 25,
@@ -15332,7 +15332,7 @@ class AmazingIconTwotone {
   }) =>
       _build('timer1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `timerPause` twototne icon with a background and foreground layer.
+  /// Displays the `timerPause` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15341,7 +15341,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.timerPause(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.timerPause(size: 32, color: Colors.red);
   /// ```
   static Widget timerPause({
     double size = 25,
@@ -15350,7 +15350,7 @@ class AmazingIconTwotone {
   }) =>
       _build('timerPause', size: size, color: color, opacity: opacity);
 
-  /// Displays the `timerStart` twototne icon with a background and foreground layer.
+  /// Displays the `timerStart` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15359,7 +15359,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.timerStart(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.timerStart(size: 32, color: Colors.red);
   /// ```
   static Widget timerStart({
     double size = 25,
@@ -15368,7 +15368,7 @@ class AmazingIconTwotone {
   }) =>
       _build('timerStart', size: size, color: color, opacity: opacity);
 
-  /// Displays the `toggleOff` twototne icon with a background and foreground layer.
+  /// Displays the `toggleOff` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15377,7 +15377,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.toggleOff(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.toggleOff(size: 32, color: Colors.red);
   /// ```
   static Widget toggleOff({
     double size = 25,
@@ -15386,7 +15386,7 @@ class AmazingIconTwotone {
   }) =>
       _build('toggleOff', size: size, color: color, opacity: opacity);
 
-  /// Displays the `toggleOffCircle` twototne icon with a background and foreground layer.
+  /// Displays the `toggleOffCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15395,7 +15395,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.toggleOffCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.toggleOffCircle(size: 32, color: Colors.red);
   /// ```
   static Widget toggleOffCircle({
     double size = 25,
@@ -15404,7 +15404,7 @@ class AmazingIconTwotone {
   }) =>
       _build('toggleOffCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `toggleOn` twototne icon with a background and foreground layer.
+  /// Displays the `toggleOn` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15413,7 +15413,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.toggleOn(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.toggleOn(size: 32, color: Colors.red);
   /// ```
   static Widget toggleOn({
     double size = 25,
@@ -15422,7 +15422,7 @@ class AmazingIconTwotone {
   }) =>
       _build('toggleOn', size: size, color: color, opacity: opacity);
 
-  /// Displays the `toggleOnCircle` twototne icon with a background and foreground layer.
+  /// Displays the `toggleOnCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15431,7 +15431,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.toggleOnCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.toggleOnCircle(size: 32, color: Colors.red);
   /// ```
   static Widget toggleOnCircle({
     double size = 25,
@@ -15440,7 +15440,7 @@ class AmazingIconTwotone {
   }) =>
       _build('toggleOnCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `trade` twototne icon with a background and foreground layer.
+  /// Displays the `trade` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15449,7 +15449,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.trade(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.trade(size: 32, color: Colors.red);
   /// ```
   static Widget trade({
     double size = 25,
@@ -15458,7 +15458,7 @@ class AmazingIconTwotone {
   }) =>
       _build('trade', size: size, color: color, opacity: opacity);
 
-  /// Displays the `transactionMinus` twototne icon with a background and foreground layer.
+  /// Displays the `transactionMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15467,7 +15467,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.transactionMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.transactionMinus(size: 32, color: Colors.red);
   /// ```
   static Widget transactionMinus({
     double size = 25,
@@ -15476,7 +15476,7 @@ class AmazingIconTwotone {
   }) =>
       _build('transactionMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `translate` twototne icon with a background and foreground layer.
+  /// Displays the `translate` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15485,7 +15485,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.translate(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.translate(size: 32, color: Colors.red);
   /// ```
   static Widget translate({
     double size = 25,
@@ -15494,7 +15494,7 @@ class AmazingIconTwotone {
   }) =>
       _build('translate', size: size, color: color, opacity: opacity);
 
-  /// Displays the `trash` twototne icon with a background and foreground layer.
+  /// Displays the `trash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15503,7 +15503,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.trash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.trash(size: 32, color: Colors.red);
   /// ```
   static Widget trash({
     double size = 25,
@@ -15512,7 +15512,7 @@ class AmazingIconTwotone {
   }) =>
       _build('trash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `tree` twototne icon with a background and foreground layer.
+  /// Displays the `trashSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15521,223 +15521,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.tree(size: 32, color: Colors.red);
-  /// ```
-  static Widget tree({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('tree', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trello` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.trello(size: 32, color: Colors.red);
-  /// ```
-  static Widget trello({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('trello', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trendDown` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.trendDown(size: 32, color: Colors.red);
-  /// ```
-  static Widget trendDown({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('trendDown', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trendUp` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.trendUp(size: 32, color: Colors.red);
-  /// ```
-  static Widget trendUp({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('trendUp', size: size, color: color, opacity: opacity);
-
-  /// Displays the `triangle` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.triangle(size: 32, color: Colors.red);
-  /// ```
-  static Widget triangle({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('triangle', size: size, color: color, opacity: opacity);
-
-  /// Displays the `triangle1` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.triangle1(size: 32, color: Colors.red);
-  /// ```
-  static Widget triangle1({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('triangle1', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trontron` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.trontron(size: 32, color: Colors.red);
-  /// ```
-  static Widget trontron({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('trontron', size: size, color: color, opacity: opacity);
-
-  /// Displays the `truck` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.truck(size: 32, color: Colors.red);
-  /// ```
-  static Widget truck({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('truck', size: size, color: color, opacity: opacity);
-
-  /// Displays the `truckFast` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.truckFast(size: 32, color: Colors.red);
-  /// ```
-  static Widget truckFast({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('truckFast', size: size, color: color, opacity: opacity);
-
-  /// Displays the `truckRemove` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.truckRemove(size: 32, color: Colors.red);
-  /// ```
-  static Widget truckRemove({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('truckRemove', size: size, color: color, opacity: opacity);
-
-  /// Displays the `truckTick` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.truckTick(size: 32, color: Colors.red);
-  /// ```
-  static Widget truckTick({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('truckTick', size: size, color: color, opacity: opacity);
-
-  /// Displays the `truckTime` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.truckTime(size: 32, color: Colors.red);
-  /// ```
-  static Widget truckTime({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('truckTime', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trashSquare` twototne icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwototne.trashSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.trashSquare(size: 32, color: Colors.red);
   /// ```
   static Widget trashSquare({
     double size = 25,
@@ -15746,7 +15530,7 @@ class AmazingIconTwotone {
   }) =>
       _build('trashSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `twitch` twototne icon with a background and foreground layer.
+  /// Displays the `tree` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15755,7 +15539,223 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.twitch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.tree(size: 32, color: Colors.red);
+  /// ```
+  static Widget tree({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('tree', size: size, color: color, opacity: opacity);
+
+  /// Displays the `trello` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.trello(size: 32, color: Colors.red);
+  /// ```
+  static Widget trello({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('trello', size: size, color: color, opacity: opacity);
+
+  /// Displays the `trendDown` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.trendDown(size: 32, color: Colors.red);
+  /// ```
+  static Widget trendDown({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('trendDown', size: size, color: color, opacity: opacity);
+
+  /// Displays the `trendUp` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.trendUp(size: 32, color: Colors.red);
+  /// ```
+  static Widget trendUp({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('trendUp', size: size, color: color, opacity: opacity);
+
+  /// Displays the `triangle` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.triangle(size: 32, color: Colors.red);
+  /// ```
+  static Widget triangle({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('triangle', size: size, color: color, opacity: opacity);
+
+  /// Displays the `triangle1` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.triangle1(size: 32, color: Colors.red);
+  /// ```
+  static Widget triangle1({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('triangle1', size: size, color: color, opacity: opacity);
+
+  /// Displays the `trontron` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.trontron(size: 32, color: Colors.red);
+  /// ```
+  static Widget trontron({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('trontron', size: size, color: color, opacity: opacity);
+
+  /// Displays the `truck` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.truck(size: 32, color: Colors.red);
+  /// ```
+  static Widget truck({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('truck', size: size, color: color, opacity: opacity);
+
+  /// Displays the `truckFast` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.truckFast(size: 32, color: Colors.red);
+  /// ```
+  static Widget truckFast({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('truckFast', size: size, color: color, opacity: opacity);
+
+  /// Displays the `truckRemove` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.truckRemove(size: 32, color: Colors.red);
+  /// ```
+  static Widget truckRemove({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('truckRemove', size: size, color: color, opacity: opacity);
+
+  /// Displays the `truckTick` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.truckTick(size: 32, color: Colors.red);
+  /// ```
+  static Widget truckTick({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('truckTick', size: size, color: color, opacity: opacity);
+
+  /// Displays the `truckTime` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.truckTime(size: 32, color: Colors.red);
+  /// ```
+  static Widget truckTime({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('truckTime', size: size, color: color, opacity: opacity);
+
+  /// Displays the `twitch` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.twitch(size: 32, color: Colors.red);
   /// ```
   static Widget twitch({
     double size = 25,
@@ -15764,7 +15764,7 @@ class AmazingIconTwotone {
   }) =>
       _build('twitch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ui8` twototne icon with a background and foreground layer.
+  /// Displays the `ui8` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15773,7 +15773,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.ui8(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.ui8(size: 32, color: Colors.red);
   /// ```
   static Widget ui8({
     double size = 25,
@@ -15782,7 +15782,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ui8', size: size, color: color, opacity: opacity);
 
-  /// Displays the `undo` twototne icon with a background and foreground layer.
+  /// Displays the `undo` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15791,7 +15791,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.undo(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.undo(size: 32, color: Colors.red);
   /// ```
   static Widget undo({
     double size = 25,
@@ -15800,7 +15800,7 @@ class AmazingIconTwotone {
   }) =>
       _build('undo', size: size, color: color, opacity: opacity);
 
-  /// Displays the `unlock` twototne icon with a background and foreground layer.
+  /// Displays the `unlock` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15809,7 +15809,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.unlock(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.unlock(size: 32, color: Colors.red);
   /// ```
   static Widget unlock({
     double size = 25,
@@ -15818,7 +15818,7 @@ class AmazingIconTwotone {
   }) =>
       _build('unlock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `usdCoin` twototne icon with a background and foreground layer.
+  /// Displays the `usdCoin` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15827,7 +15827,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.usdCoin(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.usdCoin(size: 32, color: Colors.red);
   /// ```
   static Widget usdCoin({
     double size = 25,
@@ -15836,7 +15836,7 @@ class AmazingIconTwotone {
   }) =>
       _build('usdCoin', size: size, color: color, opacity: opacity);
 
-  /// Displays the `user` twototne icon with a background and foreground layer.
+  /// Displays the `user` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15845,7 +15845,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.user(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.user(size: 32, color: Colors.red);
   /// ```
   static Widget user({
     double size = 25,
@@ -15854,7 +15854,7 @@ class AmazingIconTwotone {
   }) =>
       _build('user', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userAdd` twototne icon with a background and foreground layer.
+  /// Displays the `userAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15863,7 +15863,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userAdd(size: 32, color: Colors.red);
   /// ```
   static Widget userAdd({
     double size = 25,
@@ -15872,7 +15872,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userCircleAdd` twototne icon with a background and foreground layer.
+  /// Displays the `userCircleAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15881,7 +15881,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userCircleAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userCircleAdd(size: 32, color: Colors.red);
   /// ```
   static Widget userCircleAdd({
     double size = 25,
@@ -15890,7 +15890,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userCircleAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userEdit` twototne icon with a background and foreground layer.
+  /// Displays the `userEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15899,7 +15899,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userEdit(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userEdit(size: 32, color: Colors.red);
   /// ```
   static Widget userEdit({
     double size = 25,
@@ -15908,7 +15908,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userEdit', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userMinus` twototne icon with a background and foreground layer.
+  /// Displays the `userMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15917,7 +15917,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userMinus(size: 32, color: Colors.red);
   /// ```
   static Widget userMinus({
     double size = 25,
@@ -15926,7 +15926,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userOctagon` twototne icon with a background and foreground layer.
+  /// Displays the `userOctagon` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15935,7 +15935,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userOctagon(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userOctagon(size: 32, color: Colors.red);
   /// ```
   static Widget userOctagon({
     double size = 25,
@@ -15944,7 +15944,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userOctagon', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userRemove` twototne icon with a background and foreground layer.
+  /// Displays the `userRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15953,7 +15953,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userRemove(size: 32, color: Colors.red);
   /// ```
   static Widget userRemove({
     double size = 25,
@@ -15962,7 +15962,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userSearch` twototne icon with a background and foreground layer.
+  /// Displays the `userSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15971,7 +15971,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userSearch(size: 32, color: Colors.red);
   /// ```
   static Widget userSearch({
     double size = 25,
@@ -15980,7 +15980,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userSquare` twototne icon with a background and foreground layer.
+  /// Displays the `userSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -15989,7 +15989,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userSquare(size: 32, color: Colors.red);
   /// ```
   static Widget userSquare({
     double size = 25,
@@ -15998,7 +15998,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userTag` twototne icon with a background and foreground layer.
+  /// Displays the `userTag` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16007,7 +16007,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userTag(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userTag(size: 32, color: Colors.red);
   /// ```
   static Widget userTag({
     double size = 25,
@@ -16016,7 +16016,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userTag', size: size, color: color, opacity: opacity);
 
-  /// Displays the `userTick` twototne icon with a background and foreground layer.
+  /// Displays the `userTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16025,7 +16025,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.userTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.userTick(size: 32, color: Colors.red);
   /// ```
   static Widget userTick({
     double size = 25,
@@ -16034,7 +16034,7 @@ class AmazingIconTwotone {
   }) =>
       _build('userTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `velas` twototne icon with a background and foreground layer.
+  /// Displays the `velas` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16043,7 +16043,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.velas(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.velas(size: 32, color: Colors.red);
   /// ```
   static Widget velas({
     double size = 25,
@@ -16052,7 +16052,7 @@ class AmazingIconTwotone {
   }) =>
       _build('velas', size: size, color: color, opacity: opacity);
 
-  /// Displays the `verify` twototne icon with a background and foreground layer.
+  /// Displays the `verify` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16061,7 +16061,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.verify(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.verify(size: 32, color: Colors.red);
   /// ```
   static Widget verify({
     double size = 25,
@@ -16070,7 +16070,7 @@ class AmazingIconTwotone {
   }) =>
       _build('verify', size: size, color: color, opacity: opacity);
 
-  /// Displays the `vibe` twototne icon with a background and foreground layer.
+  /// Displays the `vibe` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16079,7 +16079,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.vibe(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.vibe(size: 32, color: Colors.red);
   /// ```
   static Widget vibe({
     double size = 25,
@@ -16088,7 +16088,7 @@ class AmazingIconTwotone {
   }) =>
       _build('vibe', size: size, color: color, opacity: opacity);
 
-  /// Displays the `video` twototne icon with a background and foreground layer.
+  /// Displays the `video` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16097,7 +16097,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.video(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.video(size: 32, color: Colors.red);
   /// ```
   static Widget video({
     double size = 25,
@@ -16106,7 +16106,7 @@ class AmazingIconTwotone {
   }) =>
       _build('video', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoAdd` twototne icon with a background and foreground layer.
+  /// Displays the `videoAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16115,7 +16115,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoAdd(size: 32, color: Colors.red);
   /// ```
   static Widget videoAdd({
     double size = 25,
@@ -16124,7 +16124,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoCircle` twototne icon with a background and foreground layer.
+  /// Displays the `videoCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16133,7 +16133,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoCircle(size: 32, color: Colors.red);
   /// ```
   static Widget videoCircle({
     double size = 25,
@@ -16142,7 +16142,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoHorizontal` twototne icon with a background and foreground layer.
+  /// Displays the `videoHorizontal` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16151,7 +16151,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoHorizontal(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoHorizontal(size: 32, color: Colors.red);
   /// ```
   static Widget videoHorizontal({
     double size = 25,
@@ -16160,7 +16160,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoHorizontal', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoOctagon` twototne icon with a background and foreground layer.
+  /// Displays the `videoOctagon` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16169,7 +16169,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoOctagon(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoOctagon(size: 32, color: Colors.red);
   /// ```
   static Widget videoOctagon({
     double size = 25,
@@ -16178,7 +16178,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoOctagon', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoPlay` twototne icon with a background and foreground layer.
+  /// Displays the `videoPlay` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16187,7 +16187,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoPlay(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoPlay(size: 32, color: Colors.red);
   /// ```
   static Widget videoPlay({
     double size = 25,
@@ -16196,7 +16196,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoPlay', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoRemove` twototne icon with a background and foreground layer.
+  /// Displays the `videoRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16205,7 +16205,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoRemove(size: 32, color: Colors.red);
   /// ```
   static Widget videoRemove({
     double size = 25,
@@ -16214,7 +16214,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoSquare` twototne icon with a background and foreground layer.
+  /// Displays the `videoSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16223,7 +16223,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoSquare(size: 32, color: Colors.red);
   /// ```
   static Widget videoSquare({
     double size = 25,
@@ -16232,7 +16232,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoTick` twototne icon with a background and foreground layer.
+  /// Displays the `videoTick` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16241,7 +16241,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoTick(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoTick(size: 32, color: Colors.red);
   /// ```
   static Widget videoTick({
     double size = 25,
@@ -16250,7 +16250,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoTime` twototne icon with a background and foreground layer.
+  /// Displays the `videoTime` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16259,7 +16259,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoTime(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoTime(size: 32, color: Colors.red);
   /// ```
   static Widget videoTime({
     double size = 25,
@@ -16268,7 +16268,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoTime', size: size, color: color, opacity: opacity);
 
-  /// Displays the `videoVertical` twototne icon with a background and foreground layer.
+  /// Displays the `videoVertical` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16277,7 +16277,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.videoVertical(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.videoVertical(size: 32, color: Colors.red);
   /// ```
   static Widget videoVertical({
     double size = 25,
@@ -16286,7 +16286,7 @@ class AmazingIconTwotone {
   }) =>
       _build('videoVertical', size: size, color: color, opacity: opacity);
 
-  /// Displays the `voiceCircle` twototne icon with a background and foreground layer.
+  /// Displays the `voiceCircle` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16295,7 +16295,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.voiceCircle(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.voiceCircle(size: 32, color: Colors.red);
   /// ```
   static Widget voiceCircle({
     double size = 25,
@@ -16304,7 +16304,7 @@ class AmazingIconTwotone {
   }) =>
       _build('voiceCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `voiceSquare` twototne icon with a background and foreground layer.
+  /// Displays the `voiceSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16313,7 +16313,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.voiceSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.voiceSquare(size: 32, color: Colors.red);
   /// ```
   static Widget voiceSquare({
     double size = 25,
@@ -16322,7 +16322,7 @@ class AmazingIconTwotone {
   }) =>
       _build('voiceSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeControl` twototne icon with a background and foreground layer.
+  /// Displays the `volumeControl` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16331,7 +16331,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeControl(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeControl(size: 32, color: Colors.red);
   /// ```
   static Widget volumeControl({
     double size = 25,
@@ -16340,7 +16340,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeControl', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeControl1` twototne icon with a background and foreground layer.
+  /// Displays the `volumeControl1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16349,7 +16349,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeControl1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeControl1(size: 32, color: Colors.red);
   /// ```
   static Widget volumeControl1({
     double size = 25,
@@ -16358,7 +16358,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeControl1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeCross` twototne icon with a background and foreground layer.
+  /// Displays the `volumeCross` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16367,7 +16367,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeCross(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeCross(size: 32, color: Colors.red);
   /// ```
   static Widget volumeCross({
     double size = 25,
@@ -16376,7 +16376,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeCross', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeHigh` twototne icon with a background and foreground layer.
+  /// Displays the `volumeHigh` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16385,7 +16385,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeHigh(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeHigh(size: 32, color: Colors.red);
   /// ```
   static Widget volumeHigh({
     double size = 25,
@@ -16394,7 +16394,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeHigh', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeLow` twototne icon with a background and foreground layer.
+  /// Displays the `volumeLow` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16403,7 +16403,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeLow(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeLow(size: 32, color: Colors.red);
   /// ```
   static Widget volumeLow({
     double size = 25,
@@ -16412,7 +16412,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeLow', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeLow1` twototne icon with a background and foreground layer.
+  /// Displays the `volumeLow1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16421,7 +16421,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeLow1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeLow1(size: 32, color: Colors.red);
   /// ```
   static Widget volumeLow1({
     double size = 25,
@@ -16430,7 +16430,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeLow1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeSlash` twototne icon with a background and foreground layer.
+  /// Displays the `volumeSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16439,7 +16439,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeSlash(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeSlash(size: 32, color: Colors.red);
   /// ```
   static Widget volumeSlash({
     double size = 25,
@@ -16448,7 +16448,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeSlash', size: size, color: color, opacity: opacity);
 
-  /// Displays the `volumeUp` twototne icon with a background and foreground layer.
+  /// Displays the `volumeUp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16457,7 +16457,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.volumeUp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.volumeUp(size: 32, color: Colors.red);
   /// ```
   static Widget volumeUp({
     double size = 25,
@@ -16466,7 +16466,7 @@ class AmazingIconTwotone {
   }) =>
       _build('volumeUp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `vuesax` twototne icon with a background and foreground layer.
+  /// Displays the `vuesax` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16475,7 +16475,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.vuesax(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.vuesax(size: 32, color: Colors.red);
   /// ```
   static Widget vuesax({
     double size = 25,
@@ -16484,7 +16484,7 @@ class AmazingIconTwotone {
   }) =>
       _build('vuesax', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wallet` twototne icon with a background and foreground layer.
+  /// Displays the `wallet` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16493,7 +16493,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wallet(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wallet(size: 32, color: Colors.red);
   /// ```
   static Widget wallet({
     double size = 25,
@@ -16502,7 +16502,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wallet', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wallet1` twototne icon with a background and foreground layer.
+  /// Displays the `wallet1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16511,7 +16511,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wallet1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wallet1(size: 32, color: Colors.red);
   /// ```
   static Widget wallet1({
     double size = 25,
@@ -16520,7 +16520,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wallet1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wallet2` twototne icon with a background and foreground layer.
+  /// Displays the `wallet2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16529,7 +16529,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wallet2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wallet2(size: 32, color: Colors.red);
   /// ```
   static Widget wallet2({
     double size = 25,
@@ -16538,7 +16538,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wallet2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wallet3` twototne icon with a background and foreground layer.
+  /// Displays the `wallet3` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16547,7 +16547,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wallet3(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wallet3(size: 32, color: Colors.red);
   /// ```
   static Widget wallet3({
     double size = 25,
@@ -16556,7 +16556,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wallet3', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletAdd` twototne icon with a background and foreground layer.
+  /// Displays the `walletAdd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16565,7 +16565,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletAdd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletAdd(size: 32, color: Colors.red);
   /// ```
   static Widget walletAdd({
     double size = 25,
@@ -16574,7 +16574,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletAdd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletAdd1` twototne icon with a background and foreground layer.
+  /// Displays the `walletAdd1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16583,7 +16583,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletAdd1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletAdd1(size: 32, color: Colors.red);
   /// ```
   static Widget walletAdd1({
     double size = 25,
@@ -16592,7 +16592,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletAdd1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletCheck` twototne icon with a background and foreground layer.
+  /// Displays the `walletCheck` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16601,7 +16601,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletCheck(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletCheck(size: 32, color: Colors.red);
   /// ```
   static Widget walletCheck({
     double size = 25,
@@ -16610,7 +16610,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletCheck', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletMinus` twototne icon with a background and foreground layer.
+  /// Displays the `walletMinus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16619,7 +16619,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletMinus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletMinus(size: 32, color: Colors.red);
   /// ```
   static Widget walletMinus({
     double size = 25,
@@ -16628,7 +16628,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletMinus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletMoney` twototne icon with a background and foreground layer.
+  /// Displays the `walletMoney` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16637,7 +16637,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletMoney(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletMoney(size: 32, color: Colors.red);
   /// ```
   static Widget walletMoney({
     double size = 25,
@@ -16646,7 +16646,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletMoney', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletRemove` twototne icon with a background and foreground layer.
+  /// Displays the `walletRemove` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16655,7 +16655,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletRemove(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletRemove(size: 32, color: Colors.red);
   /// ```
   static Widget walletRemove({
     double size = 25,
@@ -16664,7 +16664,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletRemove', size: size, color: color, opacity: opacity);
 
-  /// Displays the `walletSearch` twototne icon with a background and foreground layer.
+  /// Displays the `walletSearch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16673,7 +16673,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.walletSearch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.walletSearch(size: 32, color: Colors.red);
   /// ```
   static Widget walletSearch({
     double size = 25,
@@ -16682,7 +16682,7 @@ class AmazingIconTwotone {
   }) =>
       _build('walletSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wanchain` twototne icon with a background and foreground layer.
+  /// Displays the `wanchain` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16691,7 +16691,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wanchain(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wanchain(size: 32, color: Colors.red);
   /// ```
   static Widget wanchain({
     double size = 25,
@@ -16700,7 +16700,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wanchain', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wanchain1` twototne icon with a background and foreground layer.
+  /// Displays the `wanchain1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16709,7 +16709,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wanchain1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wanchain1(size: 32, color: Colors.red);
   /// ```
   static Widget wanchain1({
     double size = 25,
@@ -16718,7 +16718,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wanchain1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `warning2` twototne icon with a background and foreground layer.
+  /// Displays the `warning2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16727,7 +16727,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.warning2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.warning2(size: 32, color: Colors.red);
   /// ```
   static Widget warning2({
     double size = 25,
@@ -16736,7 +16736,7 @@ class AmazingIconTwotone {
   }) =>
       _build('warning2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `watch` twototne icon with a background and foreground layer.
+  /// Displays the `watch` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16745,7 +16745,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.watch(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.watch(size: 32, color: Colors.red);
   /// ```
   static Widget watch({
     double size = 25,
@@ -16754,7 +16754,7 @@ class AmazingIconTwotone {
   }) =>
       _build('watch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `watchStatus` twototne icon with a background and foreground layer.
+  /// Displays the `watchStatus` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16763,7 +16763,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.watchStatus(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.watchStatus(size: 32, color: Colors.red);
   /// ```
   static Widget watchStatus({
     double size = 25,
@@ -16772,7 +16772,7 @@ class AmazingIconTwotone {
   }) =>
       _build('watchStatus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `weight` twototne icon with a background and foreground layer.
+  /// Displays the `weight` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16781,7 +16781,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.weight(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.weight(size: 32, color: Colors.red);
   /// ```
   static Widget weight({
     double size = 25,
@@ -16790,7 +16790,7 @@ class AmazingIconTwotone {
   }) =>
       _build('weight', size: size, color: color, opacity: opacity);
 
-  /// Displays the `weight1` twototne icon with a background and foreground layer.
+  /// Displays the `weight1` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16799,7 +16799,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.weight1(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.weight1(size: 32, color: Colors.red);
   /// ```
   static Widget weight1({
     double size = 25,
@@ -16808,7 +16808,7 @@ class AmazingIconTwotone {
   }) =>
       _build('weight1', size: size, color: color, opacity: opacity);
 
-  /// Displays the `whatsapp` twototne icon with a background and foreground layer.
+  /// Displays the `whatsapp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16817,7 +16817,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.whatsapp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.whatsapp(size: 32, color: Colors.red);
   /// ```
   static Widget whatsapp({
     double size = 25,
@@ -16826,7 +16826,7 @@ class AmazingIconTwotone {
   }) =>
       _build('whatsapp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wifi` twototne icon with a background and foreground layer.
+  /// Displays the `wifi` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16835,7 +16835,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wifi(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wifi(size: 32, color: Colors.red);
   /// ```
   static Widget wifi({
     double size = 25,
@@ -16844,7 +16844,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wifi', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wifiSquare` twototne icon with a background and foreground layer.
+  /// Displays the `wifiSquare` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16853,7 +16853,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wifiSquare(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wifiSquare(size: 32, color: Colors.red);
   /// ```
   static Widget wifiSquare({
     double size = 25,
@@ -16862,7 +16862,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wifiSquare', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wind` twototne icon with a background and foreground layer.
+  /// Displays the `wind` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16871,7 +16871,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wind(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wind(size: 32, color: Colors.red);
   /// ```
   static Widget wind({
     double size = 25,
@@ -16880,7 +16880,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wind', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wind2` twototne icon with a background and foreground layer.
+  /// Displays the `wind2` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16889,7 +16889,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wind2(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wind2(size: 32, color: Colors.red);
   /// ```
   static Widget wind2({
     double size = 25,
@@ -16898,7 +16898,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wind2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `windows` twototne icon with a background and foreground layer.
+  /// Displays the `windows` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16907,7 +16907,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.windows(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.windows(size: 32, color: Colors.red);
   /// ```
   static Widget windows({
     double size = 25,
@@ -16916,7 +16916,7 @@ class AmazingIconTwotone {
   }) =>
       _build('windows', size: size, color: color, opacity: opacity);
 
-  /// Displays the `wing` twototne icon with a background and foreground layer.
+  /// Displays the `wing` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16925,7 +16925,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.wing(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.wing(size: 32, color: Colors.red);
   /// ```
   static Widget wing({
     double size = 25,
@@ -16934,7 +16934,7 @@ class AmazingIconTwotone {
   }) =>
       _build('wing', size: size, color: color, opacity: opacity);
 
-  /// Displays the `woman` twototne icon with a background and foreground layer.
+  /// Displays the `woman` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16943,7 +16943,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.woman(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.woman(size: 32, color: Colors.red);
   /// ```
   static Widget woman({
     double size = 25,
@@ -16952,7 +16952,7 @@ class AmazingIconTwotone {
   }) =>
       _build('woman', size: size, color: color, opacity: opacity);
 
-  /// Displays the `xd` twototne icon with a background and foreground layer.
+  /// Displays the `xd` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16961,7 +16961,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.xd(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.xd(size: 32, color: Colors.red);
   /// ```
   static Widget xd({
     double size = 25,
@@ -16970,7 +16970,7 @@ class AmazingIconTwotone {
   }) =>
       _build('xd', size: size, color: color, opacity: opacity);
 
-  /// Displays the `xiaomi` twototne icon with a background and foreground layer.
+  /// Displays the `xiaomi` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16979,7 +16979,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.xiaomi(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.xiaomi(size: 32, color: Colors.red);
   /// ```
   static Widget xiaomi({
     double size = 25,
@@ -16988,7 +16988,7 @@ class AmazingIconTwotone {
   }) =>
       _build('xiaomi', size: size, color: color, opacity: opacity);
 
-  /// Displays the `xrp` twototne icon with a background and foreground layer.
+  /// Displays the `xrp` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -16997,7 +16997,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.xrp(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.xrp(size: 32, color: Colors.red);
   /// ```
   static Widget xrp({
     double size = 25,
@@ -17006,7 +17006,7 @@ class AmazingIconTwotone {
   }) =>
       _build('xrp', size: size, color: color, opacity: opacity);
 
-  /// Displays the `youtube` twototne icon with a background and foreground layer.
+  /// Displays the `youtube` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -17015,7 +17015,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.youtube(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.youtube(size: 32, color: Colors.red);
   /// ```
   static Widget youtube({
     double size = 25,
@@ -17024,7 +17024,7 @@ class AmazingIconTwotone {
   }) =>
       _build('youtube', size: size, color: color, opacity: opacity);
 
-  /// Displays the `zel` twototne icon with a background and foreground layer.
+  /// Displays the `zel` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -17033,7 +17033,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.zel(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.zel(size: 32, color: Colors.red);
   /// ```
   static Widget zel({
     double size = 25,
@@ -17042,7 +17042,7 @@ class AmazingIconTwotone {
   }) =>
       _build('zel', size: size, color: color, opacity: opacity);
 
-  /// Displays the `zoom` twototne icon with a background and foreground layer.
+  /// Displays the `zoom` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -17051,7 +17051,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwototne.zoom(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.zoom(size: 32, color: Colors.red);
   /// ```
   static Widget zoom({
     double size = 25,

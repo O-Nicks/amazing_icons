@@ -6,7 +6,7 @@ class _AmazingIconTwotoneBg {
   _AmazingIconTwotoneBg._();
 
   static const String _kFontFam = 'AmazingIconTwotoneBg';
-  static const String _kFontPkg = "amazing_icons";
+  static const String? _kFontPkg = "amazing_icons";
 
   /// Icon data for aaveBg icon.
   static const IconData aaveBg = IconData(0xf4b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -392,23 +392,23 @@ class _AmazingIconTwotoneBg {
   /// Icon data for bucketSquareBg icon.
   static const IconData bucketSquareBg = IconData(0xf433, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Icon data for building2Bg icon.
+  static const IconData building2Bg = IconData(0xf432, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Icon data for building3Bg icon.
-  static const IconData building3Bg = IconData(0xf432, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData building3Bg = IconData(0xf431, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for building4Bg icon.
-  static const IconData building4Bg = IconData(0xf431, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData building4Bg = IconData(0xf430, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for buildingBg icon.
-  static const IconData buildingBg = IconData(0xf430, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData buildingBg = IconData(0xf42f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for buildings2Bg icon.
-  static const IconData buildings2Bg = IconData(0xf42f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData buildings2Bg = IconData(0xf42e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for buildingsBg icon.
-  static const IconData buildingsBg = IconData(0xf42e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  /// Icon data for building2Bg icon.
-  static const IconData building2Bg = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData buildingsBg = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for busBg icon.
   static const IconData busBg = IconData(0xf42c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2588,44 +2588,44 @@ class _AmazingIconTwotoneBg {
   /// Icon data for trashBg icon.
   static const IconData trashBg = IconData(0xf157, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Icon data for trashSquareBg icon.
+  static const IconData trashSquareBg = IconData(0xf156, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Icon data for treeBg icon.
-  static const IconData treeBg = IconData(0xf156, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData treeBg = IconData(0xf155, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trelloBg icon.
-  static const IconData trelloBg = IconData(0xf155, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trelloBg = IconData(0xf154, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trendDownBg icon.
-  static const IconData trendDownBg = IconData(0xf154, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trendDownBg = IconData(0xf153, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trendUpBg icon.
-  static const IconData trendUpBg = IconData(0xf153, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trendUpBg = IconData(0xf152, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for triangle1Bg icon.
-  static const IconData triangle1Bg = IconData(0xf152, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData triangle1Bg = IconData(0xf151, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for triangleBg icon.
-  static const IconData triangleBg = IconData(0xf151, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData triangleBg = IconData(0xf150, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trontronBg icon.
-  static const IconData trontronBg = IconData(0xf150, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trontronBg = IconData(0xf14f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckBg icon.
-  static const IconData truckBg = IconData(0xf14f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckBg = IconData(0xf14e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckFastBg icon.
-  static const IconData truckFastBg = IconData(0xf14e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckFastBg = IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckRemoveBg icon.
-  static const IconData truckRemoveBg = IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckRemoveBg = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckTickBg icon.
-  static const IconData truckTickBg = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckTickBg = IconData(0xf14b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckTimeBg icon.
-  static const IconData truckTimeBg = IconData(0xf14b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  /// Icon data for trashSquareBg icon.
-  static const IconData trashSquareBg = IconData(0xf14a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckTimeBg = IconData(0xf14a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for twitchBg icon.
   static const IconData twitchBg = IconData(0xf149, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2976,11 +2976,11 @@ class _AmazingIconTwotoneBg {
     'bucketCircleBg': bucketCircleBg,
     'bucketSquareBg': bucketSquareBg,
     'buildingBg': buildingBg,
+    'building2Bg': building2Bg,
     'building3Bg': building3Bg,
     'building4Bg': building4Bg,
     'buildingsBg': buildingsBg,
     'buildings2Bg': buildings2Bg,
-    'building2Bg': building2Bg,
     'busBg': busBg,
     'buyCryptoBg': buyCryptoBg,
     'cakeBg': cakeBg,
@@ -3707,6 +3707,7 @@ class _AmazingIconTwotoneBg {
     'transactionMinusBg': transactionMinusBg,
     'translateBg': translateBg,
     'trashBg': trashBg,
+    'trashSquareBg': trashSquareBg,
     'treeBg': treeBg,
     'trelloBg': trelloBg,
     'trendDownBg': trendDownBg,
@@ -3719,7 +3720,6 @@ class _AmazingIconTwotoneBg {
     'truckRemoveBg': truckRemoveBg,
     'truckTickBg': truckTickBg,
     'truckTimeBg': truckTimeBg,
-    'trashSquareBg': trashSquareBg,
     'twitchBg': twitchBg,
     'ui8Bg': ui8Bg,
     'undoBg': undoBg,

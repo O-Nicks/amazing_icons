@@ -6,7 +6,7 @@ class AmazingIconBroken {
   AmazingIconBroken._();
 
   static const String _kFontFam = 'AmazingIconBroken';
-  static const String _kFontPkg = "amazing_icons";
+  static const String? _kFontPkg = "amazing_icons";
 
   /// Icon data for aave icon.
   static const IconData aave = IconData(0xf4e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -428,20 +428,20 @@ class AmazingIconBroken {
   /// Icon data for building icon.
   static const IconData building = IconData(0xf456, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Icon data for building2 icon.
+  static const IconData building2 = IconData(0xf455, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Icon data for building3 icon.
-  static const IconData building3 = IconData(0xf455, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData building3 = IconData(0xf454, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for building4 icon.
-  static const IconData building4 = IconData(0xf454, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData building4 = IconData(0xf453, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for buildings icon.
-  static const IconData buildings = IconData(0xf453, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData buildings = IconData(0xf452, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for buildings2 icon.
-  static const IconData buildings2 = IconData(0xf452, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  /// Icon data for building2 icon.
-  static const IconData building2 = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData buildings2 = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for bus icon.
   static const IconData bus = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2723,44 +2723,44 @@ class AmazingIconBroken {
   /// Icon data for trash icon.
   static const IconData trash = IconData(0xf159, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// Icon data for trashSquare icon.
+  static const IconData trashSquare = IconData(0xf158, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// Icon data for tree icon.
-  static const IconData tree = IconData(0xf158, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData tree = IconData(0xf157, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trello icon.
-  static const IconData trello = IconData(0xf157, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trello = IconData(0xf156, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trendDown icon.
-  static const IconData trendDown = IconData(0xf156, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trendDown = IconData(0xf155, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trendUp icon.
-  static const IconData trendUp = IconData(0xf155, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trendUp = IconData(0xf154, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for triangle icon.
-  static const IconData triangle = IconData(0xf154, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData triangle = IconData(0xf153, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for triangle1 icon.
-  static const IconData triangle1 = IconData(0xf153, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData triangle1 = IconData(0xf152, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for trontron icon.
-  static const IconData trontron = IconData(0xf152, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trontron = IconData(0xf151, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truck icon.
-  static const IconData truck = IconData(0xf151, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truck = IconData(0xf150, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckFast icon.
-  static const IconData truckFast = IconData(0xf150, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckFast = IconData(0xf14f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckRemove icon.
-  static const IconData truckRemove = IconData(0xf14f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckRemove = IconData(0xf14e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckTick icon.
-  static const IconData truckTick = IconData(0xf14e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckTick = IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for truckTime icon.
-  static const IconData truckTime = IconData(0xf14d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  /// Icon data for trashSquare icon.
-  static const IconData trashSquare = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData truckTime = IconData(0xf14c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for twitch icon.
   static const IconData twitch = IconData(0xf14b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
