@@ -19,16 +19,7 @@ part 'components/amazing_icon_bulk_fg.dart';
 /// AmazingIconBulk.settings(size: 24, color: Colors.grey, opacity: 0.2)
 /// AmazingIconBulk.notification(size: 30, color: Colors.orange, opacity: 0.6)
 /// ```
-///
-/// ## Get Sample Icons
-/// Access a list of sample bulk icons using the [someIcons] property:
-/// ```dart
-/// Wrap(
-///   spacing: 8,
-///   runSpacing: 8,
-///   children: AmazingIconBulk.someIcons,
-/// )
-/// ```
+
 class AmazingIconBulk {
   AmazingIconBulk._();
 

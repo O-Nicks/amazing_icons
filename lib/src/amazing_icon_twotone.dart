@@ -19,16 +19,6 @@ part 'components/amazing_icon_twotone_fg.dart';
 /// AmazingIconTwotone.settings(size: 24, color: Colors.grey, opacity: 0.3)
 /// AmazingIconTwotone.notification(size: 30, color: Colors.orange, opacity: 0.5)
 /// ```
-///
-/// ## Get Sample Icons
-/// Access a list of sample twotone icons using the [someIcons] property:
-/// ```dart
-/// Wrap(
-///   spacing: 8,
-///   runSpacing: 8,
-///   children: AmazingIconTwotone.someIcons,
-/// )
-/// ```
 class AmazingIconTwotone {
   AmazingIconTwotone._();
 
