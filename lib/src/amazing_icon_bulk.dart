@@ -13586,7 +13586,7 @@ class AmazingIconBulk {
   }) =>
       _build('ruler', size: size, color: color, opacity: opacity);
 
-  /// Displays the `rulerandpen` bulk icon with a background and foreground layer.
+  /// Displays the `ruler&pen` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13595,7 +13595,7 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.rulerandpen(size: 32, color: Colors.red);
+  /// AmazingIconBulk.ruler&pen(size: 32, color: Colors.red);
   /// ```
   static Widget rulerandpen({
     double size = 25,
@@ -16268,6 +16268,24 @@ class AmazingIconBulk {
   }) =>
       _build('trash', size: size, color: color, opacity: opacity);
 
+  /// Displays the `trashSquare` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.trashSquare(size: 32, color: Colors.red);
+  /// ```
+  static Widget trashSquare({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('trashSquare', size: size, color: color, opacity: opacity);
+
   /// Displays the `tree` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -16483,24 +16501,6 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('truckTime', size: size, color: color, opacity: opacity);
-
-  /// Displays the `trashSquare` bulk icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconBulk.trashSquare(size: 32, color: Colors.red);
-  /// ```
-  static Widget trashSquare({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('trashSquare', size: size, color: color, opacity: opacity);
 
   /// Displays the `twitch` bulk icon with a background and foreground layer.
   ///
