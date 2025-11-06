@@ -14,7 +14,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.affirm(size: 32);
+  /// AmazingIconPayment.affirm(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -32,7 +32,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.aliPay(size: 32);
+  /// AmazingIconPayment.aliPay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -50,7 +50,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.amazon(size: 32);
+  /// AmazingIconPayment.amazon(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -68,7 +68,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.amex(size: 32);
+  /// AmazingIconPayment.amex(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -86,7 +86,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.applePay(size: 32);
+  /// AmazingIconPayment.applePay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -104,7 +104,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.banContact(size: 32);
+  /// AmazingIconPayment.banContact(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -122,7 +122,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.bitPay(size: 32);
+  /// AmazingIconPayment.bitPay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -140,7 +140,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.bitcoin(size: 32);
+  /// AmazingIconPayment.bitcoin(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -158,7 +158,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.bitcoinCash(size: 32);
+  /// AmazingIconPayment.bitcoinCash(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -176,7 +176,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.citadele(size: 32);
+  /// AmazingIconPayment.citadele(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -194,7 +194,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.dinersClub(size: 32);
+  /// AmazingIconPayment.dinersClub(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -212,7 +212,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.discover(size: 32);
+  /// AmazingIconPayment.discover(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -230,7 +230,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.elo(size: 32);
+  /// AmazingIconPayment.elo(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -248,16 +248,16 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.etherium(size: 32);
+  /// AmazingIconPayment.ethereum(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
   /// optimal rendering performance and color accuracy for vector graphics.
-  static Widget etherium({double size = 24.0}) => SizedBox(
+  static Widget ethereum({double size = 24.0}) => SizedBox(
         width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/etherium.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/ethereum.si'),
         ),
       );
 
@@ -266,7 +266,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.forbrugsforeningen(size: 32);
+  /// AmazingIconPayment.forbrugsforeningen(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -284,7 +284,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.giropay(size: 32);
+  /// AmazingIconPayment.giropay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -302,7 +302,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.googlePay(size: 32);
+  /// AmazingIconPayment.googlePay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -320,7 +320,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.ideal(size: 32);
+  /// AmazingIconPayment.ideal(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -338,7 +338,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.interac(size: 32);
+  /// AmazingIconPayment.interac(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -356,7 +356,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.jcb(size: 32);
+  /// AmazingIconPayment.jcb(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -374,7 +374,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.klarna(size: 32);
+  /// AmazingIconPayment.klarna(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -392,16 +392,16 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.lightcoin(size: 32);
+  /// AmazingIconPayment.litecoin(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
   /// optimal rendering performance and color accuracy for vector graphics.
-  static Widget lightcoin({double size = 24.0}) => SizedBox(
+  static Widget litecoin({double size = 24.0}) => SizedBox(
         width: size,
         height: size,
         child: ScalableImageWidget.fromSISource(
-          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/lightcoin.si'),
+          si: ScalableImageSource.fromSI(rootBundle, '$_kAssetPath/litecoin.si'),
         ),
       );
 
@@ -410,7 +410,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.maestro(size: 32);
+  /// AmazingIconPayment.maestro(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -428,7 +428,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.masterCard(size: 32);
+  /// AmazingIconPayment.masterCard(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -446,7 +446,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.payPal(size: 32);
+  /// AmazingIconPayment.payPal(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -464,7 +464,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.paySafe(size: 32);
+  /// AmazingIconPayment.paySafe(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -482,7 +482,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.payoneer(size: 32);
+  /// AmazingIconPayment.payoneer(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -500,7 +500,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.qiwi(size: 32);
+  /// AmazingIconPayment.qiwi(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -518,7 +518,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.sepa(size: 32);
+  /// AmazingIconPayment.sepa(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -536,7 +536,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.shopPay(size: 32);
+  /// AmazingIconPayment.shopPay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -554,7 +554,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.skrill(size: 32);
+  /// AmazingIconPayment.skrill(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -572,7 +572,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.sofort(size: 32);
+  /// AmazingIconPayment.sofort(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -590,7 +590,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.stripe(size: 32);
+  /// AmazingIconPayment.stripe(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -608,7 +608,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.unionPay(size: 32);
+  /// AmazingIconPayment.unionPay(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -626,7 +626,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.verifone(size: 32);
+  /// AmazingIconPayment.verifone(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -644,7 +644,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.visa(size: 32);
+  /// AmazingIconPayment.visa(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -662,7 +662,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.weChat(size: 32);
+  /// AmazingIconPayment.weChat(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -680,7 +680,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.webMoney(size: 32);
+  /// AmazingIconPayment.webMoney(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -698,7 +698,7 @@ class AmazingIconPayment {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconPaiement.yandex(size: 32);
+  /// AmazingIconPayment.yandex(size: 32);
   /// ```
   ///
   /// This method uses [ScalableImageWidget.fromSISource] to ensure
@@ -726,7 +726,7 @@ class AmazingIconPayment {
         'dinersClub',
         'discover',
         'elo',
-        'etherium',
+        'ethereum',
         'forbrugsforeningen',
         'giropay',
         'googlePay',
@@ -734,7 +734,7 @@ class AmazingIconPayment {
         'interac',
         'jcb',
         'klarna',
-        'lightcoin',
+        'litecoin',
         'maestro',
         'masterCard',
         'payPal',
