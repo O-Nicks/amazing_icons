@@ -45,12 +45,6 @@ Added 6 new AI-themed icons across all styles (Outlined, Filled, Broken, Bulk, T
 
 * **Icon Search**: Improved search functionality on the package website to include new AI icons and handle corrected icon names
 
-### Total Icons: 3,234 (+6)
-- Icon Fonts: 3,003 (1,001 × 3 styles)
-- Bulk style: 1,001 icons
-- TwoTone style: 991 icons
-- Payment icons: 39 icons
-
 
 ## 3.0.2
 
