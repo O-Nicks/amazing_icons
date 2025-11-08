@@ -2453,6 +2453,24 @@ class AmazingIconBulk {
   }) =>
       _build('brush4', size: size, color: color, opacity: opacity);
 
+  /// Displays the `brushAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.brushAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget brushAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('brushAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `bubble` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -3046,6 +3064,24 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('camera', size: size, color: color, opacity: opacity);
+
+  /// Displays the `cameraAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.cameraAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget cameraAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('cameraAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `cameraSlash` bulk icon with a background and foreground layer.
   ///
@@ -5747,6 +5783,24 @@ class AmazingIconBulk {
   }) =>
       _build('email', size: size, color: color, opacity: opacity);
 
+  /// Displays the `emailAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.emailAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget emailAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('emailAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `emailEdit` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -7042,6 +7096,24 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('galleryAdd', size: size, color: color, opacity: opacity);
+
+  /// Displays the `galleryAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.galleryAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget galleryAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('galleryAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `galleryEdit` bulk icon with a background and foreground layer.
   ///
@@ -10391,6 +10463,24 @@ class AmazingIconBulk {
   }) =>
       _build('microphone2', size: size, color: color, opacity: opacity);
 
+  /// Displays the `microphoneAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.microphoneAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget microphoneAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('microphoneAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `microphoneSlash` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -11938,6 +12028,24 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('penAdd', size: size, color: color, opacity: opacity);
+
+  /// Displays the `penAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.penAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget penAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('penAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `penClose` bulk icon with a background and foreground layer.
   ///
@@ -13577,7 +13685,7 @@ class AmazingIconBulk {
   }) =>
       _build('ruler', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ruler&pen` bulk icon with a background and foreground layer.
+  /// Displays the `rulerandpen` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13586,7 +13694,7 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.ruler&pen(size: 32, color: Colors.red);
+  /// AmazingIconBulk.rulerandpen(size: 32, color: Colors.red);
   /// ```
   static Widget rulerandpen({
     double size = 25,
@@ -13846,6 +13954,24 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('scroll', size: size, color: color, opacity: opacity);
+
+  /// Displays the `searchAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.searchAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget searchAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('searchAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `searchFavorite` bulk icon with a background and foreground layer.
   ///
@@ -15701,6 +15827,24 @@ class AmazingIconBulk {
   }) =>
       _build('textBlock', size: size, color: color, opacity: opacity);
 
+  /// Displays the `textBoxAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.textBoxAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget textBoxAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('textBoxAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `textItalic` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -16240,6 +16384,42 @@ class AmazingIconBulk {
     double opacity = 0.4,
   }) =>
       _build('translate', size: size, color: color, opacity: opacity);
+
+  /// Displays the `translateAi` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.translateAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget translateAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('translateAi', size: size, color: color, opacity: opacity);
+
+  /// Displays the `translateAi2` bulk icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconBulk.translateAi2(size: 32, color: Colors.red);
+  /// ```
+  static Widget translateAi2({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('translateAi2', size: size, color: color, opacity: opacity);
 
   /// Displays the `trash` bulk icon with a background and foreground layer.
   ///

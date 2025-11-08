@@ -40,24 +40,6 @@ class AmazingIconTwotone {
   }) =>
       _build('aave', size: size, color: color, opacity: opacity);
 
-  /// Displays the `activity` twotone icon with a background and foreground layer.
-  ///
-  /// Parameters:
-  /// - [size] icon size (default: 25).
-  /// - [color] color applied (default: black).
-  /// - [opacity] defines the opacity (default: 0.4).
-  ///
-  /// Example:
-  /// ```dart
-  /// AmazingIconTwotone.activity(size: 32, color: Colors.red);
-  /// ```
-  static Widget activity({
-    double size = 25,
-    Color color = Colors.black,
-    double opacity = 0.4,
-  }) =>
-      _build('activity', size: size, color: color, opacity: opacity);
-
   /// Displays the `add` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -2254,6 +2236,24 @@ class AmazingIconTwotone {
   }) =>
       _build('brush4', size: size, color: color, opacity: opacity);
 
+  /// Displays the `brushAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.brushAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget brushAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('brushAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `bubble` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -2829,6 +2829,24 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('camera', size: size, color: color, opacity: opacity);
+
+  /// Displays the `cameraAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.cameraAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget cameraAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('cameraAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `cameraSlash` twotone icon with a background and foreground layer.
   ///
@@ -5386,6 +5404,24 @@ class AmazingIconTwotone {
   }) =>
       _build('email', size: size, color: color, opacity: opacity);
 
+  /// Displays the `emailAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.emailAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget emailAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('emailAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `emailEdit` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -6645,6 +6681,24 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('galleryAdd', size: size, color: color, opacity: opacity);
+
+  /// Displays the `galleryAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.galleryAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget galleryAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('galleryAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `galleryEdit` twotone icon with a background and foreground layer.
   ///
@@ -9922,6 +9976,24 @@ class AmazingIconTwotone {
   }) =>
       _build('microphone2', size: size, color: color, opacity: opacity);
 
+  /// Displays the `microphoneAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.microphoneAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget microphoneAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('microphoneAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `microphoneSlash` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -11397,6 +11469,24 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('penAdd', size: size, color: color, opacity: opacity);
+
+  /// Displays the `penAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.penAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget penAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('penAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `penClose` twotone icon with a background and foreground layer.
   ///
@@ -12982,7 +13072,7 @@ class AmazingIconTwotone {
   }) =>
       _build('ruler', size: size, color: color, opacity: opacity);
 
-  /// Displays the `ruler&pen` twotone icon with a background and foreground layer.
+  /// Displays the `rulerandpen` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12991,7 +13081,7 @@ class AmazingIconTwotone {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconTwotone.ruler&pen(size: 32, color: Colors.red);
+  /// AmazingIconTwotone.rulerandpen(size: 32, color: Colors.red);
   /// ```
   static Widget rulerandpen({
     double size = 25,
@@ -13251,6 +13341,24 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('scroll', size: size, color: color, opacity: opacity);
+
+  /// Displays the `searchAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.searchAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget searchAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('searchAi', size: size, color: color, opacity: opacity);
 
   /// Displays the `searchFavorite` twotone icon with a background and foreground layer.
   ///
@@ -14980,6 +15088,24 @@ class AmazingIconTwotone {
   }) =>
       _build('textBlock', size: size, color: color, opacity: opacity);
 
+  /// Displays the `textBoxAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.textBoxAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget textBoxAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('textBoxAi', size: size, color: color, opacity: opacity);
+
   /// Displays the `textItalic` twotone icon with a background and foreground layer.
   ///
   /// Parameters:
@@ -15483,6 +15609,42 @@ class AmazingIconTwotone {
     double opacity = 0.4,
   }) =>
       _build('translate', size: size, color: color, opacity: opacity);
+
+  /// Displays the `translateAi` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.translateAi(size: 32, color: Colors.red);
+  /// ```
+  static Widget translateAi({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('translateAi', size: size, color: color, opacity: opacity);
+
+  /// Displays the `translateAi2` twotone icon with a background and foreground layer.
+  ///
+  /// Parameters:
+  /// - [size] icon size (default: 25).
+  /// - [color] color applied (default: black).
+  /// - [opacity] defines the opacity (default: 0.4).
+  ///
+  /// Example:
+  /// ```dart
+  /// AmazingIconTwotone.translateAi2(size: 32, color: Colors.red);
+  /// ```
+  static Widget translateAi2({
+    double size = 25,
+    Color color = Colors.black,
+    double opacity = 0.4,
+  }) =>
+      _build('translateAi2', size: size, color: color, opacity: opacity);
 
   /// Displays the `trash` twotone icon with a background and foreground layer.
   ///
