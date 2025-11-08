@@ -1,3 +1,57 @@
+## 3.1.0
+
+**New Features & Bug Fixes**
+
+### New AI-Enhanced Icons ✨
+
+Added 6 new AI-themed icons across all styles (Outlined, Filled, Broken, Bulk, TwoTone):
+- `brushAi` - AI-powered brush/painting tool
+- `cameraAi` - AI camera features
+- `emailAi` - AI email assistance
+- `galleryAi` - AI gallery/image management
+- `microphoneAi` - AI voice/audio features
+- `penAi` - AI writing assistant
+- `searchAi` - AI-powered search
+
+### Bug Fixes 🔧
+
+* **Icon Naming Corrections**: Fixed numerous typos in icon names across all styles
+
+  **Outlined/Filled/Broken Icons:**
+  - `brifecaseCross` → `briefcaseCross`
+  - `brifecaseTick` → `briefcaseTick`
+  - `brifecaseTimer` → `briefcaseTimer`
+  - `buliding` → `building2`
+  - `trushSquare` → `trashSquare`
+  - `userCirceAdd` → `userCircleAdd`
+  - `voiceCricle` → `voiceCircle`
+  - `bootsrap` → `bootstrap`
+
+  **Bulk Icons (Background/Foreground):**
+  - `brifecaseCrossBg/Fg` → `briefcaseCrossBg/Fg`
+  - `brifecaseTickBg/Fg` → `briefcaseTickBg/Fg`
+  - `brifecaseTimerBg/Fg` → `briefcaseTimerBg/Fg`
+  - `bulidingBg/Fg` → `building2Bg/Fg`
+  - `trushSquareBg/Fg` → `trashSquareBg/Fg`
+  - `userCirlceAddBg/Fg` → `userCircleAddBg/Fg`
+  - `voiceCricleBg/Fg` → `voiceCircleBg/Fg`
+  - `bootsrapBg/Fg` → `bootstrapBg/Fg`
+
+  **Payment Icons:**
+  - `etherium` → `ethereum`
+  - `Lightcoin` → `litecoin`
+
+  **Note**: These are breaking changes if you were using the misspelled names. Please update your code to use the corrected icon names.
+
+* **Icon Search**: Improved search functionality on the package website to include new AI icons and handle corrected icon names
+
+### Total Icons: 3,234 (+6)
+- Icon Fonts: 3,003 (1,001 × 3 styles)
+- Bulk style: 1,001 icons
+- TwoTone style: 991 icons
+- Payment icons: 39 icons
+
+
 ## 3.0.2
 
 * Update README & Icon License Attribution file
