@@ -1,5 +1,39 @@
 ## 3.1.1
 * Fix typo in changelog 
+**New Features & Bug Fixes**
+
+### New AI-Enhanced Icons ✨
+
+Added 6 new AI-themed icons across all styles (Outlined, Filled, Broken, Bulk, TwoTone):
+- `brushAi` - AI-powered brush/painting tool
+- `cameraAi` - AI camera features
+- `emailAi` - AI email assistance
+- `galleryAi` - AI gallery/image management
+- `microphoneAi` - AI voice/audio features
+- `penAi` - AI writing assistant
+- `searchAi` - AI-powered search
+
+### Bug Fixes 🔧
+
+* **Icon Naming Corrections**: Fixed numerous typos in icon names across all styles
+
+  **Outlined/Filled/Broken Icons:**
+  - `brifecaseCross` → `briefcaseCross`
+  - `brifecaseTick` → `briefcaseTick`
+  - `brifecaseTimer` → `briefcaseTimer`
+  - `buliding` → `building2`
+  - `trushSquare` → `trashSquare`
+  - `userCirceAdd` → `userCircleAdd`
+  - `voiceCricle` → `voiceCircle`
+  - `bootsrap` → `bootstrap`
+
+  **Payment Icons:**
+  - `etherium` → `ethereum`
+  - `Lightcoin` → `litecoin`
+
+  **Note**: These are breaking changes if you were using the misspelled names. Please update your code to use the corrected icon names.
+
+* **Icon Search**: Improved search functionality on the package website to include new AI icons and handle corrected icon names
 
 
 ## 3.1.0
