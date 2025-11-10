@@ -1,3 +1,7 @@
+## 3.1.1
+* Fix typo in changelog 
+
+
 ## 3.1.0
 
 **New Features & Bug Fixes**
@@ -26,16 +30,6 @@ Added 6 new AI-themed icons across all styles (Outlined, Filled, Broken, Bulk, T
   - `userCirceAdd` → `userCircleAdd`
   - `voiceCricle` → `voiceCircle`
   - `bootsrap` → `bootstrap`
-
-  **Bulk Icons (Background/Foreground):**
-  - `brifecaseCrossBg/Fg` → `briefcaseCrossBg/Fg`
-  - `brifecaseTickBg/Fg` → `briefcaseTickBg/Fg`
-  - `brifecaseTimerBg/Fg` → `briefcaseTimerBg/Fg`
-  - `bulidingBg/Fg` → `building2Bg/Fg`
-  - `trushSquareBg/Fg` → `trashSquareBg/Fg`
-  - `userCirlceAddBg/Fg` → `userCircleAddBg/Fg`
-  - `voiceCricleBg/Fg` → `voiceCircleBg/Fg`
-  - `bootsrapBg/Fg` → `bootstrapBg/Fg`
 
   **Payment Icons:**
   - `etherium` → `ethereum`
