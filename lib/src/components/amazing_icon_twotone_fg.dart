@@ -1028,8 +1028,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for filterTickFg icon.
   static const IconData filterTickFg = IconData(0xf368, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for fingerCricleFg icon.
-  static const IconData fingerCricleFg = IconData(0xf366, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for fingerCircleFg icon.
+  static const IconData fingerCircleFg = IconData(0xf366, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for fingerScanFg icon.
   static const IconData fingerScanFg = IconData(0xf365, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1232,8 +1232,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for gridLockFg icon.
   static const IconData gridLockFg = IconData(0xf323, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for happyemojiFg icon.
-  static const IconData happyemojiFg = IconData(0xf322, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for happyEmojiFg icon.
+  static const IconData happyEmojiFg = IconData(0xf322, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for harmonyFg icon.
   static const IconData harmonyFg = IconData(0xf321, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1682,11 +1682,11 @@ class _AmazingIconTwotoneFg {
   /// Icon data for milkFg icon.
   static const IconData milkFg = IconData(0xf28d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for miniMusicSqaureFg icon.
-  static const IconData miniMusicSqaureFg = IconData(0xf28c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for miniMusicSquareFg icon.
+  static const IconData miniMusicSquareFg = IconData(0xf28c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for minusCirlceFg icon.
-  static const IconData minusCirlceFg = IconData(0xf28b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for minusCircleFg icon.
+  static const IconData minusCircleFg = IconData(0xf28b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for minusSquareFg icon.
   static const IconData minusSquareFg = IconData(0xf28a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1748,8 +1748,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for monitorFg icon.
   static const IconData monitorFg = IconData(0xf275, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for monitorMobbileFg icon.
-  static const IconData monitorMobbileFg = IconData(0xf277, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for monitorMobileFg icon.
+  static const IconData monitorMobileFg = IconData(0xf277, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for monitorRecorderFg icon.
   static const IconData monitorRecorderFg = IconData(0xf276, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1793,8 +1793,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for musicLibrary2Fg icon.
   static const IconData musicLibrary2Fg = IconData(0xf269, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for musicnoteFg icon.
-  static const IconData musicnoteFg = IconData(0xf261, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for musicNoteFg icon.
+  static const IconData musicNoteFg = IconData(0xf261, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for musicPlayFg icon.
   static const IconData musicPlayFg = IconData(0xf268, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1946,8 +1946,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for petFg icon.
   static const IconData petFg = IconData(0xf235, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for pharagraphspacingFg icon.
-  static const IconData pharagraphspacingFg = IconData(0xf234, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for paragraphSpacingFg icon.
+  static const IconData paragraphSpacingFg = IconData(0xf234, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for photoshopFg icon.
   static const IconData photoshopFg = IconData(0xf233, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1961,8 +1961,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for playCircleFg icon.
   static const IconData playCircleFg = IconData(0xf230, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for playCricleFg icon.
-  static const IconData playCricleFg = IconData(0xf22f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for playCircle2Fg icon.
+  static const IconData playCircle2Fg = IconData(0xf22f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for playRemoveFg icon.
   static const IconData playRemoveFg = IconData(0xf22e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1976,8 +1976,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for polyswarmFg icon.
   static const IconData polyswarmFg = IconData(0xf22b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for presentionChartFg icon.
-  static const IconData presentionChartFg = IconData(0xf22a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for presentationChartFg icon.
+  static const IconData presentationChartFg = IconData(0xf22a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for previousFg icon.
   static const IconData previousFg = IconData(0xf229, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2141,11 +2141,11 @@ class _AmazingIconTwotoneFg {
   /// Icon data for repeatCircleFg icon.
   static const IconData repeatCircleFg = IconData(0xf1f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for repeateMusicFg icon.
-  static const IconData repeateMusicFg = IconData(0xf1f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for repeatMusicFg icon.
+  static const IconData repeatMusicFg = IconData(0xf1f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for repeateOneFg icon.
-  static const IconData repeateOneFg = IconData(0xf1f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for repeatOneFg icon.
+  static const IconData repeatOneFg = IconData(0xf1f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for reserveFg icon.
   static const IconData reserveFg = IconData(0xf1f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2285,8 +2285,8 @@ class _AmazingIconTwotoneFg {
   /// Icon data for send2Fg icon.
   static const IconData send2Fg = IconData(0xf1c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
-  /// Icon data for sendSqaure2Fg icon.
-  static const IconData sendSqaure2Fg = IconData(0xf1c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for sendSquare2Fg icon.
+  static const IconData sendSquare2Fg = IconData(0xf1c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// Icon data for sendSquareFg icon.
   static const IconData sendSquareFg = IconData(0xf1c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3210,7 +3210,7 @@ class _AmazingIconTwotoneFg {
     'filterSearchFg': filterSearchFg,
     'filterSquareFg': filterSquareFg,
     'filterTickFg': filterTickFg,
-    'fingerCricleFg': fingerCricleFg,
+    'fingerCircleFg': fingerCircleFg,
     'fingerScanFg': fingerScanFg,
     'firstlineFg': firstlineFg,
     'flagFg': flagFg,
@@ -3278,7 +3278,7 @@ class _AmazingIconTwotoneFg {
     'gridEditFg': gridEditFg,
     'gridEraserFg': gridEraserFg,
     'gridLockFg': gridLockFg,
-    'happyemojiFg': happyemojiFg,
+    'happyEmojiFg': happyEmojiFg,
     'harmonyFg': harmonyFg,
     'hashtagFg': hashtagFg,
     'hashtag1Fg': hashtag1Fg,
@@ -3428,8 +3428,8 @@ class _AmazingIconTwotoneFg {
     'microphoneSlash1Fg': microphoneSlash1Fg,
     'microscopeFg': microscopeFg,
     'milkFg': milkFg,
-    'miniMusicSqaureFg': miniMusicSqaureFg,
-    'minusCirlceFg': minusCirlceFg,
+    'miniMusicSquareFg': miniMusicSquareFg,
+    'minusCircleFg': minusCircleFg,
     'minusSquareFg': minusSquareFg,
     'mirrorFg': mirrorFg,
     'mirroringScreenFg': mirroringScreenFg,
@@ -3450,7 +3450,7 @@ class _AmazingIconTwotoneFg {
     'moneyTimeFg': moneyTimeFg,
     'moneysFg': moneysFg,
     'monitorFg': monitorFg,
-    'monitorMobbileFg': monitorMobbileFg,
+    'monitorMobileFg': monitorMobileFg,
     'monitorRecorderFg': monitorRecorderFg,
     'moreFg': moreFg,
     'more2Fg': more2Fg,
@@ -3471,7 +3471,7 @@ class _AmazingIconTwotoneFg {
     'musicSquareAddFg': musicSquareAddFg,
     'musicSquareRemoveFg': musicSquareRemoveFg,
     'musicSquareSearchFg': musicSquareSearchFg,
-    'musicnoteFg': musicnoteFg,
+    'musicNoteFg': musicNoteFg,
     'nebulasFg': nebulasFg,
     'nemFg': nemFg,
     'nexoFg': nexoFg,
@@ -3516,17 +3516,17 @@ class _AmazingIconTwotoneFg {
     'percentageSquareFg': percentageSquareFg,
     'personalcardFg': personalcardFg,
     'petFg': petFg,
-    'pharagraphspacingFg': pharagraphspacingFg,
+    'paragraphSpacingFg': paragraphSpacingFg,
     'photoshopFg': photoshopFg,
     'pictureFrameFg': pictureFrameFg,
     'playAddFg': playAddFg,
     'playCircleFg': playCircleFg,
-    'playCricleFg': playCricleFg,
+    'playCircle2Fg': playCircle2Fg,
     'playRemoveFg': playRemoveFg,
     'polkadotFg': polkadotFg,
     'polygonFg': polygonFg,
     'polyswarmFg': polyswarmFg,
-    'presentionChartFg': presentionChartFg,
+    'presentationChartFg': presentationChartFg,
     'previousFg': previousFg,
     'printerFg': printerFg,
     'printerSlashFg': printerSlashFg,
@@ -3581,8 +3581,8 @@ class _AmazingIconTwotoneFg {
     'refreshSquare2Fg': refreshSquare2Fg,
     'repeatFg': repeatFg,
     'repeatCircleFg': repeatCircleFg,
-    'repeateMusicFg': repeateMusicFg,
-    'repeateOneFg': repeateOneFg,
+    'repeatMusicFg': repeatMusicFg,
+    'repeatOneFg': repeatOneFg,
     'reserveFg': reserveFg,
     'rotate3dFg': rotate3dFg,
     'rotateLeftFg': rotateLeftFg,
@@ -3629,7 +3629,7 @@ class _AmazingIconTwotoneFg {
     'sendFg': sendFg,
     'send1Fg': send1Fg,
     'send2Fg': send2Fg,
-    'sendSqaure2Fg': sendSqaure2Fg,
+    'sendSquare2Fg': sendSquare2Fg,
     'sendSquareFg': sendSquareFg,
     'settingFg': settingFg,
     'setting2Fg': setting2Fg,
