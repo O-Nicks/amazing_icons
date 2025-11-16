@@ -6521,7 +6521,7 @@ class AmazingIconBulk {
   }) =>
       _build('filterTick', size: size, color: color, opacity: opacity);
 
-  /// Displays the `fingerCricle` bulk icon with a background and foreground layer.
+  /// Displays the `fingerCircle` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -6530,14 +6530,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.fingerCricle(size: 32, color: Colors.red);
+  /// AmazingIconBulk.fingerCircle(size: 32, color: Colors.red);
   /// ```
-  static Widget fingerCricle({
+  static Widget fingerCircle({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('fingerCricle', size: size, color: color, opacity: opacity);
+      _build('fingerCircle', size: size, color: color, opacity: opacity);
 
   /// Displays the `fingerScan` bulk icon with a background and foreground layer.
   ///
@@ -7817,7 +7817,7 @@ class AmazingIconBulk {
   }) =>
       _build('gridLock', size: size, color: color, opacity: opacity);
 
-  /// Displays the `happyemoji` bulk icon with a background and foreground layer.
+  /// Displays the `happyEmoji` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -7826,14 +7826,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.happyemoji(size: 32, color: Colors.red);
+  /// AmazingIconBulk.happyEmoji(size: 32, color: Colors.red);
   /// ```
-  static Widget happyemoji({
+  static Widget happyEmoji({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('happyemoji', size: size, color: color, opacity: opacity);
+      _build('happyEmoji', size: size, color: color, opacity: opacity);
 
   /// Displays the `harmony` bulk icon with a background and foreground layer.
   ///
@@ -10553,7 +10553,7 @@ class AmazingIconBulk {
   }) =>
       _build('milk', size: size, color: color, opacity: opacity);
 
-  /// Displays the `miniMusicSqaure` bulk icon with a background and foreground layer.
+  /// Displays the `miniMusicSquare` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10562,14 +10562,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.miniMusicSqaure(size: 32, color: Colors.red);
+  /// AmazingIconBulk.miniMusicSquare(size: 32, color: Colors.red);
   /// ```
-  static Widget miniMusicSqaure({
+  static Widget miniMusicSquare({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('miniMusicSqaure', size: size, color: color, opacity: opacity);
+      _build('miniMusicSquare', size: size, color: color, opacity: opacity);
 
   /// Displays the `minus` bulk icon with a background and foreground layer.
   ///
@@ -10589,7 +10589,7 @@ class AmazingIconBulk {
   }) =>
       _build('minus', size: size, color: color, opacity: opacity);
 
-  /// Displays the `minusCirlce` bulk icon with a background and foreground layer.
+  /// Displays the `minusCircle` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10598,14 +10598,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.minusCirlce(size: 32, color: Colors.red);
+  /// AmazingIconBulk.minusCircle(size: 32, color: Colors.red);
   /// ```
-  static Widget minusCirlce({
+  static Widget minusCircle({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('minusCirlce', size: size, color: color, opacity: opacity);
+      _build('minusCircle', size: size, color: color, opacity: opacity);
 
   /// Displays the `minusSquare` bulk icon with a background and foreground layer.
   ///
@@ -10967,7 +10967,7 @@ class AmazingIconBulk {
   }) =>
       _build('monitor', size: size, color: color, opacity: opacity);
 
-  /// Displays the `monitorMobbile` bulk icon with a background and foreground layer.
+  /// Displays the `monitorMobile` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -10976,14 +10976,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.monitorMobbile(size: 32, color: Colors.red);
+  /// AmazingIconBulk.monitorMobile(size: 32, color: Colors.red);
   /// ```
-  static Widget monitorMobbile({
+  static Widget monitorMobile({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('monitorMobbile', size: size, color: color, opacity: opacity);
+      _build('monitorMobile', size: size, color: color, opacity: opacity);
 
   /// Displays the `monitorRecorder` bulk icon with a background and foreground layer.
   ///
@@ -11363,7 +11363,7 @@ class AmazingIconBulk {
   }) =>
       _build('musicSquareSearch', size: size, color: color, opacity: opacity);
 
-  /// Displays the `musicnote` bulk icon with a background and foreground layer.
+  /// Displays the `musicNote` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -11372,14 +11372,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.musicnote(size: 32, color: Colors.red);
+  /// AmazingIconBulk.musicNote(size: 32, color: Colors.red);
   /// ```
-  static Widget musicnote({
+  static Widget musicNote({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('musicnote', size: size, color: color, opacity: opacity);
+      _build('musicNote', size: size, color: color, opacity: opacity);
 
   /// Displays the `nebulas` bulk icon with a background and foreground layer.
   ///
@@ -12209,7 +12209,7 @@ class AmazingIconBulk {
   }) =>
       _build('pet', size: size, color: color, opacity: opacity);
 
-  /// Displays the `pharagraphspacing` bulk icon with a background and foreground layer.
+  /// Displays the `paragraphSpacing` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12218,14 +12218,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.pharagraphspacing(size: 32, color: Colors.red);
+  /// AmazingIconBulk.paragraphSpacing(size: 32, color: Colors.red);
   /// ```
-  static Widget pharagraphspacing({
+  static Widget paragraphSpacing({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('pharagraphspacing', size: size, color: color, opacity: opacity);
+      _build('paragraphSpacing', size: size, color: color, opacity: opacity);
 
   /// Displays the `photoshop` bulk icon with a background and foreground layer.
   ///
@@ -12317,7 +12317,7 @@ class AmazingIconBulk {
   }) =>
       _build('playCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `playCricle` bulk icon with a background and foreground layer.
+  /// Displays the `playCircle2` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12326,14 +12326,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.playCricle(size: 32, color: Colors.red);
+  /// AmazingIconBulk.playCircle2(size: 32, color: Colors.red);
   /// ```
-  static Widget playCricle({
+  static Widget playCircle2({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('playCricle', size: size, color: color, opacity: opacity);
+      _build('playCircle2', size: size, color: color, opacity: opacity);
 
   /// Displays the `playRemove` bulk icon with a background and foreground layer.
   ///
@@ -12407,7 +12407,7 @@ class AmazingIconBulk {
   }) =>
       _build('polyswarm', size: size, color: color, opacity: opacity);
 
-  /// Displays the `presentionChart` bulk icon with a background and foreground layer.
+  /// Displays the `presentationChart` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -12416,14 +12416,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.presentionChart(size: 32, color: Colors.red);
+  /// AmazingIconBulk.presentationChart(size: 32, color: Colors.red);
   /// ```
-  static Widget presentionChart({
+  static Widget presentationChart({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('presentionChart', size: size, color: color, opacity: opacity);
+      _build('presentationChart', size: size, color: color, opacity: opacity);
 
   /// Displays the `previous` bulk icon with a background and foreground layer.
   ///
@@ -13433,7 +13433,7 @@ class AmazingIconBulk {
   }) =>
       _build('repeatCircle', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeateMusic` bulk icon with a background and foreground layer.
+  /// Displays the `repeatMusic` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13442,16 +13442,16 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.repeateMusic(size: 32, color: Colors.red);
+  /// AmazingIconBulk.repeatMusic(size: 32, color: Colors.red);
   /// ```
-  static Widget repeateMusic({
+  static Widget repeatMusic({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('repeateMusic', size: size, color: color, opacity: opacity);
+      _build('repeatMusic', size: size, color: color, opacity: opacity);
 
-  /// Displays the `repeateOne` bulk icon with a background and foreground layer.
+  /// Displays the `repeatOne` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -13460,14 +13460,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.repeateOne(size: 32, color: Colors.red);
+  /// AmazingIconBulk.repeatOne(size: 32, color: Colors.red);
   /// ```
-  static Widget repeateOne({
+  static Widget repeatOne({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('repeateOne', size: size, color: color, opacity: opacity);
+      _build('repeatOne', size: size, color: color, opacity: opacity);
 
   /// Displays the `reserve` bulk icon with a background and foreground layer.
   ///
@@ -14297,7 +14297,7 @@ class AmazingIconBulk {
   }) =>
       _build('send2', size: size, color: color, opacity: opacity);
 
-  /// Displays the `sendSqaure2` bulk icon with a background and foreground layer.
+  /// Displays the `sendSquare2` bulk icon with a background and foreground layer.
   ///
   /// Parameters:
   /// - [size] icon size (default: 25).
@@ -14306,14 +14306,14 @@ class AmazingIconBulk {
   ///
   /// Example:
   /// ```dart
-  /// AmazingIconBulk.sendSqaure2(size: 32, color: Colors.red);
+  /// AmazingIconBulk.sendSquare2(size: 32, color: Colors.red);
   /// ```
-  static Widget sendSqaure2({
+  static Widget sendSquare2({
     double size = 25,
     Color color = Colors.black,
     double opacity = 0.4,
   }) =>
-      _build('sendSqaure2', size: size, color: color, opacity: opacity);
+      _build('sendSquare2', size: size, color: color, opacity: opacity);
 
   /// Displays the `sendSquare` bulk icon with a background and foreground layer.
   ///

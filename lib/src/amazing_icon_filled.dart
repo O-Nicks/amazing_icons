@@ -732,8 +732,8 @@ class AmazingIconFilled {
   static const IconData filterSquare = IconData(0xf37f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for filterTick icon.
   static const IconData filterTick = IconData(0xf37e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for fingerCricle icon.
-  static const IconData fingerCricle = IconData(0xf37d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for fingerCircle icon.
+  static const IconData fingerCircle = IconData(0xf37d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for fingerScan icon.
   static const IconData fingerScan = IconData(0xf37c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for firstline icon.
@@ -876,8 +876,8 @@ class AmazingIconFilled {
   static const IconData gridEraser = IconData(0xf337, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for gridLock icon.
   static const IconData gridLock = IconData(0xf336, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for happyemoji icon.
-  static const IconData happyemoji = IconData(0xf335, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for happyEmoji icon.
+  static const IconData happyEmoji = IconData(0xf335, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for harmony icon.
   static const IconData harmony = IconData(0xf334, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for hashtag icon.
@@ -1180,12 +1180,12 @@ class AmazingIconFilled {
   static const IconData microscope = IconData(0xf29f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for milk icon.
   static const IconData milk = IconData(0xf29e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for miniMusicSqaure icon.
-  static const IconData miniMusicSqaure = IconData(0xf29d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for miniMusicSquare icon.
+  static const IconData miniMusicSquare = IconData(0xf29d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for minus icon.
   static const IconData minus = IconData(0xf29c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for minusCirlce icon.
-  static const IconData minusCirlce = IconData(0xf29b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for minusCircle icon.
+  static const IconData minusCircle = IconData(0xf29b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for minusSquare icon.
   static const IconData minusSquare = IconData(0xf29a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for mirror icon.
@@ -1226,8 +1226,8 @@ class AmazingIconFilled {
   static const IconData moneyTime = IconData(0xf289, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for monitor icon.
   static const IconData monitor = IconData(0xf287, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for monitorMobbile icon.
-  static const IconData monitorMobbile = IconData(0xf286, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for monitorMobile icon.
+  static const IconData monitorMobile = IconData(0xf286, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for monitorRecorder icon.
   static const IconData monitorRecorder = IconData(0xf285, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for moon icon.
@@ -1258,8 +1258,8 @@ class AmazingIconFilled {
   static const IconData musicFilter = IconData(0xf278, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for musicLibrary2 icon.
   static const IconData musicLibrary2 = IconData(0xf277, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for musicnote icon.
-  static const IconData musicnote = IconData(0xf270, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for musicNote icon.
+  static const IconData musicNote = IconData(0xf270, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for musicPlay icon.
   static const IconData musicPlay = IconData(0xf276, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for musicPlaylist icon.
@@ -1364,8 +1364,8 @@ class AmazingIconFilled {
   static const IconData personalcard = IconData(0xf243, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for pet icon.
   static const IconData pet = IconData(0xf242, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for pharagraphspacing icon.
-  static const IconData pharagraphspacing = IconData(0xf241, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for paragraphSpacing icon.
+  static const IconData paragraphSpacing = IconData(0xf241, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for photoshop icon.
   static const IconData photoshop = IconData(0xf240, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for pictureFrame icon.
@@ -1376,8 +1376,8 @@ class AmazingIconFilled {
   static const IconData playAdd = IconData(0xf23d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for playCircle icon.
   static const IconData playCircle = IconData(0xf23c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for playCricle icon.
-  static const IconData playCricle = IconData(0xf23b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for playCircle2 icon.
+  static const IconData playCircle2 = IconData(0xf23b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for playRemove icon.
   static const IconData playRemove = IconData(0xf23a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for polkadot icon.
@@ -1386,8 +1386,8 @@ class AmazingIconFilled {
   static const IconData polygon = IconData(0xf238, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for polyswarm icon.
   static const IconData polyswarm = IconData(0xf237, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for presentionChart icon.
-  static const IconData presentionChart = IconData(0xf236, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for presentationChart icon.
+  static const IconData presentationChart = IconData(0xf236, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for previous icon.
   static const IconData previous = IconData(0xf235, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for printer icon.
@@ -1500,10 +1500,10 @@ class AmazingIconFilled {
   static const IconData repeat = IconData(0xf1ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for repeatCircle icon.
   static const IconData repeatCircle = IconData(0xf1fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for repeateMusic icon.
-  static const IconData repeateMusic = IconData(0xf1fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for repeateOne icon.
-  static const IconData repeateOne = IconData(0xf1fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for repeatMusic icon.
+  static const IconData repeatMusic = IconData(0xf1fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for repeatOne icon.
+  static const IconData repeatOne = IconData(0xf1fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for reserve icon.
   static const IconData reserve = IconData(0xf1fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for rotate3d icon.
@@ -1594,8 +1594,8 @@ class AmazingIconFilled {
   static const IconData send1 = IconData(0xf1d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for send2 icon.
   static const IconData send2 = IconData(0xf1cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  /// Icon data for sendSqaure2 icon.
-  static const IconData sendSqaure2 = IconData(0xf1ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// Icon data for sendSquare2 icon.
+  static const IconData sendSquare2 = IconData(0xf1ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for sendSquare icon.
   static const IconData sendSquare = IconData(0xf1cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// Icon data for setting icon.
